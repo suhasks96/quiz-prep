@@ -1,363 +1,377 @@
-# QUIZ PREP: Trading Systems & Quantitative Strategies
+# QUIZ PREP: Trading Systems & Algorithmic Trading
 *Based on Module 10: Trading Systems*
 
-## 🎯 **SYSTEMATIC TRADING FUNDAMENTALS**
+## 🎯 **TRADING SYSTEMS FUNDAMENTALS**
 
-### **1. INTRODUCTION TO TRADING SYSTEMS**
+### **1. WHAT IS A TRADING SYSTEM?**
 
-#### **What are Trading Systems?**
-- **Definition**: Rule-based approach to trading with predetermined entry/exit criteria
-- **Objective**: Remove emotions, maintain consistency, achieve repeatable results
-- **Components**: Entry rules, exit rules, position sizing, risk management
-- **Advantage**: Disciplined approach vs discretionary trading
+#### **Definition**
+**Trading System**: Quantifiable process that can be defined, backtested, and systematically executed
+**Key Requirement**: Must be able to convert approach into specific rules and parameters
 
-#### **Systematic vs Discretionary Trading**
-**Systematic Trading:**
-- **Rule-based decisions**
-- **Backtested strategies**
-- **Consistent execution**
-- **Emotional neutrality**
-- **Scalable approach**
+#### **Trading System vs Ad-hoc Trading**
+**Ad-hoc Methods** (NOT Trading Systems):
+- **Gut Feeling**: "I feel the market will go up"
+- **Tips**: Following broker/friend/TV recommendations
+- **Systematic Deduction**: Logical but not quantifiable analysis
 
-**Discretionary Trading:**
-- **Intuition-based decisions**
-- **Market feel and experience**
-- **Flexible adaptation**
-- **Subject to emotions**
-- **Difficult to scale**
+**Trading System Requirements**:
+- **Defined Process**: Clear entry and exit rules
+- **Quantifiable Parameters**: Specific numbers and criteria
+- **Backtestable**: Can test on historical data
+- **Systematic**: Removes emotional decision-making
 
-**💡 Quiz Tip**: Systematic trading eliminates human psychology - the biggest enemy of successful trading!
+#### **Trading System Framework**
+**Input → Process → Output → Decision**
+1. **Input**: Market data, indicators, parameters
+2. **Process**: System logic and calculations
+3. **Output**: Buy/sell signals or risk metrics
+4. **Decision**: Execute trade or wait
+
+#### **Common Misconceptions**
+**Not a Money Machine**: Systems don't guarantee profits
+**Human Element**: You design system, provide inputs, make final decisions
+**Market Dependent**: Effectiveness varies with market conditions
+**Requires Backtesting**: Must test on historical data before live trading
 
 ---
+
+## 🔄 **PAIR TRADING**
 
 ### **2. PAIR TRADING FUNDAMENTALS**
 
 #### **Core Concept**
-**Definition**: Simultaneously buying undervalued security and selling overvalued security in related pair
+**Analogy**: Highway and service road running parallel
+- **Highway**: One stock (e.g., HDFC Bank)
+- **Service Road**: Similar stock (e.g., ICICI Bank)
+- **Tree Obstruction**: Temporary deviation from normal relationship
+- **Opportunity**: Trade the convergence back to normal relationship
 
-**Theoretical Foundation:**
-- **Similar companies** should have similar price movements
-- **Temporary divergences** create trading opportunities
-- **Mean reversion**: Relationships tend to normalize over time
-- **Market neutral**: Long and short positions reduce market risk
+#### **Pair Trading Logic**
+**Similar Companies**: Same sector, similar business model, comparable size
+**Expected Behavior**: Should react similarly to market events
+**Relationship Breakdown**: Temporary divergence creates trading opportunity
+**Mean Reversion**: Expectation that relationship will normalize
 
-#### **Real-World Analogy: Parallel Roads**
-**Two parallel roads** (HDFC Bank & ICICI Bank):
-- **Normally move together** - similar business landscape
-- **Tree falls on one road** (local event) - creates temporary divergence
-- **Traffic eventually normalizes** - prices converge back
-- **Arbitrage opportunity** exists during divergence
+#### **Example: HDFC Bank vs ICICI Bank**
+**Similarities**:
+- Both private sector banks
+- Similar banking products and services
+- Comparable client base and geographic presence
+- Same regulatory environment
+- Similar business challenges and opportunities
 
-#### **Historical Background**
-- **Invented at Morgan Stanley** in early 1980s
-- **Gerry Bamberger**: First pair trader
-- **Nunzio Tartaglia**: Popularized the strategy
-- **DE Shaw**: Early hedge fund adopter
-- **Statistical Arbitrage**: Modern evolution
+**Trading Opportunity**: When one outperforms/underperforms the other significantly
 
----
+### **3. PAIR TRADING METHOD 1: CORRELATION-BASED**
 
-### **3. PAIR TRADING METHODOLOGY**
+#### **Step 1: Pair Selection**
+**Criteria for Good Pairs**:
+- **High Correlation**: Historical correlation > 0.8
+- **Same Sector**: Similar business fundamentals
+- **Similar Market Cap**: Comparable company size
+- **Similar Liquidity**: Both stocks actively traded
 
-#### **Method 1: Correlation-Based Approach**
+#### **Step 2: Ratio Analysis**
+**Price Ratio**: Stock A Price ÷ Stock B Price
+**Ratio Behavior**: Track how ratio moves over time
+**Mean Reversion**: Ratio tends to return to average over time
 
-**Step 1: Identifying Pairs**
-**Sector-Based Selection:**
-- **Banking**: HDFC Bank vs ICICI Bank
-- **IT**: TCS vs Infosys
-- **Auto**: Maruti vs Tata Motors
-- **Pharma**: Sun Pharma vs Dr Reddy's
+#### **Step 3: Statistical Measures**
+**Mean**: Average ratio over lookback period
+**Standard Deviation**: Measure of ratio volatility
+**Z-Score**: (Current Ratio - Mean) ÷ Standard Deviation
 
-**Correlation Requirements:**
-- **Minimum correlation**: 0.7+ over significant period
-- **Stable relationship**: Consistent over different market cycles
-- **Similar market cap**: Avoid size mismatch
-- **Same sector**: Similar business fundamentals
+#### **Step 4: Trading Rules**
+**Entry Signals**:
+- **Z-Score > +2**: Ratio extremely high, sell Stock A, buy Stock B
+- **Z-Score < -2**: Ratio extremely low, buy Stock A, sell Stock B
 
-#### **Step 2: Calculating Spreads**
+**Exit Signals**:
+- **Z-Score returns to 0**: Ratio normalizes, close positions
+- **Stop Loss**: If Z-Score moves further against position
 
-**Types of Measurements:**
-1. **Price Spread**: Stock A Price - Stock B Price
-2. **Price Ratio**: Stock A Price / Stock B Price  
-3. **Percentage Spread**: (Stock A - Stock B) / Stock B × 100
+#### **Step 5: Position Sizing**
+**Dollar Neutral**: Equal dollar amounts in both stocks
+**Beta Neutral**: Adjust for different volatilities
+**Example**: ₹1,00,000 long HDFC, ₹1,00,000 short ICICI
 
-**Example Calculation:**
-```
-HDFC Bank = ₹1,600
-ICICI Bank = ₹900
+### **4. PAIR TRADING METHOD 2: REGRESSION-BASED**
 
-Spread = 1,600 - 900 = ₹700
-Ratio = 1,600 / 900 = 1.78
-Percentage = (1,600 - 900) / 900 × 100 = 77.8%
-```
+#### **Linear Regression Approach**
+**Concept**: Model relationship between two stocks mathematically
+**Regression Equation**: Stock A = α + β × Stock B + ε
+Where:
+- α = intercept (alpha)
+- β = slope (beta) 
+- ε = error term (residual)
 
-#### **Step 3: Statistical Analysis**
+#### **Cointegration Testing**
+**ADF Test (Augmented Dickey-Fuller)**: Tests if residuals are stationary
+**Stationarity**: Residuals revert to mean over time
+**Trading Signal**: When residuals deviate significantly from mean
 
-**Mean and Standard Deviation:**
-- **Calculate historical mean** of spread/ratio
-- **Calculate standard deviation** (volatility measure)
-- **Define trading bands**: Mean ± 1σ, Mean ± 2σ
+#### **Error Ratio Method**
+**Residual Calculation**: Actual Price - Predicted Price (from regression)
+**Standardized Residual**: Residual ÷ Standard Deviation of Residuals
+**Trading Signals**: Based on standardized residual thresholds
 
-**Z-Score Calculation:**
-```
-Z-Score = (Current Value - Historical Mean) / Standard Deviation
-
-Trading Signals:
-- Z > +2: Sell Signal (spread too wide)
-- Z < -2: Buy Signal (spread too narrow)
-- |Z| < 1: Neutral zone
-```
-
-#### **Step 4: Signal Generation**
-
-**Entry Signals:**
-- **Z-Score > +2**: Short Stock A, Long Stock B
-- **Z-Score < -2**: Long Stock A, Short Stock B
-- **Divergence Confirmation**: Wait for momentum confirmation
-
-**Exit Signals:**
-- **Mean Reversion**: Z-Score returns to 0
-- **Stop Loss**: Z-Score moves further (±2.5 or ±3)
-- **Time Stop**: No convergence within predetermined period
+#### **Advanced Concepts**
+**Half-Life**: Average time for mean reversion to occur
+**Hurst Exponent**: Measure of mean reversion strength
+**Kalman Filter**: Dynamic parameter estimation
 
 ---
 
-### **4. POSITION SIZING & RISK MANAGEMENT**
+## 📅 **CALENDAR SPREADS**
 
-#### **Equal Dollar Approach**
-**Method**: Invest equal rupee amounts in both stocks
-```
-Portfolio Size = ₹10,00,000
-Per Stock Investment = ₹5,00,000
+### **5. CALENDAR SPREAD TRADING**
 
-HDFC Bank @ ₹1,600: 5,00,000 / 1,600 = 312 shares
-ICICI Bank @ ₹900: 5,00,000 / 900 = 555 shares
-```
+#### **Structure**
+**Definition**: Options strategy using same strike, different expiries
+**Setup**: Sell near-month option, buy far-month option
+**Objective**: Profit from time decay differential and volatility changes
 
-#### **Beta-Neutral Approach**
-**Method**: Adjust position sizes based on stock volatilities
-```
-Beta Adjustment Factor = Beta of Stock A / Beta of Stock B
-Position Size B = Position Size A × Beta Adjustment
-```
+#### **Calendar Spread Types**
+**Call Calendar**: Using call options
+**Put Calendar**: Using put options
+**Neutral Strategy**: Profits from sideways market movement
 
-#### **Risk Management Rules**
-1. **Maximum Risk**: 2-3% of capital per pair trade
-2. **Stop Loss**: Z-Score > ±3 (or predetermined level)
-3. **Time Stop**: Close if no convergence in 30-60 days
-4. **Correlation Check**: Monitor relationship strength
-5. **Diversification**: Maximum 20% in single sector pairs
+#### **Profit Drivers**
+**Time Decay**: Near-month option decays faster
+**Volatility**: Benefits from volatility increase in far-month
+**Price Movement**: Optimal when stock stays near strike price
+
+#### **Risk Factors**
+**Large Price Moves**: Can cause losses if stock moves significantly
+**Volatility Crush**: Reduction in implied volatility hurts position
+**Early Assignment**: Risk with short options (mainly puts)
 
 ---
 
-### **5. ADVANCED PAIR TRADING CONCEPTS**
+## 📊 **MOMENTUM PORTFOLIOS**
 
-#### **Cointegration Analysis**
-**Statistical Cointegration:**
-- **More sophisticated** than correlation
-- **Tests for long-term relationship** between price series
-- **Augmented Dickey-Fuller Test**: Statistical test for cointegration
-- **Error Correction Model**: Mean reversion mechanism
+### **6. MOMENTUM STRATEGY**
 
-#### **Kalman Filter Approach**
-**Dynamic Hedge Ratio:**
-- **Adapts to changing** market conditions
-- **Optimal hedge ratio** calculation
-- **Real-time adjustment** of positions
-- **More complex** but potentially more profitable
+#### **Momentum Concept**
+**Definition**: Stocks that have performed well recently tend to continue performing well
+**Academic Support**: Documented market anomaly across global markets
+**Time Horizon**: Typically 3-12 months
 
-#### **Machine Learning Applications**
-**Modern Approaches:**
-- **Clustering algorithms**: Identify similar stocks
-- **Neural networks**: Pattern recognition
-- **Support vector machines**: Classification
-- **Ensemble methods**: Combine multiple models
+#### **Portfolio Construction**
+**Universe Selection**: Start with broad stock universe (e.g., Nifty 500)
+**Ranking**: Rank stocks by recent performance (e.g., 6-month returns)
+**Portfolio Formation**: Buy top performers, sell/avoid bottom performers
+**Rebalancing**: Monthly or quarterly portfolio updates
 
----
+#### **Implementation Methods**
+**Top-Bottom Approach**: Buy top 10%, short bottom 10%
+**Long-Only**: Buy only top performers
+**Sector Neutral**: Equal weight to each sector
 
-### **6. PAIRS TRADING EXAMPLE**
-
-#### **HDFC Bank vs ICICI Bank Case Study**
-
-**Step 1: Data Collection**
-- **Time Period**: 2 years daily data
-- **Correlation**: 0.85 (strong positive)
-- **Ratio Mean**: 1.75
-- **Ratio Std Dev**: 0.15
-
-**Step 2: Signal Identification**
-```
-Current Ratio = 1.95
-Z-Score = (1.95 - 1.75) / 0.15 = +1.33
-
-Signal: Neutral (|Z| < 2)
-```
-
-**Step 3: Trade Execution (if Z > 2)**
-- **Short HDFC Bank**: Overvalued relative to ICICI
-- **Long ICICI Bank**: Undervalued relative to HDFC
-- **Equal dollar amounts** or beta-adjusted
-
-**Step 4: Exit Strategy**
-- **Target**: Z-Score returns to 0 (ratio = 1.75)
-- **Stop Loss**: Z-Score > 3 (ratio > 2.20)
-- **Time Stop**: 45 days maximum holding
+#### **Risk Management**
+**Position Limits**: Maximum weight per stock
+**Sector Limits**: Avoid concentration in single sector
+**Volatility Control**: Adjust position sizes based on stock volatility
+**Stop Losses**: Individual stock and portfolio level stops
 
 ---
 
-### **7. ALGORITHMIC TRADING SYSTEMS**
+## ⚡ **VOLATILITY-BASED STRATEGIES**
 
-#### **System Architecture**
-**Components:**
-1. **Data Feed**: Real-time price data
-2. **Signal Generation**: Mathematical models
-3. **Risk Management**: Position sizing and stops
-4. **Order Management**: Automated execution
-5. **Portfolio Management**: Overall portfolio monitoring
+### **7. DELTA HEDGING**
 
-#### **Popular System Types**
+#### **Concept**
+**Delta**: Rate of change of option price with respect to underlying price
+**Delta Hedging**: Maintaining delta-neutral portfolio
+**Objective**: Profit from volatility while minimizing directional risk
 
-**Mean Reversion Systems:**
-- **Assumption**: Prices revert to mean
-- **Indicators**: RSI, Bollinger Bands
-- **Markets**: Range-bound, sideways
+#### **Implementation**
+**Long Volatility**: Buy options, hedge with underlying
+**Short Volatility**: Sell options, hedge with underlying
+**Dynamic Hedging**: Continuously adjust hedge ratios
 
-**Trend Following Systems:**
-- **Assumption**: Trends persist
-- **Indicators**: Moving averages, momentum
-- **Markets**: Trending, directional
-
-**Momentum Systems:**
-- **Assumption**: Strength continues
-- **Indicators**: Rate of change, MACD
-- **Markets**: Breakout, high volatility
-
-**Statistical Arbitrage:**
-- **Assumption**: Price relationships persist
-- **Methods**: Pair trading, factor models
-- **Markets**: Relative value opportunities
+#### **Profit Sources**
+**Realized vs Implied Volatility**: Profit when realized ≠ implied
+**Gamma Scalping**: Profit from frequent rehedging
+**Time Decay**: Benefit from theta in short volatility strategies
 
 ---
 
-### **8. BACKTESTING & VALIDATION**
+## 🔧 **SYSTEM DEVELOPMENT PROCESS**
 
-#### **Backtesting Process**
-**Steps:**
-1. **Historical Data**: Clean, adjusted data
-2. **Strategy Rules**: Precise entry/exit criteria
-3. **Transaction Costs**: Include brokerage, slippage
-4. **Position Sizing**: Consistent methodology
-5. **Performance Metrics**: Risk-adjusted returns
+### **8. TRADING SYSTEM DEVELOPMENT**
 
-#### **Key Performance Metrics**
+#### **Step 1: Strategy Conceptualization**
+**Market Inefficiency**: Identify exploitable market patterns
+**Hypothesis Formation**: Develop testable trading hypothesis
+**Logic Definition**: Create clear rules for entry/exit
 
-**Return Metrics:**
-- **Total Return**: Absolute performance
-- **Annualized Return**: Time-adjusted performance
-- **Risk-Adjusted Return**: Sharpe ratio, Sortino ratio
+#### **Step 2: Parameter Definition**
+**Input Parameters**: Data sources and indicators
+**Threshold Values**: Specific numbers for signals
+**Risk Parameters**: Stop losses, position sizes, exposure limits
 
-**Risk Metrics:**
-- **Maximum Drawdown**: Largest peak-to-trough decline
-- **Volatility**: Standard deviation of returns
-- **Value at Risk (VaR)**: Downside risk measure
+#### **Step 3: Signal Generation**
+**Entry Signals**: Conditions for initiating positions
+**Exit Signals**: Conditions for closing positions
+**Filter Rules**: Additional conditions to improve signal quality
 
-**Efficiency Metrics:**
-- **Win Rate**: Percentage of profitable trades
-- **Profit Factor**: Gross profit / Gross loss
-- **Average Trade**: Mean profit per trade
+#### **Step 4: Risk Management**
+**Position Sizing**: How much to invest per trade
+**Portfolio Limits**: Maximum exposure to strategy
+**Drawdown Controls**: Actions when losses exceed limits
 
-#### **Avoiding Backtesting Pitfalls**
-1. **Look-ahead Bias**: Using future information
-2. **Survivorship Bias**: Only successful stocks
-3. **Data Snooping**: Over-optimization
-4. **Transaction Costs**: Ignoring real costs
-5. **Market Regime Changes**: Strategy decay over time
+### **9. BACKTESTING FRAMEWORK**
+
+#### **Data Requirements**
+**Quality Data**: Clean, adjusted price data
+**Survivorship Bias**: Include delisted stocks in universe
+**Point-in-Time Data**: Use only information available at time of decision
+
+#### **Backtesting Metrics**
+**Return Metrics**: Total return, CAGR, Sharpe ratio
+**Risk Metrics**: Maximum drawdown, volatility, VaR
+**Trade Statistics**: Win rate, average win/loss, profit factor
+
+#### **Common Pitfalls**
+**Look-Ahead Bias**: Using future information
+**Overfitting**: Too many parameters, good backtest but poor live performance
+**Transaction Costs**: Ignoring brokerage, slippage, market impact
 
 ---
 
-## 💰 **BUSINESS & ENTREPRENEURSHIP APPLICATIONS**
+## 📈 **SYSTEM PERFORMANCE EVALUATION**
 
-### **9. QUANTITATIVE FUND MANAGEMENT**
+### **10. PERFORMANCE METRICS**
 
-#### **Hedge Fund Strategies**
-**Market Neutral Funds:**
-- **Pair trading** as core strategy
-- **Beta neutral** portfolios
-- **Alpha generation** through stock selection
-- **Risk parity** across positions
+#### **Return Metrics**
+**Total Return**: Overall percentage gain/loss
+**CAGR**: Compound Annual Growth Rate
+**Risk-Adjusted Returns**: Sharpe ratio, Sortino ratio
 
-**Long-Short Equity:**
-- **Fundamental analysis** + quantitative tools
-- **Sector rotation** strategies
-- **Factor-based** investing
+#### **Risk Metrics**
+**Maximum Drawdown**: Largest peak-to-trough decline
+**Volatility**: Standard deviation of returns
+**Value at Risk**: Maximum expected loss at confidence level
 
-#### **Robo-Advisory Platforms**
-**Automated Investing:**
-- **Algorithm-driven** portfolio management
-- **Rebalancing strategies**
-- **Tax optimization**
-- **Low-cost** wealth management
+#### **Trade Analysis**
+**Win Rate**: Percentage of profitable trades
+**Profit Factor**: Gross profit ÷ gross loss
+**Average Win/Loss**: Risk-reward characteristics
 
-### **10. CORPORATE TREASURY APPLICATIONS**
+#### **Consistency Metrics**
+**Monthly/Quarterly Returns**: Distribution of periodic returns
+**Winning/Losing Streaks**: Longest consecutive periods
+**Correlation with Market**: Independence from market direction
 
-#### **Currency Hedging**
-**Systematic Approaches:**
-- **Quantitative models** for hedging decisions
-- **Dynamic hedging** ratios
-- **Cost optimization**
-- **Risk measurement**
+### **11. SYSTEM OPTIMIZATION**
 
-#### **Working Capital Management**
-**Quantitative Methods:**
-- **Cash flow forecasting** models
-- **Optimal inventory** levels
-- **Credit risk** assessment
-- **Liquidity management**
+#### **Parameter Optimization**
+**Grid Search**: Test multiple parameter combinations
+**Walk-Forward Analysis**: Rolling optimization and testing
+**Out-of-Sample Testing**: Reserve data for final validation
+
+#### **Regime Detection**
+**Market Regimes**: Bull, bear, sideways markets
+**Regime-Dependent Parameters**: Adjust parameters based on market state
+**Adaptive Systems**: Self-adjusting parameters
+
+---
+
+## 🚨 **RISK MANAGEMENT IN TRADING SYSTEMS**
+
+### **12. SYSTEM-LEVEL RISK CONTROLS**
+
+#### **Position-Level Controls**
+**Maximum Position Size**: Limit per individual trade
+**Sector Concentration**: Limits on sector exposure
+**Correlation Limits**: Avoid highly correlated positions
+
+#### **Portfolio-Level Controls**
+**Total Exposure**: Maximum capital allocated to system
+**Leverage Limits**: Maximum borrowed capital usage
+**Drawdown Limits**: Stop trading if losses exceed threshold
+
+#### **System-Level Controls**
+**Performance Monitoring**: Real-time system performance tracking
+**System Shutdown**: Automatic stop if system malfunctions
+**Manual Override**: Ability to intervene in extreme situations
+
+### **13. COMMON SYSTEM FAILURES**
+
+#### **Model Breakdown**
+**Regime Change**: Market structure changes invalidate model
+**Parameter Drift**: Historical relationships break down
+**Overfitting**: System too optimized to historical data
+
+#### **Implementation Issues**
+**Technology Failures**: System downtime, data feed issues
+**Execution Problems**: Slippage, partial fills, timing delays
+**Human Errors**: Wrong parameters, manual intervention mistakes
+
+#### **Solution Approaches**
+**Robust Design**: Build systems that work across market conditions
+**Multiple Timeframes**: Test across different time periods
+**Conservative Assumptions**: Assume higher costs, lower returns
 
 ---
 
 ## 🎯 **QUIZ SUCCESS STRATEGIES**
 
-### **Key Concepts to Master**
-1. **Pair Trading Logic**: Buy undervalued, sell overvalued
-2. **Statistical Measures**: Correlation, Z-score, cointegration
-3. **Risk Management**: Position sizing, stop losses
-4. **System Components**: Data, signals, execution, monitoring
-5. **Performance Metrics**: Risk-adjusted returns, drawdowns
+### **Key Trading System Concepts to Master**
+1. **System Definition**: Quantifiable vs ad-hoc approaches
+2. **Pair Trading**: Correlation-based and regression-based methods
+3. **Calendar Spreads**: Time decay and volatility strategies
+4. **Momentum Strategies**: Portfolio construction and rebalancing
+5. **Delta Hedging**: Volatility trading concepts
+6. **Backtesting**: Proper methodology and common pitfalls
+7. **Risk Management**: System-level controls and limits
+8. **Performance Evaluation**: Metrics and optimization
 
-### **Important Formulas**
-- **Z-Score**: (Current Value - Mean) / Standard Deviation
-- **Correlation**: Measure of relationship strength (-1 to +1)
-- **Sharpe Ratio**: (Return - Risk-free rate) / Volatility
-- **Maximum Drawdown**: Largest peak-to-trough decline
-- **Beta**: Stock volatility relative to market
+### **Important Calculations**
+- **Z-Score**: (Current Value - Mean) ÷ Standard Deviation
+- **Linear Regression**: Y = α + βX + ε
+- **Sharpe Ratio**: (Return - Risk-free Rate) ÷ Standard Deviation
+- **Maximum Drawdown**: (Peak Value - Trough Value) ÷ Peak Value
 
-### **Critical Trading Rules**
-1. **Entry**: |Z-Score| > 2 for signal generation
-2. **Exit**: Z-Score returns to 0 (mean reversion)
-3. **Stop Loss**: |Z-Score| > 3 (relationship breakdown)
-4. **Position Size**: 2-3% risk per trade
-5. **Diversification**: Multiple uncorrelated pairs
+### **Key Numbers to Remember**
+- **Good Correlation**: > 0.8 for pair trading
+- **Z-Score Thresholds**: ±2 for entry signals
+- **Good Sharpe Ratio**: > 1.0 (> 2.0 excellent)
+- **Typical Rebalancing**: Monthly or quarterly for momentum
 
-### **System Development Process**
-1. **Hypothesis**: Develop trading idea
-2. **Data Collection**: Gather historical data
-3. **Model Building**: Create mathematical model
-4. **Backtesting**: Test on historical data
-5. **Validation**: Out-of-sample testing
-6. **Implementation**: Live trading with monitoring
+### **Common Quiz Topics**
+**Pair Trading:**
+- Pair selection criteria and methods
+- Z-score calculation and interpretation
+- Entry/exit signal generation
+- Risk management in pair trades
 
-### **Common Pitfalls**
-- **Over-optimization**: Curve fitting to historical data
-- **Ignoring costs**: Transaction costs and slippage
-- **Data mining**: Finding patterns that don't persist
-- **Regime changes**: Market structure shifts
-- **Risk management**: Inadequate position sizing
+**System Development:**
+- Difference between system and ad-hoc trading
+- Backtesting methodology and pitfalls
+- Performance metrics calculation
+- Risk control implementation
 
-### **Real-World Applications**
-- **Hedge Funds**: Market neutral strategies
-- **Prop Trading**: Quantitative arbitrage
-- **Corporate Finance**: Treasury management
-- **Wealth Management**: Systematic investing
+**Strategy Types:**
+- Calendar spread profit/loss drivers
+- Momentum portfolio construction
+- Delta hedging concepts
+- Volatility trading strategies
 
-**Remember**: Systematic trading is about probability, not certainty. The goal is to find edges that work over many trades, not to predict individual outcomes. Risk management is more important than being right - protect capital first, profits will follow! 
+### **Quiz Tips**
+- **Understand System Logic**: Know why each strategy works
+- **Master Calculations**: Z-scores, correlations, performance metrics
+- **Know Risk Controls**: Understand importance of risk management
+- **Backtesting Concepts**: Common biases and proper methodology
+- **Real Examples**: Relate concepts to actual market situations
+
+### **Quick Reference**
+**Pair Trading**: High correlation pairs, Z-score ±2 signals
+**Calendar Spreads**: Sell near, buy far expiry options
+**Momentum**: Buy recent winners, avoid/short losers
+**Delta Hedging**: Maintain delta-neutral, profit from volatility
+**Backtesting**: Avoid look-ahead bias, include transaction costs
+
+**Remember**: Trading systems provide disciplined, quantifiable approaches to trading. Success depends on proper system design, rigorous backtesting, robust risk management, and disciplined execution. No system works all the time, but good systems provide edge over random trading and help remove emotional decision-making! 
