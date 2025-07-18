@@ -82,32 +82,6 @@
 #### **Definition**
 **Call Option**: Gives the buyer the right to BUY the underlying asset at a specific price (strike price) before/on expiry
 
-#### **Stock Market Example**
-**Setup:**
-- **Current Stock Price**: ₹67
-- **Strike Price**: ₹75
-- **Premium**: ₹5
-- **Expiry**: 1 month
-
-**Three Scenarios:**
-
-**Scenario 1: Stock → ₹85**
-- **Action**: Exercise call option
-- **Buy Price**: ₹75 (strike price)
-- **Total Cost**: ₹75 + ₹5 = ₹80
-- **Market Value**: ₹85
-- **Profit**: ₹85 - ₹80 = ₹5
-
-**Scenario 2: Stock → ₹65**
-- **Action**: Don't exercise
-- **Loss**: ₹5 (premium paid)
-- **Reason**: No point buying at ₹75 when market price is ₹65
-
-**Scenario 3: Stock → ₹75**
-- **Action**: Don't exercise
-- **Loss**: ₹5 (premium paid)
-- **Reason**: Would pay ₹80 total for ₹75 stock
-
 #### **Call Option Characteristics**
 **Buyer Profile:**
 - **Expectation**: Stock price will rise above strike + premium
@@ -121,60 +95,14 @@
 - **Maximum Loss**: Unlimited (as stock price rises)
 - **Breakeven**: Strike Price + Premium received
 
-### **4. CALL OPTION PAYOFF ANALYSIS**
-
-#### **Buyer Payoff Formula**
-**At Expiry:**
-- **If Stock Price > Strike Price**: Payoff = Stock Price - Strike Price - Premium
-- **If Stock Price ≤ Strike Price**: Payoff = -Premium
-
-#### **Moneyness Classification**
-**In-the-Money (ITM)**: Stock Price > Strike Price
-- **Example**: Stock at ₹80, Strike at ₹75
-- **Intrinsic Value**: ₹80 - ₹75 = ₹5
-
-**At-the-Money (ATM)**: Stock Price = Strike Price
-- **Example**: Stock at ₹75, Strike at ₹75
-- **Intrinsic Value**: ₹0
-
-**Out-of-the-Money (OTM)**: Stock Price < Strike Price
-- **Example**: Stock at ₹70, Strike at ₹75
-- **Intrinsic Value**: ₹0
-
 ---
 
 ## 📉 **PUT OPTIONS**
 
-### **5. PUT OPTION BASICS**
+### **4. PUT OPTION BASICS**
 
 #### **Definition**
 **Put Option**: Gives the buyer the right to SELL the underlying asset at a specific price (strike price) before/on expiry
-
-#### **Put Option Example**
-**Setup:**
-- **Current Stock Price**: ₹67
-- **Strike Price**: ₹60
-- **Premium**: ₹3
-- **Expiry**: 1 month
-
-**Three Scenarios:**
-
-**Scenario 1: Stock → ₹50**
-- **Action**: Exercise put option
-- **Sell Price**: ₹60 (strike price)
-- **Premium Paid**: ₹3
-- **Net Received**: ₹60 - ₹3 = ₹57
-- **Market Value**: ₹50
-- **Profit**: ₹57 - ₹50 = ₹7
-
-**Scenario 2: Stock → ₹70**
-- **Action**: Don't exercise
-- **Loss**: ₹3 (premium paid)
-- **Reason**: No point selling at ₹60 when market price is ₹70
-
-**Scenario 3: Stock → ₹60**
-- **Action**: Indifferent (may or may not exercise)
-- **Net Result**: ₹3 loss due to premium
 
 #### **Put Option Characteristics**
 **Buyer Profile:**
@@ -189,343 +117,369 @@
 - **Maximum Loss**: Strike Price - Premium received
 - **Breakeven**: Strike Price - Premium received
 
-### **6. PUT OPTION PAYOFF ANALYSIS**
+---
 
-#### **Buyer Payoff Formula**
-**At Expiry:**
-- **If Stock Price < Strike Price**: Payoff = Strike Price - Stock Price - Premium
-- **If Stock Price ≥ Strike Price**: Payoff = -Premium
+## 💰 **INTRINSIC VALUE & MONEYNESS**
+
+### **5. INTRINSIC VALUE CONCEPTS**
+
+#### **Definition**
+**Intrinsic Value**: The amount of money an option buyer would make if exercising the option immediately
+
+#### **Key Properties**
+- **Cannot be Negative**: Minimum value is zero
+- **Immediate Exercise Value**: Money made by exercising today
+- **Real Worth**: Tangible value in the option
+
+#### **Intrinsic Value Formulas**
+**Call Option**: Intrinsic Value = Max(0, Spot Price - Strike Price)
+**Put Option**: Intrinsic Value = Max(0, Strike Price - Spot Price)
+
+#### **Calculation Examples**
+**Call Option Examples:**
+
+| Strike | Spot | Intrinsic Value | Calculation |
+|--------|------|----------------|-------------|
+| 280 | 310 | 30 | 310 - 280 = 30 |
+| 920 | 918 | 0 | 918 - 920 = -2, but IV = 0 |
+
+**Put Option Examples:**
+
+| Strike | Spot | Intrinsic Value | Calculation |
+|--------|------|----------------|-------------|
+| 1040 | 980 | 60 | 1040 - 980 = 60 |
+| 80 | 88 | 0 | 80 - 88 = -8, but IV = 0 |
+
+### **6. MONEYNESS CLASSIFICATION**
+
+#### **Call Option Moneyness**
+**In-the-Money (ITM)**: Spot Price > Strike Price
+- **Example**: Spot ₹8060, Strike ₹8000 → ITM
+- **Intrinsic Value**: Positive (₹60)
+
+**At-the-Money (ATM)**: Spot Price ≈ Strike Price
+- **Example**: Spot ₹8060, Strike ₹8050 → ATM
+- **Intrinsic Value**: Near zero
+
+**Out-of-the-Money (OTM)**: Spot Price < Strike Price
+- **Example**: Spot ₹8060, Strike ₹8100 → OTM
+- **Intrinsic Value**: Zero
 
 #### **Put Option Moneyness**
-**In-the-Money (ITM)**: Stock Price < Strike Price
-- **Example**: Stock at ₹55, Strike at ₹60
-- **Intrinsic Value**: ₹60 - ₹55 = ₹5
+**In-the-Money (ITM)**: Spot Price < Strike Price
+- **Example**: Spot ₹8200, Strike ₹8300 → ITM
+- **Intrinsic Value**: Positive (₹100)
 
-**At-the-Money (ATM)**: Stock Price = Strike Price
-- **Example**: Stock at ₹60, Strike at ₹60
-- **Intrinsic Value**: ₹0
+**At-the-Money (ATM)**: Spot Price ≈ Strike Price
+- **Example**: Spot ₹8200, Strike ₹8200 → ATM
+- **Intrinsic Value**: Near zero
 
-**Out-of-the-Money (OTM)**: Stock Price > Strike Price
-- **Example**: Stock at ₹65, Strike at ₹60
-- **Intrinsic Value**: ₹0
+**Out-of-the-Money (OTM)**: Spot Price > Strike Price
+- **Example**: Spot ₹8200, Strike ₹8000 → OTM
+- **Intrinsic Value**: Zero
 
----
+#### **General Rules**
+**For Call Options:**
+- All strikes **below ATM** = ITM
+- All strikes **above ATM** = OTM
 
-## 💰 **OPTION PRICING & GREEKS**
+**For Put Options:**
+- All strikes **above ATM** = ITM  
+- All strikes **below ATM** = OTM
 
-### **7. FACTORS AFFECTING OPTION PRICES**
-
-#### **Primary Factors**
-**1. Underlying Price (S)**
-- **Call Options**: Price increases with underlying price
-- **Put Options**: Price decreases with underlying price
-
-**2. Strike Price (K)**
-- **Call Options**: Price decreases with higher strikes
-- **Put Options**: Price increases with higher strikes
-
-**3. Time to Expiry (T)**
-- **Both Options**: Price decreases as expiry approaches (time decay)
-
-**4. Volatility (σ)**
-- **Both Options**: Price increases with higher volatility
-
-**5. Risk-free Rate (r)**
-- **Call Options**: Price increases with higher rates
-- **Put Options**: Price decreases with higher rates
-
-**6. Dividends (D)**
-- **Call Options**: Price decreases with higher expected dividends
-- **Put Options**: Price increases with higher expected dividends
-
-#### **Option Price Components**
-**Total Option Price = Intrinsic Value + Time Value**
-
-**Intrinsic Value:**
-- **Call**: Max(Stock Price - Strike Price, 0)
-- **Put**: Max(Strike Price - Stock Price, 0)
-
-**Time Value:**
-- **Definition**: Premium paid for time remaining until expiry
-- **Calculation**: Option Price - Intrinsic Value
-- **Decay**: Decreases as expiry approaches
-
-### **8. THE GREEKS**
-
-#### **Delta (Δ)**
-**Definition**: Rate of change of option price with respect to underlying price
-
-**Call Delta:**
-- **Range**: 0 to 1
-- **ITM Calls**: Delta approaches 1
-- **OTM Calls**: Delta approaches 0
-- **ATM Calls**: Delta around 0.5
-
-**Put Delta:**
-- **Range**: -1 to 0
-- **ITM Puts**: Delta approaches -1
-- **OTM Puts**: Delta approaches 0
-- **ATM Puts**: Delta around -0.5
-
-**Practical Use:**
-- **Portfolio Hedging**: Delta-neutral strategies
-- **Risk Management**: Understanding price sensitivity
-
-#### **Gamma (Γ)**
-**Definition**: Rate of change of delta with respect to underlying price
-
-**Characteristics:**
-- **Highest for ATM options**: Maximum gamma at-the-money
-- **Decreases for ITM/OTM**: Lower gamma for deep options
-- **Time Decay Effect**: Increases as expiry approaches
-
-**Practical Use:**
-- **Delta Hedging**: Frequency of rebalancing required
-- **Risk Assessment**: Convexity of option positions
-
-#### **Theta (Θ)**
-**Definition**: Rate of change of option price with respect to time (time decay)
-
-**Characteristics:**
-- **Always Negative**: Options lose value with time
-- **Accelerating Decay**: Faster decay near expiry
-- **ATM Maximum**: Highest theta for at-the-money options
-
-**Practical Use:**
-- **Time Value Assessment**: Daily time decay calculation
-- **Strategy Selection**: Time-sensitive strategies
-
-#### **Vega (ν)**
-**Definition**: Rate of change of option price with respect to volatility
-
-**Characteristics:**
-- **Always Positive**: Higher volatility increases option value
-- **ATM Maximum**: Highest vega for at-the-money options
-- **Time Dependent**: Decreases as expiry approaches
-
-**Practical Use:**
-- **Volatility Trading**: Exploit volatility changes
-- **Risk Management**: Volatility exposure assessment
-
-#### **Rho (ρ)**
-**Definition**: Rate of change of option price with respect to interest rates
-
-**Characteristics:**
-- **Call Rho**: Positive (higher rates increase call value)
-- **Put Rho**: Negative (higher rates decrease put value)
-- **Long-term Impact**: More significant for longer expiries
-
-**Practical Use:**
-- **Interest Rate Risk**: Limited practical impact for short-term options
-- **LEAPS Trading**: Important for long-term options
+#### **Deep ITM/OTM**
+**Deep ITM**: Very high intrinsic value
+**Deep OTM**: Very low intrinsic value
+**Premium Pattern**: ITM options always more expensive than OTM options
 
 ---
 
-## 📊 **OPTION PRICING MODELS**
+## 📊 **OPTION CHAIN ANALYSIS**
 
-### **9. BLACK-SCHOLES MODEL**
+### **7. UNDERSTANDING OPTION CHAINS**
 
-#### **Model Assumptions**
-1. **Constant Volatility**: Volatility remains constant
-2. **Constant Risk-free Rate**: Interest rates don't change
-3. **No Dividends**: Or known dividend yield
-4. **European Exercise**: Only exercise at expiry
-5. **No Transaction Costs**: Frictionless markets
-6. **Continuous Trading**: Markets always open
+#### **Option Chain Structure**
+**Layout:**
+- **Left Side**: Call options (CE)
+- **Center**: Strike prices (ascending order)
+- **Right Side**: Put options (PE)
+- **Color Coding**: Yellow background for ITM, white for OTM
 
-#### **Black-Scholes Formula (Conceptual)**
-**Call Option Price**: Based on current stock price, strike price, time to expiry, risk-free rate, and volatility
-**Put Option Price**: Derived using put-call parity relationship
+#### **Key Information Available**
+- **Last Traded Price (LTP)**: Current premium
+- **Bid-Ask Prices**: Buy/sell quotes
+- **Volume**: Trading activity
+- **Open Interest**: Outstanding contracts
+- **Implied Volatility**: Market's volatility expectation
 
-#### **Model Limitations**
-- **Constant Volatility**: Real volatility changes
-- **European Exercise**: Many options are American style
-- **No Dividends**: Doesn't account for dividend changes
-- **Perfect Liquidity**: Assumes no bid-ask spreads
-
-### **10. BINOMIAL MODEL**
-
-#### **Model Concept**
-**Tree Structure**: Price can move up or down at each time step
-**Flexibility**: Can handle American options and dividends
-**Convergence**: Approaches Black-Scholes with more steps
-
-#### **Advantages Over Black-Scholes**
-- **American Options**: Can handle early exercise
-- **Dividends**: Easy to incorporate dividend payments
-- **Intuitive**: More intuitive understanding
-- **Flexible**: Can modify assumptions easily
+#### **Reading Option Chain Example**
+**Underlying**: Ashoka Leyland at ₹68.70
+**ATM Strike**: ₹67.50 (closest to spot)
+**Call Options**: Left side, ITM strikes highlighted
+**Put Options**: Right side, ITM strikes highlighted
 
 ---
 
-## 🎯 **PRACTICAL OPTIONS TRADING**
+## 🔢 **OPTION GREEKS**
 
-### **11. BASIC OPTION STRATEGIES**
+### **8. DELTA - DIRECTIONAL SENSITIVITY**
 
-#### **Long Call (Bullish)**
-**Setup**: Buy call option
-**Expectation**: Stock price will rise significantly
-**Max Profit**: Unlimited
-**Max Loss**: Premium paid
-**Breakeven**: Strike + Premium
+#### **Delta Definition**
+**Delta**: Measures rate of change in option premium for every 1-point move in underlying
 
-#### **Short Call (Bearish/Neutral)**
-**Setup**: Sell call option
-**Expectation**: Stock price will stay below strike
-**Max Profit**: Premium received
-**Max Loss**: Unlimited
-**Breakeven**: Strike + Premium
+#### **Delta Ranges**
+**Call Options**: 0 to +1 (or 0 to +100)
+**Put Options**: -1 to 0 (or -100 to 0)
 
-#### **Long Put (Bearish)**
-**Setup**: Buy put option
-**Expectation**: Stock price will fall significantly
-**Max Profit**: Strike - Premium (when stock goes to zero)
-**Max Loss**: Premium paid
-**Breakeven**: Strike - Premium
+#### **Delta Calculation Example**
+**Given:**
+- **Nifty**: 8288
+- **8250 CE Premium**: ₹133
+- **Delta**: 0.55
 
-#### **Short Put (Bullish/Neutral)**
-**Setup**: Sell put option
-**Expectation**: Stock price will stay above strike
-**Max Profit**: Premium received
-**Max Loss**: Strike - Premium
-**Breakeven**: Strike - Premium
+**If Nifty moves to 8310 (+22 points):**
+- **Premium Change**: 22 × 0.55 = 12.1
+- **New Premium**: 133 + 12.1 = ₹145.1
 
-### **12. OPTION SELECTION CRITERIA**
+**If Nifty moves to 8200 (-88 points):**
+- **Premium Change**: -88 × 0.55 = -48.4
+- **New Premium**: 133 - 48.4 = ₹84.6
 
-#### **Strike Price Selection**
-**ITM Options:**
-- **Higher Premium**: More expensive
-- **Higher Delta**: More sensitive to stock moves
-- **Lower Time Value**: Less time decay
+#### **Delta Applications**
+**Strike Selection**: Higher delta options give more profit for favorable moves
+**Example**: 100-point Nifty move
+- **Option 1 (Delta 0.05)**: Premium change = 5 points
+- **Option 2 (Delta 0.20)**: Premium change = 20 points
+- **Choice**: Option 2 is better for bullish views
 
-**ATM Options:**
-- **Balanced Premium**: Moderate cost
-- **Maximum Gamma**: Highest acceleration
-- **Maximum Time Value**: Most time decay
+#### **Delta Characteristics**
+**Call Options:**
+- **ITM calls**: Delta closer to 1
+- **ATM calls**: Delta around 0.5
+- **OTM calls**: Delta closer to 0
 
-**OTM Options:**
-- **Lower Premium**: Cheaper
-- **Lower Delta**: Less sensitive initially
-- **Higher Time Value**: More time decay risk
+**Put Options:**
+- **ITM puts**: Delta closer to -1
+- **ATM puts**: Delta around -0.5  
+- **OTM puts**: Delta closer to 0
 
-#### **Expiry Selection**
-**Near-term Expiry (1-2 weeks):**
-- **Pros**: Lower premium, high gamma
-- **Cons**: High time decay, limited time for move
+### **9. GAMMA - DELTA'S ACCELERATION**
 
-**Medium-term Expiry (1-3 months):**
-- **Pros**: Balanced time vs cost
-- **Cons**: Moderate premium
+#### **Gamma Definition**
+**Gamma**: Rate of change of delta itself as underlying moves
 
-**Long-term Expiry (3+ months):**
-- **Pros**: More time for thesis to play out
-- **Cons**: Higher premium, lower gamma
+#### **Gamma Characteristics**
+**Highest**: ATM options have highest gamma
+**Importance**: Shows how quickly delta changes
+**Impact**: Higher gamma = more volatile delta
+**Time Effect**: Gamma increases as expiry approaches
 
-### **13. VOLATILITY CONCEPTS**
+### **10. THETA - TIME DECAY**
 
-#### **Historical Volatility**
-**Definition**: Actual volatility observed in past stock prices
-**Calculation**: Standard deviation of stock returns
-**Usage**: Compare with implied volatility
+#### **Theta Definition**  
+**Theta**: Rate of premium decline due to passage of time
 
-#### **Implied Volatility**
-**Definition**: Market's expectation of future volatility
-**Extraction**: Derived from option prices using Black-Scholes
-**Usage**: Assess if options are cheap or expensive
+#### **Theta Characteristics**
+**Always Negative**: For option buyers (premium decreases with time)
+**Accelerates**: Time decay faster near expiry
+**ATM Impact**: ATM options have highest theta
+**Time Value**: Theta affects time value, not intrinsic value
+
+#### **Time Decay Example**
+- **Monday**: Option premium ₹50
+- **Tuesday**: Option premium ₹48 (if no price movement)
+- **Theta**: -₹2 per day
+
+### **11. VEGA - VOLATILITY SENSITIVITY**
+
+#### **Vega Definition**
+**Vega**: Rate of change in premium due to change in volatility
+
+#### **Volatility Impact**
+**Higher Volatility**: Increases option premiums
+**Lower Volatility**: Decreases option premiums
+**ATM Effect**: ATM options most sensitive to volatility
+**Time Factor**: Longer expiry options more sensitive
+
+#### **Vega Example**
+- **Current Premium**: ₹25
+- **Vega**: 0.15
+- **Volatility increase**: 1% → Premium becomes ₹25.15
+
+---
+
+## 💡 **OPTION PRICING FACTORS**
+
+### **12. BLACK-SCHOLES PRICING MODEL**
+
+#### **Key Pricing Factors**
+1. **Spot Price**: Current price of underlying
+2. **Strike Price**: Exercise price of option
+3. **Time to Expiry**: Days remaining until expiration
+4. **Volatility**: Expected price fluctuation
+5. **Risk-free Rate**: Government bond yields
+6. **Dividends**: Expected dividend payments
+
+#### **Factor Impact on Premiums**
+**Call Options:**
+- **↑ Spot Price**: ↑ Premium
+- **↑ Strike Price**: ↓ Premium  
+- **↑ Time**: ↑ Premium
+- **↑ Volatility**: ↑ Premium
+- **↑ Interest Rate**: ↑ Premium
+
+**Put Options:**
+- **↑ Spot Price**: ↓ Premium
+- **↑ Strike Price**: ↑ Premium
+- **↑ Time**: ↑ Premium
+- **↑ Volatility**: ↑ Premium
+- **↑ Interest Rate**: ↓ Premium
+
+### **13. PREMIUM COMPONENTS**
+
+#### **Premium Breakdown**
+**Option Premium = Intrinsic Value + Time Value**
+
+**Time Value**: Extra amount paid above intrinsic value
+**Calculation**: Time Value = Premium - Intrinsic Value
+
+#### **Time Value Characteristics**
+**Maximum**: ATM options have highest time value
+**Decay**: Decreases as expiry approaches
+**Zero at Expiry**: Time value becomes zero at expiration
+**Volatility**: Higher volatility = higher time value
+
+---
+
+## 🎯 **PRACTICAL TRADING CONCEPTS**
+
+### **14. OPTION STRATEGIES BASICS**
+
+#### **Directional Strategies**
+**Bullish View**: Buy calls or sell puts
+**Bearish View**: Buy puts or sell calls
+**Neutral View**: Sell straddles or strangles
+
+#### **Risk-Reward Profiles**
+**Long Options**: Limited loss, unlimited profit potential
+**Short Options**: Limited profit, unlimited loss potential
+**Spreads**: Limited profit and loss
+
+### **15. VOLATILITY CONCEPTS**
+
+#### **Types of Volatility**
+**Historical Volatility**: Past price movements
+**Implied Volatility**: Market's expectation of future volatility
+**Important**: IV affects all option premiums
 
 #### **Volatility Trading**
-**High IV**: Options expensive, consider selling
-**Low IV**: Options cheap, consider buying
+**High IV**: Consider selling options
+**Low IV**: Consider buying options
 **IV Rank**: Compare current IV to historical range
-**IV Percentile**: Position of current IV in annual range
 
 ---
 
-## 🛡️ **RISK MANAGEMENT**
+## ✅ **QUIZ SUCCESS STRATEGIES**
 
-### **14. POSITION SIZING**
+### **16. KEY FORMULAS TO MEMORIZE**
 
-#### **Risk-Based Sizing**
-**Rule**: Never risk more than 2-5% of capital on single trade
-**Formula**: Position Size = Risk Amount ÷ Maximum Loss per Unit
-**Example**: ₹10,000 risk ÷ ₹100 max loss per option = 100 options maximum
+#### **Intrinsic Value**
+- **Call IV** = Max(0, Spot - Strike)
+- **Put IV** = Max(0, Strike - Spot)
 
-#### **Probability-Based Sizing**
-**Win Rate Consideration**: Higher win rate allows larger positions
-**Risk-Reward Ratio**: Better ratios allow larger positions
+#### **Delta Applications**
+- **Premium Change** = Delta × Underlying Price Change
+- **Call Delta Range**: 0 to +1
+- **Put Delta Range**: -1 to 0
 
-### **15. COMMON MISTAKES**
+#### **Premium Components**
+- **Option Premium** = Intrinsic Value + Time Value
+- **Time Value** = Premium - Intrinsic Value
 
-#### **Buying OTM Options Near Expiry**
-**Problem**: High time decay, low probability of profit
-**Solution**: Buy ITM or ATM with adequate time
+### **17. IMPORTANT CONCEPTS**
 
-#### **Ignoring Volatility**
-**Problem**: Buying expensive options, selling cheap options
-**Solution**: Always check implied volatility levels
+#### **Must-Know Classifications**
+**Moneyness**: ITM, ATM, OTM for both calls and puts
+**Greeks Impact**: Delta for direction, theta for time, vega for volatility
+**Premium Patterns**: ITM > ATM > OTM in terms of premium cost
+**Time Decay**: Accelerates near expiry, especially for ATM options
 
-#### **No Exit Plan**
-**Problem**: Holding losing positions hoping for recovery
-**Solution**: Set profit targets and stop losses before entry
+#### **Critical Relationships**
+**Spot vs Strike**: Determines moneyness
+**Time vs Premium**: More time = higher premium
+**Volatility vs Premium**: Higher volatility = higher premium
+**Delta vs Moneyness**: ITM high delta, OTM low delta
 
-#### **Over-leverage**
-**Problem**: Risking too much capital on single trade
-**Solution**: Proper position sizing and diversification
+### **18. COMMON EXAM TOPICS**
+
+**Option Basics** (30%):
+1. Call vs put option definitions
+2. Rights vs obligations concept
+3. Premium, strike, expiry terminology
+4. Intrinsic value calculations
+
+**Moneyness Classification** (25%):
+1. ITM, ATM, OTM identification
+2. Call vs put moneyness rules
+3. Deep ITM/OTM concepts
+4. Premium patterns across strikes
+
+**Option Greeks** (25%):
+1. Delta calculations and applications
+2. Understanding gamma, theta, vega
+3. Greeks impact on different strikes
+4. Time decay concepts
+
+**Practical Applications** (20%):
+1. Option chain reading
+2. Strike selection criteria
+3. Volatility impact understanding
+4. Basic strategy concepts
+
+### **19. CALCULATION PRACTICE TIPS**
+
+#### **Step-by-Step Approach**
+1. **Identify**: Call or put option
+2. **Determine**: Current spot vs strike price
+3. **Calculate**: Intrinsic value using correct formula
+4. **Classify**: ITM, ATM, or OTM
+5. **Apply**: Greeks for price change impact
+
+#### **Common Mistakes to Avoid**
+- **Wrong Moneyness**: Confusing call vs put ITM/OTM rules
+- **Negative Intrinsic Value**: Remember IV cannot be negative
+- **Delta Confusion**: Call delta positive, put delta negative
+- **Time Value Error**: Mixing up intrinsic value and time value
 
 ---
 
-## 🎯 **QUIZ SUCCESS STRATEGIES**
+## 🏆 **ADVANCED CONCEPTS**
 
-### **Key Options Concepts to Master**
-1. **Call vs Put Options**: Rights, obligations, and payoffs
-2. **Moneyness**: ITM, ATM, OTM classifications
-3. **Option Pricing Factors**: Six primary factors affecting prices
-4. **The Greeks**: Delta, Gamma, Theta, Vega understanding
-5. **Time Value vs Intrinsic Value**: Component breakdown
-6. **Black-Scholes Model**: Basic understanding and assumptions
-7. **Basic Strategies**: Long/short calls and puts
-8. **Risk Management**: Position sizing and common mistakes
+### **20. VOLATILITY SMILE**
 
-### **Important Formulas**
-- **Call Intrinsic Value**: Max(Stock Price - Strike, 0)
-- **Put Intrinsic Value**: Max(Strike - Stock Price, 0)
-- **Call Breakeven**: Strike Price + Premium Paid
-- **Put Breakeven**: Strike Price - Premium Paid
-- **Time Value**: Option Price - Intrinsic Value
+#### **IV Patterns**
+**ATM Options**: Usually have lowest implied volatility
+**ITM/OTM Options**: Higher implied volatility
+**Smile Effect**: Graph of IV vs strike looks like smile
 
-### **Key Numbers to Remember**
-- **ATM Delta**: ~0.5 for calls, ~-0.5 for puts
-- **Maximum Gamma**: At-the-money options
-- **Time Decay**: Accelerates in final month
-- **Options Expiry**: Last Thursday of every month
-- **Nifty Options Lot Size**: 50 units
+### **21. ASSIGNMENT AND EXERCISE**
 
-### **Common Quiz Topics**
-**Payoff Calculations:**
-- Profit/loss at different stock prices
-- Breakeven point calculations
-- Maximum profit/loss scenarios
+#### **Exercise Scenarios**
+**American Options**: Can exercise anytime before expiry
+**European Options**: Can exercise only on expiry
+**Automatic Exercise**: ITM options exercised automatically at expiry
 
-**Greeks Impact:**
-- How delta affects option prices
-- Time decay (theta) effects
-- Volatility (vega) sensitivity
+#### **Assignment Risk**
+**Short Option Positions**: Can be assigned anytime
+**Random Assignment**: Exchange randomly assigns exercise notices
+**Early Assignment**: Usually on dividend dates for ITM options
 
-**Strategy Selection:**
-- When to buy vs sell options
-- Strike and expiry selection
-- Risk-reward analysis
+---
 
-**Practical Applications:**
-- Portfolio hedging with options
-- Speculation vs hedging distinctions
-- Volatility trading concepts
+**REMEMBER**: Options provide asymmetric risk-reward profiles through limited loss potential for buyers and unlimited profit potential. Master the Greeks to understand how premiums change, focus on intrinsic value calculations, and always consider time decay impact. The land deal analogy is the foundation - understand it thoroughly!
 
-### **Quiz Tips**
-- **Master the Land Analogy**: Foundation for understanding options
-- **Practice Payoff Diagrams**: Visual representation crucial
-- **Understand Risk Profiles**: Limited vs unlimited risk/reward
-- **Know the Greeks**: Impact of each Greek on option prices
-- **Time Value Decay**: How time affects option values
+**EXAM FOCUS**: Practice intrinsic value calculations extensively, memorize ITM/OTM rules for calls vs puts, understand delta applications, and be clear about the components that make up option premiums.
 
-**Remember**: Options provide tremendous flexibility for both speculation and hedging. The key is understanding that option buyers have limited risk but unlimited profit potential (for calls), while option sellers have limited profit potential but unlimited risk (for calls). Always consider time decay, volatility, and proper position sizing in your trading decisions! 
+---
+*Rights • Obligations • Greeks • Time Decay • Volatility*
+*Master the Asymmetry, Respect the Greeks, Time is Your Enemy or Friend* 
