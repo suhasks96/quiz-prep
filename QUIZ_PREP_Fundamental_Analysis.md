@@ -335,6 +335,107 @@
 | **Growth** | Earnings growth | High growth rates | Highest risk | Emerging companies |
 
 #### **DuPont Analysis Framework**
+
+### **6. DETAILED FINANCIAL RATIO CALCULATIONS**
+
+#### **EBITDA Calculation Step-by-Step**
+**Formula**: EBITDA = Operating Revenues - Operating Expenses
+
+**Example: Amara Raja Batteries (FY14)**
+```
+Operating Revenues = Total Revenue - Other Income
+                   = ₹3,482 Cr - ₹46 Cr = ₹3,436 Cr
+
+Operating Expenses = Total Expenses - Finance Cost - Depreciation
+                   = ₹2,942 Cr - ₹0.7 Cr - ₹65 Cr = ₹2,876 Cr
+
+EBITDA = ₹3,436 Cr - ₹2,876 Cr = ₹560 Cr
+
+EBITDA Margin = ₹560 Cr ÷ ₹3,436 Cr = 16.3%
+```
+
+#### **DuPont Model - Detailed ROE Breakdown**
+**Formula**: ROE = Net Profit Margin × Asset Turnover × Financial Leverage
+
+**Example Calculation:**
+```
+Component 1: Net Profit Margin = PAT ÷ Revenue = 9.2%
+
+Component 2: Asset Turnover = Revenue ÷ Average Total Assets
+- Net Sales FY14 = ₹3,437 Cr
+- Total Assets FY13 = ₹1,770 Cr
+- Total Assets FY14 = ₹2,139 Cr
+- Average Assets = (1,770 + 2,139) ÷ 2 = ₹1,955 Cr
+- Asset Turnover = 3,437 ÷ 1,955 = 1.75 times
+
+Component 3: Financial Leverage = Average Assets ÷ Average Equity
+- Shareholders Equity FY13 = ₹1,059 Cr
+- Shareholders Equity FY14 = ₹1,362 Cr
+- Average Equity = (1,059 + 1,362) ÷ 2 = ₹1,211 Cr
+- Financial Leverage = 1,955 ÷ 1,211 = 1.61 times
+
+Final ROE = 9.2% × 1.75 × 1.61 = 25.9%
+```
+
+#### **P/E Ratio Calculation with Example**
+**Formula**: P/E = Current Market Price ÷ Earnings Per Share
+
+**Example:**
+```
+Step 1: Calculate EPS
+PAT = ₹367 Cr
+Total Shares = 17.081 Cr
+EPS = 367 ÷ 17.081 = ₹21.49 per share
+
+Step 2: Calculate P/E
+Current Market Price = ₹661 per share
+P/E = 661 ÷ 21.49 = 30.76 times
+
+Interpretation: For every ₹1 of profit, market participants 
+are willing to pay ₹30.76
+```
+
+#### **ROA Calculation with Tax Shield**
+**Formula**: ROA = [Net Income + Interest×(1-Tax Rate)] ÷ Average Total Assets
+
+**Example:**
+```
+Net Income = ₹367.4 Cr
+Finance Cost = ₹7 Cr
+Tax Rate = 32%
+Tax Shield = 7 × (1 - 0.32) = ₹4.76 Cr
+Average Total Assets = ₹1,955 Cr
+
+ROA = (367.4 + 4.76) ÷ 1,955 = 372.16 ÷ 1,955 = 19.03%
+```
+
+#### **ROCE Calculation**
+**Formula**: ROCE = EBIT ÷ Capital Employed
+
+**Example:**
+```
+EBIT = ₹537.7 Cr
+Capital Employed = Short-term Debt + Long-term Debt + Equity
+                 = ₹8.3 Cr + ₹75.9 Cr + ₹1,362 Cr
+                 = ₹1,446.2 Cr
+
+ROCE = 537.7 ÷ 1,446.2 = 37.18%
+```
+
+#### **Book Value Per Share Calculation**
+**Formula**: BV = [Share Capital + Reserves] ÷ Total Shares
+
+**Example:**
+```
+Share Capital = ₹17.1 Cr
+Reserves = ₹1,345.6 Cr
+Total Shares = 17.081 Cr
+
+Book Value per Share = (17.1 + 1,345.6) ÷ 17.081 = ₹79.8
+
+P/BV Ratio = Market Price ÷ Book Value
+           = 661 ÷ 79.8 = 8.3 times
+```
 **ROE Decomposition**: ROE = (Profit Margin) × (Asset Turnover) × (Financial Leverage)
 **Component Analysis**:
 - **Profit Margin**: Operational efficiency

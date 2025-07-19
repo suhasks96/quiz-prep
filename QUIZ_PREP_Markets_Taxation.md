@@ -232,6 +232,195 @@
 
 ---
 
+## 🔢 **DETAILED MATHEMATICAL CALCULATIONS**
+
+### **10. STEP-BY-STEP TAX CALCULATIONS**
+
+#### **Business Income Calculation - Complete Example**
+**Trader Profile**: F&O + Intraday Equity Trading
+**Income Details:**
+- Salary: ₹10,00,000
+- F&O Profit (Non-speculative): ₹1,00,000  
+- Intraday Equity Profit (Speculative): ₹1,00,000
+- STCG from Delivery: ₹1,00,000
+
+**Step-by-Step Tax Calculation:**
+
+**Step 1: Calculate Total Taxable Income (Business + Salary)**
+```
+Total Regular Income = Salary + Non-speculative + Speculative
+                     = ₹10,00,000 + ₹1,00,000 + ₹1,00,000
+                     = ₹12,00,000
+```
+
+**Step 2: Apply Tax Slabs (Old Regime)**
+```
+Slab 1: ₹0 to ₹2,50,000 → ₹2,50,000 × 0% = ₹0
+Slab 2: ₹2,50,000 to ₹5,00,000 → ₹2,50,000 × 10% = ₹25,000
+Slab 3: ₹5,00,000 to ₹10,00,000 → ₹5,00,000 × 20% = ₹1,00,000
+Slab 4: ₹10,00,000 to ₹12,00,000 → ₹2,00,000 × 30% = ₹60,000
+
+Total Tax on Regular Income = ₹0 + ₹25,000 + ₹1,00,000 + ₹60,000 = ₹1,85,000
+```
+
+**Step 3: Calculate STCG Tax Separately**
+```
+STCG Tax = ₹1,00,000 × 15% = ₹15,000
+```
+
+**Step 4: Total Tax Liability**
+```
+Total Tax = Regular Income Tax + STCG Tax
+          = ₹1,85,000 + ₹15,000 = ₹2,00,000
+```
+
+#### **Indexation Benefit Calculation - Debt Mutual Fund**
+**Investment Details:**
+- Purchase Value: ₹1,00,000 (Year 2005)
+- Sale Value: ₹3,00,000 (Year 2015)
+- Cost Inflation Index 2005: 497
+- Cost Inflation Index 2015: 1024
+
+**Step-by-Step Indexation Calculation:**
+
+**Step 1: Calculate Indexed Purchase Value**
+```
+Indexed Purchase Value = Purchase Value × (CII Sale Year ÷ CII Purchase Year)
+                       = ₹1,00,000 × (1024 ÷ 497)
+                       = ₹1,00,000 × 2.0604
+                       = ₹2,06,036
+```
+
+**Step 2: Calculate Indexed LTCG**
+```
+Indexed LTCG = Sale Value - Indexed Purchase Value
+             = ₹3,00,000 - ₹2,06,036
+             = ₹93,964
+```
+
+**Step 3: Calculate Tax with Indexation**
+```
+Tax with Indexation = ₹93,964 × 20% = ₹18,793
+
+Tax without Indexation = (₹3,00,000 - ₹1,00,000) × 20% = ₹40,000
+
+Tax Savings = ₹40,000 - ₹18,793 = ₹21,207
+```
+
+#### **Turnover Calculation for Tax Audit**
+**Trading Activity:** Mixed F&O and Equity Trading
+
+**Scenario: F&O Trading Turnover (Trade-wise Method)**
+```
+Trade 1: Buy 100 Nifty Futures at 8000, Sell at 8100
+Profit = (8100 - 8000) × 100 = ₹10,000
+Turnover = ₹10,000
+
+Trade 2: Buy 100 Nifty Futures at 8100, Sell at 8050  
+Loss = (8050 - 8100) × 100 = -₹5,000
+Turnover = ₹5,000 (absolute value)
+
+Total Turnover = ₹10,000 + ₹5,000 = ₹15,000
+```
+
+**Scenario: Option Trading Turnover**
+```
+Buy 100 Nifty 8200 Call at ₹20, Sell at ₹30
+Profit = (₹30 - ₹20) × 100 = ₹1,000
+Premium Received = ₹30 × 100 = ₹3,000
+Total Turnover = ₹1,000 + ₹3,000 = ₹4,000
+```
+
+**Scenario: Intraday Equity Turnover (Speculative)**
+```
+Buy 100 Reliance at ₹800, Sell at ₹820
+Profit = (₹820 - ₹800) × 100 = ₹2,000
+Turnover = ₹2,000 (absolute profit/loss)
+```
+
+#### **Tax Audit Requirements**
+**Audit Threshold Analysis:**
+```
+If Annual Turnover > ₹10 Crores → Audit Mandatory
+If Turnover < ₹10 Crores AND Profit < 6% of Turnover → Audit Required
+
+Example:
+Turnover = ₹50,00,000
+Profit = ₹2,00,000
+Profit % = (₹2,00,000 ÷ ₹50,00,000) × 100 = 4%
+
+Since 4% < 6%, Tax Audit Required
+```
+
+#### **Loss Set-off and Carry Forward Examples**
+
+**Scenario 1: Speculative vs Non-Speculative Loss Set-off**
+```
+Income Details:
+- Salary: ₹5,00,000
+- Non-speculative Profit (F&O): ₹1,00,000
+- Speculative Loss (Intraday): ₹1,00,000
+
+Tax Calculation:
+Total Taxable Income = ₹5,00,000 + ₹1,00,000 = ₹6,00,000
+(Speculative loss CANNOT be set off against non-speculative profit)
+
+Tax Calculation:
+Slab 1: ₹2,50,000 × 0% = ₹0
+Slab 2: ₹2,50,000 × 10% = ₹25,000  
+Slab 3: ₹1,00,000 × 20% = ₹20,000
+Total Tax = ₹45,000
+
+Speculative Loss ₹1,00,000 carried forward for 4 years
+```
+
+**Scenario 2: Non-Speculative Loss Set-off**
+```
+Income Details:
+- Hotel Business: ₹15,00,000
+- Interest Income: ₹2,00,000
+- Non-speculative Loss (F&O): ₹7,00,000
+
+Tax Calculation:
+Total Income Before Set-off = ₹15,00,000 + ₹2,00,000 = ₹17,00,000
+After Loss Set-off = ₹17,00,000 - ₹7,00,000 = ₹10,00,000
+
+Tax on ₹10,00,000:
+Slab 1: ₹2,50,000 × 0% = ₹0
+Slab 2: ₹2,50,000 × 10% = ₹25,000
+Slab 3: ₹5,00,000 × 20% = ₹1,00,000
+Total Tax = ₹1,25,000
+```
+
+#### **Advance Tax Calculation Example**
+**Annual Tax Liability: ₹2,00,000**
+
+**Advance Tax Schedule:**
+```
+Due Date: June 15th
+Amount: 15% of ₹2,00,000 = ₹30,000
+
+Due Date: September 15th  
+Amount: 45% of ₹2,00,000 = ₹90,000
+Cumulative: ₹30,000 + ₹60,000 = ₹90,000
+
+Due Date: December 15th
+Amount: 75% of ₹2,00,000 = ₹1,50,000
+Cumulative: ₹90,000 + ₹60,000 = ₹1,50,000
+
+Due Date: March 15th
+Amount: 100% of ₹2,00,000 = ₹2,00,000
+Cumulative: ₹1,50,000 + ₹50,000 = ₹2,00,000
+```
+
+**Interest on Late Payment:**
+```
+If September installment (₹60,000) paid late by 30 days:
+Interest = ₹60,000 × 1% per month = ₹600
+```
+
+---
+
 ## ✅ **TAX PLANNING STRATEGIES**
 
 ### **9. OPTIMIZATION TECHNIQUES COMPARISON**

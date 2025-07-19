@@ -493,6 +493,169 @@ Stock Trading at ₹8,100
 
 ---
 
+## 🔢 **DETAILED MATHEMATICAL CALCULATIONS**
+
+### **16. STEP-BY-STEP OPTION CALCULATIONS**
+
+#### **Call Option P&L Calculation (Buyer)**
+**Formula**: P&L = Max[0, (Spot Price - Strike Price)] - Premium Paid
+
+**Example: Bajaj Auto 2050 Call Option**
+```
+Strike Price: ₹2,050
+Premium Paid: ₹6.35
+Lot Size: 250 shares
+
+At Different Spot Prices on Expiry:
+Spot ₹1,990: P&L = Max[0, (1990-2050)] - 6.35 = 0 - 6.35 = -₹6.35 per share
+Spot ₹2,050: P&L = Max[0, (2050-2050)] - 6.35 = 0 - 6.35 = -₹6.35 per share  
+Spot ₹2,080: P&L = Max[0, (2080-2050)] - 6.35 = 30 - 6.35 = +₹23.65 per share
+Spot ₹2,120: P&L = Max[0, (2120-2050)] - 6.35 = 70 - 6.35 = +₹63.65 per share
+
+Breakeven Point = Strike Price + Premium = 2050 + 6.35 = ₹2,056.35
+Total P&L for 1 lot = Per share P&L × 250
+```
+
+#### **Put Option P&L Calculation (Buyer)**
+**Formula**: P&L = Max[0, (Strike Price - Spot Price)] - Premium Paid
+
+**Example: Nifty 18400 Put Option**
+```
+Strike Price: ₹18,400
+Premium Paid: ₹315
+Lot Size: 75 shares
+
+At Different Spot Prices on Expiry:
+Spot ₹17,000: P&L = Max[0, (18400-17000)] - 315 = 1400 - 315 = +₹1,085 per share
+Spot ₹18,100: P&L = Max[0, (18400-18100)] - 315 = 300 - 315 = -₹15 per share
+Spot ₹18,400: P&L = Max[0, (18400-18400)] - 315 = 0 - 315 = -₹315 per share
+Spot ₹19,000: P&L = Max[0, (18400-19000)] - 315 = 0 - 315 = -₹315 per share
+
+Breakeven Point = Strike Price - Premium = 18400 - 315 = ₹18,085
+Total P&L for 1 lot = Per share P&L × 75
+```
+
+#### **Option Seller P&L Calculations**
+**Call Option Seller Formula**: P&L = Premium Received - Max[0, (Spot Price - Strike Price)]
+**Put Option Seller Formula**: P&L = Premium Received - Max[0, (Strike Price - Spot Price)]
+
+**Example: Selling Bajaj Auto 2050 Call**
+```
+Premium Received: ₹6.35
+
+At Expiry:
+Spot ₹1,990: P&L = 6.35 - Max[0, (1990-2050)] = 6.35 - 0 = +₹6.35 per share
+Spot ₹2,080: P&L = 6.35 - Max[0, (2080-2050)] = 6.35 - 30 = -₹23.65 per share
+Spot ₹2,120: P&L = 6.35 - Max[0, (2120-2050)] = 6.35 - 70 = -₹63.65 per share
+
+Maximum Profit = Premium Received = ₹6.35 per share
+Maximum Loss = Unlimited (as stock can rise infinitely)
+```
+
+#### **Delta Calculation with Premium Change**
+**Formula**: Expected Premium Change = Delta × Change in Underlying
+
+**Example: Nifty 8250 Call Option**
+```
+Initial Setup:
+- Spot Price: ₹8,292
+- Option Premium: ₹144
+- Delta: 0.6
+
+Scenario 1: Nifty moves to ₹8,355
+Change in Underlying = 8355 - 8292 = 63 points
+Expected Premium Change = 0.6 × 63 = 37.8 points
+New Premium = 144 + 37.8 = ₹181.8
+
+Scenario 2: Nifty moves to ₹8,200  
+Change in Underlying = 8200 - 8292 = -92 points
+Expected Premium Change = 0.6 × (-92) = -55.2 points
+New Premium = 144 - 55.2 = ₹88.8
+```
+
+#### **Put Option Delta Calculation**
+**Example: Nifty 8300 Put Option**
+```
+Initial Setup:
+- Spot Price: ₹8,268  
+- Option Premium: ₹128
+- Delta: -0.55
+
+Scenario 1: Nifty moves to ₹8,310
+Change in Underlying = 8310 - 8268 = 42 points
+Expected Premium Change = -0.55 × 42 = -23.1 points
+New Premium = 128 - 23.1 = ₹104.9
+
+Scenario 2: Nifty moves to ₹8,230
+Change in Underlying = 8230 - 8268 = -38 points  
+Expected Premium Change = -0.55 × (-38) = +20.9 points
+New Premium = 128 + 20.9 = ₹148.9
+```
+
+#### **Portfolio Delta Calculation**
+**Formula**: Portfolio Delta = Σ(Position Size × Option Delta)
+
+**Example: Multi-Option Portfolio**
+```
+Position 1: Long 100 lots Nifty 18800 CE (Delta: 0.4)
+Position 2: Short 150 lots Nifty 18900 CE (Delta: 0.25) 
+Position 3: Long 200 lots Nifty 18700 PE (Delta: -0.6)
+
+Portfolio Delta Calculation:
+= (100 × 0.4) + (-150 × 0.25) + (200 × -0.6)
+= 40 - 37.5 - 120  
+= -117.5
+
+Interpretation: Portfolio behaves like being short 117.5 Nifty futures
+For every 1-point Nifty move up, portfolio loses ₹117.5 × 75 = ₹8,812
+```
+
+#### **Put-Call Parity Calculation**
+**Formula**: Call Premium + PV(Strike) = Put Premium + Spot Price
+
+**Example: Verification**
+```
+Stock: TCS
+Spot Price: ₹2,350
+Strike Price: ₹2,350 (ATM)
+Risk-free Rate: 7%
+Time to Expiry: 30 days
+
+PV(Strike) = 2350 × e^(-0.07 × 30/365) = 2350 × 0.9943 = ₹2,336.6
+
+Observed Prices:
+Call Premium: ₹45
+Put Premium: ₹31.6
+
+Put-Call Parity Check:
+LHS = Call + PV(Strike) = 45 + 2336.6 = 2381.6
+RHS = Put + Spot = 31.6 + 2350 = 2381.6
+
+Result: LHS = RHS ✓ (Put-call parity holds)
+```
+
+#### **Black-Scholes Input Example**
+**Example: ICICI Bank 280 Call Option**
+```
+Inputs Required:
+- Spot Price: ₹272.7
+- Strike Price: ₹280  
+- Risk-free Rate: 7.48%
+- Time to Expiry: 1 day
+- Implied Volatility: 43.55%
+- Dividend: ₹0
+
+Black-Scholes Outputs:
+- Theoretical Call Price: ₹1.2
+- Theoretical Put Price: ₹8.4
+- Delta: 0.15
+- Gamma: 0.02
+- Theta: -2.1
+- Vega: 1.8
+```
+
+---
+
 **REMEMBER**: Options provide asymmetric risk-reward profiles with limited downside (premium) and potentially unlimited upside. Call and put options are complementary instruments with opposite directional exposures. Position sizing is crucial - never risk more than 2-3% of capital per trade. Understanding moneyness, Greeks behavior, and put-call parity is essential for options trading and risk management.
 
 **EXAM FOCUS**: Master the differences between calls and puts, understand moneyness classification, practice intrinsic value calculations, know Greek behavior patterns, understand position sizing methodologies, and understand European vs American exercise styles. Position sizing calculations are increasingly important in professional options trading.

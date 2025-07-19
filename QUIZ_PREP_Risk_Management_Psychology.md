@@ -430,6 +430,241 @@ E(R) = 6% + 9.6% = **15.6%**
 
 ---
 
+## 🔢 **DETAILED MATHEMATICAL CALCULATIONS**
+
+### **13. STEP-BY-STEP RISK MANAGEMENT CALCULATIONS**
+
+#### **Percentage Risk Position Sizing - Complete Example**
+
+**Trade Setup**: Tata Motors Futures
+**Market Scenario**: Support level trading opportunity
+
+**Given Data:**
+- **Trading Capital**: ₹5,00,000
+- **Entry Price**: ₹393.65
+- **Target Price**: ₹400.00
+- **Stop Loss**: ₹390.00
+- **Lot Size**: 1,500 shares
+- **Margin Required**: ₹73,500 per lot
+- **Maximum Risk Tolerance**: 1.5% of capital
+
+**Step-by-Step Position Sizing Calculation:**
+
+**Step 1: Calculate Maximum Loss Threshold**
+```
+Maximum Risk = Trading Capital × Risk Percentage
+             = ₹5,00,000 × 1.5%
+             = ₹7,500
+```
+
+**Step 2: Calculate Risk Per Share**
+```
+Risk per Share = Entry Price - Stop Loss Price
+               = ₹393.65 - ₹390.00
+               = ₹3.65
+```
+
+**Step 3: Calculate Loss Per Lot**
+```
+Loss per Lot = Risk per Share × Lot Size
+             = ₹3.65 × 1,500
+             = ₹5,475
+```
+
+**Step 4: Calculate Maximum Lots Possible**
+```
+Maximum Lots = Maximum Risk ÷ Loss per Lot
+             = ₹7,500 ÷ ₹5,475
+             = 1.36 lots
+             
+Therefore: Buy 1 lot (round down for safety)
+```
+
+**Step 5: Calculate Actual Risk Taken**
+```
+Actual Risk = 1 lot × ₹5,475 = ₹5,475
+Risk Percentage = ₹5,475 ÷ ₹5,00,000 = 1.095%
+```
+
+**Step 6: Calculate Profit Potential**
+```
+Profit per Share = Target Price - Entry Price
+                 = ₹400.00 - ₹393.65
+                 = ₹6.35
+
+Profit per Lot = ₹6.35 × 1,500 = ₹9,525
+Risk-Reward Ratio = ₹9,525 ÷ ₹5,475 = 1.74
+```
+
+#### **Recovery Trauma Analysis - Mathematical Impact**
+
+**Starting Capital**: ₹1,00,000
+
+**Recovery Requirements for Different Loss Levels:**
+
+| **Loss %** | **Capital Left** | **Amount Lost** | **Recovery % Needed** | **Time to Recover*** |
+|------------|------------------|-----------------|----------------------|---------------------|
+| 5%         | ₹95,000         | ₹5,000          | 5.26%               | 1.05× effort        |
+| 10%        | ₹90,000         | ₹10,000         | 11.11%              | 1.11× effort        |
+| 20%        | ₹80,000         | ₹20,000         | 25.00%              | 1.25× effort        |
+| 30%        | ₹70,000         | ₹30,000         | 42.86%              | 1.43× effort        |
+| 50%        | ₹50,000         | ₹50,000         | 100.00%             | 2.00× effort        |
+| 60%        | ₹40,000         | ₹60,000         | 150.00%             | 2.50× effort        |
+| 75%        | ₹25,000         | ₹75,000         | 300.00%             | 4.00× effort        |
+| 90%        | ₹10,000         | ₹90,000         | 900.00%             | 10.00× effort       |
+
+***Relative to original loss percentage
+
+**Key Recovery Formula:**
+```
+Recovery % Required = Loss Amount ÷ Remaining Capital × 100
+                   = L ÷ (C - L) × 100
+
+Where:
+L = Loss Amount
+C = Original Capital
+```
+
+#### **Kelly Criterion - Advanced Calculation Example**
+
+**Trading System Performance Data:**
+- **Total Trades**: 20
+- **Winning Trades**: 12 (60% win rate)
+- **Losing Trades**: 8 (40% loss rate)
+- **Average Win**: ₹4,500
+- **Average Loss**: ₹2,800
+- **Total Profit**: ₹31,600
+
+**Step-by-Step Kelly Calculation:**
+
+**Step 1: Calculate Win Rate (W)**
+```
+W = Number of Wins ÷ Total Trades
+  = 12 ÷ 20
+  = 0.60 (60%)
+```
+
+**Step 2: Calculate Loss Rate (L)**
+```
+L = 1 - W = 1 - 0.60 = 0.40 (40%)
+```
+
+**Step 3: Calculate Win/Loss Ratio (R)**
+```
+R = Average Win ÷ Average Loss
+  = ₹4,500 ÷ ₹2,800
+  = 1.607
+```
+
+**Step 4: Apply Kelly Formula**
+```
+Kelly % = W - [(1-W) ÷ R]
+        = 0.60 - [(1-0.60) ÷ 1.607]
+        = 0.60 - [0.40 ÷ 1.607]
+        = 0.60 - 0.249
+        = 0.351 or 35.1%
+```
+
+**Step 5: Apply Practical Kelly (Conservative Approach)**
+```
+If Maximum Risk Tolerance = 5% of capital
+Conservative Kelly = Kelly % × Maximum Risk
+                  = 35.1% × 5%
+                  = 1.755%
+
+Therefore: Risk 1.76% of capital per trade
+```
+
+#### **Value at Risk (VaR) - Portfolio Example**
+
+**Portfolio Details:**
+- **Portfolio Value**: ₹50,00,000
+- **Daily Volatility**: 1.8%
+- **Confidence Level**: 95% (1.65 standard deviations)
+- **Time Horizon**: 1 day
+
+**VaR Calculation:**
+```
+Daily VaR = Portfolio Value × Daily Volatility × Z-score
+          = ₹50,00,000 × 1.8% × 1.65
+          = ₹50,00,000 × 0.018 × 1.65
+          = ₹1,48,500
+
+Interpretation: 95% confidence that daily loss won't exceed ₹1.49 lakhs
+```
+
+**Multi-Day VaR:**
+```
+10-Day VaR = Daily VaR × √10
+           = ₹1,48,500 × 3.16
+           = ₹4,69,260
+
+Monthly VaR (22 days) = Daily VaR × √22
+                      = ₹1,48,500 × 4.69
+                      = ₹6,96,465
+```
+
+#### **Portfolio Optimization - Mean-Variance Example**
+
+**Two-Asset Portfolio:**
+- **Asset A**: Expected Return 15%, Volatility 20%
+- **Asset B**: Expected Return 12%, Volatility 15%
+- **Correlation**: 0.3
+- **Investment**: ₹10,00,000
+
+**Optimal Weight Calculation (Minimum Variance Portfolio):**
+
+**Step 1: Calculate Portfolio Variance Formula**
+```
+σ²p = WA² × σA² + WB² × σB² + 2 × WA × WB × σA × σB × ρAB
+
+Where:
+WA + WB = 1 (weights sum to 100%)
+WB = 1 - WA
+```
+
+**Step 2: Substitute and Solve for Minimum Variance**
+```
+σ²p = WA² × (20%)² + (1-WA)² × (15%)² + 2 × WA × (1-WA) × 20% × 15% × 0.3
+
+Taking derivative and setting to zero:
+Optimal WA = [σB² - σA × σB × ρAB] ÷ [σA² + σB² - 2 × σA × σB × ρAB]
+           = [15² - 20 × 15 × 0.3] ÷ [20² + 15² - 2 × 20 × 15 × 0.3]
+           = [225 - 90] ÷ [400 + 225 - 180]
+           = 135 ÷ 445
+           = 0.303 (30.3%)
+
+Therefore: Invest 30.3% in Asset A, 69.7% in Asset B
+```
+
+**Step 3: Calculate Optimal Portfolio Metrics**
+```
+Expected Return = 0.303 × 15% + 0.697 × 12% = 12.91%
+Portfolio Risk = √[(0.303)² × (20%)² + (0.697)² × (15%)² + 2 × 0.303 × 0.697 × 20% × 15% × 0.3]
+               = √[0.37% + 1.09% + 0.38%] = √1.84% = 13.56%
+```
+
+#### **Maximum Drawdown Calculation**
+
+**Portfolio Peak-to-Trough Analysis:**
+```
+Portfolio Values Over Time:
+Day 1: ₹1,00,000 (Peak)
+Day 5: ₹95,000
+Day 10: ₹87,000 (Trough)
+Day 15: ₹92,000
+Day 20: ₹1,05,000 (New Peak)
+
+Maximum Drawdown = (Peak Value - Trough Value) ÷ Peak Value
+                 = (₹1,00,000 - ₹87,000) ÷ ₹1,00,000
+                 = ₹13,000 ÷ ₹1,00,000
+                 = 13%
+
+Recovery Time = 20 - 1 = 19 days
+```
+
+---
+
 ## 🧠 **TRADING PSYCHOLOGY vs RISK MANAGEMENT BALANCE**
 
 ### **10. BEHAVIORAL RISK FACTORS**

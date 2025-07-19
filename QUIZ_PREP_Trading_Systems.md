@@ -469,6 +469,265 @@
 
 **REMEMBER**: Trading systems provide consistency and remove emotional bias from trading decisions. The choice between momentum and mean reversion depends on market conditions and personal preference. Backtesting is crucial but beware of over-optimization. Statistical validation is essential for pair trading strategies.
 
+---
+
+## 🔢 **DETAILED MATHEMATICAL CALCULATIONS**
+
+### **11. STEP-BY-STEP TRADING SYSTEM CALCULATIONS**
+
+#### **Pair Trading - Complete Mathematical Example**
+
+**Stock Selection**: HDFC Bank (X - Independent) vs ICICI Bank (Y - Dependent)
+
+**Step 1: Linear Regression Analysis**
+```
+Given Historical Data (252 trading days):
+HDFC Bank closing prices: [₹1,400, ₹1,425, ₹1,440, ...]
+ICICI Bank closing prices: [₹291, ₹295, ₹298, ...]
+
+Linear Regression Equation: Y = mX + c
+Where: ICICI = β × HDFC + α
+```
+
+**Step 2: Calculate Error Ratios for Both Combinations**
+```
+Combination 1: HDFC as X, ICICI as Y
+- Standard Error of Intercept: 45.8
+- Standard Error of Residuals: 12.3
+- Error Ratio = 45.8 ÷ 12.3 = 3.72
+
+Combination 2: ICICI as X, HDFC as Y  
+- Standard Error of Intercept: 127.4
+- Standard Error of Residuals: 42.6
+- Error Ratio = 127.4 ÷ 42.6 = 2.99
+
+Selection: Choose Combination 2 (lower error ratio)
+Final Assignment: ICICI = X (Independent), HDFC = Y (Dependent)
+```
+
+**Step 3: Final Regression Output**
+```
+HDFC = 7.613 × ICICI - 663.677
+
+Key Statistics:
+- Beta (β): 7.613
+- Intercept (α): -663.677
+- R-squared: 0.94
+- Standard Error: 22.776
+- Observations: 252
+```
+
+**Step 4: Calculate Residuals and Test Stationarity**
+```
+For each day: Residual = Actual HDFC - Predicted HDFC
+Residual = HDFC_actual - (7.613 × ICICI - 663.677)
+
+Example for Day 1:
+HDFC_actual = ₹1,914
+ICICI = ₹291
+Predicted HDFC = 7.613 × 291 - 663.677 = ₹1,551
+Residual = ₹1,914 - ₹1,551 = ₹363
+```
+
+**Step 5: ADF Test for Stationarity**
+```
+Null Hypothesis: Series has unit root (non-stationary)
+Alternative: Series is stationary
+
+ADF Test Result:
+- ADF Statistic: -3.84
+- P-value: 0.012
+- Critical Value (5%): -2.87
+
+Conclusion: P-value < 0.05, reject null hypothesis
+Residuals are stationary → Stocks are cointegrated
+```
+
+**Step 6: Calculate Trading Signals**
+```
+Residual Statistics:
+- Mean: 0.52
+- Standard Deviation: 22.78
+- Current Residual: -57.8
+
+Z-Score = (Current Residual - Mean) ÷ Standard Deviation
+        = (-57.8 - 0.52) ÷ 22.78
+        = -2.56
+
+Trading Signal: Z-score < -2.5 → Long Pair Signal
+```
+
+#### **Pair Trading Position Sizing Example**
+
+**Trade Setup based on above signals:**
+```
+Signal: Long Pair (Buy HDFC, Sell ICICI)
+Beta Ratio: 7.613 (need 7.613 ICICI shares for 1 HDFC share)
+
+Position Sizing:
+Available Capital: ₹10,00,000
+Risk per Trade: 2% = ₹20,000
+
+Current Prices:
+HDFC: ₹1,914
+ICICI: ₹291
+
+For 1:7.613 Ratio:
+Cost of 1 HDFC + Margin for 7.613 ICICI short
+= ₹1,914 + (7.613 × ₹291 × 20% margin)
+= ₹1,914 + ₹444
+= ₹2,358 per set
+
+Maximum Sets = ₹10,00,000 ÷ ₹2,358 = 424 sets
+Conservative Approach: Use 10% = 42 sets
+
+Final Position:
+Long: 42 shares of HDFC = ₹80,388
+Short: 320 shares of ICICI (42 × 7.613)
+```
+
+#### **Momentum Portfolio Construction - Mathematical Process**
+
+**Universe Selection**: BSE 500 stocks (tracking universe)
+
+**Step 1: Return Calculation (1-Year Period)**
+```
+Example Stocks and Returns:
+Stock A: Start ₹1,000, End ₹1,350 → Return = (1,350-1,000)/1,000 = 35%
+Stock B: Start ₹500, End ₹520 → Return = (520-500)/500 = 4%
+Stock C: Start ₹800, End ₹720 → Return = (720-800)/800 = -10%
+```
+
+**Step 2: Ranking Process**
+```
+Sort 500 stocks by return (highest to lowest):
+Rank 1: Asian Paints (+45.2%)
+Rank 2: HDFC Bank (+38.7%)
+Rank 3: Infosys (+32.1%)
+...
+Rank 498: Stock X (-18.4%)
+Rank 499: Stock Y (-22.8%)
+Rank 500: Stock Z (-28.5%)
+```
+
+**Step 3: Portfolio Selection**
+```
+Select Top 15 stocks (Top 3% of universe)
+Selected Portfolio:
+1. Asian Paints: +45.2%
+2. HDFC Bank: +38.7%
+3. Infosys: +32.1%
+...
+15. TCS: +24.8%
+```
+
+**Step 4: Equal Weight Allocation**
+```
+Portfolio Size: ₹15,00,000
+Per Stock Allocation = ₹15,00,000 ÷ 15 = ₹1,00,000
+
+Position Sizes:
+Asian Paints: ₹1,00,000 ÷ ₹2,450 = 41 shares
+HDFC Bank: ₹1,00,000 ÷ ₹1,680 = 60 shares
+Infosys: ₹1,00,000 ÷ ₹1,250 = 80 shares
+... and so on
+```
+
+#### **Performance Metrics Calculation Examples**
+
+**Sharpe Ratio Calculation**
+```
+Portfolio Performance Data:
+Annual Return: 18.5%
+Risk-free Rate: 7%
+Portfolio Volatility: 16.8%
+
+Sharpe Ratio = (Portfolio Return - Risk-free Rate) ÷ Portfolio Volatility
+             = (18.5% - 7%) ÷ 16.8%
+             = 11.5% ÷ 16.8%
+             = 0.685
+
+Interpretation: Good risk-adjusted returns (>0.5 acceptable, >1.0 excellent)
+```
+
+**Maximum Drawdown Calculation**
+```
+Portfolio Value Journey:
+Start: ₹10,00,000
+Peak: ₹13,20,000 (Month 8)
+Trough: ₹10,56,000 (Month 11)
+Recovery: ₹13,80,000 (Month 15)
+
+Maximum Drawdown = (Peak - Trough) ÷ Peak
+                 = (₹13,20,000 - ₹10,56,000) ÷ ₹13,20,000
+                 = ₹2,64,000 ÷ ₹13,20,000
+                 = 20%
+
+Recovery Time = Month 15 - Month 8 = 7 months
+```
+
+**Win Rate Analysis**
+```
+Trading System Performance (50 trades):
+Winning Trades: 32
+Losing Trades: 18
+
+Win Rate = Winning Trades ÷ Total Trades
+         = 32 ÷ 50
+         = 64%
+
+Average Win: ₹3,500
+Average Loss: ₹2,100
+Profit Factor = (Win Rate × Avg Win) ÷ (Loss Rate × Avg Loss)
+              = (0.64 × ₹3,500) ÷ (0.36 × ₹2,100)
+              = ₹2,240 ÷ ₹756
+              = 2.96 (Excellent - Above 2.0 preferred)
+```
+
+#### **Calendar Spread Calculation Example**
+
+**Nifty Calendar Spread Setup:**
+```
+Current Nifty: 17,800
+Current Month Future: 17,825 (25 points premium)
+Next Month Future: 17,860 (60 points premium)
+Spread = 17,860 - 17,825 = 35 points
+
+Trade Setup: Sell Current Month, Buy Next Month
+Capital Required: Spread margin ≈ ₹40,000 per lot
+
+Profit Scenarios:
+If spread narrows to 25 points: Profit = 35 - 25 = 10 points = ₹750
+If spread widens to 45 points: Loss = 45 - 35 = 10 points = ₹750
+
+Historical Analysis:
+Spread usually trades between 20-50 points
+Current 35 points is near middle of range
+Mean reversion expected
+```
+
+#### **Risk Management Calculations**
+
+**Portfolio Risk Analysis:**
+```
+Individual Stock Weights and Volatilities:
+Stock A: 20% weight, 25% volatility
+Stock B: 30% weight, 18% volatility  
+Stock C: 50% weight, 22% volatility
+
+Correlation Matrix:
+A-B: 0.65, A-C: 0.58, B-C: 0.72
+
+Portfolio Variance = Σ(Wi² × σi²) + Σ(2×Wi×Wj×σi×σj×ρij)
+                   = (0.2²×25²) + (0.3²×18²) + (0.5²×22²) + 
+                     2×(0.2×0.3×25×18×0.65) + 2×(0.2×0.5×25×22×0.58) + 
+                     2×(0.3×0.5×18×22×0.72)
+                   = 25 + 29.16 + 121 + 35.1 + 63.8 + 85.54
+                   = 359.6
+
+Portfolio Volatility = √359.6 = 18.96%
+```
+
 **EXAM FOCUS**: Master the differences between systematic and discretionary approaches, understand the statistical concepts behind pair trading, know the characteristics of momentum vs mean reversion systems, and be familiar with performance evaluation metrics. System development and testing methodologies are increasingly important in modern trading.
 
 ---

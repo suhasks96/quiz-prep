@@ -410,6 +410,229 @@
 
 ---
 
+## 🔢 **DETAILED MATHEMATICAL CALCULATIONS**
+
+### **12. STEP-BY-STEP PERSONAL FINANCE CALCULATIONS**
+
+#### **Simple Interest vs Compound Interest - Complete Example**
+
+**Scenario**: ₹1,00,000 invested for 5 years at 10% per annum
+
+**Simple Interest Calculation:**
+```
+Formula: Simple Interest = Principal × Rate × Time
+Principal = ₹1,00,000
+Rate = 10% per annum
+Time = 5 years
+
+Annual Interest = ₹1,00,000 × 10% = ₹10,000
+
+Year-wise Breakdown:
+Year 1: Principal ₹1,00,000 + Interest ₹10,000
+Year 2: Principal ₹1,00,000 + Interest ₹10,000  
+Year 3: Principal ₹1,00,000 + Interest ₹10,000
+Year 4: Principal ₹1,00,000 + Interest ₹10,000
+Year 5: Principal ₹1,00,000 + Interest ₹10,000
+
+Total Interest = ₹10,000 × 5 = ₹50,000
+Total Amount = ₹1,00,000 + ₹50,000 = ₹1,50,000
+```
+
+**Compound Interest Calculation:**
+```
+Formula: Amount = P × (1 + R)^n
+P = ₹1,00,000
+R = 10% = 0.10
+n = 5 years
+
+Amount = ₹1,00,000 × (1 + 0.10)^5
+       = ₹1,00,000 × (1.10)^5
+       = ₹1,00,000 × 1.61051
+       = ₹1,61,051
+
+Compound Interest = ₹1,61,051 - ₹1,00,000 = ₹61,051
+
+Additional earning through compounding = ₹61,051 - ₹50,000 = ₹11,051
+```
+
+#### **SIP Future Value Calculation - Complete Example**
+
+**Scenario**: ₹10,000 monthly SIP for 20 years at 12% CAGR
+
+**SIP Future Value Formula:**
+```
+FV = P × [((1+r)^n - 1) / r] × (1+r)
+
+Where:
+P = Monthly SIP amount = ₹10,000
+r = Monthly rate = 12% ÷ 12 = 1% = 0.01
+n = Total months = 20 × 12 = 240
+
+FV = ₹10,000 × [((1+0.01)^240 - 1) / 0.01] × (1+0.01)
+
+Step-by-step calculation:
+(1.01)^240 = 10.8926
+((1.01)^240 - 1) = 10.8926 - 1 = 9.8926
+9.8926 ÷ 0.01 = 989.26
+989.26 × 1.01 = 999.15
+
+FV = ₹10,000 × 999.15 = ₹99,91,530
+
+Total Investment = ₹10,000 × 240 = ₹24,00,000
+Total Returns = ₹99,91,530 - ₹24,00,000 = ₹75,91,530
+```
+
+#### **EMI Calculation - Complete Example**
+
+**Scenario**: Home loan of ₹50,00,000 for 20 years at 8.5% interest
+
+**EMI Formula:**
+```
+EMI = [P × R × (1+R)^n] / [(1+R)^n - 1]
+
+Where:
+P = Principal loan amount = ₹50,00,000
+R = Monthly interest rate = 8.5% ÷ 12 = 0.7083% = 0.007083
+n = Total months = 20 × 12 = 240
+
+EMI = [₹50,00,000 × 0.007083 × (1.007083)^240] / [(1.007083)^240 - 1]
+
+Step-by-step calculation:
+(1.007083)^240 = 5.2945
+Numerator = ₹50,00,000 × 0.007083 × 5.2945 = ₹1,87,476
+Denominator = 5.2945 - 1 = 4.2945
+
+EMI = ₹1,87,476 ÷ 4.2945 = ₹43,649
+
+Total Amount Payable = ₹43,649 × 240 = ₹1,04,76,000
+Total Interest = ₹1,04,76,000 - ₹50,00,000 = ₹54,76,000
+```
+
+#### **CAGR vs Absolute Return - Detailed Examples**
+
+**Example 1: Lumpsum Investment (3 years)**
+```
+Investment: ₹1,00,000 grows to ₹1,33,100 in 3 years
+
+Absolute Return = (Final Value ÷ Initial Value - 1) × 100
+                = (₹1,33,100 ÷ ₹1,00,000 - 1) × 100
+                = (1.331 - 1) × 100 = 33.1%
+
+CAGR = [(Final Value ÷ Initial Value)^(1/years) - 1] × 100
+     = [(₹1,33,100 ÷ ₹1,00,000)^(1/3) - 1] × 100
+     = [(1.331)^0.3333 - 1] × 100
+     = [1.10 - 1] × 100 = 10%
+
+Interpretation: 33.1% total return over 3 years = 10% annual growth rate
+```
+
+**Example 2: XIRR for SIP (Multi-year)**
+```
+Monthly SIP: ₹5,000 for 19 months
+Current Value: ₹1,10,000
+Total Invested: ₹95,000
+
+Using Excel XIRR function with cash flow dates:
+Investment dates and amounts (negative cash flows)
+Current value date and amount (positive cash flow)
+
+XIRR Result: 18.79% annualized return
+
+Verification:
+Absolute Return = (₹1,10,000 ÷ ₹95,000 - 1) × 100 = 15.79%
+But this doesn't account for time - XIRR gives time-adjusted return
+```
+
+#### **Retirement Corpus Planning - Step-by-Step**
+
+**Goal**: ₹5 crore corpus in 25 years for retirement
+
+**Future Value of Current Savings:**
+```
+Current savings: ₹5,00,000
+Expected return: 12% CAGR
+Time: 25 years
+
+Future Value = ₹5,00,000 × (1.12)^25
+             = ₹5,00,000 × 17.000
+             = ₹85,00,000
+```
+
+**Required SIP Calculation:**
+```
+Target corpus: ₹5,00,00,000
+Less: FV of current savings: ₹85,00,000
+Gap to be filled through SIP: ₹4,15,00,000
+
+Using SIP formula rearranged to find P:
+P = Target FV ÷ [((1+r)^n - 1) / r] × (1+r)
+
+Monthly rate (r) = 12% ÷ 12 = 1%
+Months (n) = 25 × 12 = 300
+
+P = ₹4,15,00,000 ÷ [((1.01)^300 - 1) / 0.01] × 1.01
+P = ₹4,15,00,000 ÷ 1956.18
+P = ₹21,212
+
+Required monthly SIP: ₹21,212
+```
+
+#### **Real Estate Yield Calculations**
+
+**Property Investment Analysis:**
+```
+Purchase Price: ₹1,00,00,000
+Monthly Rent: ₹50,000
+Holding Period: 5 years
+Sale Price: ₹1,40,00,000
+
+Annual Rental Yield:
+= (Monthly Rent × 12) ÷ Purchase Price × 100
+= (₹50,000 × 12) ÷ ₹1,00,00,000 × 100
+= ₹6,00,000 ÷ ₹1,00,00,000 × 100 = 6%
+
+Total Return Calculation:
+Total Rental Income = ₹6,00,000 × 5 = ₹30,00,000
+Capital Appreciation = ₹1,40,00,000 - ₹1,00,00,000 = ₹40,00,000
+Total Returns = ₹30,00,000 + ₹40,00,000 = ₹70,00,000
+
+CAGR = [(₹1,70,00,000 ÷ ₹1,00,00,000)^(1/5) - 1] × 100
+     = [(1.70)^0.20 - 1] × 100
+     = [1.1137 - 1] × 100 = 11.37%
+```
+
+#### **Mutual Fund Performance Metrics**
+
+**Sharpe Ratio Calculation:**
+```
+Fund A: 15% return, 20% volatility
+Fund B: 12% return, 10% volatility
+Risk-free rate: 6%
+
+Sharpe Ratio A = (15% - 6%) ÷ 20% = 9% ÷ 20% = 0.45
+Sharpe Ratio B = (12% - 6%) ÷ 10% = 6% ÷ 10% = 0.60
+
+Interpretation: Fund B provides better risk-adjusted returns
+(0.60 units of excess return per unit of risk vs 0.45 for Fund A)
+```
+
+**Alpha Calculation:**
+```
+Fund Return: 14%
+Benchmark Return: 10%
+Beta: 1.2
+Risk-free Rate: 6%
+
+Alpha = (Fund Return - Risk-free Rate) - Beta × (Benchmark Return - Risk-free Rate)
+      = (14% - 6%) - 1.2 × (10% - 6%)
+      = 8% - 1.2 × 4%
+      = 8% - 4.8% = 3.2%
+
+Interpretation: Fund generated 3.2% excess risk-adjusted return over benchmark
+```
+
+---
+
 ## 🏆 **ADVANCED PERSONAL FINANCE CONCEPTS**
 
 ### **12. BEHAVIORAL FINANCE AND BIASES**

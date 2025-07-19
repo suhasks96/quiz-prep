@@ -437,6 +437,150 @@ Position Size = ₹20,000 ÷ (200 × 75) = ₹20,000 ÷ ₹15,000 = 1.33 lots �
 
 ---
 
+## 🔢 **DETAILED MATHEMATICAL CALCULATIONS**
+
+### **14. STEP-BY-STEP FUTURES CALCULATIONS**
+
+#### **Leverage Calculation with Example**
+**Formula**: Leverage = Contract Value ÷ Margin Required
+
+**Example: TCS Futures**
+```
+Futures Price = ₹2,362 per share
+Lot Size = 125 shares
+Contract Value = 2,362 × 125 = ₹2,95,250
+Margin Required (14%) = 2,95,250 × 0.14 = ₹41,335
+
+Leverage = 2,95,250 ÷ 41,335 = 7.14 times (1:7.14 ratio)
+
+Maximum Tolerable Loss = 1 ÷ 7.14 = 14%
+(If TCS falls 14%, entire margin is wiped out)
+```
+
+#### **Mark-to-Market (M2M) Day-by-Day Calculation**
+**Example: 4-Day Hindalco Futures Trade**
+
+**Trade Details:**
+```
+Buy Price: ₹165 per share (Day 1 at 11:30 AM)
+Lot Size: 2,000 shares
+Contract Value: 165 × 2,000 = ₹3,30,000
+```
+
+**Daily M2M Calculation:**
+```
+Day 1 Close: ₹168.3
+M2M P&L = (168.3 - 165) × 2,000 = ₹6,600 (credited)
+New Reference Price = ₹168.3
+
+Day 2 Close: ₹172.4
+M2M P&L = (172.4 - 168.3) × 2,000 = ₹8,200 (credited)
+New Reference Price = ₹172.4
+
+Day 3 Close: ₹171.6
+M2M P&L = (171.6 - 172.4) × 2,000 = -₹1,600 (debited)
+New Reference Price = ₹171.6
+
+Day 4 Exit: ₹170.1 (at 2:15 PM)
+M2M P&L = (170.1 - 171.6) × 2,000 = -₹3,000 (debited)
+
+Total P&L = 6,600 + 8,200 - 1,600 - 3,000 = ₹10,200
+```
+
+#### **Margin Dynamics with Price Movement**
+**Example: HDFC Bank Futures (9-Day Trade)**
+
+**Initial Trade Setup:**
+```
+Buy Price: ₹938.7
+Lot Size: 250 shares
+Contract Value: 938.7 × 250 = ₹2,34,675
+SPAN Margin (7.5%): ₹17,600
+Exposure Margin (5%): ₹11,733
+Total Initial Margin: ₹29,334
+```
+
+**Price Movement Impact:**
+```
+If price drops to ₹880 (-8%):
+New Contract Value = 880 × 250 = ₹2,20,000
+New SPAN Margin = 2,20,000 × 7.5% = ₹16,500
+M2M Loss = (880 - 938.7) × 250 = -₹14,675
+
+Resulting Cash Balance = 29,334 - 14,675 = ₹14,659
+Since ₹14,659 < ₹16,500 (SPAN requirement)
+Result: MARGIN CALL issued
+```
+
+#### **Futures Pricing Formula Application**
+**Formula**: Futures Price = Spot Price × [1 + Rf × (x/365) - d]
+
+**Where:**
+- Rf = Risk-free rate (current: 8.35%)
+- x = Days to expiry
+- d = Dividend yield
+
+**Example: Infosys Futures Pricing**
+```
+Spot Price: ₹2,280.5
+Risk-free Rate: 8.3528%
+Days to Expiry: 7 days
+Dividend: 0 (none expected)
+
+Current Month Fair Value:
+= 2,280.5 × [1 + 8.3528% × (7/365)]
+= 2,280.5 × [1 + 0.001598]
+= 2,280.5 × 1.001598 = ₹2,284 (theoretical)
+
+Mid Month (34 days to expiry):
+= 2,280.5 × [1 + 8.3528% × (34/365)]
+= ₹2,299 (theoretical)
+
+Far Month (80 days to expiry):
+= 2,280.5 × [1 + 8.3528% × (80/365)]
+= ₹2,322 (theoretical)
+```
+
+#### **Calendar Spread Calculation**
+**Strategy**: Sell overpriced current month, buy underpriced mid month
+
+**Example Setup:**
+```
+Current Month Fair Value: ₹700
+Current Month Market Price: ₹700 (at fair value)
+Mid Month Fair Value: ₹665  
+Mid Month Market Price: ₹665 (at fair value)
+
+Trade: Short current month at ₹700, Long mid month at ₹665
+Net Premium Collected: ₹35 per share
+
+At Expiry (All Scenarios):
+Expiry at ₹660: (+40) + (-5) = +₹35 profit
+Expiry at ₹690: (+10) + (+25) = +₹35 profit  
+Expiry at ₹725: (-25) + (+60) = +₹35 profit
+
+Result: ₹35 profit regardless of expiry price
+```
+
+#### **Position Sizing Based on Risk**
+**Formula**: Position Size = Risk Capital ÷ (Stop Loss Distance × Lot Size)
+
+**Example:**
+```
+Available Capital: ₹5,00,000
+Risk per Trade: 2% = ₹10,000
+Entry Price: ₹1,200
+Stop Loss: ₹1,180 (₹20 distance)
+Lot Size: 100 shares
+
+Position Size = 10,000 ÷ (20 × 100) = 10,000 ÷ 2,000 = 5 lots
+
+Max Position Value = 5 × 100 × 1,200 = ₹6,00,000
+Margin Required (15%) = ₹90,000
+```
+
+---
+
 ## 🏆 **ADVANCED COMPARISON CONCEPTS**
 
 ### **13. INTERNATIONAL vs DOMESTIC MARKETS**

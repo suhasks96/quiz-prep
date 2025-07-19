@@ -230,6 +230,24 @@
 **Period**: Typically 14 days
 **Interpretation**: >70 overbought, <30 oversold
 
+**Step-by-Step RSI Calculation Example:**
+```
+14-Day Price Data: 100, 102, 105, 107, 103, 100, 99, 97, 100, 105, 107, 110, 114, 118
+
+Points Gained: 1, 2, 3, 2, 0, 0, 0, 0, 3, 5, 2, 3, 4, 4 = Total 29
+Points Lost: 0, 0, 0, 0, 4, 3, 1, 2, 0, 0, 0, 0, 0, 0 = Total 10
+
+Average Gain = 29 ÷ 14 = 2.07
+Average Loss = 10 ÷ 14 = 0.714
+
+RS = 2.07 ÷ 0.714 = 2.8991
+
+RSI = 100 - [100 ÷ (1 + 2.8991)]
+    = 100 - [100 ÷ 3.8991]
+    = 100 - 25.6469
+    = 74.35 (Overbought territory)
+```
+
 #### **MACD Components**
 **MACD Line**: 12-day EMA - 26-day EMA
 **Signal Line**: 9-day EMA of MACD line
@@ -241,6 +259,50 @@
 **Upper Band**: Middle Band + (2 × Standard Deviation)
 **Lower Band**: Middle Band - (2 × Standard Deviation)
 **%B**: Position within bands = (Price - Lower Band) ÷ (Upper Band - Lower Band)
+
+**Bollinger Bands Example Calculation:**
+```
+20-day SMA = ₹7,800
+Standard Deviation = ₹75 (or 0.96%)
+
+Upper Band = 7,800 + (2 × 75) = 7,800 + 150 = ₹7,950
+Lower Band = 7,800 - (2 × 75) = 7,800 - 150 = ₹7,650
+
+Trading Signals:
+- Sell Signal: When price touches ₹7,950 (upper band)
+- Buy Signal: When price touches ₹7,650 (lower band)
+- Target: ₹7,800 (middle band - mean reversion)
+```
+
+#### **Reward-to-Risk Ratio (RRR) Calculations**
+**Formula**: RRR = Expected Reward ÷ Risk Taken
+
+**Example 1 - Poor RRR:**
+```
+Entry: ₹55.75
+Stop Loss: ₹53.55
+Target: ₹57.20
+
+Risk = Entry - Stop Loss = 55.75 - 53.55 = ₹2.20
+Reward = Target - Entry = 57.20 - 55.75 = ₹1.45
+RRR = 1.45 ÷ 2.20 = 0.65 (Poor - Avoid this trade)
+```
+
+**Example 2 - Good RRR:**
+```
+Entry: ₹107
+Stop Loss: ₹102
+Target: ₹114
+
+Risk = Entry - Stop Loss = 107 - 102 = ₹5
+Reward = Target - Entry = 114 - 107 = ₹7
+RRR = 7 ÷ 5 = 1.4 (Good - Acceptable trade)
+```
+
+**RRR Guidelines:**
+- Minimum RRR should be 1.3 or higher
+- Conservative traders prefer RRR > 1.5
+- Ultra-cautious traders require RRR > 2.0
 
 ---
 

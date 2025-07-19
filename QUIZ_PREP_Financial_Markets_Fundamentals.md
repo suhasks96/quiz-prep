@@ -30,6 +30,47 @@
 
 ---
 
+## 📈 **RETURN CALCULATIONS - MATHEMATICAL FORMULAS**
+
+### **3. ABSOLUTE RETURN vs CAGR**
+
+#### **Absolute Return Formula**
+**Formula**: [Ending Period Value ÷ Starting Period Value - 1] × 100
+
+**Example Calculation**:
+```
+Purchase Price: ₹3,030 (Infosys)
+Selling Price: ₹3,550
+Absolute Return = [3,550 ÷ 3,030 - 1] × 100
+                = [1.1716 - 1] × 100
+                = 0.1716 × 100 = 17.16%
+```
+
+#### **CAGR (Compound Annual Growth Rate) Formula**
+**Formula**: {[Ending Value ÷ Starting Value]^(1/number of years) - 1} × 100
+
+**Example Calculation**:
+```
+Purchase Price: ₹3,030 (Infosys)
+Selling Price: ₹3,550 (after 2 years)
+CAGR = {[3,550 ÷ 3,030]^(1/2) - 1} × 100
+     = {[1.1716]^0.5 - 1} × 100
+     = {1.082 - 1} × 100 = 8.2%
+```
+
+#### **When to Use Which Formula**
+- **Absolute Return**: Use when holding period is 1 year or less
+- **CAGR**: Use when holding period is more than 1 year
+- **Annualized Return**: For periods less than 1 year, multiply by (12/months) or (365/days)
+
+**Short-term Example**:
+```
+6-month return of 17.16%
+Annualized Return = 17.16% × 2 = 34.32%
+```
+
+---
+
 ## 🏢 **MARKET INFRASTRUCTURE**
 
 ### **2. STOCK EXCHANGES COMPARISON**
@@ -73,11 +114,41 @@
 **Weight Assignment**: Higher market cap = Higher weight in index
 **Example**: If ITC has 7.6% weight in Nifty, then 7.6% of Nifty's movement comes from ITC
 
+#### **Free Float Market Capitalization Formula**
+**Formula**: Free Float Market Cap = Total Outstanding Shares × Current Stock Price
+
+**Example Calculation**:
+```
+Company ABC:
+- Total Outstanding Shares = 100 shares
+- Current Stock Price = ₹50
+- Free Float Market Cap = 100 × 50 = ₹5,000
+```
+
+#### **Index Weight Calculation**
+**Formula**: Stock Weight = (Stock's Market Cap ÷ Total Index Market Cap) × 100
+
+**Example**:
+```
+ITC Market Cap = ₹3,00,000 Crores
+Total Nifty Market Cap = ₹40,00,000 Crores
+ITC Weight = (3,00,000 ÷ 40,00,000) × 100 = 7.5%
+```
+
 #### **Index Calculation Process**
 1. **Calculate Market Cap**: For each stock (Shares × Price)
 2. **Sum Total Market Cap**: Add all constituent stocks
 3. **Apply Base Divisor**: Adjust for corporate actions
 4. **Index Value**: (Current Market Cap ÷ Base Market Cap) × Base Index Value
+
+#### **Index Movement Impact**
+**Formula**: Index Change = Σ(Stock Weight × Stock Price Change %)
+
+**Example**:
+```
+If ITC (7.6% weight) moves up 2%:
+Impact on Nifty = 7.6% × 2% = 0.152% (or ~15 points if Nifty at 10,000)
+```
 
 #### **Index Maintenance**
 - **Regular Review**: Semi-annual evaluation of constituents

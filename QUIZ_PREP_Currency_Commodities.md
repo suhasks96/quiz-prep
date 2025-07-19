@@ -416,6 +416,231 @@
 
 ---
 
+---
+
+## 🔢 **DETAILED MATHEMATICAL CALCULATIONS**
+
+### **11. STEP-BY-STEP CURRENCY AND COMMODITY CALCULATIONS**
+
+#### **Forward Premia and Interest Rate Parity Calculation**
+**Scenario**: Currency arbitrage opportunity analysis
+**Given Data:**
+- US Interest Rate: 0.5%
+- India Interest Rate: 7%
+- Current USD/INR Spot Rate: 67
+- Investment Amount: $10,000
+- Investment Period: 1 year
+
+**Step-by-Step Arbitrage Analysis:**
+
+**Step 1: Convert USD to INR and Invest**
+```
+Amount Borrowed in USD = $10,000
+Conversion to INR = $10,000 × 67 = ₹6,70,000
+Investment in India at 7% = ₹6,70,000 × (1 + 7%) = ₹7,16,900
+```
+
+**Step 2: Calculate Repayment Obligation in USD**
+```
+US Loan Repayment = $10,000 × (1 + 0.5%) = $10,050
+```
+
+**Step 3: Calculate Forward Rate to Eliminate Arbitrage**
+```
+Forward Rate = Rupee Amount ÷ Dollar Repayment
+            = ₹7,16,900 ÷ $10,050
+            = 71.33 USD/INR
+```
+
+**Step 4: Forward Premia Formula Verification**
+```
+F = S × (1 + Roc × N) ÷ (1 + Rbc × N)
+Where:
+F = Future Rate
+S = Today's spot rate = 67
+Roc = Interest rate in quotation currency (INR) = 7%
+Rbc = Interest rate in base currency (USD) = 0.5%
+N = Period in years = 1
+
+F = 67 × (1 + 7% × 1) ÷ (1 + 0.5% × 1)
+F = 67 × 1.07 ÷ 1.005
+F = 71.33
+```
+
+**Step 5: Interest Rate Parity Calculation**
+```
+Alternative Formula: F = S × (1 + interest rate differential)
+F = 67 × (1 + 7% - 0.5%)
+F = 67 × (1 + 6.5%)
+F = 67 × 1.065 = 71.35
+
+Note: Small difference due to compounding effect
+```
+
+#### **Currency Contract Valuation Examples**
+
+**USD/INR Futures Contract Calculation:**
+```
+Contract Specifications:
+- Lot Size: USD 1,000
+- Current Rate: 67.69
+- Tick Size: 0.0025 (1 pip)
+
+Contract Value = Lot Size × Rate
+               = USD 1,000 × 67.69
+               = ₹67,690
+
+Margin Required (2.5%) = ₹67,690 × 2.5% = ₹1,692
+
+P&L per Pip = Lot Size × Tick Size
+            = 1,000 × 0.0025 = ₹2.50
+
+If rate moves from 67.69 to 67.75 (6 pips):
+P&L = 6 pips × ₹2.50 = ₹15 per lot
+```
+
+**EUR/INR Futures Contract Calculation:**
+```
+Contract Specifications:
+- Lot Size: EUR 1,000
+- Current Rate: 74.8950
+- Tick Size: 0.0025
+
+Contract Value = EUR 1,000 × 74.8950 = ₹74,895
+Margin Required (2.5%) = ₹74,895 × 2.5% = ₹1,872
+P&L per Pip = EUR 1,000 × 0.0025 = ₹2.50
+```
+
+#### **Commodity Contract Calculations**
+
+**Gold (Big Gold) Contract Analysis:**
+```
+Contract Specifications:
+- Lot Size: 1 kg (1,000 grams)
+- Price Quote: Per 10 grams
+- Current Price: ₹31,331 per 10 grams
+- Tick Size: ₹1
+
+Contract Value = (1,000 ÷ 10) × ₹31,331 = ₹31,33,100
+Margin Required (4%) = ₹31,33,100 × 4% = ₹1,25,324
+
+P&L per Tick Formula = (Lot Size ÷ Quotation) × Tick Size
+P&L per Tick = (1,000 ÷ 10) × ₹1 = ₹100
+
+If Gold moves from ₹31,331 to ₹31,351 (20 ticks):
+P&L = 20 × ₹100 = ₹2,000 per lot
+```
+
+**Gold Mini Contract Analysis:**
+```
+Contract Specifications:
+- Lot Size: 100 grams
+- Price Quote: Per 10 grams
+- Current Price: ₹31,331 per 10 grams
+
+Contract Value = (100 ÷ 10) × ₹31,331 = ₹3,13,310
+Margin Required (4%) = ₹3,13,310 × 4% = ₹12,532
+
+P&L per Tick = (100 ÷ 10) × ₹1 = ₹10
+```
+
+**Crude Oil Contract Analysis:**
+```
+Contract Specifications:
+- Lot Size: 100 barrels
+- Price Quote: Per barrel
+- Current Price: ₹3,197 per barrel
+- Tick Size: ₹1
+
+Contract Value = 100 × ₹3,197 = ₹3,19,700
+Margin Required (9%) = ₹3,19,700 × 9% = ₹28,773
+
+P&L per Tick = 100 × ₹1 = ₹100
+
+If Crude moves from ₹3,197 to ₹3,217 (20 ticks):
+P&L = 20 × ₹100 = ₹2,000 per lot
+```
+
+#### **Calendar Spread Calculations**
+
+**USD/INR Calendar Spread Example:**
+```
+Trade Setup:
+- Buy Near Month (July): 67.50
+- Sell Far Month (August): 67.80
+- Spread = 67.80 - 67.50 = 0.30
+
+Position: Long Calendar Spread (expecting spread to widen)
+
+If spread moves to 0.35:
+P&L = (0.35 - 0.30) × 1,000 = ₹50 per spread
+
+If spread moves to 0.25:
+P&L = (0.25 - 0.30) × 1,000 = -₹50 per spread
+```
+
+#### **Cross-Currency Rate Calculation**
+
+**EUR/INR via USD/INR Cross Rate:**
+```
+Given:
+- USD/INR = 67.20
+- EUR/USD = 1.1150
+
+Cross Rate Calculation:
+EUR/INR = EUR/USD × USD/INR
+        = 1.1150 × 67.20
+        = 74.928
+
+Verification: If EUR/INR direct quote is 74.95
+Spread = 74.95 - 74.928 = 0.022 (arbitrage opportunity if significant)
+```
+
+#### **Commodity Import Parity Calculation**
+
+**Gold Import Parity Analysis:**
+```
+International Gold Data:
+- COMEX Gold: $1,320 per troy ounce
+- 1 troy ounce = 31.1035 grams
+- USD/INR = 67
+
+Step 1: Calculate Gold Price per 10 grams in USD
+Price per 10g = ($1,320 ÷ 31.1035) × 10 = $424.43
+
+Step 2: Convert to INR (before duties)
+Price in INR = $424.43 × 67 = ₹28,437 per 10g
+
+Step 3: Add Import Costs (example)
+- Custom Duty: 10% = ₹2,844
+- Cess: 3% = ₹853
+- Other Costs: 2% = ₹569
+Total Import Cost = ₹2,844 + ₹853 + ₹569 = ₹4,266
+
+Step 4: Final Landed Cost
+Landed Cost = ₹28,437 + ₹4,266 = ₹32,703 per 10g
+
+If MCX Gold trades at ₹31,331:
+Discount to Import Parity = ₹32,703 - ₹31,331 = ₹1,372 per 10g
+```
+
+#### **Natural Gas Contract Calculation**
+```
+Contract Specifications:
+- Lot Size: 1,250 mmBtu
+- Price Quote: Per mmBtu
+- Current Price: ₹217.3 per mmBtu
+- Tick Size: ₹0.10
+
+Contract Value = 1,250 × ₹217.3 = ₹2,71,625
+Margin Required (15%) = ₹2,71,625 × 15% = ₹40,744
+
+P&L per Tick = 1,250 × ₹0.10 = ₹125
+
+If Natural Gas moves from ₹217.3 to ₹220.0 (27 ticks):
+P&L = 27 × ₹125 = ₹3,375 per lot
+```
+
 **REMEMBER**: Currency and commodity futures provide global diversification beyond domestic equity markets. Currency markets offer lower volatility and central bank policy exposure, while commodity markets provide higher volatility and supply-demand dynamics. Understanding international price relationships and time zone advantages is crucial for these markets.
 
 **EXAM FOCUS**: Master the differences between currency and commodity futures, understand specific product characteristics like WTI vs Brent crude, know the correlation relationships between different asset classes, and be familiar with hedging applications for different market participants.
