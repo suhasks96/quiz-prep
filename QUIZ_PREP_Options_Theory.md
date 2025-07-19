@@ -286,9 +286,163 @@ Stock Trading at ₹8,100
 
 ---
 
+## 💡 **POSITION SIZING IN OPTIONS TRADING**
+
+### **11. COMPREHENSIVE POSITION SIZING STRATEGIES**
+
+#### **Options Position Sizing Methods**
+
+| **METHOD** | **APPROACH** | **RISK FOCUS** | **BEST FOR** |
+|------------|--------------|----------------|--------------|
+| **Fixed Premium** | Same premium amount per trade | Premium loss | Conservative traders |
+| **Fixed Contracts** | Same number of contracts | Simple execution | Beginners |
+| **Risk-Based** | Based on maximum loss tolerance | Total portfolio risk | Professional traders |
+| **Kelly Criterion** | Probability-based optimal sizing | Mathematical optimization | Advanced traders |
+| **Volatility-Adjusted** | Adjust for implied volatility | Volatility risk | Experienced traders |
+
+#### **Method 1: Fixed Premium Approach**
+**Strategy**: Risk same premium amount regardless of option price
+**Example**: Always risk ₹10,000 in premium per trade
+
+**Practical Example**:
+**Trading Capital**: ₹5,00,000
+**Risk per Trade**: 2% = ₹10,000
+**Option 1**: Nifty 18000 CE at ₹200 → Buy 50 contracts (₹10,000)
+**Option 2**: Nifty 18500 CE at ₹50 → Buy 200 contracts (₹10,000)
+
+**Advantage**: Consistent risk amount
+**Disadvantage**: Different position sizes and Greeks exposure
+
+#### **Method 2: Risk-Based Position Sizing**
+**Strategy**: Size positions based on total account risk including Greeks
+**Formula**: Position Size = Risk Amount ÷ Maximum Possible Loss
+
+**Comprehensive Example**:
+**Trading Capital**: ₹10,00,000
+**Risk per Trade**: 3% = ₹30,000
+**Trade**: Long Nifty 18000 CE at ₹200
+**Maximum Loss**: Premium paid = ₹200 per contract
+**Position Size**: ₹30,000 ÷ ₹200 = 150 contracts
+**Total Premium**: 150 × ₹200 = ₹30,000
+
+**Greeks Analysis**:
+- **Delta**: 0.5 → Position delta = 150 × 0.5 = 75 (equivalent to 1 Nifty future)
+- **Theta**: -₹50 per day → Daily decay = 150 × ₹50 = ₹7,500
+- **Vega**: ₹100 per 1% IV → IV sensitivity = 150 × ₹100 = ₹15,000
+
+#### **Method 3: Volatility-Adjusted Sizing**
+**Strategy**: Adjust position size based on implied volatility levels
+**Formula**: Base Size × (Normal IV ÷ Current IV)
+
+**Detailed Example**:
+**Base Position**: 100 contracts when IV is normal
+**Normal IV**: 20%
+**Current IV**: 30% (high volatility)
+**Adjusted Position**: 100 × (20 ÷ 30) = 67 contracts
+
+**When IV = 15%** (low volatility):
+**Adjusted Position**: 100 × (20 ÷ 15) = 133 contracts
+
+**Rationale**: High IV options are expensive, so buy fewer contracts
+
+#### **Method 4: Kelly Criterion for Options**
+**Formula**: f = (bp - q) / b
+**Where**:
+- f = Fraction of capital to risk
+- b = Odds (average win ÷ average loss)
+- p = Win probability
+- q = Loss probability
+
+**Options Trading Example**:
+**Win Rate**: 40% (p = 0.4)
+**Loss Rate**: 60% (q = 0.6)
+**Average Win**: ₹500 per contract
+**Average Loss**: ₹200 per contract (premium)
+**Odds**: 500/200 = 2.5
+
+**Kelly %**: (2.5 × 0.4 - 0.6) ÷ 2.5 = 0.16 = 16%
+**Capital to Risk**: ₹10,00,000 × 16% = ₹1,60,000
+**If premium is ₹200**: 1,60,000 ÷ 200 = 800 contracts
+
+**Practical Adjustment**: Use 25% of Kelly = 200 contracts
+
+---
+
+## 📊 **PRACTICAL OPTIONS POSITION SIZING EXAMPLES**
+
+### **12. REAL-WORLD SCENARIOS**
+
+#### **Scenario 1: Conservative Long-Term Investor**
+**Profile**: ₹15,00,000 capital, 1% risk per trade, buy protective puts
+**Risk per Trade**: ₹15,000
+**Strategy**: Buy puts to protect equity portfolio
+
+**Equity Portfolio**: ₹12,00,000 (80% of capital)
+**Protection Level**: 10% below current level
+**Nifty Level**: 18,000
+**Protection Level**: 16,200
+**16200 PE Premium**: ₹120
+
+**Hedge Calculation**:
+- Portfolio Beta vs Nifty: Assume 1.0
+- Nifty Exposure: ₹12,00,000
+- Contracts Needed: ₹12,00,000 ÷ (18,000 × 75) = 8.89 ≈ 9 contracts
+- **Total Premium**: 9 × ₹120 × 75 = ₹81,000
+- **Risk Check**: ₹81,000 > ₹15,000 (exceeds risk limit)
+
+**Alternative Approach**: Partial hedge with fewer contracts
+**Contracts**: ₹15,000 ÷ (₹120 × 75) = 1.67 ≈ 2 contracts
+**Protection Coverage**: 2 × ₹13,50,000 = ₹27,00,000 (22.5% of portfolio)
+
+#### **Scenario 2: Active Options Trader**
+**Profile**: ₹25,00,000 capital, 2% risk per trade, directional trading
+**Risk per Trade**: ₹50,000
+**Strategy**: Buy Nifty calls expecting 5% upward move
+
+**Market Analysis**:
+- Current Nifty: 18,000
+- Target: 18,900 (5% up)
+- Time Frame: 2 weeks
+- Selected Option: 18200 CE at ₹150
+
+**Position Sizing Calculation**:
+- Maximum Loss: ₹150 per contract (premium)
+- Position Size: ₹50,000 ÷ ₹150 = 333 contracts
+- **Total Premium**: 333 × ₹150 = ₹49,950
+
+**Risk-Reward Analysis**:
+- **If Nifty hits 18,900**: Option value ≈ ₹700
+- **Profit**: 333 × (₹700 - ₹150) = ₹1,83,150
+- **ROI**: ₹1,83,150 ÷ ₹49,950 = 367%
+- **Risk-Reward Ratio**: 1:3.67
+
+#### **Scenario 3: Income Generation Strategy**
+**Profile**: ₹50,00,000 capital, sell covered calls for income
+**Strategy**: Own Nifty through ETF, sell calls for premium income
+
+**Portfolio Setup**:
+- Nifty ETF Holdings: ₹40,00,000 (equivalent to ~30 Nifty lots)
+- Cash Reserve: ₹10,00,000
+- Strategy: Sell OTM calls monthly
+
+**Monthly Income Calculation**:
+- Nifty Level: 18,000
+- Sell 18500 CE (OTM) at ₹80
+- **Contracts to Sell**: 30 (matching ETF holdings)
+- **Monthly Income**: 30 × ₹80 × 75 = ₹1,80,000
+- **Annualized Income**: ₹1,80,000 × 12 = ₹21,60,000
+- **Yield on Portfolio**: ₹21,60,000 ÷ ₹50,00,000 = 43.2%
+
+**Risk Management**:
+- **Assignment Risk**: If Nifty > 18,500 at expiry
+- **Opportunity Cost**: Miss gains above 18,500
+- **Protection**: Keep some cash for rolling positions
+
+---
+
 ## ✅ **ENHANCED QUIZ STRATEGIES**
 
-### **11. COMPARISON-BASED QUESTIONS**
+### **13. COMPARISON-BASED EXAM QUESTIONS**
 
 #### **Expected Question Types**
 **Call vs Put Mechanics** (25%):
@@ -296,6 +450,12 @@ Stock Trading at ₹8,100
 2. Moneyness classification differences
 3. Exercise conditions and payoffs
 4. Greek behavior comparisons
+
+**Position Sizing** (20%):
+1. Risk-based position sizing calculations
+2. Premium amount vs contract-based sizing
+3. Volatility-adjusted position sizing
+4. Portfolio hedging calculations
 
 **European vs American** (15%):
 1. Exercise style differences
@@ -328,12 +488,14 @@ Stock Trading at ₹8,100
 - **Put Intrinsic Value**: Max(K - S, 0)
 - **Put-Call Parity**: C + PV(K) = P + S
 - **Time Value**: Option Premium - Intrinsic Value
+- **Position Size (Risk-Based)**: Risk Amount ÷ Maximum Loss per Contract
+- **Kelly Criterion**: f = (bp - q) / b
 
 ---
 
-**REMEMBER**: Options provide asymmetric risk-reward profiles with limited downside (premium) and potentially unlimited upside. Call and put options are complementary instruments with opposite directional exposures. Understanding moneyness, Greeks behavior, and put-call parity is essential for options trading and risk management.
+**REMEMBER**: Options provide asymmetric risk-reward profiles with limited downside (premium) and potentially unlimited upside. Call and put options are complementary instruments with opposite directional exposures. Position sizing is crucial - never risk more than 2-3% of capital per trade. Understanding moneyness, Greeks behavior, and put-call parity is essential for options trading and risk management.
 
-**EXAM FOCUS**: Master the differences between calls and puts, understand moneyness classification, practice intrinsic value calculations, know Greek behavior patterns, and understand European vs American exercise styles. Comparison questions are fundamental to options knowledge.
+**EXAM FOCUS**: Master the differences between calls and puts, understand moneyness classification, practice intrinsic value calculations, know Greek behavior patterns, understand position sizing methodologies, and understand European vs American exercise styles. Position sizing calculations are increasingly important in professional options trading.
 
 ---
 *Rights • Obligations • Premiums • Probabilities*

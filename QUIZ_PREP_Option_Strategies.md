@@ -289,9 +289,168 @@
 
 ---
 
+## 💡 **POSITION SIZING FOR OPTION STRATEGIES**
+
+### **9. STRATEGY-SPECIFIC POSITION SIZING**
+
+#### **Position Sizing Methods by Strategy Type**
+
+| **STRATEGY TYPE** | **SIZING METHOD** | **RISK CALCULATION** | **KEY CONSIDERATIONS** |
+|------------------|------------------|-------------------|----------------------|
+| **Long Options** | Premium-based risk | Maximum loss = Premium paid | Simple risk calculation |
+| **Short Options** | Margin-based risk | Unlimited loss potential | Complex risk management |
+| **Spreads** | Net debit/credit risk | Maximum loss defined | Balanced risk-reward |
+| **Straddles/Strangles** | Volatility-based risk | Movement requirement | Breakeven analysis crucial |
+| **Iron Condor** | Range-based risk | Profit zone width | High probability trades |
+
+#### **Spread Strategy Position Sizing Examples**
+
+**Bull Call Spread Example**:
+**Setup**: Nifty 18000 CE (buy) at ₹200, Nifty 18200 CE (sell) at ₹100
+**Net Debit**: ₹200 - ₹100 = ₹100 per spread
+**Maximum Profit**: ₹200 - ₹100 = ₹100 per spread
+**Risk-Reward Ratio**: 1:1
+
+**Position Sizing Calculation**:
+**Trading Capital**: ₹10,00,000
+**Risk per Trade**: 2% = ₹20,000
+**Position Size**: ₹20,000 ÷ ₹100 = 200 spreads
+**Total Capital Required**: 200 × ₹100 = ₹20,000
+**Maximum Profit Potential**: 200 × ₹100 = ₹20,000
+
+#### **Iron Condor Position Sizing Example**
+
+**Setup**: Nifty Iron Condor
+- Sell 17800 PE at ₹80
+- Buy 17600 PE at ₹40  
+- Sell 18200 CE at ₹80
+- Buy 18400 CE at ₹40
+**Net Credit**: (₹80 + ₹80) - (₹40 + ₹40) = ₹80 per condor
+**Maximum Loss**: ₹200 - ₹80 = ₹120 per condor (strike width - credit)
+
+**Position Sizing Calculation**:
+**Trading Capital**: ₹15,00,000
+**Risk per Trade**: 1.5% = ₹22,500
+**Position Size**: ₹22,500 ÷ ₹120 = 187 condors
+**Margin Required**: ~₹20,000 per condor = 187 × ₹20,000 = ₹37,40,000
+**Issue**: Insufficient capital for desired position size
+
+**Adjusted Position**:
+**Available Margin**: ₹3,00,000 (20% of capital)
+**Position Size**: ₹3,00,000 ÷ ₹20,000 = 15 condors
+**Actual Risk**: 15 × ₹120 = ₹1,800
+**Risk Percentage**: ₹1,800 ÷ ₹15,00,000 = 0.12%
+
+---
+
+## 📊 **PRACTICAL STRATEGY POSITION SIZING EXAMPLES**
+
+### **10. REAL-WORLD STRATEGY SCENARIOS**
+
+#### **Scenario 1: Covered Call Income Strategy**
+**Profile**: ₹25,00,000 portfolio, 50% in Nifty ETF, seeking monthly income
+**Equity Holdings**: ₹12,50,000 in Nifty ETF (≈ 7 Nifty lots equivalent)
+**Strategy**: Monthly covered calls
+
+**Monthly Setup**:
+- Nifty Level: 18,000
+- ETF Holdings: 7 lots equivalent
+- Sell 18300 CE (OTM) at ₹60
+- **Contracts to Sell**: 7 lots
+- **Monthly Income**: 7 × ₹60 × 75 = ₹31,500
+- **Annualized Yield**: ₹31,500 × 12 ÷ ₹12,50,000 = 30.24%
+
+**Risk Analysis**:
+- **Assignment Risk**: Above 18,300
+- **Opportunity Cost**: Limited upside above 18,300
+- **Downside Protection**: Only ₹60 per contract
+
+#### **Scenario 2: Volatility Trading with Straddles**
+**Profile**: ₹20,00,000 capital, expecting high volatility before earnings
+**Strategy**: Long straddle before earnings announcement
+**Risk per Trade**: 3% = ₹60,000
+
+**Trade Setup**:
+- Nifty Level: 18,000 
+- Buy 18000 CE at ₹200
+- Buy 18000 PE at ₹180
+- **Total Premium**: ₹200 + ₹180 = ₹380 per straddle
+- **Position Size**: ₹60,000 ÷ ₹380 = 157 straddles
+- **Total Cost**: 157 × ₹380 = ₹59,660
+
+**Breakeven Analysis**:
+- **Upper Breakeven**: 18,000 + 380 = 18,380
+- **Lower Breakeven**: 18,000 - 380 = 17,620
+- **Required Move**: ±380 points (±2.1%) for breakeven
+- **Profit Zone**: Outside 17,620-18,380 range
+
+#### **Scenario 3: Conservative Bull Put Spread**
+**Profile**: ₹8,00,000 capital, mildly bullish on Nifty, income focus
+**Strategy**: Bull put spread for monthly income
+**Risk per Trade**: 2.5% = ₹20,000
+
+**Trade Setup**:
+- Sell 17600 PE at ₹120
+- Buy 17400 PE at ₹80
+- **Net Credit**: ₹120 - ₹80 = ₹40 per spread
+- **Maximum Loss**: ₹200 - ₹40 = ₹160 per spread
+- **Position Size**: ₹20,000 ÷ ₹160 = 125 spreads
+
+**Strategy Analysis**:
+- **Maximum Profit**: 125 × ₹40 = ₹5,000 (if Nifty > 17,600)
+- **Maximum Loss**: 125 × ₹160 = ₹20,000 (if Nifty < 17,400)
+- **Probability of Profit**: ~75% (Nifty needs to stay above 17,600)
+- **Breakeven**: 17,600 - 40 = 17,560
+
+#### **Scenario 4: Calendar Spread Strategy**
+**Profile**: ₹12,00,000 capital, time decay income, low volatility environment
+**Strategy**: Calendar spreads on ATM options
+**Risk per Trade**: 1.5% = ₹18,000
+
+**Trade Setup**:
+- Sell front month 18000 CE at ₹150
+- Buy next month 18000 CE at ₹220
+- **Net Debit**: ₹220 - ₹150 = ₹70 per calendar
+- **Position Size**: ₹18,000 ÷ ₹70 = 257 calendars
+
+**Time Decay Strategy**:
+- **Best Scenario**: Nifty stays near 18,000 at front month expiry
+- **Front Month Expires**: ₹150 premium collected
+- **Back Month Retains**: Most of ₹220 value
+- **Estimated Profit**: ₹50-80 per calendar if scenario works
+
+---
+
+## 🏆 **ADVANCED STRATEGY CONCEPTS**
+
+### **11. MULTI-LEG STRATEGY MANAGEMENT**
+
+#### **Position Greeks Comparison**
+
+| **STRATEGY** | **DELTA** | **GAMMA** | **THETA** | **VEGA** |
+|--------------|-----------|-----------|-----------|----------|
+| **Bull Call Spread** | Positive | Long gamma | Net negative | Net negative |
+| **Iron Condor** | Near zero | Short gamma | Positive | Negative |
+| **Long Straddle** | Near zero | Long gamma | Negative | Positive |
+| **Calendar Spread** | Variable | Variable | Initially positive | Positive |
+
+#### **Exit Strategy Guidelines**
+**Profit Targets**: Close at 25-50% of maximum profit
+**Loss Limits**: Close at 2-3x credit received or 50% of max loss
+**Time Management**: Close positions 7-14 days before expiry
+**Volatility Changes**: Adjust when IV rank changes significantly
+
+#### **Rolling and Adjustment Techniques**
+**Rolling Out**: Extend expiry date
+**Rolling Up/Down**: Change strike prices
+**Rolling for Credit**: Ensure net credit when adjusting
+**Defensive Adjustments**: Manage losing sides of trades
+
+---
+
 ## ✅ **ENHANCED QUIZ STRATEGIES**
 
-### **9. OPTION STRATEGIES EXAM PREPARATION**
+### **12. OPTION STRATEGIES EXAM PREPARATION**
 
 #### **Expected Question Types**
 **Strategy Comparison** (30%):
@@ -299,6 +458,12 @@
 2. Bull spreads vs bear spreads construction
 3. Call spreads vs put spreads selection criteria
 4. Volatility strategies for different market conditions
+
+**Position Sizing** (20%):
+1. Strategy-specific position sizing calculations
+2. Risk management for multi-leg positions
+3. Margin requirements vs capital allocation
+4. Greeks-based position sizing
 
 **Risk-Reward Analysis** (25%):
 1. Maximum profit/loss calculations
@@ -334,6 +499,11 @@
 - Max Loss = Strike Width - Net Credit
 - Breakeven = Short Strikes ± Net Credit
 
+**Position Sizing Formulas**:
+- **Spread Position Size** = Risk Amount ÷ Maximum Loss per Spread
+- **Straddle Position Size** = Risk Amount ÷ Total Premium per Straddle
+- **Iron Condor Position Size** = Risk Amount ÷ (Strike Width - Net Credit)
+
 #### **Quick Decision Framework**
 **Market Outlook** → **Strategy Type** → **Risk Tolerance** → **Strategy Selection**
 
@@ -344,36 +514,9 @@
 
 ---
 
-## 🏆 **ADVANCED STRATEGY CONCEPTS**
+**REMEMBER**: Option strategies are about probability, not certainty. Choose strategies that match your market outlook, risk tolerance, and capital requirements. Spreads provide better risk management than naked positions but limit profit potential. Position sizing is crucial for managing portfolio risk - never allocate more than 2-3% of capital to any single strategy. Master the basic spreads before attempting complex multi-leg strategies.
 
-### **10. MULTI-LEG STRATEGY MANAGEMENT**
-
-#### **Position Greeks Comparison**
-
-| **STRATEGY** | **DELTA** | **GAMMA** | **THETA** | **VEGA** |
-|--------------|-----------|-----------|-----------|----------|
-| **Bull Call Spread** | Positive | Long gamma | Net negative | Net negative |
-| **Iron Condor** | Near zero | Short gamma | Positive | Negative |
-| **Long Straddle** | Near zero | Long gamma | Negative | Positive |
-| **Calendar Spread** | Variable | Variable | Initially positive | Positive |
-
-#### **Exit Strategy Guidelines**
-**Profit Targets**: Close at 25-50% of maximum profit
-**Loss Limits**: Close at 2-3x credit received or 50% of max loss
-**Time Management**: Close positions 7-14 days before expiry
-**Volatility Changes**: Adjust when IV rank changes significantly
-
-#### **Rolling and Adjustment Techniques**
-**Rolling Out**: Extend expiry date
-**Rolling Up/Down**: Change strike prices
-**Rolling for Credit**: Ensure net credit when adjusting
-**Defensive Adjustments**: Manage losing sides of trades
-
----
-
-**REMEMBER**: Option strategies are about probability, not certainty. Choose strategies that match your market outlook, risk tolerance, and capital requirements. Spreads provide better risk management than naked positions but limit profit potential. Master the basic spreads before attempting complex multi-leg strategies.
-
-**EXAM FOCUS**: Understand the trade-offs between different strategy types, know how to calculate maximum profit/loss and breakeven points, master the selection criteria for different market environments, and be familiar with risk management techniques for multi-leg positions.
+**EXAM FOCUS**: Understand the trade-offs between different strategy types, know how to calculate maximum profit/loss and breakeven points, master position sizing methodologies for different strategies, master the selection criteria for different market environments, and be familiar with risk management techniques for multi-leg positions. Strategy-specific position sizing calculations are increasingly tested in professional exams.
 
 ---
 *Spreads • Volatility • Income • Management*

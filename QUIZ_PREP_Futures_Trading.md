@@ -205,9 +205,134 @@
 
 ---
 
-## 📊 **EXPIRY AND SETTLEMENT COMPARISON**
+## 💡 **POSITION SIZING IN FUTURES TRADING**
 
-### **8. CONTRACT MONTH ANALYSIS**
+### **8. COMPREHENSIVE POSITION SIZING STRATEGIES**
+
+#### **Position Sizing Methods for Futures**
+
+| **METHOD** | **CALCULATION** | **RISK FOCUS** | **SUITABILITY** |
+|------------|-----------------|----------------|-----------------|
+| **Fixed Contract** | Same number of contracts | Simple approach | Beginners |
+| **Fixed Capital** | Same rupee exposure | Capital consistency | Conservative traders |
+| **Risk-Based** | Based on maximum loss tolerance | Risk management | Professional traders |
+| **Volatility-Adjusted** | Inverse to volatility | Risk equalization | Advanced traders |
+
+#### **Method 1: Fixed Contract Approach**
+**Strategy**: Trade same number of contracts regardless of price
+**Example**: Always trade 1 lot of Nifty futures
+**Advantage**: Simple execution
+**Disadvantage**: Risk varies with price levels
+
+**Practical Example**:
+- Nifty at 18,000: Risk = 18,000 × 75 = ₹13,50,000 exposure
+- Nifty at 20,000: Risk = 20,000 × 75 = ₹15,00,000 exposure
+- Risk Difference = ₹1,50,000 (11% higher risk)
+
+#### **Method 2: Fixed Capital Approach**
+**Strategy**: Maintain same rupee exposure across trades
+**Calculation**: Number of Lots = Target Exposure ÷ Contract Value
+
+**Detailed Example**:
+**Target Exposure**: ₹10,00,000
+**Nifty at 18,000**: Contract Value = 18,000 × 75 = ₹13,50,000
+**Lots Required**: ₹10,00,000 ÷ ₹13,50,000 = 0.74 lots ≈ 1 lot
+**Actual Exposure**: 1 × ₹13,50,000 = ₹13,50,000
+
+**Nifty at 15,000**: Contract Value = 15,000 × 75 = ₹11,25,000
+**Lots Required**: ₹10,00,000 ÷ ₹11,25,000 = 0.89 lots ≈ 1 lot
+**Actual Exposure**: 1 × ₹11,25,000 = ₹11,25,000
+
+#### **Method 3: Risk-Based Position Sizing**
+**Strategy**: Size positions based on maximum acceptable loss
+**Formula**: Position Size = Risk Amount ÷ (Stop Loss Distance × Lot Size)
+
+**Comprehensive Example**:
+**Trading Capital**: ₹10,00,000
+**Risk per Trade**: 2% = ₹20,000
+**Nifty Current Price**: 18,000
+**Stop Loss Level**: 17,400 (600 points below)
+**Lot Size**: 75
+
+**Calculation**:
+Position Size = ₹20,000 ÷ (600 × 75) = ₹20,000 ÷ ₹45,000 = 0.44 lots
+
+**Practical Decision**: Trade 0 lots (risk too high) or accept higher risk with 1 lot
+
+**Alternative with Smaller Stop**:
+**Stop Loss Level**: 17,800 (200 points below)
+Position Size = ₹20,000 ÷ (200 × 75) = ₹20,000 ÷ ₹15,000 = 1.33 lots ≈ 1 lot
+
+#### **Method 4: Volatility-Adjusted Sizing**
+**Strategy**: Reduce position size when volatility is high
+**Formula**: Base Position Size × (Average Volatility ÷ Current Volatility)
+
+**Practical Example**:
+**Base Position**: 2 lots when volatility is normal
+**Average VIX**: 20
+**Current VIX**: 30 (high volatility)
+**Adjusted Position**: 2 × (20 ÷ 30) = 1.33 lots ≈ 1 lot
+
+**When VIX = 15** (low volatility):
+**Adjusted Position**: 2 × (20 ÷ 15) = 2.67 lots ≈ 3 lots
+
+---
+
+## 📊 **PRACTICAL POSITION SIZING EXAMPLES**
+
+### **9. REAL-WORLD SCENARIOS**
+
+#### **Scenario 1: Conservative Trader**
+**Profile**: ₹5,00,000 capital, 1% risk per trade, long-term view
+**Risk per Trade**: ₹5,000
+**Target**: Nifty long at 18,000, stop at 17,700
+
+**Calculation**:
+- Stop Loss Distance: 300 points
+- Loss per Lot: 300 × 75 = ₹22,500
+- Position Size: ₹5,000 ÷ ₹22,500 = 0.22 lots
+- **Decision**: No trade (position too small) or accept higher risk
+
+**Alternative Approach**: Use Bank Nifty with smaller lot size
+**Bank Nifty at 42,000, Stop at 41,500** (500 points)
+- Loss per Lot: 500 × 25 = ₹12,500
+- Position Size: ₹5,000 ÷ ₹12,500 = 0.4 lots
+- **Decision**: Still too small, consider options or cash market
+
+#### **Scenario 2: Aggressive Trader**
+**Profile**: ₹20,00,000 capital, 3% risk per trade, active trading
+**Risk per Trade**: ₹60,000
+**Target**: Nifty short at 19,000, stop at 19,400
+
+**Calculation**:
+- Stop Loss Distance: 400 points  
+- Loss per Lot: 400 × 75 = ₹30,000
+- Position Size: ₹60,000 ÷ ₹30,000 = 2 lots
+- **Margin Required**: 2 × ₹1,23,500 = ₹2,47,000
+- **Margin Utilization**: ₹2,47,000 ÷ ₹20,00,000 = 12.4%
+
+**Risk Management Check**:
+- **Maximum Loss**: ₹60,000 (3% of capital) ✓
+- **Margin Comfort**: 12.4% utilization allows for mark-to-market ✓
+- **Position Manageable**: 2 lots easy to monitor ✓
+
+#### **Scenario 3: Hedging Example**
+**Profile**: Equity portfolio worth ₹1,00,00,000, hedge 50%
+**Hedge Value**: ₹50,00,000
+**Nifty Level**: 20,000
+**Contract Value**: 20,000 × 75 = ₹15,00,000
+
+**Hedge Calculation**:
+- Futures Required: ₹50,00,000 ÷ ₹15,00,000 = 3.33 lots
+- **Hedge Decision**: Sell 3 lots of Nifty futures
+- **Hedge Coverage**: 3 × ₹15,00,000 = ₹45,00,000 (90% hedge)
+- **Margin Required**: 3 × ₹97,500 = ₹2,92,500
+
+---
+
+## 📈 **EXPIRY AND SETTLEMENT COMPARISON**
+
+### **10. CONTRACT MONTH ANALYSIS**
 
 #### **Near vs Far Month Contracts**
 
@@ -233,7 +358,7 @@
 
 ## 🔢 **FUTURES PRICING COMPARISON**
 
-### **9. FAIR VALUE vs MARKET PRICE**
+### **11. FAIR VALUE vs MARKET PRICE**
 
 #### **Theoretical vs Actual Pricing**
 
@@ -260,7 +385,7 @@
 
 ## ✅ **ENHANCED QUIZ STRATEGIES**
 
-### **10. COMPARISON-BASED EXAM QUESTIONS**
+### **12. FUTURES TRADING EXAM PREPARATION**
 
 #### **Expected Question Types**
 **Futures vs Forwards** (25%):
@@ -268,6 +393,12 @@
 2. Risk management features
 3. Regulatory framework differences
 4. Market accessibility and liquidity
+
+**Position Sizing** (20%):
+1. Risk-based position sizing calculations
+2. Margin requirement assessments
+3. Volatility-adjusted position sizing
+4. Portfolio hedging calculations
 
 **Cash vs Derivatives** (25%):
 1. Leverage and margin comparisons
@@ -301,12 +432,14 @@
 - **Margin Requirement** = Contract Value × Margin %
 - **P&L** = (Exit Price - Entry Price) × Lot Size
 - **Return on Margin** = P&L ÷ Margin Used × 100
+- **Position Size (Risk-Based)** = Risk Amount ÷ (Stop Distance × Lot Size)
+- **Hedge Ratio** = Portfolio Value ÷ Contract Value
 
 ---
 
 ## 🏆 **ADVANCED COMPARISON CONCEPTS**
 
-### **11. INTERNATIONAL vs DOMESTIC MARKETS**
+### **13. INTERNATIONAL vs DOMESTIC MARKETS**
 
 #### **Global Futures Market Comparison**
 
@@ -325,9 +458,9 @@
 
 ---
 
-**REMEMBER**: Futures are standardized, exchange-traded contracts with daily mark-to-market settlement. They provide leverage, enable short selling, and facilitate both hedging and speculation. Understanding the differences between futures and forwards, cash and derivatives markets, and various contract types is essential for derivatives trading.
+**REMEMBER**: Futures are standardized, exchange-traded contracts with daily mark-to-market settlement. They provide leverage, enable short selling, and facilitate both hedging and speculation. Position sizing is crucial for risk management - never risk more than 2-3% of capital per trade. Understanding the differences between futures and forwards, cash and derivatives markets, and various contract types is essential for derivatives trading.
 
-**EXAM FOCUS**: Master the structural differences between futures and forwards, understand margin calculations and P&L scenarios, know the advantages of index over stock futures, and be able to analyze hedging vs speculation strategies. Comparative analysis is fundamental to futures market understanding.
+**EXAM FOCUS**: Master the structural differences between futures and forwards, understand margin calculations and P&L scenarios, know position sizing methodologies, understand the advantages of index over stock futures, and be able to analyze hedging vs speculation strategies. Position sizing calculations are increasingly tested in professional exams.
 
 ---
 *Leverage • Hedging • Speculation • Settlement*
