@@ -68,9 +68,263 @@
 
 ---
 
+## 📊 **MATHEMATICAL FOUNDATIONS OF RISK**
+
+### **3. VARIANCE, STANDARD DEVIATION & VOLATILITY CALCULATIONS**
+
+#### **Standard Deviation Formula and Calculation**
+
+**Population Standard Deviation**:
+**σ = √[Σ(Xi - μ)² / N]**
+
+**Sample Standard Deviation**:
+**s = √[Σ(Xi - X̄)² / (n-1)]**
+
+**Where**:
+- Xi = Individual return
+- μ = Population mean
+- X̄ = Sample mean
+- N = Population size
+- n = Sample size
+
+#### **Detailed Volatility Calculation Example**
+
+**Stock Returns Data (5 days)**:
+Day 1: +2.5%, Day 2: -1.2%, Day 3: +3.8%, Day 4: -0.5%, Day 5: +1.4%
+
+**Step-by-Step Calculation**:
+
+**Step 1**: Calculate mean return
+Mean = (2.5 - 1.2 + 3.8 - 0.5 + 1.4) ÷ 5 = 6.0 ÷ 5 = 1.2%
+
+**Step 2**: Calculate deviations from mean
+- Day 1: 2.5 - 1.2 = 1.3%
+- Day 2: -1.2 - 1.2 = -2.4%
+- Day 3: 3.8 - 1.2 = 2.6%
+- Day 4: -0.5 - 1.2 = -1.7%
+- Day 5: 1.4 - 1.2 = 0.2%
+
+**Step 3**: Square the deviations
+- (1.3)² = 1.69
+- (-2.4)² = 5.76
+- (2.6)² = 6.76
+- (-1.7)² = 2.89
+- (0.2)² = 0.04
+
+**Step 4**: Sum of squared deviations = 17.14
+
+**Step 5**: Calculate variance
+Variance = 17.14 ÷ (5-1) = 17.14 ÷ 4 = 4.285
+
+**Step 6**: Calculate standard deviation
+Standard Deviation = √4.285 = 2.07%
+
+**Annualized Volatility** = 2.07% × √252 = 32.87%
+
+---
+
+## 📈 **EXPECTED RETURNS & PORTFOLIO MATHEMATICS**
+
+### **4. EXPECTED RETURN CALCULATIONS**
+
+#### **Individual Asset Expected Return**
+
+**Formula**: E(R) = Σ[Pi × Ri]
+**Where**:
+- E(R) = Expected return
+- Pi = Probability of scenario i
+- Ri = Return in scenario i
+
+**Example**:
+**Economic Scenarios for Stock ABC**:
+- Bull Market (30% probability): +25% return
+- Normal Market (50% probability): +12% return
+- Bear Market (20% probability): -8% return
+
+**Calculation**:
+E(R) = (0.30 × 25%) + (0.50 × 12%) + (0.20 × -8%)
+E(R) = 7.5% + 6.0% - 1.6% = **11.9%**
+
+#### **Portfolio Expected Return**
+
+**Formula**: E(Rp) = W₁R₁ + W₂R₂ + W₃R₃ + ... + WnRn
+**Where**:
+- E(Rp) = Expected portfolio return
+- Wi = Weight of asset i
+- Ri = Expected return of asset i
+
+**Portfolio Example**:
+- Stock A: 40% weight, 15% expected return
+- Stock B: 35% weight, 12% expected return  
+- Stock C: 25% weight, 9% expected return
+
+**Calculation**:
+E(Rp) = (0.40 × 15%) + (0.35 × 12%) + (0.25 × 9%)
+E(Rp) = 6.0% + 4.2% + 2.25% = **12.45%**
+
+---
+
+## 📊 **COVARIANCE & CORRELATION ANALYSIS**
+
+### **5. COVARIANCE CALCULATIONS WITH EXAMPLES**
+
+#### **Covariance Formula**
+
+**Cov(X,Y) = Σ[(Xi - X̄)(Yi - Ȳ)] / (n-1)**
+
+**Where**:
+- Xi, Yi = Individual returns of stocks X and Y
+- X̄, Ȳ = Mean returns of stocks X and Y
+- n = Number of observations
+
+#### **Detailed Covariance Calculation Example**
+
+**Data for Stock A and Stock B (5 periods)**:
+
+| Period | Stock A Return | Stock B Return |
+|--------|----------------|----------------|
+| 1 | 5% | 3% |
+| 2 | -2% | -1% |
+| 3 | 8% | 6% |
+| 4 | 1% | 2% |
+| 5 | 3% | 4% |
+
+**Step-by-Step Calculation**:
+
+**Step 1**: Calculate means
+- Mean A = (5 - 2 + 8 + 1 + 3) ÷ 5 = 3%
+- Mean B = (3 - 1 + 6 + 2 + 4) ÷ 5 = 2.8%
+
+**Step 2**: Calculate deviations and products
+- Period 1: (5-3) × (3-2.8) = 2 × 0.2 = 0.4
+- Period 2: (-2-3) × (-1-2.8) = -5 × -3.8 = 19.0
+- Period 3: (8-3) × (6-2.8) = 5 × 3.2 = 16.0
+- Period 4: (1-3) × (2-2.8) = -2 × -0.8 = 1.6
+- Period 5: (3-3) × (4-2.8) = 0 × 1.2 = 0
+
+**Step 3**: Sum of products = 37.0
+
+**Step 4**: Calculate covariance
+Cov(A,B) = 37.0 ÷ (5-1) = **9.25**
+
+#### **Correlation Coefficient Calculation**
+
+**Formula**: ρ(X,Y) = Cov(X,Y) / (σx × σy)
+
+**From above example**:
+- Standard Deviation A = 4.18%
+- Standard Deviation B = 2.86%
+- Covariance = 9.25
+
+**Correlation** = 9.25 ÷ (4.18 × 2.86) = 9.25 ÷ 11.95 = **0.774**
+
+**Interpretation**: Strong positive correlation (77.4%)
+
+---
+
+## 📊 **PORTFOLIO RISK MATHEMATICS**
+
+### **6. PORTFOLIO VARIANCE & STANDARD DEVIATION**
+
+#### **Two-Asset Portfolio Variance Formula**
+
+**σ²p = W₁²σ₁² + W₂²σ₂² + 2W₁W₂Cov(1,2)**
+
+**Where**:
+- σ²p = Portfolio variance
+- W₁, W₂ = Weights of assets 1 and 2
+- σ₁², σ₂² = Variances of assets 1 and 2
+- Cov(1,2) = Covariance between assets 1 and 2
+
+#### **Portfolio Risk Calculation Example**
+
+**Portfolio Composition**:
+- Asset A: 60% weight, 20% standard deviation
+- Asset B: 40% weight, 15% standard deviation
+- Correlation between A and B: 0.3
+
+**Step-by-Step Calculation**:
+
+**Step 1**: Convert to decimal weights
+- W₁ = 0.6, W₂ = 0.4
+
+**Step 2**: Calculate variances
+- σ₁² = (20%)² = 400
+- σ₂² = (15%)² = 225
+
+**Step 3**: Calculate covariance
+Cov(A,B) = ρ × σ₁ × σ₂ = 0.3 × 20% × 15% = 90
+
+**Step 4**: Apply portfolio variance formula
+σ²p = (0.6)²(400) + (0.4)²(225) + 2(0.6)(0.4)(90)
+σ²p = 0.36(400) + 0.16(225) + 0.48(90)
+σ²p = 144 + 36 + 43.2 = 223.2
+
+**Step 5**: Calculate portfolio standard deviation
+σp = √223.2 = **14.94%**
+
+**Risk Reduction Benefit**:
+- Weighted average of individual risks: (0.6 × 20%) + (0.4 × 15%) = 18%
+- Actual portfolio risk: 14.94%
+- **Risk reduction**: 18% - 14.94% = 3.06% (due to diversification)
+
+---
+
+## 📈 **CAPM MODEL & BETA CALCULATIONS**
+
+### **7. CAPITAL ASSET PRICING MODEL (CAPM)**
+
+#### **CAPM Formula**
+
+**E(Ri) = Rf + βi[E(Rm) - Rf]**
+
+**Where**:
+- E(Ri) = Expected return of asset i
+- Rf = Risk-free rate
+- βi = Beta of asset i
+- E(Rm) = Expected market return
+- [E(Rm) - Rf] = Market risk premium
+
+#### **Beta Calculation Formula**
+
+**β = Cov(Ri, Rm) / Var(Rm)**
+
+**Alternative Formula**: **β = ρim × (σi / σm)**
+
+**Where**:
+- ρim = Correlation between asset and market
+- σi = Standard deviation of asset
+- σm = Standard deviation of market
+
+#### **CAPM Calculation Example**
+
+**Given Data**:
+- Risk-free rate: 6%
+- Market expected return: 14%
+- Stock beta: 1.2
+
+**Expected Return Calculation**:
+E(R) = 6% + 1.2 × (14% - 6%)
+E(R) = 6% + 1.2 × 8%
+E(R) = 6% + 9.6% = **15.6%**
+
+#### **Beta Calculation Example**
+
+**Stock vs Market Data (simplified)**:
+- Stock return volatility: 25%
+- Market return volatility: 16%
+- Correlation between stock and market: 0.8
+
+**Beta Calculation**:
+β = 0.8 × (25% ÷ 16%) = 0.8 × 1.5625 = **1.25**
+
+**Interpretation**: Stock is 25% more volatile than market
+
+---
+
 ## 📊 **SYSTEMATIC vs UNSYSTEMATIC RISK COMPARISON**
 
-### **3. RISK CLASSIFICATION ANALYSIS**
+### **8. RISK CLASSIFICATION ANALYSIS**
 
 #### **Risk Type Fundamental Matrix**
 
@@ -120,7 +374,7 @@
 
 ## 💰 **POSITION SIZING METHODS COMPARISON**
 
-### **4. CAPITAL ALLOCATION STRATEGIES**
+### **9. CAPITAL ALLOCATION STRATEGIES**
 
 #### **Position Sizing Technique Matrix**
 
@@ -178,7 +432,7 @@
 
 ## 🧠 **TRADING PSYCHOLOGY vs RISK MANAGEMENT BALANCE**
 
-### **5. BEHAVIORAL RISK FACTORS**
+### **10. BEHAVIORAL RISK FACTORS**
 
 #### **Psychological Bias Comparison Matrix**
 
@@ -226,7 +480,7 @@
 
 ## 📈 **PORTFOLIO CONSTRUCTION TECHNIQUES**
 
-### **6. DIVERSIFICATION STRATEGIES COMPARISON**
+### **11. DIVERSIFICATION STRATEGIES COMPARISON**
 
 #### **Diversification Approach Matrix**
 
@@ -271,9 +525,9 @@
 
 ---
 
-## 🔍 **RISK MEASUREMENT TECHNIQUES**
+## 🔍 **COMPREHENSIVE RISK MEASUREMENT TECHNIQUES**
 
-### **7. QUANTITATIVE RISK METRICS COMPARISON**
+### **12. QUANTITATIVE RISK METRICS WITH DETAILED CALCULATIONS**
 
 #### **Risk Measurement Matrix**
 
@@ -284,6 +538,8 @@
 | **Beta** | Covariance(stock, market) / Variance(market) | Market sensitivity | Systematic risk measure |
 | **Maximum Drawdown** | Peak to trough decline | Worst-case loss | Downside risk assessment |
 | **Sharpe Ratio** | (Return - RF rate) / Standard Deviation | Risk-adjusted return | Performance comparison |
+| **Treynor Ratio** | (Return - RF rate) / Beta | Risk-adjusted return per unit systematic risk | Systematic risk analysis |
+| **Information Ratio** | (Return - Benchmark) / Tracking Error | Active management efficiency | Portfolio manager evaluation |
 
 #### **VaR (Value at Risk) Detailed Analysis**
 
@@ -309,6 +565,59 @@ Portfolio: ₹10,00,000
 Daily VaR (95%): ₹50,000
 Interpretation: 95% confidence that daily loss won't exceed ₹50,000
 
+#### **Expected Shortfall (ES) / Conditional VaR**
+
+**Formula**: ES = E[Loss | Loss > VaR]
+
+**Calculation Example**:
+**Portfolio**: ₹50,00,000
+**Daily returns**: Normally distributed, mean = 0.08%, std dev = 1.5%
+**95% VaR**: ₹36,750 (1.645 × 1.5% × ₹50,00,000)
+
+**ES Calculation**:
+For normal distribution: ES₉₅% = VaR₉₅% × [φ(z₉₅%) / (1 - 0.95)]
+Where φ(z₉₅%) = 0.0484 (density function at 95% level)
+ES₉₅% = ₹36,750 × [0.0484 / 0.05] = ₹36,750 × 0.968 = **₹47,560**
+
+#### **Maximum Drawdown Calculation**
+
+**Formula**: MDD = (Peak Value - Trough Value) / Peak Value
+
+**Detailed Example**:
+**Portfolio Values Over Time**:
+- Month 1: ₹10,00,000 (Peak)
+- Month 2: ₹9,50,000
+- Month 3: ₹8,20,000 (Trough)
+- Month 4: ₹8,80,000
+- Month 5: ₹10,50,000 (New Peak)
+
+**MDD Calculation**:
+MDD = (₹10,00,000 - ₹8,20,000) / ₹10,00,000 = ₹1,80,000 / ₹10,00,000 = **18%**
+
+**Drawdown Duration**: 4 months (from peak to recovery)
+
+#### **Downside Deviation Calculation**
+
+**Formula**: DD = √[Σ(Ri - T)² / n] (only for returns below target T)
+
+**Example**:
+**Target Return**: 1% monthly
+**Monthly Returns**: [2%, -1%, 3%, -2%, 0.5%, -0.5%]
+**Below-target returns**: [-1%, -2%, -0.5%] (vs 1% target)
+
+**Calculation**:
+- (-1% - 1%)² = 4%
+- (-2% - 1%)² = 9%
+- (-0.5% - 1%)² = 2.25%
+
+DD = √[(4% + 9% + 2.25%) / 6] = √[15.25% / 6] = √2.54% = **1.59%**
+
+---
+
+## 📊 **ADVANCED RISK-ADJUSTED PERFORMANCE MEASURES**
+
+### **13. COMPREHENSIVE PERFORMANCE ANALYSIS**
+
 #### **Risk-Adjusted Performance Measures**
 
 **Sharpe Ratio Analysis**:
@@ -316,6 +625,47 @@ Interpretation: 95% confidence that daily loss won't exceed ₹50,000
 - **>2.0**: Excellent performance
 - **<0**: Underperforming risk-free rate
 - **Comparison**: Higher Sharpe ratios preferred
+
+**Treynor Ratio Calculation**:
+**Formula**: TR = (Rp - Rf) / βp
+
+**Example**:
+- Portfolio Return: 18%
+- Risk-free Rate: 6%
+- Portfolio Beta: 1.2
+- TR = (18% - 6%) / 1.2 = 12% / 1.2 = **10%**
+
+**Information Ratio Calculation**:
+**Formula**: IR = (Rp - Rb) / TE
+**Where**: TE (Tracking Error) = Standard deviation of (Rp - Rb)
+
+**Example**:
+- Portfolio Return: 16%
+- Benchmark Return: 14%
+- Tracking Error: 4%
+- IR = (16% - 14%) / 4% = 2% / 4% = **0.5**
+
+#### **Calmar Ratio Calculation**
+
+**Formula**: Calmar = Annual Return / Maximum Drawdown
+
+**Example**:
+- Annual Return: 15%
+- Maximum Drawdown: 8%
+- Calmar Ratio = 15% / 8% = **1.875**
+
+**Interpretation**: Higher Calmar ratios indicate better risk-adjusted performance
+
+#### **Sortino Ratio Calculation**
+
+**Formula**: Sortino = (Rp - Rf) / DD
+**Where**: DD = Downside Deviation
+
+**Example**:
+- Portfolio Return: 20%
+- Risk-free Rate: 6%
+- Downside Deviation: 8%
+- Sortino = (20% - 6%) / 8% = 14% / 8% = **1.75**
 
 **Sortino Ratio Advantage**:
 - Focuses only on downside volatility
@@ -325,9 +675,57 @@ Interpretation: 95% confidence that daily loss won't exceed ₹50,000
 
 ---
 
+## 📊 **MONTE CARLO SIMULATION IN RISK MANAGEMENT**
+
+### **14. ADVANCED SIMULATION TECHNIQUES**
+
+#### **Monte Carlo Method for Portfolio Risk**
+
+**Process Steps**:
+1. Define probability distributions for asset returns
+2. Generate random scenarios (1000-10000 simulations)
+3. Calculate portfolio returns for each scenario
+4. Analyze distribution of results
+5. Calculate risk metrics (VaR, ES, etc.)
+
+#### **Monte Carlo VaR Calculation Example**
+
+**Portfolio Setup**:
+- Asset A: 60% weight, 12% expected return, 20% volatility
+- Asset B: 40% weight, 8% expected return, 15% volatility
+- Correlation: 0.3
+
+**Simulation Process** (simplified):
+1. Generate 10,000 random scenarios
+2. For each scenario, calculate portfolio return
+3. Sort returns from lowest to highest
+4. 5% VaR = 500th worst result (5% of 10,000)
+
+**Sample Results**:
+- 95% VaR: -15.2%
+- 99% VaR: -23.8%
+- Expected Shortfall (95%): -19.7%
+- Maximum Loss in simulation: -31.5%
+
+#### **Stress Testing Applications**
+
+**Scenario Analysis**:
+- **Base Case**: Normal market conditions
+- **Stress Case 1**: 2008-style market crash (-40% equity)
+- **Stress Case 2**: Interest rate shock (+300 bps)
+- **Stress Case 3**: Currency crisis (₹ weakens 20%)
+
+**Portfolio Impact Analysis**:
+- Base Case P&L: +12%
+- Stress Case 1 P&L: -28%
+- Stress Case 2 P&L: -15%
+- Stress Case 3 P&L: -8%
+
+---
+
 ## 💡 **PRACTICAL RISK MANAGEMENT IMPLEMENTATION**
 
-### **8. REAL-WORLD APPLICATION STRATEGIES**
+### **15. REAL-WORLD APPLICATION STRATEGIES**
 
 #### **Risk Management Rules Hierarchy**
 
@@ -367,9 +765,16 @@ Interpretation: 95% confidence that daily loss won't exceed ₹50,000
 
 ## ✅ **ENHANCED QUIZ STRATEGIES**
 
-### **9. RISK MANAGEMENT EXAM PREPARATION**
+### **16. RISK MANAGEMENT EXAM PREPARATION**
 
 #### **Expected Question Types**
+**Mathematical Calculations** (30%):
+1. Variance and standard deviation calculations
+2. Covariance and correlation computations
+3. Portfolio risk mathematics
+4. CAPM and beta calculations
+5. VaR and Expected Shortfall computations
+
 **Risk Classification** (25%):
 1. Systematic vs unsystematic risk identification
 2. Diversification benefits and limitations
@@ -395,11 +800,21 @@ Interpretation: 95% confidence that daily loss won't exceed ₹50,000
 4. Portfolio optimization techniques
 
 #### **Critical Formulas for Exams**
+**Basic Risk Formulas**:
+- **Standard Deviation**: σ = √[Σ(Xi - μ)² / N]
+- **Covariance**: Cov(X,Y) = Σ[(Xi - X̄)(Yi - Ȳ)] / (n-1)
+- **Correlation**: ρ = Cov(X,Y) / (σx × σy)
+- **Portfolio Variance**: σ²p = W₁²σ₁² + W₂²σ₂² + 2W₁W₂Cov(1,2)
+
+**Advanced Risk Formulas**:
+- **Beta**: β = Cov(Ri, Rm) / Var(Rm)
+- **CAPM**: E(Ri) = Rf + βi[E(Rm) - Rf]
 - **Kelly Criterion**: f = (bp - q) / b
 - **Sharpe Ratio**: (Return - Risk-free rate) / Standard Deviation
-- **Beta**: Covariance(stock, market) / Variance(market)
-- **VaR**: Percentile of return distribution
-- **Position Size**: Risk Amount / (Stop Distance × Price)
+- **Treynor Ratio**: (Return - RF rate) / Beta
+- **Information Ratio**: (Return - Benchmark) / Tracking Error
+- **Sortino Ratio**: (Return - RF rate) / Downside Deviation
+- **Maximum Drawdown**: (Peak Value - Trough Value) / Peak Value
 
 #### **Key Risk Management Numbers**
 - **Maximum Risk per Trade**: 2-5% of portfolio
@@ -408,12 +823,15 @@ Interpretation: 95% confidence that daily loss won't exceed ₹50,000
 - **Cash Reserve**: 10-20% of portfolio
 - **Daily Loss Limit**: 1-2% of portfolio
 - **Sector Concentration**: Maximum 20%
+- **Correlation Threshold**: <0.3 for diversification
+- **Sharpe Ratio**: >1.0 good, >2.0 excellent
+- **VaR Confidence Levels**: 95%, 99%
 
 ---
 
 ## 🏆 **ADVANCED RISK MANAGEMENT CONCEPTS**
 
-### **10. INSTITUTIONAL RISK MANAGEMENT PRACTICES**
+### **17. INSTITUTIONAL RISK MANAGEMENT PRACTICES**
 
 #### **Risk Management Framework Comparison**
 
@@ -447,9 +865,9 @@ Interpretation: 95% confidence that daily loss won't exceed ₹50,000
 
 ---
 
-**REMEMBER**: Risk management is not about avoiding risk but managing it intelligently. The goal is capital preservation while allowing for profit potential. Systematic approaches outperform emotional decisions. Position sizing is more important than entry and exit techniques for long-term success.
+**REMEMBER**: Risk management is not about avoiding risk but managing it intelligently. The goal is capital preservation while allowing for profit potential. Mathematical models provide frameworks, but practical application requires judgment. Systematic approaches outperform emotional decisions. Position sizing is more important than entry and exit techniques for long-term success.
 
-**EXAM FOCUS**: Master the differences between systematic and unsystematic risk, understand various position sizing methods and their applications, know the psychological biases that affect trading decisions, and be familiar with quantitative risk measurement techniques. Risk management is foundational to all successful trading and investing.
+**EXAM FOCUS**: Master the mathematical foundations including variance, covariance, correlation, and portfolio mathematics. Understand CAPM and beta calculations. Know all risk-adjusted performance measures and their calculations. Practice VaR and Expected Shortfall computations. Understand the differences between systematic and unsystematic risk, various position sizing methods and their applications, and the psychological biases that affect trading decisions. Mathematical risk calculations are increasingly emphasized in professional certifications.
 
 ---
 *Preserve • Diversify • Size • Discipline*
