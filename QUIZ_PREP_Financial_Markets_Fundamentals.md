@@ -60,7 +60,7 @@ CAGR = {[3,550 ÷ 3,030]^(1/2) - 1} × 100
 
 #### **When to Use Which Formula**
 - **Absolute Return**: Use when holding period is 1 year or less
-- **CAGR**: Use when holding period is more than 1 year
+- **CAGR (Compound Annual Growth Rate)**: Use when holding period is more than 1 year
 - **Annualized Return**: For periods less than 1 year, multiply by (12/months) or (365/days)
 
 **Short-term Example**:
@@ -88,7 +88,7 @@ Annualized Return = 17.16% × 2 = 34.32%
 | **Derivatives** | More liquid F&O market | Less liquid F&O market |
 | **Technology** | Screen-based from inception | Transitioned from floor to screen |
 
-#### **Why NSE is More Popular for Trading**
+#### **Why NSE (National Stock Exchange) is More Popular for Trading**
 - **Higher Liquidity**: Better bid-ask spreads
 - **Lower Impact Cost**: Easier to execute large orders
 - **Technology Leadership**: Superior trading infrastructure
@@ -278,9 +278,9 @@ Impact on Nifty = 7.6% × 2% = 0.152% (or ~15 points if Nifty at 10,000)
 | **Nature** | New securities issued | Existing securities traded |
 | **Participants** | Company and investors | Investors only |
 | **Price Discovery** | Fixed by company/book building | Market forces |
-| **Examples** | IPO, FPO, Rights Issue | NSE, BSE trading |
+| **Examples** | IPO (Initial Public Offering), FPO (Follow-on Public Offering), Rights Issue | NSE (National Stock Exchange), BSE (Bombay Stock Exchange) trading |
 | **Purpose** | Capital raising | Liquidity provision |
-| **Regulation** | SEBI IPO guidelines | Exchange rules |
+| **Regulation** | SEBI (Securities and Exchange Board of India) IPO (Initial Public Offering) guidelines | Exchange rules |
 
 ---
 
@@ -292,11 +292,11 @@ Impact on Nifty = 7.6% × 2% = 0.152% (or ~15 points if Nifty at 10,000)
 
 | **Intermediary** | **Primary Role** | **Regulation** | **Client Interaction** |
 |------------------|------------------|----------------|----------------------|
-| **Stock Broker** | Trade execution | SEBI registered | Direct (individual investors) |
-| **Merchant Banker** | IPO management | SEBI Category I | Indirect (through companies) |
-| **Registrar** | Record maintenance | SEBI registered | Minimal (back-office) |
-| **Depository** | Securities holding | SEBI Act 1992 | Through DPs only |
-| **Custodian** | Institutional custody | SEBI registered | Institutional clients |
+| **Stock Broker** | Trade execution | SEBI (Securities and Exchange Board of India) registered | Direct (individual investors) |
+| **Merchant Banker** | IPO (Initial Public Offering) management | SEBI (Securities and Exchange Board of India) Category I | Indirect (through companies) |
+| **Registrar** | Record maintenance | SEBI (Securities and Exchange Board of India) registered | Minimal (back-office) |
+| **Depository** | Securities holding | SEBI (Securities and Exchange Board of India) Act 1992 | Through DPs (Depository Participants) only |
+| **Custodian** | Institutional custody | SEBI (Securities and Exchange Board of India) registered | Institutional clients |
 
 #### **Broker Types Comparison**
 **Full-Service Brokers**:
@@ -365,7 +365,7 @@ Weight = (₹10 ÷ ₹100) × 100 = 10%
 **Equity Intraday**: Usually 0.25% or flat fee
 **Example**: Buy ₹1,00,000 worth shares
 - Delivery brokerage: ₹1,00,000 × 0.5% = ₹500
-- Plus: STT, exchange charges, GST, SEBI charges
+- Plus: STT (Securities Transaction Tax), exchange charges, GST (Goods and Services Tax), SEBI (Securities and Exchange Board of India) charges
 
 #### **Return Calculations**
 **Absolute Return**: (Ending Value - Beginning Value) ÷ Beginning Value × 100
@@ -410,8 +410,8 @@ Weight = (₹10 ÷ ₹100) × 100 = 10%
 - **Sensex Base**: 100 (1978-79)
 - **Nifty Stocks**: 50 companies
 - **Sensex Stocks**: 30 companies
-- **NSE Established**: 1992
-- **BSE Established**: 1875
+- **NSE (National Stock Exchange) Established**: 1992
+- **BSE (Bombay Stock Exchange) Established**: 1875
 - **Settlement Cycle**: T+2 days
 - **Order Validity**: 365 days maximum
 
@@ -425,9 +425,9 @@ Weight = (₹10 ÷ ₹100) × 100 = 10%
 
 ---
 
-**REMEMBER**: Indian stock markets follow free-float market capitalization methodology for index construction. NSE's Nifty 50 and BSE's Sensex 30 are the primary benchmarks. Settlement happens on T+2 basis for equity trades. Order types determine execution priority and price control. Understanding these comparisons is crucial for market operations and professional trading.
+**REMEMBER**: Indian stock markets follow free-float market capitalization methodology for index construction. NSE's (National Stock Exchange) Nifty 50 and BSE's (Bombay Stock Exchange) Sensex 30 are the primary benchmarks. Settlement happens on T+2 (Trade plus 2 days) basis for equity trades. Order types determine execution priority and price control. Understanding these comparisons is crucial for market operations and professional trading.
 
-**EXAM FOCUS**: Master the differences between Nifty and Sensex, understand order types and their applications, know the T+2 settlement process, and be able to calculate market cap and index weights. Comparison questions are common in certification exams.
+**EXAM FOCUS**: Master the differences between Nifty and Sensex, understand order types and their applications, know the T+2 (Trade plus 2 days) settlement process, and be able to calculate market cap and index weights. Comparison questions are common in certification exams.
 
 ---
 *Markets • Indices • Trading • Settlement*

@@ -20,7 +20,7 @@
 - **1982**: Exchange-traded currency options
 
 **Indian Development:**
-- **2001**: Equity options launched on NSE
+- **2001**: Equity options launched on NSE (National Stock Exchange)
 - **2003**: Index options introduced
 - **2008**: Currency options started
 - **2017**: Commodity options began
@@ -47,19 +47,19 @@
 #### **Intrinsic Value Calculations**
 
 **Call Option Intrinsic Value:**
-- **ITM**: Max(Spot Price - Strike Price, 0)
-- **ATM/OTM**: 0
+- **ITM (In the Money)**: Max(Spot Price - Strike Price, 0)
+- **ATM (At the Money)/OTM (Out of the Money)**: 0
 
 **Put Option Intrinsic Value:**
-- **ITM**: Max(Strike Price - Spot Price, 0)
-- **ATM/OTM**: 0
+- **ITM (In the Money)**: Max(Strike Price - Spot Price, 0)
+- **ATM (At the Money)/OTM (Out of the Money)**: 0
 
 **Example Calculations:**
 Stock Trading at ₹8,100
-- 8000 CE: Max(8100-8000, 0) = ₹100
-- 8200 CE: Max(8100-8200, 0) = ₹0
-- 8000 PE: Max(8000-8100, 0) = ₹0
-- 8200 PE: Max(8200-8100, 0) = ₹100
+- 8000 CE (Call European): Max(8100-8000, 0) = ₹100
+- 8200 CE (Call European): Max(8100-8200, 0) = ₹0
+- 8000 PE (Put European): Max(8000-8100, 0) = ₹0
+- 8200 PE (Put European): Max(8200-8100, 0) = ₹100
 
 ### **3. OPTION MONEYNESS COMPARISON**
 
@@ -67,23 +67,23 @@ Stock Trading at ₹8,100
 
 | **Moneyness** | **Call Option** | **Put Option** | **Characteristics** |
 |---------------|-----------------|----------------|-------------------|
-| **Deep ITM** | Spot >> Strike | Spot << Strike | High intrinsic value, low time value |
-| **ITM** | Spot > Strike | Spot < Strike | Some intrinsic value, moderate time value |
-| **Near ATM** | Spot ≈ Strike | Spot ≈ Strike | No intrinsic value, maximum time value |
-| **ATM** | Spot = Strike | Spot = Strike | Zero intrinsic value, highest time value |
-| **OTM** | Spot < Strike | Spot > Strike | Zero intrinsic value, only time value |
-| **Deep OTM** | Spot << Strike | Spot >> Strike | Zero intrinsic value, minimal time value |
+| **Deep ITM (In the Money)** | Spot >> Strike | Spot << Strike | High intrinsic value, low time value |
+| **ITM (In the Money)** | Spot > Strike | Spot < Strike | Some intrinsic value, moderate time value |
+| **Near ATM (At the Money)** | Spot ≈ Strike | Spot ≈ Strike | No intrinsic value, maximum time value |
+| **ATM (At the Money)** | Spot = Strike | Spot = Strike | Zero intrinsic value, highest time value |
+| **OTM (Out of the Money)** | Spot < Strike | Spot > Strike | Zero intrinsic value, only time value |
+| **Deep OTM (Out of the Money)** | Spot << Strike | Spot >> Strike | Zero intrinsic value, minimal time value |
 
 #### **Moneyness Impact on Greeks**
 **Delta Behavior:**
-- ITM Options: Higher delta (closer to ±1)
-- ATM Options: Delta around ±0.5
-- OTM Options: Lower delta (closer to 0)
+- ITM (In the Money) Options: Higher delta (closer to ±1)
+- ATM (At the Money) Options: Delta around ±0.5
+- OTM (Out of the Money) Options: Lower delta (closer to 0)
 
 **Theta Impact:**
-- ATM options decay fastest
-- Deep ITM/OTM options decay slower
-- Maximum time decay near expiry for ATM
+- ATM (At the Money) options decay fastest
+- Deep ITM (In the Money)/OTM (Out of the Money) options decay slower
+- Maximum time decay near expiry for ATM (At the Money)
 
 ---
 
@@ -104,7 +104,7 @@ Stock Trading at ₹8,100
 
 #### **Practical Example**
 **Stock**: Nifty at 18,000
-**18000 CE Price Sensitivity:**
+**18000 CE (Call European) Price Sensitivity:**
 - If Nifty moves to 18,200: Call price increases
 - If volatility increases from 15% to 20%: Call price increases
 - If time to expiry reduces: Call price decreases (theta decay)
@@ -120,25 +120,25 @@ Stock Trading at ₹8,100
 
 | **Option Type** | **Delta Range** | **Characteristics** | **Example** |
 |-----------------|-----------------|-------------------|-------------|
-| **Call ITM** | 0.5 to 1.0 | Positive, increases with depth | 0.8 for deep ITM call |
-| **Call ATM** | Around 0.5 | Maximum sensitivity to spot | 0.5 for ATM call |
-| **Call OTM** | 0 to 0.5 | Positive, decreases with distance | 0.2 for OTM call |
-| **Put ITM** | -0.5 to -1.0 | Negative, more negative with depth | -0.8 for deep ITM put |
-| **Put ATM** | Around -0.5 | Maximum sensitivity to spot | -0.5 for ATM put |
-| **Put OTM** | 0 to -0.5 | Negative, less negative with distance | -0.2 for OTM put |
+| **Call ITM (In the Money)** | 0.5 to 1.0 | Positive, increases with depth | 0.8 for deep ITM (In the Money) call |
+| **Call ATM (At the Money)** | Around 0.5 | Maximum sensitivity to spot | 0.5 for ATM (At the Money) call |
+| **Call OTM (Out of the Money)** | 0 to 0.5 | Positive, decreases with distance | 0.2 for OTM (Out of the Money) call |
+| **Put ITM (In the Money)** | -0.5 to -1.0 | Negative, more negative with depth | -0.8 for deep ITM (In the Money) put |
+| **Put ATM (At the Money)** | Around -0.5 | Maximum sensitivity to spot | -0.5 for ATM (At the Money) put |
+| **Put OTM (Out of the Money)** | 0 to -0.5 | Negative, less negative with distance | -0.2 for OTM (Out of the Money) put |
 
 #### **Gamma Behavior**
 **Common Characteristics:**
-- Maximum gamma for ATM options
-- Decreases for deep ITM/OTM options
-- Increases as expiry approaches (for ATM)
+- Maximum gamma for ATM (At the Money) options
+- Decreases for deep ITM (In the Money)/OTM (Out of the Money) options
+- Increases as expiry approaches (for ATM (At the Money))
 - Always positive for both calls and puts
 
 **Theta Behavior:**
 - Always negative for long options (buyers)
 - Always positive for short options (sellers)
 - Accelerates near expiry
-- Maximum for ATM options
+- Maximum for ATM (At the Money) options
 
 ---
 

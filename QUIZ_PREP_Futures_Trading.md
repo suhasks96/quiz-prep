@@ -26,7 +26,7 @@
 
 | **Parameter** | **FUTURES** | **FORWARDS** |
 |---------------|-------------|--------------|
-| **Trading Venue** | Exchange (NSE, BSE) | Over-the-Counter (OTC) |
+| **Trading Venue** | Exchange (NSE (National Stock Exchange), BSE (Bombay Stock Exchange)) | Over-the-Counter (OTC) |
 | **Standardization** | Fully standardized | Completely customized |
 | **Counterparty Risk** | Clearinghouse guarantee | Direct counterparty risk |
 | **Margin System** | Daily margin requirements | No margin system |
@@ -127,7 +127,7 @@
 
 | **Margin Type** | **Purpose** | **Calculation** | **Typical Range** |
 |-----------------|-------------|-----------------|-------------------|
-| **SPAN Margin** | Mark-to-market losses | Risk array-based | 3-6% of contract value |
+| **SPAN (Standard Portfolio Analysis of Risk) Margin** | Mark-to-market losses | Risk array-based | 3-6% of contract value |
 | **Exposure Margin** | Extreme price movements | Fixed percentage | 3-5% of contract value |
 | **Premium Margin** | Option writing | Premium amount | 100% of premium |
 | **Assignment Margin** | Option assignment | Based on underlying | Variable |
@@ -140,7 +140,7 @@
 
 #### **Margin Comparison by Instrument**
 
-| **Instrument** | **SPAN Margin** | **Exposure Margin** | **Total Margin** |
+| **Instrument** | **SPAN (Standard Portfolio Analysis of Risk) Margin** | **Exposure Margin** | **Total Margin** |
 |----------------|-----------------|-------------------|------------------|
 | **Nifty Futures** | 3.5% | 3% | 6.5% |
 | **Bank Nifty** | 4% | 4% | 8% |
@@ -422,7 +422,7 @@ Position Size = ₹20,000 ÷ (200 × 75) = ₹20,000 ÷ ₹15,000 = 1.33 lots �
 - **Nifty Lot Size**: 75 shares
 - **Bank Nifty Lot Size**: 25 shares
 - **Typical Margin**: 6-14% of contract value
-- **Settlement**: T+1 for F&O
+- **Settlement**: T+1 (Trade plus 1 day) for F&O (Futures and Options)
 - **Expiry**: Last Thursday of month
 - **Trading Hours**: 9:15 AM to 3:30 PM
 - **Maximum Contracts**: 3 months at any time
@@ -467,22 +467,22 @@ Lot Size: 2,000 shares
 Contract Value: 165 × 2,000 = ₹3,30,000
 ```
 
-**Daily M2M Calculation:**
+**Daily M2M (Mark-to-Market) Calculation:**
 ```
 Day 1 Close: ₹168.3
-M2M P&L = (168.3 - 165) × 2,000 = ₹6,600 (credited)
+M2M (Mark-to-Market) P&L = (168.3 - 165) × 2,000 = ₹6,600 (credited)
 New Reference Price = ₹168.3
 
 Day 2 Close: ₹172.4
-M2M P&L = (172.4 - 168.3) × 2,000 = ₹8,200 (credited)
+M2M (Mark-to-Market) P&L = (172.4 - 168.3) × 2,000 = ₹8,200 (credited)
 New Reference Price = ₹172.4
 
 Day 3 Close: ₹171.6
-M2M P&L = (171.6 - 172.4) × 2,000 = -₹1,600 (debited)
+M2M (Mark-to-Market) P&L = (171.6 - 172.4) × 2,000 = -₹1,600 (debited)
 New Reference Price = ₹171.6
 
 Day 4 Exit: ₹170.1 (at 2:15 PM)
-M2M P&L = (170.1 - 171.6) × 2,000 = -₹3,000 (debited)
+M2M (Mark-to-Market) P&L = (170.1 - 171.6) × 2,000 = -₹3,000 (debited)
 
 Total P&L = 6,600 + 8,200 - 1,600 - 3,000 = ₹10,200
 ```
@@ -495,7 +495,7 @@ Total P&L = 6,600 + 8,200 - 1,600 - 3,000 = ₹10,200
 Buy Price: ₹938.7
 Lot Size: 250 shares
 Contract Value: 938.7 × 250 = ₹2,34,675
-SPAN Margin (7.5%): ₹17,600
+SPAN (Standard Portfolio Analysis of Risk) Margin (7.5%): ₹17,600
 Exposure Margin (5%): ₹11,733
 Total Initial Margin: ₹29,334
 ```
@@ -504,11 +504,11 @@ Total Initial Margin: ₹29,334
 ```
 If price drops to ₹880 (-8%):
 New Contract Value = 880 × 250 = ₹2,20,000
-New SPAN Margin = 2,20,000 × 7.5% = ₹16,500
-M2M Loss = (880 - 938.7) × 250 = -₹14,675
+New SPAN (Standard Portfolio Analysis of Risk) Margin = 2,20,000 × 7.5% = ₹16,500
+M2M (Mark-to-Market) Loss = (880 - 938.7) × 250 = -₹14,675
 
 Resulting Cash Balance = 29,334 - 14,675 = ₹14,659
-Since ₹14,659 < ₹16,500 (SPAN requirement)
+Since ₹14,659 < ₹16,500 (SPAN (Standard Portfolio Analysis of Risk) requirement)
 Result: MARGIN CALL issued
 ```
 
@@ -591,7 +591,7 @@ Margin Required (15%) = ₹90,000
 |--------------|--------------|-------------------|
 | **CME (US)** | S&P 500, Currency | High liquidity, 24-hour trading |
 | **EUREX (Europe)** | DAX, BUND | Electronic trading pioneer |
-| **NSE (India)** | Nifty, Bank Nifty | Emerging market leader |
+| **NSE (National Stock Exchange) (India)** | Nifty, Bank Nifty | Emerging market leader |
 | **SGX (Singapore)** | Nifty (overseas) | Arbitrage opportunities |
 
 #### **Why Futures Markets Exist**

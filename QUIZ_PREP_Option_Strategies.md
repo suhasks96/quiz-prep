@@ -164,7 +164,7 @@
 - **Covered Calls**: Income enhancement
 
 **Strategy Selection Criteria**:
-- IV Percentile > 70%: Consider volatility selling
+- IV (Implied Volatility) Percentile > 70%: Consider volatility selling
 - Implied Volatility > Historical Volatility
 - Earnings events passed
 - Market in range-bound phase
@@ -178,7 +178,7 @@
 - **Calendar Spreads**: Time decay advantage
 
 **Strategy Selection Criteria**:
-- IV Percentile < 30%: Consider volatility buying
+- IV (Implied Volatility) Percentile < 30%: Consider volatility buying
 - Implied Volatility < Historical Volatility
 - Approaching earnings/events
 - Expecting volatility expansion
@@ -193,8 +193,8 @@
 
 | **STRATEGY** | **CONSTRUCTION** | **MARKET VIEW** | **RISK PROFILE** | **COMPLEXITY** |
 |--------------|------------------|-----------------|------------------|----------------|
-| **Call Ratio Spread** | Buy 1 ITM call + Sell 2 OTM calls | Moderately bullish | Unlimited upside risk | High |
-| **Put Ratio Spread** | Buy 1 ITM put + Sell 2 OTM puts | Moderately bearish | Unlimited downside risk | High |
+| **Call Ratio Spread** | Buy 1 ITM (In the Money) call + Sell 2 OTM (Out of the Money) calls | Moderately bullish | Unlimited upside risk | High |
+| **Put Ratio Spread** | Buy 1 ITM (In the Money) put + Sell 2 OTM (Out of the Money) puts | Moderately bearish | Unlimited downside risk | High |
 | **Regular Bull Spread** | Buy 1 call + Sell 1 call | Moderately bullish | Defined risk/reward | Medium |
 | **Regular Bear Spread** | Buy 1 put + Sell 1 put | Moderately bearish | Defined risk/reward | Medium |
 
@@ -306,7 +306,7 @@
 #### **Spread Strategy Position Sizing Examples**
 
 **Bull Call Spread Example**:
-**Setup**: Nifty 18000 CE (buy) at ₹200, Nifty 18200 CE (sell) at ₹100
+**Setup**: Nifty 18000 CE (Call European) (buy) at ₹200, Nifty 18200 CE (Call European) (sell) at ₹100
 **Net Debit**: ₹200 - ₹100 = ₹100 per spread
 **Maximum Profit**: ₹200 - ₹100 = ₹100 per spread
 **Risk-Reward Ratio**: 1:1

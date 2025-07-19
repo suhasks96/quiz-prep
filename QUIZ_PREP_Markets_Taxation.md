@@ -61,9 +61,9 @@
 **Benefits**: Business expenses deductible, losses adjustable against other income
 
 #### **Capital Gains Taxation Rules**
-**STCG (Short-term)**: Holdings ≤ 1 year for equity
-**LTCG (Long-term)**: Holdings > 1 year for equity
-**Special Rates**: 15% STCG, 10% LTCG (above ₹1 lakh)
+**STCG (Short Term Capital Gains) (Short-term)**: Holdings ≤ 1 year for equity
+**LTCG (Long Term Capital Gains) (Long-term)**: Holdings > 1 year for equity
+**Special Rates**: 15% STCG (Short Term Capital Gains), 10% LTCG (Long Term Capital Gains) (above ₹1 lakh)
 **Indexation**: Available for debt instruments
 
 ---
@@ -77,7 +77,7 @@
 | **Instrument** | **TAX CATEGORY** | **TAX RATE** | **HOLDING PERIOD** | **SET-OFF RULES** |
 |----------------|------------------|--------------|-------------------|-------------------|
 | **Equity Intraday** | Speculative business | Slab rates | Not applicable | Limited set-off |
-| **Equity Delivery** | Capital gains | 15% STCG, 10% LTCG | 1 year threshold | STCL vs STCG only |
+| **Equity Delivery** | Capital gains | 15% STCG (Short Term Capital Gains), 10% LTCG (Long Term Capital Gains) | 1 year threshold | STCL (Short Term Capital Loss) vs STCG (Short Term Capital Gains) only |
 | **F&O Trading** | Non-speculative business | Slab rates | Not applicable | Against any income |
 | **Options Premium** | Business income | Slab rates | Not applicable | Against any income |
 
@@ -88,10 +88,10 @@
 **No Holding Period**: No distinction between short-term and long-term
 
 #### **Equity Taxation Considerations**
-**STCG Limitations**: Cannot set off against salary or other income
-**LTCG Benefits**: Lower tax rate and ₹1 lakh exemption
+**STCG (Short Term Capital Gains) Limitations**: Cannot set off against salary or other income
+**LTCG (Long Term Capital Gains) Benefits**: Lower tax rate and ₹1 lakh exemption
 **Delivery Advantage**: Potential for LTCG treatment
-**Limited Set-off**: STCL only against STCG, LTCL only against LTCG
+**Limited Set-off**: STCL (Short Term Capital Loss) only against STCG (Short Term Capital Gains), LTCL (Long Term Capital Loss) only against LTCG (Long Term Capital Gains)
 
 ---
 
@@ -112,7 +112,7 @@
 
 #### **Capital Gains Tax Rates Comparison**
 
-| **ASSET TYPE** | **STCG RATE** | **LTCG RATE** | **HOLDING PERIOD** |
+| **ASSET TYPE** | **STCG (Short Term Capital Gains) RATE** | **LTCG (Long Term Capital Gains) RATE** | **HOLDING PERIOD** |
 |----------------|---------------|---------------|-------------------|
 | **Listed Equity** | 15% | 10% (>₹1L) | 1 year |
 | **Equity Mutual Funds** | 15% | 10% (>₹1L) | 1 year |
@@ -121,9 +121,9 @@
 | **Gold/Commodities** | Slab rates | 20% with indexation | 3 years |
 
 #### **Special Tax Provisions**
-**Grandfathering**: LTCG on equity acquired before 31/1/2018
-**Exemption Limit**: ₹1 lakh LTCG on equity per year
-**STT Requirement**: Tax benefits conditional on STT payment
+**Grandfathering**: LTCG (Long Term Capital Gains) on equity acquired before 31/1/2018
+**Exemption Limit**: ₹1 lakh LTCG (Long Term Capital Gains) on equity per year
+**STT (Securities Transaction Tax) Requirement**: Tax benefits conditional on STT (Securities Transaction Tax) payment
 
 ---
 
@@ -204,9 +204,9 @@
 
 ### **8. SECURITIES TRANSACTION TAX (STT) ANALYSIS**
 
-#### **STT Rates Matrix**
+#### **STT (Securities Transaction Tax) Rates Matrix**
 
-| **TRANSACTION TYPE** | **STT RATE** | **LEVY ON** |
+| **TRANSACTION TYPE** | **STT (Securities Transaction Tax) RATE** | **LEVY ON** |
 |---------------------|--------------|-------------|
 | **Equity Delivery (Buy)** | 0.1% | Total turnover |
 | **Equity Delivery (Sell)** | 0.1% | Total turnover |
@@ -219,13 +219,13 @@
 | **CHARGE TYPE** | **EQUITY** | **F&O** | **COMMENTS** |
 |-----------------|------------|---------|--------------|
 | **Brokerage** | 0.1-0.5% | 0.03-0.05% | Per transaction |
-| **STT** | 0.1-0.2% | 0.0125-0.05% | Government tax |
+| **STT (Securities Transaction Tax)** | 0.1-0.2% | 0.0125-0.05% | Government tax |
 | **Exchange Charges** | 0.00345% | 0.00173% | NSE charges |
 | **SEBI Charges** | ₹10/crore | ₹10/crore | Regulatory fee |
 | **Stamp Duty** | 0.015% | 0.002% | State government |
 
 #### **Impact on Trading Costs**
-**High-Frequency Trading**: STT and charges significant for scalping
+**High-Frequency Trading**: STT (Securities Transaction Tax) and charges significant for scalping
 **Long-term Investing**: Minimal impact on returns
 **F&O Trading**: Lower overall charges compared to equity
 **Cost Optimization**: Important for active traders

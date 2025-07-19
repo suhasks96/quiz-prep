@@ -27,7 +27,7 @@
 
 | **Parameter** | **MUTUAL FUNDS** | **DIRECT STOCKS** |
 |---------------|------------------|-------------------|
-| **Minimum Investment** | ₹500-5,000 (SIP: ₹100) | 1 share price × lot size |
+| **Minimum Investment** | ₹500-5,000 (SIP (Systematic Investment Plan): ₹100) | 1 share price × lot size |
 | **Diversification** | Built-in across stocks | Need multiple stocks |
 | **Professional Management** | Fund manager expertise | Self-managed |
 | **Research Required** | Fund analysis needed | Individual company research |
@@ -43,7 +43,7 @@
 **Professional Management**: Expert fund managers with research teams
 **Diversification**: Instant exposure to 50-100+ stocks
 **Affordability**: Small amounts can access expensive stocks
-**Convenience**: Automated investing through SIPs
+**Convenience**: Automated investing through SIPs (Systematic Investment Plans)
 **Regulatory Protection**: SEBI oversight and investor protections
 
 #### **Direct Stocks Advantages**
@@ -83,7 +83,7 @@
 | **INSTRUMENT** | **SAFETY** | **LIQUIDITY** | **RETURNS** | **TENURE** |
 |----------------|------------|---------------|-------------|------------|
 | **Bank FD** | Highest | Moderate | 6-8% | 7 days to 10 years |
-| **PPF** | Highest | Lowest | 7-8% | 15 years (lock-in) |
+| **PPF (Public Provident Fund)** | Highest | Lowest | 7-8% | 15 years (lock-in) |
 | **NSC** | Highest | Lowest | 6-7% | 5 years |
 | **Debt Mutual Funds** | High | Highest | 7-10% | Flexible |
 | **Corporate Bonds** | Moderate | Moderate | 8-12% | 1-10 years |
@@ -161,21 +161,21 @@
 | **Long-term Returns** | Slightly lower in rising markets | Higher in consistently rising markets |
 
 #### **Rupee Cost Averaging Example**
-**Scenario**: ₹10,000 monthly SIP in fund with varying NAVs
+**Scenario**: ₹10,000 monthly SIP (Systematic Investment Plan) in fund with varying NAVs (Net Asset Values)
 
-| **Month** | **Investment** | **NAV** | **Units Purchased** | **Total Units** |
+| **Month** | **Investment** | **NAV (Net Asset Value)** | **Units Purchased** | **Total Units** |
 |-----------|----------------|---------|-------------------|-----------------|
 | **1** | ₹10,000 | ₹100 | 100 | 100 |
 | **2** | ₹10,000 | ₹80 | 125 | 225 |
 | **3** | ₹10,000 | ₹120 | 83.33 | 308.33 |
 | **4** | ₹10,000 | ₹90 | 111.11 | 419.44 |
 
-**Average NAV**: ₹97.5  
+**Average NAV (Net Asset Value)**: ₹97.5  
 **Average Purchase Price**: ₹40,000 ÷ 419.44 = ₹95.37  
-**Benefit**: Lower average cost despite higher average NAV
+**Benefit**: Lower average cost despite higher average NAV (Net Asset Value)
 
 #### **When to Choose Each Method**
-**SIP Suitable For**:
+**SIP (Systematic Investment Plan) Suitable For**:
 - Regular salary earners
 - Market timing uncertainty
 - Volatile market conditions  
@@ -343,7 +343,7 @@
 
 | **INSTRUMENT** | **LOCK-IN** | **RETURNS** | **LIQUIDITY** | **RISK** |
 |----------------|-------------|-------------|---------------|----------|
-| **ELSS Funds** | 3 years | 12-15% potential | Good after lock-in | High |
+| **ELSS (Equity Linked Savings Scheme) Funds** | 3 years | 12-15% potential | Good after lock-in | High |
 | **PPF** | 15 years | 7-8% | Very poor | Nil |
 | **NSC** | 5 years | 6.8% | Poor | Nil |
 | **Tax Saver FD** | 5 years | 5.5-6.5% | Poor | Nil |
@@ -352,7 +352,7 @@
 
 #### **Tax-Efficient Fund Categories**
 **Index Funds**: Low turnover = lower tax incidence
-**ELSS Funds**: Section 80C benefit + LTCG treatment
+**ELSS (Equity Linked Savings Scheme) Funds**: Section 80C benefit + LTCG (Long Term Capital Gains) treatment
 **Debt Funds** (>3 years): Indexation benefit for LTCG
 **International Funds**: Rupee depreciation + global diversification
 
@@ -394,16 +394,16 @@
 4. Tax-efficient fund selection
 
 #### **Critical Numbers for Exams**
-- **ELSS Lock-in**: 3 years
-- **PPF Tenure**: 15 years  
+- **ELSS (Equity Linked Savings Scheme) Lock-in**: 3 years
+- **PPF (Public Provident Fund) Tenure**: 15 years  
 - **Section 80C Limit**: ₹1.5 lakh
 - **LTCG Exemption**: ₹1 lakh (equity)
-- **SIP Minimum**: ₹500 typically
+- **SIP (Systematic Investment Plan) Minimum**: ₹500 typically
 - **Index Fund Expense Ratio**: 0.05-0.25%
 - **Active Fund Expense Ratio**: 1.5-2.5%
 
 #### **Formula Quick Reference**
-- **SIP Future Value**: P × [((1+r)^n - 1) / r] × (1+r)
+- **SIP (Systematic Investment Plan) Future Value**: P × [((1+r)^n - 1) / r] × (1+r)
 - **Compound Interest**: A = P(1+r)^t
 - **Real Return**: (1+Nominal Return)/(1+Inflation) - 1
 - **Asset Allocation Rule**: 100 minus age = equity percentage
@@ -486,9 +486,9 @@ Total Returns = ₹99,91,530 - ₹24,00,000 = ₹75,91,530
 
 **Scenario**: Home loan of ₹50,00,000 for 20 years at 8.5% interest
 
-**EMI Formula:**
+**EMI (Equated Monthly Installment) Formula:**
 ```
-EMI = [P × R × (1+R)^n] / [(1+R)^n - 1]
+EMI (Equated Monthly Installment) = [P × R × (1+R)^n] / [(1+R)^n - 1]
 
 Where:
 P = Principal loan amount = ₹50,00,000
@@ -502,7 +502,7 @@ Step-by-step calculation:
 Numerator = ₹50,00,000 × 0.007083 × 5.2945 = ₹1,87,476
 Denominator = 5.2945 - 1 = 4.2945
 
-EMI = ₹1,87,476 ÷ 4.2945 = ₹43,649
+EMI (Equated Monthly Installment) = ₹1,87,476 ÷ 4.2945 = ₹43,649
 
 Total Amount Payable = ₹43,649 × 240 = ₹1,04,76,000
 Total Interest = ₹1,04,76,000 - ₹50,00,000 = ₹54,76,000

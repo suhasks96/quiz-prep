@@ -29,7 +29,7 @@
 |------------|-------------------|-------------------------|
 | **Focus** | Individual trade risk | Overall portfolio risk |
 | **Complexity** | Simple calculations | Complex correlations |
-| **Risk Metrics** | Position size, stop loss | VaR, correlation, diversification |
+| **Risk Metrics** | Position size, stop loss | VaR (Value at Risk), correlation, diversification |
 | **Time Horizon** | Trade duration | Long-term wealth preservation |
 | **Analysis Depth** | Trade-specific | Comprehensive market analysis |
 | **Capital Allocation** | Per trade basis | Total capital optimization |
@@ -64,7 +64,7 @@
 - **Correlation Analysis**: Monitor position relationships
 - **Hedging**: Offsetting positions
 - **Rebalancing**: Periodic allocation adjustments
-- **VaR Analysis**: Value at Risk calculations
+- **VaR (Value at Risk) Analysis**: Value at Risk calculations
 
 ---
 
@@ -274,7 +274,7 @@ Cov(A,B) = ρ × σ₁ × σ₂ = 0.3 × 20% × 15% = 90
 
 ### **7. CAPITAL ASSET PRICING MODEL (CAPM)**
 
-#### **CAPM Formula**
+#### **CAPM (Capital Asset Pricing Model) Formula**
 
 **E(Ri) = Rf + βi[E(Rm) - Rf]**
 
@@ -296,7 +296,7 @@ Cov(A,B) = ρ × σ₁ × σ₂ = 0.3 × 20% × 15% = 90
 - σi = Standard deviation of asset
 - σm = Standard deviation of market
 
-#### **CAPM Calculation Example**
+#### **CAPM (Capital Asset Pricing Model) Calculation Example**
 
 **Given Data**:
 - Risk-free rate: 6%

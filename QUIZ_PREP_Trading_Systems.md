@@ -154,7 +154,7 @@
 **Trend Following Indicators**:
 - **Moving Average Crossovers**: Golden cross, death cross
 - **Breakout Systems**: Price breaking resistance/support
-- **Momentum Indicators**: RSI, MACD divergence
+- **Momentum Indicators**: RSI (Relative Strength Index), MACD (Moving Average Convergence Divergence) divergence
 - **Volume Confirmation**: High volume breakouts
 
 **Momentum System Advantages**:
@@ -173,7 +173,7 @@
 
 **Mean Reversion Indicators**:
 - **Bollinger Bands**: Price touching bands
-- **RSI Extremes**: >70 overbought, <30 oversold
+- **RSI (Relative Strength Index) Extremes**: >70 overbought, <30 oversold
 - **Standard Deviation**: Price deviation from mean
 - **Support/Resistance**: Historical price levels
 
@@ -416,7 +416,7 @@
 #### **Statistical Formula Reference**
 - **Correlation**: Cov(X,Y) / (σₓ × σᵧ)
 - **Sharpe Ratio**: (Rₚ - Rᶠ) / σₚ
-- **Beta**: Cov(stock, market) / Var(market)
+- **Beta**: Cov(stock, market) / Var(market) [where Cov = Covariance, Var = Variance]
 - **Linear Regression**: Y = α + βX + ε
 - **R-squared**: 1 - (SSᵣₑₛ / SSₜₒₜ)
 

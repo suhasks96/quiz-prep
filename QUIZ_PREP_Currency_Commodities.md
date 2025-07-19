@@ -27,11 +27,11 @@
 
 | **Parameter** | **CURRENCY FUTURES** | **COMMODITY FUTURES** |
 |---------------|---------------------|----------------------|
-| **Underlying Asset** | Currency pairs (USD/INR) | Physical commodities (Gold, Oil) |
+| **Underlying Asset** | Currency pairs (USD/INR - US Dollar/Indian Rupee) | Physical commodities (Gold, Oil) |
 | **Volatility** | Lower (1-3% daily) | Higher (2-10% daily) |
 | **Trading Hours** | Extended (global markets) | Limited (commodity-specific) |
 | **Settlement** | Cash settled | Cash/physical settlement |
-| **Lot Size** | Currency-specific (USD 1000) | Commodity-specific (varies) |
+| **Lot Size** | Currency-specific (USD 1000 - US Dollar 1000) | Commodity-specific (varies) |
 | **Margin Requirements** | Lower (2-5%) | Higher (5-15%) |
 | **Price Drivers** | Interest rates, economics | Supply-demand, weather, geopolitics |
 | **Seasonal Patterns** | Limited | High (agricultural commodities) |
@@ -78,28 +78,28 @@
 
 | **PAIR** | **LOT SIZE** | **VOLATILITY** | **LIQUIDITY** | **TRADING APPEAL** |
 |----------|--------------|----------------|---------------|-------------------|
-| **USD/INR** | USD 1,000 | Moderate | Highest | Most popular |
-| **EUR/INR** | EUR 1,000 | Higher | Good | European exposure |
-| **GBP/INR** | GBP 1,000 | Highest | Moderate | Brexit volatility |
-| **JPY/INR** | JPY 100,000 | Moderate | Lower | Yen carry trade |
+| **USD/INR (US Dollar/Indian Rupee)** | USD 1,000 | Moderate | Highest | Most popular |
+| **EUR/INR (Euro/Indian Rupee)** | EUR 1,000 | Higher | Good | European exposure |
+| **GBP/INR (British Pound/Indian Rupee)** | GBP 1,000 | Highest | Moderate | Brexit volatility |
+| **JPY/INR (Japanese Yen/Indian Rupee)** | JPY 100,000 | Moderate | Lower | Yen carry trade |
 
-#### **USD/INR vs Other Pairs Detailed Comparison**
+#### **USD/INR (US Dollar/Indian Rupee) vs Other Pairs Detailed Comparison**
 
-**USD/INR Characteristics**:
+**USD/INR (US Dollar/Indian Rupee) Characteristics**:
 - **Primary Pair**: Most liquid and traded
-- **RBI Intervention**: Regular central bank activity
+- **RBI (Reserve Bank of India) Intervention**: Regular central bank activity
 - **Oil Impact**: India's oil import dependency
-- **FII Flows**: Foreign investment influence
+- **FII (Foreign Institutional Investor) Flows**: Foreign investment influence
 - **Government Policy**: Economic reform impact
 
-**EUR/INR Characteristics**:
-- **European Economic**: EU economic data influence
-- **ECB Policy**: European Central Bank decisions
+**EUR/INR (Euro/Indian Rupee) Characteristics**:
+- **European Economic**: EU (European Union) economic data influence
+- **ECB (European Central Bank) Policy**: European Central Bank decisions
 - **Cross-Currency**: USD/EUR relationship important
 - **Lower Liquidity**: Compared to USD/INR
 - **Complex Dynamics**: Three-way currency relationship
 
-**GBP/INR Characteristics**:
+**GBP/INR (British Pound/Indian Rupee) Characteristics**:
 - **Brexit Impact**: UK-EU relationship effects
 - **Historical Ties**: Commonwealth connection
 - **Higher Volatility**: Political uncertainty
@@ -112,7 +112,7 @@
 |------------------|-----------------|-----------------|
 | **USD/INR vs Crude Oil** | Positive | Oil imports affect rupee |
 | **USD/INR vs Gold** | Negative | Safe haven demand |
-| **USD/INR vs Nifty** | Negative | FII flow relationship |
+| **USD/INR vs Nifty** | Negative | FII (Foreign Institutional Investor) flow relationship |
 | **EUR/INR vs USD/EUR** | High | Cross-currency arbitrage |
 
 ---
@@ -133,9 +133,9 @@
 #### **Energy Commodities Detailed Analysis**
 
 **Crude Oil Characteristics**:
-- **Global Benchmark**: WTI and Brent prices
+- **Global Benchmark**: WTI (West Texas Intermediate) and Brent prices
 - **Geopolitical Sensitive**: Middle East tensions
-- **OPEC Influence**: Production quotas impact
+- **OPEC (Organization of the Petroleum Exporting Countries) Influence**: Production quotas impact
 - **Economic Indicator**: Global growth proxy
 - **Storage Constraints**: Limited storage capacity
 
@@ -164,7 +164,7 @@
 
 ---
 
-## 🌾 **WTI vs BRENT CRUDE: DETAILED COMPARISON**
+## 🌾 **WTI (West Texas Intermediate) vs BRENT CRUDE: DETAILED COMPARISON**
 
 ### **5. CRUDE OIL BENCHMARK ANALYSIS**
 
@@ -184,21 +184,21 @@
 #### **Price Spread Analysis**
 
 **Historical Relationship**:
-- **Normal Spread**: Brent $2-5 premium to WTI
+- **Normal Spread**: Brent $2-5 premium to WTI (West Texas Intermediate)
 - **Extreme Periods**: Spread can widen to $10-20
 - **Convergence**: Spreads narrow during supply stability
 - **Arbitrage**: Price differences create trading opportunities
 
 **Factors Affecting Spread**:
-- **US Shale Production**: Increased WTI supply
-- **Cushing Storage**: Inventory levels impact WTI
+- **US Shale Production**: Increased WTI (West Texas Intermediate) supply
+- **Cushing Storage**: Inventory levels impact WTI (West Texas Intermediate)
 - **Refinery Capacity**: Processing demand differences
 - **Export Infrastructure**: US crude export capability
 - **Geopolitical Events**: Regional supply disruptions
 
 #### **Trading Implications**
 
-**WTI Advantages**:
+**WTI (West Texas Intermediate) Advantages**:
 - **Higher Quality**: Better refining margins
 - **US Market**: Domestic consumption proximity
 - **Storage Hub**: Cushing infrastructure
@@ -267,10 +267,10 @@
 
 | **ASSET** | **DOMESTIC MARKET** | **INTERNATIONAL REFERENCE** | **ARBITRAGE OPPORTUNITY** |
 |-----------|-------------------|---------------------------|--------------------------|
-| **USD/INR** | NSE Currency | Offshore NDF | Limited (RBI control) |
-| **Gold** | MCX Gold | COMEX Gold | Active arbitrage |
-| **Crude Oil** | MCX Crude | Brent/WTI | Price discovery link |
-| **Silver** | MCX Silver | COMEX Silver | Active arbitrage |
+| **USD/INR** | NSE (National Stock Exchange) Currency | Offshore NDF (Non-Deliverable Forward) | Limited (RBI control) |
+| **Gold** | MCX (Multi Commodity Exchange) Gold | COMEX (Commodity Exchange) Gold | Active arbitrage |
+| **Crude Oil** | MCX (Multi Commodity Exchange) Crude | Brent/WTI | Price discovery link |
+| **Silver** | MCX (Multi Commodity Exchange) Silver | COMEX (Commodity Exchange) Silver | Active arbitrage |
 
 #### **Time Zone Advantages**
 
@@ -343,7 +343,7 @@
 4. Margin requirements and leverage
 
 **Specific Product Knowledge** (25%):
-1. WTI vs Brent crude differences
+1. WTI (West Texas Intermediate) vs Brent crude differences
 2. Currency pair characteristics
 3. Commodity category features
 4. Seasonal patterns and cycles
@@ -362,17 +362,17 @@
 
 #### **Critical Numbers for Exams**
 - **USD/INR Lot Size**: USD 1,000
-- **Gold Lot Size**: 1 kg (MCX)
-- **Crude Oil Lot Size**: 100 barrels (MCX)
+- **Gold Lot Size**: 1 kg (MCX - Multi Commodity Exchange)
+- **Crude Oil Lot Size**: 100 barrels (MCX - Multi Commodity Exchange)
 - **Currency Margins**: 2-5% typically
 - **Commodity Margins**: 5-15% typically
-- **WTI API Gravity**: 39.6°
+- **WTI (West Texas Intermediate) API (American Petroleum Institute) Gravity**: 39.6°
 - **Brent API Gravity**: 38.3°
 
 #### **Key Relationships to Remember**
 - **USD/INR vs Crude Oil**: Positive correlation
 - **USD/INR vs Gold**: Negative correlation
-- **Brent vs WTI**: Brent usually premium
+- **Brent vs WTI (West Texas Intermediate)**: Brent usually premium
 - **Gold vs US Dollar**: Inverse relationship
 
 ---
@@ -394,7 +394,7 @@
 #### **Cross-Market Arbitrage**
 
 **Gold Arbitrage Example**:
-- **MCX Gold**: Domestic market price
+- **MCX (Multi Commodity Exchange) Gold**: Domestic market price
 - **COMEX Gold**: International market price
 - **USD/INR Rate**: Currency conversion
 - **Import Duties**: Government levies
@@ -458,8 +458,8 @@ F = S × (1 + Roc × N) ÷ (1 + Rbc × N)
 Where:
 F = Future Rate
 S = Today's spot rate = 67
-Roc = Interest rate in quotation currency (INR) = 7%
-Rbc = Interest rate in base currency (USD) = 0.5%
+Roc = Interest rate in quotation currency (INR - Indian Rupee) = 7%
+Rbc = Interest rate in base currency (USD - US Dollar) = 0.5%
 N = Period in years = 1
 
 F = 67 × (1 + 7% × 1) ÷ (1 + 0.5% × 1)
@@ -508,7 +508,7 @@ Contract Specifications:
 
 Contract Value = EUR 1,000 × 74.8950 = ₹74,895
 Margin Required (2.5%) = ₹74,895 × 2.5% = ₹1,872
-P&L per Pip = EUR 1,000 × 0.0025 = ₹2.50
+P&L (Profit and Loss) per Pip = EUR 1,000 × 0.0025 = ₹2.50
 ```
 
 #### **Commodity Contract Calculations**

@@ -114,17 +114,17 @@
 
 | **CATEGORY** | **PURPOSE** | **KEY RATIOS** | **INTERPRETATION** |
 |--------------|-------------|----------------|-------------------|
-| **Profitability** | Earnings efficiency | EBITDA, PAT, ROE, ROA | Higher is better |
+| **Profitability** | Earnings efficiency | EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization), PAT (Profit After Tax), ROE (Return on Equity), ROA (Return on Assets) | Higher is better |
 | **Leverage** | Debt management | D/E, Interest Coverage | Moderate levels optimal |
 | **Operational** | Business efficiency | Asset Turnover, Inventory | Higher efficiency better |
 | **Liquidity** | Short-term safety | Current, Quick, Cash | Adequate levels needed |
-| **Valuation** | Market pricing | P/E, P/B, EV/EBITDA | Relative comparison |
+| **Valuation** | Market pricing | P/E (Price to Earnings), P/B (Price to Book), EV/EBITDA (Enterprise Value to EBITDA) | Relative comparison |
 
 #### **Profitability Ratios Detailed Comparison**
 
 | **RATIO** | **FORMULA** | **BENCHMARK** | **SIGNIFICANCE** |
 |-----------|-------------|---------------|------------------|
-| **EBITDA Margin** | EBITDA ÷ Revenue | 15-25% (varies by sector) | Operating efficiency |
+| **EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) Margin** | EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) ÷ Revenue | 15-25% (varies by sector) | Operating efficiency |
 | **PAT Margin** | PAT ÷ Revenue | 5-15% (varies by sector) | Overall profitability |
 | **ROE** | PAT ÷ Shareholders' Equity | >15% good | Shareholder returns |
 | **ROA** | PAT ÷ Total Assets | >10% good | Asset utilization |
@@ -159,10 +159,10 @@
 | **METHOD** | **APPROACH** | **BEST FOR** | **LIMITATIONS** |
 |------------|--------------|--------------|-----------------|
 | **P/E Valuation** | Price-to-Earnings multiple | Profitable, mature companies | Not for loss-making companies |
-| **P/B Valuation** | Price-to-Book multiple | Asset-heavy companies | Ignores intangible assets |
-| **EV/EBITDA** | Enterprise Value to EBITDA | Comparing across capital structures | Complex calculation |
-| **DCF Method** | Discounted Cash Flow | Mature, predictable businesses | Highly assumption-dependent |
-| **PEG Ratio** | P/E to Growth ratio | Growth companies | Growth rate estimation challenges |
+| **P/B (Price to Book) Valuation** | Price-to-Book multiple | Asset-heavy companies | Ignores intangible assets |
+| **EV/EBITDA (Enterprise Value to EBITDA)** | Enterprise Value to EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) | Comparing across capital structures | Complex calculation |
+| **DCF (Discounted Cash Flow) Method** | Discounted Cash Flow | Mature, predictable businesses | Highly assumption-dependent |
+| **PEG (Price Earnings to Growth) Ratio** | P/E (Price to Earnings) to Growth ratio | Growth companies | Growth rate estimation challenges |
 
 #### **P/E Ratio Variations**
 
@@ -180,17 +180,17 @@
 - Mature industries with stable earnings
 - Quick relative valuation comparisons
 
-**P/B Valuation Best For**:
+**P/B (Price to Book) Valuation Best For**:
 - Banks and financial institutions
 - Asset-heavy manufacturing companies
 - Companies with significant tangible assets
 
-**EV/EBITDA Best For**:
+**EV/EBITDA (Enterprise Value to EBITDA) Best For**:
 - Companies with different capital structures
 - Leveraged companies comparison
 - Acquisition valuations
 
-**DCF Method Best For**:
+**DCF (Discounted Cash Flow) Method Best For**:
 - Mature companies with predictable cash flows
 - Detailed intrinsic value calculation
 - Long-term investment decisions
@@ -207,7 +207,7 @@
 |--------------|-------------------|----------------|---------------------------|
 | **Banking** | NIM, CASA Ratio, NPAs | NIM >3%, NPAs <5% | Asset quality paramount |
 | **Auto** | Inventory Turnover, D/E | Inventory T/O >6x | Cyclical nature |
-| **FMCG** | ROE, EBITDA Margin | ROE >20%, Margin >15% | Brand value important |
+| **FMCG (Fast-Moving Consumer Goods)** | ROE (Return on Equity), EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) Margin | ROE (Return on Equity) >20%, Margin >15% | Brand value important |
 | **IT Services** | Revenue per Employee, Margins | Margin >20% | People-intensive business |
 | **Pharma** | R&D Spend, ROE | R&D >8% of revenue | Regulatory risks |
 | **Real Estate** | Debt-to-Equity, Pre-sales | D/E <1.5 | Working capital intensive |
@@ -295,7 +295,7 @@
 **Valuation Methods** (25%):
 1. When to use each valuation method
 2. P/E ratio variations and applications
-3. DCF vs Multiple-based valuations
+3. DCF (Discounted Cash Flow) vs Multiple-based valuations
 4. Sector-specific valuation approaches
 
 **Business Quality Assessment** (20%):
@@ -309,7 +309,7 @@
 - **Safe Debt-to-Equity**: <1.0
 - **Healthy Interest Coverage**: >4x
 - **Efficient Asset Turnover**: Varies by industry
-- **Quality EBITDA Margin**: 15-25% (sector-dependent)
+- **Quality EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) Margin**: 15-25% (sector-dependent)
 - **Good Current Ratio**: 1.5-3.0 (not too high)
 
 #### **Ratio Quick Reference**
@@ -331,15 +331,15 @@
 | **STYLE** | **FOCUS** | **METRICS** | **RISK PROFILE** | **EXAMPLES** |
 |-----------|-----------|-------------|------------------|--------------|
 | **Quality** | High ROCE, low debt | ROE >20%, D/E <0.5 | Moderate risk | Consistent performers |
-| **Value** | Undervalued assets | Low P/E, P/B | Higher risk | Cyclical recoveries |
+| **Value** | Undervalued assets | Low P/E (Price to Earnings), P/B (Price to Book) | Higher risk | Cyclical recoveries |
 | **Growth** | Earnings growth | High growth rates | Highest risk | Emerging companies |
 
 #### **DuPont Analysis Framework**
 
 ### **6. DETAILED FINANCIAL RATIO CALCULATIONS**
 
-#### **EBITDA Calculation Step-by-Step**
-**Formula**: EBITDA = Operating Revenues - Operating Expenses
+#### **EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) Calculation Step-by-Step**
+**Formula**: EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) = Operating Revenues - Operating Expenses
 
 **Example: Amara Raja Batteries (FY14)**
 ```
@@ -349,13 +349,13 @@ Operating Revenues = Total Revenue - Other Income
 Operating Expenses = Total Expenses - Finance Cost - Depreciation
                    = ₹2,942 Cr - ₹0.7 Cr - ₹65 Cr = ₹2,876 Cr
 
-EBITDA = ₹3,436 Cr - ₹2,876 Cr = ₹560 Cr
+EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) = ₹3,436 Cr - ₹2,876 Cr = ₹560 Cr
 
-EBITDA Margin = ₹560 Cr ÷ ₹3,436 Cr = 16.3%
+EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) Margin = ₹560 Cr ÷ ₹3,436 Cr = 16.3%
 ```
 
-#### **DuPont Model - Detailed ROE Breakdown**
-**Formula**: ROE = Net Profit Margin × Asset Turnover × Financial Leverage
+#### **DuPont Model - Detailed ROE (Return on Equity) Breakdown**
+**Formula**: ROE (Return on Equity) = Net Profit Margin × Asset Turnover × Financial Leverage
 
 **Example Calculation:**
 ```
@@ -433,7 +433,7 @@ Total Shares = 17.081 Cr
 
 Book Value per Share = (17.1 + 1,345.6) ÷ 17.081 = ₹79.8
 
-P/BV Ratio = Market Price ÷ Book Value
+P/BV (Price to Book Value) Ratio = Market Price ÷ Book Value
            = 661 ÷ 79.8 = 8.3 times
 ```
 **ROE Decomposition**: ROE = (Profit Margin) × (Asset Turnover) × (Financial Leverage)

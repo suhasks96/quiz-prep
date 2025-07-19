@@ -103,13 +103,13 @@
 
 | **Type** | **Calculation** | **Responsiveness** | **Lag** | **Best Use** |
 |----------|-----------------|-------------------|---------|--------------|
-| **SMA** | Simple average of N periods | Low | High | Trend identification |
-| **EMA** | Exponential weight to recent prices | High | Low | Signal generation |
+| **SMA (Simple Moving Average)** | Simple average of N periods | Low | High | Trend identification |
+| **EMA (Exponential Moving Average)** | Exponential weight to recent prices | High | Low | Signal generation |
 | **WMA** | Linear weights to recent prices | Medium | Medium | Balanced approach |
 
 #### **Calculation Examples (5-period)**
-**SMA**: (P1 + P2 + P3 + P4 + P5) ÷ 5
-**EMA**: Uses multiplier = 2/(N+1) = 2/6 = 0.33
+**SMA (Simple Moving Average)**: (P1 + P2 + P3 + P4 + P5) ÷ 5
+**EMA (Exponential Moving Average)**: Uses multiplier = 2/(N+1) = 2/6 = 0.33
 **WMA**: (P1×1 + P2×2 + P3×3 + P4×4 + P5×5) ÷ 15
 
 #### **Moving Average Period Comparison**
@@ -172,22 +172,22 @@
 
 | **Category** | **Purpose** | **Examples** | **Market Condition** |
 |--------------|-------------|--------------|---------------------|
-| **Trend** | Direction identification | MA, MACD, ADX | Trending markets |
-| **Momentum** | Speed of price change | RSI, Stochastic | All market conditions |
+| **Trend** | Direction identification | MA (Moving Average), MACD (Moving Average Convergence Divergence), ADX (Average Directional Index) | Trending markets |
+| **Momentum** | Speed of price change | RSI (Relative Strength Index), Stochastic | All market conditions |
 | **Volume** | Confirm price moves | OBV, Volume MA | Breakout confirmation |
-| **Volatility** | Price movement range | Bollinger Bands, ATR | Range-bound markets |
+| **Volatility** | Price movement range | Bollinger Bands, ATR (Average True Range) | Range-bound markets |
 
 #### **Oscillator Comparison**
 
 | **Oscillator** | **Range** | **Signals** | **Strength** | **Weakness** |
 |----------------|-----------|-------------|--------------|--------------|
-| **RSI** | 0-100 | Overbought/Oversold | Clear boundaries | Trend lag |
+| **RSI (Relative Strength Index)** | 0-100 | Overbought/Oversold | Clear boundaries | Trend lag |
 | **Stochastic** | 0-100 | %K/%D crossovers | Early signals | False signals |
-| **MACD** | Unbounded | Signal line cross | Trend + momentum | Lagging |
+| **MACD (Moving Average Convergence Divergence)** | Unbounded | Signal line cross | Trend + momentum | Lagging |
 | **Williams %R** | -100 to 0 | Overbought/Oversold | Quick reversals | Choppy markets |
 
 #### **Bollinger Bands Applications**
-**Band Construction**: 20-period SMA ± 2 standard deviations
+**Band Construction**: 20-period SMA (Simple Moving Average) ± 2 standard deviations
 **Upper Band**: Resistance and overbought indicator
 **Lower Band**: Support and oversold indicator
 **Band Width**: Volatility measurement
@@ -224,8 +224,8 @@
 
 ### **8. KEY FORMULA COMPARISONS**
 
-#### **RSI Calculation Methods**
-**Formula**: RSI = 100 - [100 ÷ (1 + RS)]
+#### **RSI (Relative Strength Index) Calculation Methods**
+**Formula**: RSI (Relative Strength Index) = 100 - [100 ÷ (1 + RS)]
 **Where RS** = Average Gain ÷ Average Loss
 **Period**: Typically 14 days
 **Interpretation**: >70 overbought, <30 oversold
@@ -242,27 +242,27 @@ Average Loss = 10 ÷ 14 = 0.714
 
 RS = 2.07 ÷ 0.714 = 2.8991
 
-RSI = 100 - [100 ÷ (1 + 2.8991)]
+RSI (Relative Strength Index) = 100 - [100 ÷ (1 + 2.8991)]
     = 100 - [100 ÷ 3.8991]
     = 100 - 25.6469
     = 74.35 (Overbought territory)
 ```
 
-#### **MACD Components**
-**MACD Line**: 12-day EMA - 26-day EMA
-**Signal Line**: 9-day EMA of MACD line
-**Histogram**: MACD line - Signal line
-**Signals**: MACD crossing signal line
+#### **MACD (Moving Average Convergence Divergence) Components**
+**MACD (Moving Average Convergence Divergence) Line**: 12-day EMA (Exponential Moving Average) - 26-day EMA (Exponential Moving Average)
+**Signal Line**: 9-day EMA (Exponential Moving Average) of MACD (Moving Average Convergence Divergence) line
+**Histogram**: MACD (Moving Average Convergence Divergence) line - Signal line
+**Signals**: MACD (Moving Average Convergence Divergence) crossing signal line
 
 #### **Bollinger Band Calculations**
-**Middle Band**: 20-period SMA
+**Middle Band**: 20-period SMA (Simple Moving Average)
 **Upper Band**: Middle Band + (2 × Standard Deviation)
 **Lower Band**: Middle Band - (2 × Standard Deviation)
 **%B**: Position within bands = (Price - Lower Band) ÷ (Upper Band - Lower Band)
 
 **Bollinger Bands Example Calculation:**
 ```
-20-day SMA = ₹7,800
+20-day SMA (Simple Moving Average) = ₹7,800
 Standard Deviation = ₹75 (or 0.96%)
 
 Upper Band = 7,800 + (2 × 75) = 7,800 + 150 = ₹7,950
@@ -324,7 +324,7 @@ RRR = 7 ÷ 5 = 1.4 (Good - Acceptable trade)
 4. Historical context and origins
 
 **Moving Average Analysis** (25%):
-1. SMA vs EMA responsiveness
+1. SMA (Simple Moving Average) vs EMA (Exponential Moving Average) responsiveness
 2. Different period implications
 3. Golden cross vs death cross
 4. Calculation method differences
@@ -342,10 +342,10 @@ RRR = 7 ÷ 5 = 1.4 (Good - Acceptable trade)
 **Risk Management**: TA provides built-in risk management through charts
 
 #### **Quick Reference Numbers**
-- **RSI Overbought**: >70
-- **RSI Oversold**: <30
+- **RSI (Relative Strength Index) Overbought**: >70
+- **RSI (Relative Strength Index) Oversold**: <30
 - **Bollinger Bands**: 20-period ± 2 standard deviations
-- **MACD**: 12, 26, 9 (fast, slow, signal)
+- **MACD (Moving Average Convergence Divergence)**: 12, 26, 9 (fast, slow, signal)
 - **Golden Cross**: 50-day above 200-day MA
 - **Volume Confirmation**: 1.5x average volume for breakouts
 
@@ -359,14 +359,14 @@ RRR = 7 ÷ 5 = 1.4 (Good - Acceptable trade)
 
 | **Market Type** | **Technical Features** | **Indicator Behavior** | **Strategy Focus** |
 |-----------------|----------------------|----------------------|-------------------|
-| **Bull Market** | Higher highs, higher lows | RSI stays above 50 | Buy dips, momentum |
-| **Bear Market** | Lower highs, lower lows | RSI stays below 50 | Sell rallies, mean reversion |
+| **Bull Market** | Higher highs, higher lows | RSI (Relative Strength Index) stays above 50 | Buy dips, momentum |
+| **Bear Market** | Lower highs, lower lows | RSI (Relative Strength Index) stays below 50 | Sell rallies, mean reversion |
 | **Sideways** | Horizontal movement | Oscillating indicators | Range trading |
 
 #### **Trending vs Range-Bound Markets**
 **Trending Markets**: Momentum indicators work best
 **Range-Bound Markets**: Oscillators and mean reversion work best
-**Identification**: ADX > 25 suggests trending, ADX < 25 suggests ranging
+**Identification**: ADX (Average Directional Index) > 25 suggests trending, ADX (Average Directional Index) < 25 suggests ranging
 
 ---
 
