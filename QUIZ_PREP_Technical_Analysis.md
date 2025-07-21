@@ -306,48 +306,7 @@ RRR = 7 ÷ 5 = 1.4 (Good - Acceptable trade)
 
 ---
 
-## ✅ **ENHANCED QUIZ STRATEGIES**
-
-### **9. COMPARISON-BASED EXAM QUESTIONS**
-
-#### **Expected Question Types**
-**TA vs FA Comparison** (20%):
-1. When to use each approach
-2. Time horizon differences
-3. Data source comparisons
-4. Scalability advantages/disadvantages
-
-**Chart Type Comparisons** (15%):
-1. Candlestick vs bar chart advantages
-2. Pattern recognition differences
-3. Visual interpretation benefits
-4. Historical context and origins
-
-**Moving Average Analysis** (25%):
-1. SMA (Simple Moving Average) vs EMA (Exponential Moving Average) responsiveness
-2. Different period implications
-3. Golden cross vs death cross
-4. Calculation method differences
-
-**Indicator Comparisons** (25%):
-1. Trend vs momentum indicators
-2. Leading vs lagging indicators
-3. Oscillator behavior differences
-4. Volume confirmation methods
-
-#### **Critical Concepts for Exams**
-**Market Efficiency**: TA assumes some market inefficiency
-**Time Frames**: Different techniques work better in different time frames
-**Confirmation**: Multiple indicators provide better signals
-**Risk Management**: TA provides built-in risk management through charts
-
-#### **Quick Reference Numbers**
-- **RSI (Relative Strength Index) Overbought**: >70
-- **RSI (Relative Strength Index) Oversold**: <30
-- **Bollinger Bands**: 20-period ± 2 standard deviations
-- **MACD (Moving Average Convergence Divergence)**: 12, 26, 9 (fast, slow, signal)
-- **Golden Cross**: 50-day above 200-day MA
-- **Volume Confirmation**: 1.5x average volume for breakouts
+**Technical analysis provides systematic methods for analyzing price and volume data to identify trends, support/resistance levels, and optimal entry/exit points using charts, patterns, and mathematical indicators.**
 
 ---
 

@@ -440,59 +440,6 @@ Stock Trading at ₹8,100
 
 ---
 
-## ✅ **ENHANCED QUIZ STRATEGIES**
-
-### **13. COMPARISON-BASED EXAM QUESTIONS**
-
-#### **Expected Question Types**
-**Call vs Put Mechanics** (25%):
-1. Intrinsic value calculations for both
-2. Moneyness classification differences
-3. Exercise conditions and payoffs
-4. Greek behavior comparisons
-
-**Position Sizing** (20%):
-1. Risk-based position sizing calculations
-2. Premium amount vs contract-based sizing
-3. Volatility-adjusted position sizing
-4. Portfolio hedging calculations
-
-**European vs American** (15%):
-1. Exercise style differences
-2. Early exercise scenarios
-3. Premium differences and reasons
-4. Practical applications
-
-**Volatility Concepts** (20%):
-1. Historical vs implied volatility
-2. Impact on call vs put premiums
-3. Volatility trading strategies
-4. Market expectations interpretation
-
-**Option Chain Analysis** (20%):
-1. Reading option chain data
-2. Put-call ratio interpretation
-3. Open interest analysis
-4. Support/resistance identification
-
-#### **Critical Numbers to Remember**
-- **ATM Delta**: Calls ≈ +0.5, Puts ≈ -0.5
-- **ITM Call Delta**: 0.5 to 1.0
-- **ITM Put Delta**: -0.5 to -1.0
-- **Maximum Gamma**: ATM options
-- **Maximum Theta**: ATM options
-- **Volatility Impact**: Same direction for both calls and puts
-
-#### **Formula Quick Reference**
-- **Call Intrinsic Value**: Max(S - K, 0)
-- **Put Intrinsic Value**: Max(K - S, 0)
-- **Put-Call Parity**: C + PV(K) = P + S
-- **Time Value**: Option Premium - Intrinsic Value
-- **Position Size (Risk-Based)**: Risk Amount ÷ Maximum Loss per Contract
-- **Kelly Criterion**: f = (bp - q) / b
-
----
-
 ## 🔢 **DETAILED MATHEMATICAL CALCULATIONS**
 
 ### **16. STEP-BY-STEP OPTION CALCULATIONS**
@@ -918,9 +865,7 @@ Payoffs:
 
 ---
 
-**REMEMBER**: Options provide asymmetric risk-reward profiles with limited downside (premium) and potentially unlimited upside. Call and put options are complementary instruments with opposite directional exposures. Position sizing is crucial - never risk more than 2-3% of capital per trade. Understanding moneyness, Greeks behavior, and put-call parity is essential for options trading and risk management.
-
-**EXAM FOCUS**: Master the differences between calls and puts, understand moneyness classification, practice intrinsic value calculations, know Greek behavior patterns, understand position sizing methodologies, and understand European vs American exercise styles. Position sizing calculations are increasingly important in professional options trading.
+**Options theory provides the mathematical framework for understanding asymmetric risk-reward instruments, with Greeks serving as essential tools for measuring and managing the various risk dimensions of option positions.**
 
 ---
 *Rights • Obligations • Premiums • Probabilities*

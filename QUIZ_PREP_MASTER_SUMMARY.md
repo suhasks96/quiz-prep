@@ -669,3 +669,563 @@ Purchasing Power Parity = S₁/S₀ = (1 + πd) ÷ (1 + πf)
 - Always expand abbreviations when first mentioned in documents
 - Understand regional variations (e.g., US vs Indian terminology)
 - Stay updated with new abbreviations as markets evolve 
+
+---
+
+## 📚 **MODULE-SPECIFIC QUIZ PREPARATION STRATEGIES**
+
+### **📈 MODULE 1: FINANCIAL MARKETS FUNDAMENTALS - EXAM STRATEGY**
+
+#### **Expected Question Types**
+**Market Structure** (25%):
+1. NSE vs BSE comparison questions
+2. Primary vs secondary market differences
+3. SEBI role and regulatory functions
+4. Stock exchange functions and operations
+
+**Return Calculations** (30%):
+1. Absolute return vs CAGR calculations
+2. Annualized return computations
+3. Real return after inflation
+4. Time value of money problems
+
+**Index Construction** (20%):
+1. Free-float market cap calculations
+2. Index weight determination
+3. Nifty vs Sensex composition
+4. Index movement impact analysis
+
+**Order Types & Settlement** (25%):
+1. Different order types and applications
+2. T+2 settlement process
+3. Market vs limit order scenarios
+4. Trading session timings
+
+#### **Key Numbers for Exams**
+- **NSE Establishment**: 1992
+- **BSE Establishment**: 1875
+- **Nifty Base**: 1000 (Nov 3, 1995)
+- **Sensex Base**: 100 (1978-79)
+- **Settlement Cycle**: T+2
+- **Trading Sessions**: 9:15 AM to 3:30 PM
+- **Market Cap Formula**: Outstanding Shares × Current Price
+
+---
+
+### **📊 MODULE 2: TECHNICAL ANALYSIS - EXAM STRATEGY**
+
+#### **Expected Question Types**
+**Chart Pattern Recognition** (30%):
+1. Single vs multiple candlestick patterns
+2. Support and resistance identification
+3. Trend line drawing and interpretation
+4. Head and shoulders, triangles, flags
+
+**Technical Indicators** (35%):
+1. Moving average calculations and signals
+2. RSI interpretation and overbought/oversold levels
+3. MACD components and crossover signals
+4. Bollinger Bands and volatility analysis
+
+**Volume Analysis** (20%):
+1. Volume-price relationship
+2. On-Balance Volume (OBV) interpretation
+3. Volume confirmation of price moves
+4. Volume patterns at support/resistance
+
+**Comparison Analysis** (15%):
+1. Technical vs Fundamental analysis
+2. Different chart types comparison
+3. Moving average types (SMA vs EMA)
+4. Multiple timeframe analysis
+
+#### **Critical Concepts for Exams**
+- **RSI Levels**: >70 overbought, <30 oversold
+- **Moving Averages**: 21, 50, 200-day significance
+- **MACD Components**: 12-day EMA - 26-day EMA
+- **Bollinger Bands**: 2 standard deviations
+- **Volume Confirmation**: Rising prices + rising volume = healthy trend
+
+---
+
+### **🔍 MODULE 3: FUNDAMENTAL ANALYSIS - EXAM STRATEGY**
+
+#### **Expected Question Types**
+**Financial Ratio Analysis** (35%):
+1. Profitability ratios (ROE, ROA, Net Margin)
+2. Liquidity ratios (Current, Quick, Cash ratios)
+3. Leverage ratios (Debt-to-Equity, Interest Coverage)
+4. Efficiency ratios (Asset Turnover, Inventory Turnover)
+
+**Valuation Methods** (30%):
+1. P/E, P/B, P/S ratio interpretations
+2. Enterprise Value and EV/EBITDA
+3. PEG ratio for growth assessment
+4. Dividend yield and payout ratio analysis
+
+**Business Analysis** (20%):
+1. Porter's Five Forces application
+2. Competitive advantage identification
+3. Management quality assessment
+4. Industry and sector analysis
+
+**Investment vs Trading** (15%):
+1. Long-term vs short-term approach differences
+2. Investment criteria and screening
+3. Risk assessment frameworks
+4. Portfolio construction principles
+
+#### **Critical Numbers for Exams**
+- **Good ROE**: >15% typically
+- **Healthy P/E**: 15-25 for mature companies
+- **Safe Debt-to-Equity**: <1.0
+- **Adequate Interest Coverage**: >4x
+- **Current Ratio**: 1.5-3.0 healthy range
+- **Quick Ratio**: >1.0 preferred
+
+---
+
+### **📈 MODULE 4: FUTURES TRADING - EXAM STRATEGY**
+
+#### **Expected Question Types**
+**Contract Specifications** (25%):
+1. Lot sizes for different instruments
+2. Margin requirements and calculations
+3. Contract expiry and settlement dates
+4. Tick size and value calculations
+
+**P&L Calculations** (30%):
+1. Mark-to-market profit/loss scenarios
+2. Margin call situations
+3. Leverage calculations
+4. Return on margin computations
+
+**Hedging & Arbitrage** (25%):
+1. Perfect hedge ratio calculations
+2. Index arbitrage opportunities
+3. Calendar spread strategies
+4. Risk reduction through futures
+
+**Pricing Models** (20%):
+1. Cost-of-carry model applications
+2. Basis calculations and convergence
+3. Fair value determination
+4. Dividend impact on futures pricing
+
+#### **Critical Numbers for Exams**
+- **Nifty Lot Size**: 75 shares
+- **Bank Nifty Lot Size**: 25 shares
+- **Margin Requirement**: 6-14% typically
+- **Expiry**: Last Thursday of month
+- **Settlement**: Cash settlement for index
+- **Basis**: Futures Price - Spot Price
+
+#### **Formula Quick Reference**
+- **Contract Value**: Price × Lot Size
+- **Leverage**: Contract Value ÷ Margin
+- **P&L**: (Exit - Entry) × Lot Size
+- **Return on Margin**: P&L ÷ Margin × 100
+
+---
+
+### **⚡ MODULE 5: OPTIONS THEORY - EXAM STRATEGY**
+
+#### **Expected Question Types**
+**Options Basics** (25%):
+1. Call vs Put characteristics
+2. Rights vs obligations
+3. Premium components (intrinsic + time value)
+4. Moneyness classification (ITM, ATM, OTM)
+
+**Greeks Analysis** (35%):
+1. Delta interpretation and calculations
+2. Gamma behavior patterns
+3. Theta time decay impact
+4. Vega volatility sensitivity
+5. Rho interest rate effects
+
+**Pricing Models** (20%):
+1. Black-Scholes assumptions and limitations
+2. Put-call parity relationship
+3. Volatility impact on pricing
+4. Time decay acceleration patterns
+
+**Position Sizing** (20%):
+1. Risk-based position sizing
+2. Kelly criterion applications
+3. Portfolio delta management
+4. Volatility-adjusted sizing
+
+#### **Critical Numbers to Remember**
+- **ATM Delta**: ~0.5 for calls, ~-0.5 for puts
+- **Gamma**: Highest for ATM options near expiry
+- **Theta**: Accelerates in final 30 days
+- **Implied Volatility**: Compare to historical volatility
+- **Time Value**: Maximum for ATM options
+
+#### **Formula Quick Reference**
+- **Intrinsic Value (Call)**: Max(Spot-Strike, 0)
+- **Intrinsic Value (Put)**: Max(Strike-Spot, 0)
+- **Time Value**: Premium - Intrinsic Value
+- **Delta Range**: Calls (0 to 1), Puts (-1 to 0)
+
+---
+
+### **🎯 MODULE 6: OPTION STRATEGIES - EXAM STRATEGY**
+
+#### **Expected Question Types**
+**Basic Strategies** (20%):
+1. Long/short call and put scenarios
+2. Breakeven calculations
+3. Maximum profit/loss determination
+4. When to use each strategy
+
+**Spread Strategies** (35%):
+1. Bull/bear call and put spreads
+2. Calendar and diagonal spreads
+3. Ratio spreads and backspreads
+4. Iron Condor and Iron Butterfly
+
+**Volatility Strategies** (25%):
+1. Straddle and strangle strategies
+2. Volatility timing decisions
+3. Earnings play strategies
+4. Volatility crush scenarios
+
+**Advanced Applications** (20%):
+1. Greeks-based portfolio management
+2. Adjustment and repair techniques
+3. Professional strategy selection
+4. Risk management frameworks
+
+#### **Strategy Selection Matrix**
+- **Bull Call Spread**: Moderately bullish, limited risk/reward
+- **Iron Condor**: Range-bound market, high probability
+- **Long Straddle**: Big move expected, high volatility
+- **Short Strangle**: Stable market, volatility decline expected
+
+---
+
+### **💰 MODULE 7: MARKETS & TAXATION - EXAM STRATEGY**
+
+#### **Expected Question Types**
+**Classification Criteria** (30%):
+1. Business vs investment income determination
+2. Speculation vs non-speculation categorization
+3. Frequency and intention analysis
+4. Holding period significance
+
+**Tax Calculations** (35%):
+1. STCG vs LTCG tax rates
+2. Business income tax at slab rates
+3. Set-off and carry forward rules
+4. Advance tax payment schedules
+
+**Compliance Requirements** (20%):
+1. Turnover calculation methods
+2. Tax audit thresholds
+3. ITR form selection
+4. Record keeping requirements
+
+**Optimization Strategies** (15%):
+1. Tax-efficient investment structures
+2. Loss harvesting techniques
+3. Demat account operations
+4. International taxation basics
+
+#### **Critical Numbers for Exams**
+- **STCG Tax (Equity)**: 15%
+- **LTCG Tax (Equity)**: 10% (above ₹1 lakh)
+- **Holding Period**: 12 months for equity LTCG
+- **Audit Threshold**: ₹10 crores turnover
+- **Advance Tax**: If liability >₹10,000
+- **Loss Carry Forward**: 8 years maximum
+
+---
+
+### **🌍 MODULE 8: CURRENCY & COMMODITIES - EXAM STRATEGY**
+
+#### **Expected Question Types**
+**Currency Markets** (30%):
+1. Major currency pairs and correlations
+2. Interest rate parity calculations
+3. Central bank intervention impacts
+4. Economic indicator relationships
+
+**Commodity Trading** (30%):
+1. Contract specifications (Gold, Silver, Crude)
+2. Storage costs and convenience yield
+3. Seasonal patterns and supply/demand
+4. Global price linkages
+
+**Global Economics** (25%):
+1. Purchasing power parity concepts
+2. Trade balance impacts
+3. Geopolitical risk factors
+4. Cross-market correlations
+
+**Practical Applications** (15%):
+1. Hedging import/export exposure
+2. Portfolio diversification benefits
+3. Inflation hedging strategies
+4. Global macro trading approaches
+
+#### **Critical Numbers for Exams**
+- **USD/INR Lot**: USD 1,000
+- **Gold Big Lot**: 1 kg
+- **Gold Mini Lot**: 100 grams
+- **Silver Lot**: 30 kg
+- **Crude Oil Lot**: 100 barrels
+- **Currency Margin**: 2-5% typically
+
+---
+
+### **⚖️ MODULE 9: RISK MANAGEMENT & PSYCHOLOGY - EXAM STRATEGY**
+
+#### **Expected Question Types**
+**Statistical Concepts** (30%):
+1. Standard deviation and variance calculations
+2. Correlation and covariance interpretation
+3. Portfolio risk mathematics
+4. Value at Risk (VaR) computations
+
+**Portfolio Theory** (25%):
+1. CAPM and beta calculations
+2. Efficient frontier concepts
+3. Systematic vs unsystematic risk
+4. Diversification benefits quantification
+
+**Behavioral Finance** (25%):
+1. Common cognitive biases identification
+2. Behavioral intervention strategies
+3. Prospect theory applications
+4. Emotional trading patterns
+
+**Risk Management** (20%):
+1. Position sizing methodologies
+2. Risk-adjusted performance measures
+3. Drawdown analysis
+4. Portfolio heat calculations
+
+#### **Critical Formulas for Exams**
+- **Beta**: Cov(Stock,Market) ÷ Var(Market)
+- **Sharpe Ratio**: (Return-RiskFree) ÷ StdDev
+- **Portfolio Variance**: w₁²σ₁² + w₂²σ₂² + 2w₁w₂σ₁σ₂ρ₁₂
+- **VaR**: Portfolio Value × Z-score × StdDev
+- **Kelly Criterion**: (bp-q) ÷ b
+
+---
+
+### **🤖 MODULE 10: TRADING SYSTEMS - EXAM STRATEGY**
+
+#### **Expected Question Types**
+**System Development** (25%):
+1. Discretionary vs systematic approaches
+2. Backtesting methodology and pitfalls
+3. Walk-forward analysis concepts
+4. In-sample vs out-of-sample testing
+
+**Pair Trading** (30%):
+1. Correlation-based pair selection
+2. Cointegration testing methods
+3. Z-score signal generation
+4. Mean reversion strategies
+
+**Performance Metrics** (25%):
+1. Sharpe ratio and risk-adjusted returns
+2. Maximum drawdown analysis
+3. Profit factor calculations
+4. Win rate vs average win/loss
+
+**Advanced Concepts** (20%):
+1. Monte Carlo simulation applications
+2. Regime detection methods
+3. Factor model development
+4. Machine learning basics
+
+#### **Critical Concepts for Exams**
+- **Pair Correlation**: >0.8 for selection
+- **Z-Score Signals**: ±2 for entry, 0 for exit
+- **Good Sharpe Ratio**: >1.0
+- **Acceptable Drawdown**: <20%
+- **Profit Factor**: >1.5 minimum
+
+---
+
+### **🏠 MODULE 11: PERSONAL FINANCE - EXAM STRATEGY**
+
+#### **Expected Question Types**
+**Investment Comparisons** (25%):
+1. Mutual funds vs direct stocks
+2. SIP vs lump sum analysis
+3. Active vs passive fund management
+4. Debt vs equity allocation
+
+**Financial Planning** (30%):
+1. Retirement corpus calculations
+2. Emergency fund requirements
+3. Insurance needs assessment
+4. Goal-based investment planning
+
+**Tax-Efficient Investing** (20%):
+1. Section 80C instruments comparison
+2. LTCG vs STCG implications
+3. Asset location strategies
+4. Tax loss harvesting techniques
+
+**Mathematical Applications** (25%):
+1. Compound interest calculations
+2. SIP future value computations
+3. EMI and loan calculations
+4. Real return adjustments
+
+#### **Critical Numbers for Exams**
+- **Emergency Fund**: 6-12 months expenses
+- **Life Insurance**: 10-15x annual income
+- **Retirement Corpus**: 25x annual expenses
+- **Safe Withdrawal Rate**: 4% annually
+- **Section 80C Limit**: ₹1.5 lakh
+- **ELSS Lock-in**: 3 years
+
+#### **Formula Quick Reference**
+- **SIP Future Value**: P×[((1+r)ⁿ-1)÷r]×(1+r)
+- **Compound Interest**: A = P(1+r)ᵗ
+- **Rule of 72**: 72 ÷ Annual Return
+- **Real Return**: (1+Nominal)÷(1+Inflation)-1
+
+---
+
+## 🎯 **INTEGRATED EXAM PREPARATION STRATEGY**
+
+### **📝 5-WEEK COMPREHENSIVE STUDY PLAN**
+
+#### **Week 1: Foundation Building**
+**Day 1-2**: Financial Markets Fundamentals + Basic calculations
+**Day 3-4**: Technical Analysis basics + Chart patterns
+**Day 5-6**: Fundamental Analysis + Financial ratios
+**Day 7**: Review and practice problems
+
+#### **Week 2: Derivatives Deep Dive**
+**Day 1-2**: Futures Theory + Calculations
+**Day 3-4**: Options Theory + Greeks
+**Day 5-6**: Option Strategies + Payoff diagrams
+**Day 7**: Derivatives practice tests
+
+#### **Week 3: Advanced Topics**
+**Day 1-2**: Risk Management + Portfolio theory
+**Day 3-4**: Trading Systems + Quantitative methods
+**Day 5-6**: Currency & Commodities + Global markets
+**Day 7**: Advanced concepts integration
+
+#### **Week 4: Practical Applications**
+**Day 1-2**: Markets & Taxation + Compliance
+**Day 3-4**: Personal Finance + Planning
+**Day 5-6**: Cross-module integration
+**Day 7**: Full-length practice tests
+
+#### **Week 5: Final Preparation**
+**Day 1-2**: Formula memorization + Quick calculations
+**Day 3-4**: Weak area targeted review
+**Day 5-6**: Mock tests + Time management
+**Day 7**: Final revision + Confidence building
+
+---
+
+## 🚨 **EXAM DAY STRATEGY & TIME MANAGEMENT**
+
+### **⏰ OPTIMAL TIME ALLOCATION (3-Hour Exam)**
+
+#### **Phase 1: Quick Start (30 minutes)**
+- **5 minutes**: Brain dump formulas on rough paper
+- **25 minutes**: Attempt 20-25 easy definitional questions
+- **Goal**: Build confidence and momentum
+
+#### **Phase 2: Core Problem Solving (90 minutes)**
+- **45 minutes**: Mathematical calculation problems
+- **45 minutes**: Analysis and application questions
+- **Goal**: Maximum point accumulation
+
+#### **Phase 3: Complex Applications (60 minutes)**
+- **40 minutes**: Multi-step scenario problems
+- **20 minutes**: Challenging conceptual questions
+- **Goal**: Tackle remaining difficult questions
+
+#### **Phase 4: Final Review (20 minutes)**
+- **10 minutes**: Review flagged questions
+- **5 minutes**: Check calculation errors
+- **5 minutes**: Ensure all questions attempted
+
+### **🎯 QUESTION PRIORITIZATION MATRIX**
+
+#### **High Priority (Answer First)**
+1. **Definitional Questions**: 30-60 seconds each
+2. **Formula Applications**: 60-90 seconds each
+3. **Direct Calculations**: 90-120 seconds each
+
+#### **Medium Priority (Answer Second)**
+1. **Comparison Questions**: 2-3 minutes each
+2. **Scenario Analysis**: 3-4 minutes each
+3. **Multi-part Problems**: 4-5 minutes each
+
+#### **Low Priority (Answer Last)**
+1. **Complex Scenarios**: 5+ minutes each
+2. **Synthesis Questions**: Variable time
+3. **Uncertain Answers**: Return if time permits
+
+---
+
+## 🧮 **MASTER CALCULATION QUICK REFERENCE**
+
+### **⚡ SPEED CALCULATION TECHNIQUES**
+
+#### **Compound Interest Shortcuts**
+- **Rule of 72**: 72 ÷ Rate = Years to double
+- **Rule of 114**: 114 ÷ Rate = Years to triple
+- **Rule of 144**: 144 ÷ Rate = Years to quadruple
+
+#### **Option Strategy Quick Calculations**
+- **Bull Call Spread Max Profit**: Strike Difference - Net Debit
+- **Bull Call Spread Breakeven**: Lower Strike + Net Debit
+- **Straddle Breakeven**: Strike ± Total Premium
+- **Iron Condor Max Profit**: Net Credit Received
+
+#### **Portfolio Math Shortcuts**
+- **2-Stock Portfolio Variance**: w₁²σ₁² + w₂²σ₂² + 2w₁w₂ρσ₁σ₂
+- **Beta Calculation**: Correlation × (Stock StdDev ÷ Market StdDev)
+- **Sharpe Ratio**: Use 6% as risk-free rate default
+
+#### **Financial Ratio Quick Checks**
+- **Good ROE**: >15%
+- **Safe P/E**: 15-25
+- **Healthy Current Ratio**: 1.5-3.0
+- **Conservative Debt-to-Equity**: <1.0
+
+---
+
+## 📊 **FINAL SUCCESS METRICS**
+
+### **🎯 TARGET PERFORMANCE LEVELS**
+
+#### **Module Mastery Scoring (Per Module)**
+- **Expert Level**: 90%+ (27/30 points)
+- **Advanced Level**: 80%+ (24/30 points)
+- **Proficient Level**: 70%+ (21/30 points)
+- **Developing Level**: 60%+ (18/30 points)
+
+#### **Overall Exam Performance Targets**
+- **Distinction**: 85%+ overall score
+- **First Class**: 75%+ overall score
+- **Pass with Merit**: 65%+ overall score
+- **Pass**: 50%+ overall score
+
+#### **Time Management Benchmarks**
+- **Question Rate**: 1.5-2 minutes per question average
+- **Calculation Speed**: 60-90 seconds for formula problems
+- **Review Time**: 15-20 minutes reserved for checking
+- **Confidence Level**: 80%+ sure on 70%+ of answers
+
+---
+
+**🏆 EXAM SUCCESS FORMULA**: *Comprehensive Preparation + Strategic Time Management + Calm Execution = Outstanding Results*
+
+*You have the knowledge, now execute with confidence!* 🚀📚✨ 

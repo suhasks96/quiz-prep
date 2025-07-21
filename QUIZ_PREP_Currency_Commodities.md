@@ -212,50 +212,7 @@
 
 ---
 
-## 💰 **CURRENCY vs COMMODITY TRADING STRATEGIES**
-
-### **6. STRATEGY COMPARISON MATRIX**
-
-#### **Trading Approach Differences**
-
-| **STRATEGY TYPE** | **CURRENCY FUTURES** | **COMMODITY FUTURES** |
-|------------------|---------------------|----------------------|
-| **Trend Following** | Moderate effectiveness | High effectiveness |
-| **Mean Reversion** | High effectiveness | Lower effectiveness |
-| **Carry Trade** | Very effective (interest rates) | Not applicable |
-| **Seasonal Trading** | Limited application | Very effective |
-| **Event Trading** | Economic data releases | Supply/demand events |
-| **Arbitrage** | Currency arbitrage | Cash-futures arbitrage |
-
-#### **Fundamental Analysis Approaches**
-
-**Currency Analysis Focus**:
-- **Interest Rate Differentials**: Central bank policies
-- **Economic Indicators**: GDP, inflation, employment
-- **Political Stability**: Government and policy changes
-- **Trade Balance**: Import-export relationships
-- **Capital Flows**: Investment and FDI movements
-
-**Commodity Analysis Focus**:
-- **Supply-Demand Balance**: Production vs consumption
-- **Inventory Levels**: Storage and stockpile data
-- **Weather Patterns**: Agricultural and energy impact
-- **Geopolitical Events**: Production region stability
-- **Economic Growth**: Industrial demand correlation
-
-#### **Technical Analysis Effectiveness**
-
-**Currency Markets**:
-- **Range Trading**: Well-defined support/resistance
-- **Central Bank Levels**: Intervention points
-- **Economic Events**: News-driven volatility
-- **Cross-Currency**: Multiple pair analysis
-
-**Commodity Markets**:
-- **Trend Persistence**: Strong directional moves
-- **Seasonal Patterns**: Predictable cycles
-- **Breakout Trading**: Supply-demand shocks
-- **Momentum Strategies**: Trend following systems
+**Currency and commodity markets provide essential diversification, hedging, and global exposure opportunities, driven by macroeconomic factors, central bank policies, and supply-demand dynamics in international markets.**
 
 ---
 
