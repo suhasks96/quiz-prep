@@ -382,7 +382,7 @@ E(R) = 6% + 9.6% = **15.6%**
 |------------|-----------------|----------------|----------------|-----------------|
 | **Fixed Dollar** | Same amount per trade | Simple risk control | Low | Beginners |
 | **Fixed Percentage** | % of total capital | Portfolio percentage | Low | Conservative traders |
-| **Volatility-Based** | Based on ATR/volatility | Price movement risk | Medium | Active traders |
+| **Volatility-Based** | Based on ATR (Average True Range)/volatility | Price movement risk | Medium | Active traders |
 | **Kelly Criterion** | Win rate × avg win - loss rate × avg loss | Optimal growth | High | Advanced traders |
 | **Risk Parity** | Equal risk contribution | Risk equalization | High | Portfolio managers |
 
@@ -1446,3 +1446,33 @@ Total Portfolio VaR (Value at Risk) = 1.0% + 0.63% + 0.55% = 2.18%
 ---
 *Preserve • Diversify • Size • Discipline*
 *Manage Risk First, Profits Follow* 
+
+#### **Additional Risk Management Abbreviations**
+**P&L (Profit and Loss)**: Trading performance measure
+**M2M (Mark to Market)**: Daily settlement process
+**MTM (Mark to Market)**: Daily value adjustment
+**DD (Drawdown)**: Peak-to-trough decline
+**RF (Risk Free)**: Government security return rate
+**CAPM (Capital Asset Pricing Model)**: Risk-return framework
+**MPT (Modern Portfolio Theory)**: Diversification theory 
+**EMH (Efficient Market Hypothesis)**: Market efficiency theory 
+
+#### **Risk Management Abbreviations - Comprehensive Definitions**
+
+**VaR (Value at Risk)**: A statistical measure that quantifies the maximum potential loss in value of a portfolio over a specified time period at a given confidence level.
+
+**P&L (Profit and Loss)**: A financial statement that shows revenues, costs, and expenses during a specific period, indicating whether a business made or lost money.
+
+**M2M (Mark to Market)**: The daily process of revaluing positions based on current market prices, crystallizing unrealized gains or losses for margin calculations.
+
+**MTM (Mark to Market)**: Daily settlement mechanism in derivatives where profits/losses are credited/debited to trading accounts based on closing prices.
+
+**DD (Drawdown)**: The peak-to-trough decline during a specific period for an investment, portfolio, or fund. Maximum drawdown measures the largest single drop.
+
+**RF (Risk Free)**: The theoretical rate of return of an investment with zero risk, typically represented by government securities like treasury bills or bonds.
+
+**CAPM (Capital Asset Pricing Model)**: A financial model that describes the relationship between systematic risk and expected return for assets, used in pricing risky securities.
+
+**MPT (Modern Portfolio Theory)**: An investment theory that shows how risk-averse investors can construct portfolios to maximize expected return for a given level of risk.
+
+**EMH (Efficient Market Hypothesis)**: A theory stating that asset prices fully reflect all available information, making it impossible to consistently achieve returns exceeding average market returns. 

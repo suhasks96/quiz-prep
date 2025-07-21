@@ -764,7 +764,7 @@ Strategy:
 | **Margin Risk** | Insufficient margin funds | Maintain margin buffer |
 
 #### **Position Sizing for Futures Trading**
-**Volatility-based Sizing**: Position = Risk/ATR
+**Volatility-based Sizing**: Position = Risk/ATR (Average True Range)
 **Kelly Criterion Application**: Optimal position sizing
 **Risk Parity Approach**: Equal risk contribution
 **Maximum Drawdown Control**: Position limits based on portfolio VaR (Value at Risk)
@@ -777,7 +777,7 @@ Strategy:
 
 #### **Stop Loss in Futures Trading**
 **Percentage Stops**: Fixed % from entry
-**Volatility Stops**: ATR-based stops
+**Volatility Stops**: ATR (Average True Range)-based stops
 **Time Stops**: Maximum holding period
 **Technical Stops**: Support/resistance levels
 
@@ -819,3 +819,25 @@ Strategy:
 ---
 *Leverage • Hedging • Speculation • Settlement*
 *Master the Mechanics, Manage the Risk* 
+
+#### **Futures Trading Abbreviations - Comprehensive Definitions**
+
+**F&O (Futures and Options)**: Derivative instruments traded on exchanges that derive their value from underlying assets like stocks, indices, commodities, or currencies.
+
+**M2M (Mark to Market)**: Daily settlement process in futures where profits and losses are calculated based on closing prices and credited/debited to trading accounts.
+
+**SPAN (Standard Portfolio Analysis of Risk)**: A margin calculation system that determines the minimum margin requirement based on portfolio risk across different scenarios.
+
+**OI (Open Interest)**: The total number of outstanding futures contracts that have not been settled, indicating market interest and liquidity in specific contracts.
+
+**COD (Cash on Delivery)**: Settlement method where physical delivery of the underlying commodity occurs against cash payment on the maturity date.
+
+**MTM (Mark to Market)**: The process of valuing positions at current market prices to determine unrealized gains or losses for margin purposes.
+
+**CVaR (Conditional Value at Risk)**: A risk measure that calculates the expected loss beyond the VaR threshold, used for extreme risk scenarios.
+
+**NRML (Normal)**: An order type in futures trading that allows positions to be carried forward to the next trading day with appropriate margins.
+
+**MIS (Margin Intraday Square-off)**: An order type that provides leverage for intraday trading but requires positions to be squared off before market close.
+
+**CNC (Cash and Carry)**: A product type for delivery-based equity trading where investors take actual delivery of shares purchased. 

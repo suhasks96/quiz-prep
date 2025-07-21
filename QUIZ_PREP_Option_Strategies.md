@@ -348,13 +348,13 @@
 ### **10. REAL-WORLD STRATEGY SCENARIOS**
 
 #### **Scenario 1: Covered Call Income Strategy**
-**Profile**: ₹25,00,000 portfolio, 50% in Nifty ETF, seeking monthly income
+**Profile**: ₹25,00,000 portfolio, 50% in Nifty ETF (Exchange Traded Fund), seeking monthly income
 **Equity Holdings**: ₹12,50,000 in Nifty ETF (≈ 7 Nifty lots equivalent)
 **Strategy**: Monthly covered calls
 
 **Monthly Setup**:
 - Nifty Level: 18,000
-- ETF Holdings: 7 lots equivalent
+- ETF (Exchange Traded Fund) Holdings: 7 lots equivalent
 - Sell 18300 CE (OTM) at ₹60
 - **Contracts to Sell**: 7 lots
 - **Monthly Income**: 7 × ₹60 × 75 = ₹31,500
@@ -587,7 +587,7 @@ Profit from gamma = 0.5 × gamma × (move)² × contracts
 
 #### **Vega Risk Management**
 **Volatility Exposure**: Monitor net vega across portfolio
-**Hedging**: Use VIX (Volatility Index) options or volatility ETFs
+**Hedging**: Use VIX (Volatility Index) options or volatility ETFs (Exchange Traded Funds)
 **Timing**: Reduce vega exposure before known volatility events
 
 ### **21. INSTITUTIONAL POSITION SIZING METHODS**
@@ -1051,3 +1051,31 @@ Lower Breakeven = Put Strike - Net Credit = 7700 - 60 = 7,640
 ---
 *Spreads • Volatility • Income • Management*
 *Trade Smart, Manage Risk, Stay Profitable* 
+
+#### **Option Strategy Abbreviations - Comprehensive Definitions**
+
+**IV (Implied Volatility)**: The market's expectation of future volatility derived from option prices, crucial for determining option premiums and strategy selection.
+
+**TV (Time Value)**: The portion of an option's premium that exceeds its intrinsic value, representing the time remaining until expiration.
+
+**IV Rank (Implied Volatility Rank)**: A measure showing where current IV stands relative to its 52-week range, helping traders choose appropriate strategies.
+
+**IV Percentile**: The percentage of trading days in the past year when IV was lower than the current level, used for volatility-based strategy selection.
+
+**DTE (Days to Expiration)**: The number of calendar days remaining until option expiration, affecting time decay and strategy management.
+
+**ROI (Return on Investment)**: The percentage return on the capital invested in an option strategy, calculated as profit/loss divided by capital deployed.
+
+**ROC (Return on Capital)**: Similar to ROI but specifically referring to the return on the capital at risk in defined-risk strategies.
+
+**BPR (Buying Power Reduction)**: The amount of buying power that gets utilized when entering an option strategy, important for position sizing.
+
+**P&L (Profit and Loss)**: The monetary gain or loss from an options position, tracked in real-time and at expiration.
+
+**B/E (Breakeven)**: The underlying price(s) at which an option strategy neither makes nor loses money at expiration.
+
+**POP (Probability of Profit)**: The statistical likelihood that an option strategy will be profitable at expiration based on current market conditions.
+
+**Max Profit**: The maximum theoretical profit an option strategy can generate under the most favorable price movement.
+
+**Max Loss**: The maximum theoretical loss an option strategy can incur under the worst-case price movement. 

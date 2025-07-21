@@ -568,7 +568,7 @@ Bid-Ask Spread = ₹102.75 - ₹102.50 = ₹0.25
 **Turnover Ratio**: Trading volume / market cap
 **Impact Cost**: Price movement for standard trade size
 
-#### **High Frequency Trading (HFT) Impact**
+#### **High Frequency Trading (HFT - High Frequency Trading) Impact**
 **Advantages**: Improved liquidity, tighter spreads
 **Concerns**: Market volatility, unfair advantages
 **Regulation**: SEBI guidelines for algo trading
@@ -594,3 +594,44 @@ Bid-Ask Spread = ₹102.75 - ₹102.50 = ₹0.25
 **Calendar Arbitrage**: Different expiry month price differences
 **Strike Arbitrage**: Options pricing inconsistencies
 **Index Arbitrage**: Index vs constituent stocks pricing 
+
+#### **Additional Financial Market Abbreviations**
+**DPs (Depository Participants)**: Entities facilitating demat services
+**DP (Depository Participant)**: Individual demat account service provider
+**KYC (Know Your Customer)**: Identity verification requirement
+**PAN (Permanent Account Number)**: Tax identification number
+**UCC (Unique Client Code)**: Client identification in trading system
+**MTF (Margin Trading Facility)**: Leveraged equity trading
+**SLB (Securities Lending and Borrowing)**: Stock lending mechanism 
+
+#### **Financial Markets Abbreviations - Comprehensive Definitions**
+
+**ETF (Exchange Traded Fund)**: A marketable security that tracks an index, commodity, bonds, or basket of assets. Trades like individual stocks on exchanges while providing diversification of an index fund.
+
+**IPO (Initial Public Offering)**: The process by which a private company first offers shares to the public, transforming from private to public company status and raising capital from public investors.
+
+**FPO (Follow-on Public Offering)**: Additional share issuance by an already public company to raise more capital, diluting existing shareholding but providing growth funds.
+
+**NSE (National Stock Exchange)**: India's leading stock exchange established in 1992, known for electronic trading, higher liquidity, and the benchmark Nifty 50 index.
+
+**BSE (Bombay Stock Exchange)**: Asia's oldest stock exchange (1875), home to the Sensex index and over 4,000 listed companies, though with lower trading volumes than NSE.
+
+**SEBI (Securities and Exchange Board of India)**: The securities market regulator that protects investor interests, develops the securities market, and regulates market intermediaries.
+
+**AMO (After Market Orders)**: Orders placed outside regular trading hours (typically 4:00 PM to 9:00 AM) that are queued for execution when the market opens.
+
+**IOC (Immediate or Cancel)**: An order type that executes immediately for whatever quantity is available and cancels the remaining unfilled portion.
+
+**FOK (Fill or Kill)**: An order that must be executed completely and immediately, or it gets cancelled entirely - no partial fills allowed.
+
+**DPs (Depository Participants)**: SEBI-registered intermediaries that provide demat account services, acting as agents of depositories (NSDL/CDSL) for investors.
+
+**KYC (Know Your Customer)**: Mandatory identity verification process required by SEBI for all financial transactions, involving document submission and verification.
+
+**PAN (Permanent Account Number)**: A 10-digit unique alphanumeric identity issued by Income Tax Department, mandatory for financial transactions above specified limits.
+
+**UCC (Unique Client Code)**: A unique identifier assigned to each client by brokers for tracking and managing their trading activities across all segments.
+
+**MTF (Margin Trading Facility)**: A facility that allows investors to buy shares by paying only a portion of the trade value, with the broker funding the balance against collateral.
+
+**SLB (Securities Lending and Borrowing)**: A mechanism where investors can lend their shares to earn additional income or borrow shares for short selling. 

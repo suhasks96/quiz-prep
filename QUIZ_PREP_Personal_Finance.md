@@ -966,7 +966,7 @@ Aggressive: 20-25% in direct real estate + REITs
 |-------------|--------------|-------------------|----------------------|
 | **US Direct Stocks** | 20% LTCG with indexation | Full exposure | Moderate (LRS limits) |
 | **Global Mutual Funds** | As per fund structure | Fund manages | High (domestic purchase) |
-| **ETFs** | Varies by structure | Varies | High |
+| **ETFs (Exchange Traded Funds)** | Varies by structure | Varies | High |
 | **International Bonds** | Slab rate/20% LTCG | Full exposure | Moderate |
 
 #### **Currency Risk Management**
@@ -1086,7 +1086,7 @@ Ages 18+: Advanced wealth management
 ### **27. REGULATORY & COMPLIANCE CONSIDERATIONS**
 
 #### **Wealth Management Regulations**
-**SEBI Investment Advisor Regulations:**
+**SEBI (Securities and Exchange Board of India) Investment Advisor Regulations:**
 - **Registration Requirements**: For fee-based advice
 - **Fiduciary Standards**: Client interest prioritization
 - **Disclosure Norms**: Fee and conflict disclosure
@@ -1098,3 +1098,72 @@ Ages 18+: Advanced wealth management
 - **Tax Treaty Benefits**: Optimize withholding taxes
 - **Documentation**: Proper tax residency certificates
 - **Professional Guidance**: International tax specialists 
+
+#### **Economic Indicators for Investment Decisions**
+**GDP (Gross Domestic Product)**: Total economic output measure
+**CPI (Consumer Price Index)**: Inflation measure for urban consumers
+**WPI (Wholesale Price Index)**: Inflation measure at wholesale level
+**IIP (Index of Industrial Production)**: Manufacturing sector growth
+**PMI (Purchasing Managers' Index)**: Economic activity leading indicator
+
+#### **Mutual Fund Terminology**
+**AUM (Assets Under Management)**: Total fund size
+**TER (Total Expense Ratio)**: Annual fund management cost
+**ULIP (Unit Linked Insurance Plan)**: Insurance + investment product
+**KYC (Know Your Customer)**: Identity verification process
+**FATCA (Foreign Account Tax Compliance Act)**: US tax compliance
+**CRS (Common Reporting Standard)**: International tax transparency 
+
+#### **Personal Finance Abbreviations - Comprehensive Definitions**
+
+**GDP (Gross Domestic Product)**: The total monetary value of all finished goods and services produced within a country's borders in a specific time period, indicating economic health.
+
+**CPI (Consumer Price Index)**: A measure that examines the average change in prices paid by urban consumers for a basket of goods and services, used to track inflation.
+
+**WPI (Wholesale Price Index)**: An index measuring the average change in prices of goods sold in bulk to retailers, manufacturers, or other businesses rather than consumers.
+
+**IIP (Index of Industrial Production)**: A composite indicator measuring the growth rate of various industry groups relative to a base year, reflecting manufacturing sector performance.
+
+**PMI (Purchasing Managers' Index)**: An economic indicator derived from monthly surveys of private sector companies, indicating whether market conditions are expanding, staying the same, or contracting.
+
+**AUM (Assets Under Management)**: The total market value of investments that a financial institution or fund manager handles on behalf of clients.
+
+**TER (Total Expense Ratio)**: The annual fee charged by mutual funds, expressed as a percentage of the fund's average assets under management, covering management and operational costs.
+
+**ULIP (Unit Linked Insurance Plan)**: A financial product that combines life insurance with investment, allowing policyholders to invest in various funds while providing life coverage.
+
+**KYC (Know Your Customer)**: A regulatory requirement for financial institutions to verify and identify their clients, including collecting personal information and assessing risk factors.
+
+**FATCA (Foreign Account Tax Compliance Act)**: US legislation requiring foreign financial institutions to report information about financial accounts held by US taxpayers.
+
+**CRS (Common Reporting Standard)**: An OECD-developed international standard for automatic exchange of financial account information between tax authorities.
+
+**SIP (Systematic Investment Plan)**: An investment strategy where individuals invest fixed amounts regularly in mutual funds, promoting disciplined investing and rupee cost averaging.
+
+**SWP (Systematic Withdrawal Plan)**: A facility that allows investors to withdraw fixed amounts from their mutual fund investments at regular intervals. 
+
+#### **Additional Important Financial Abbreviations**
+
+**NAV (Net Asset Value)**: The per-unit value of a mutual fund calculated by dividing the total value of assets minus liabilities by the number of outstanding units.
+
+**AMC (Asset Management Company)**: Financial institutions that manage mutual funds, collecting money from investors and investing it in various securities according to fund objectives.
+
+**LTCG (Long Term Capital Gains)**: Profits from sale of assets held for more than specified holding periods, taxed at concessional rates (typically 10% for equity, 20% for other assets).
+
+**STCG (Short Term Capital Gains)**: Profits from sale of assets held for shorter than specified periods, taxed at higher rates (15% for equity, slab rates for others).
+
+**STT (Securities Transaction Tax)**: A tax levied on the value of securities traded on Indian stock exchanges, collected at the time of transaction.
+
+**Demat (Dematerialized)**: Electronic format of holding securities, replacing physical share certificates with digital records maintained by depositories.
+
+**NSDL (National Securities Depository Limited)**: India's first and largest depository that holds securities in dematerialized form and enables electronic trading.
+
+**CDSL (Central Depository Services Limited)**: The second depository in India providing dematerialized holdings and electronic settlement of trades.
+
+**DP (Depository Participant)**: Intermediaries that provide demat account services to investors, acting as agents of depositories (NSDL/CDSL).
+
+**ISIN (International Securities Identification Number)**: A unique 12-character alphanumeric code that identifies securities for trading and settlement purposes globally.
+
+**IFSC (Indian Financial System Code)**: An 11-character code that uniquely identifies bank branches for electronic fund transfers in India.
+
+**MICR (Magnetic Ink Character Recognition)**: A 9-digit code printed on bank checks using magnetic ink for electronic processing and verification. 

@@ -266,7 +266,7 @@
 
 **C++ Advantages**:
 - **Speed**: Fastest execution
-- **Low Latency**: Critical for HFT
+- **Low Latency**: Critical for HFT (High Frequency Trading)
 - **Memory Management**: Efficient resource usage
 - **Professional**: Industry standard for speed-critical applications
 
@@ -678,7 +678,7 @@ Low Growth + High Inflation:
 
 ### **22. ALGORITHMIC EXECUTION SYSTEMS**
 
-#### **Smart Order Routing (SOR)**
+#### **Smart Order Routing (SOR - Smart Order Routing)**
 **Execution Algorithm Types:**
 
 | **ALGORITHM** | **OBJECTIVE** | **USE CASE** | **MARKET IMPACT** |
@@ -1198,3 +1198,35 @@ Portfolio Volatility = √359.6 = 18.96%
 ---
 *Systematic • Statistical • Backtested • Optimized*
 *Code the Rules, Test the Logic, Trade the System* 
+
+#### **Additional Trading Systems Abbreviations**
+**API (Application Programming Interface)**: Software integration
+**AI (Artificial Intelligence)**: Machine learning systems
+**ML (Machine Learning)**: Automated pattern recognition
+**HMM (Hidden Markov Model)**: Statistical modeling technique
+**NLP (Natural Language Processing)**: Text analysis technology
+**DMA (Direct Market Access)**: Unintermediated trading access
+**FIX (Financial Information eXchange)**: Trading protocol standard
+**FPGA (Field Programmable Gate Array)**: Hardware acceleration 
+
+#### **Trading Systems Abbreviations - Comprehensive Definitions**
+
+**HFT (High Frequency Trading)**: Computer-driven trading strategies that execute large numbers of orders at extremely high speeds, often holding positions for seconds or milliseconds.
+
+**SOR (Smart Order Routing)**: Technology that automatically determines the best available price for a trade across multiple market venues, optimizing execution quality.
+
+**API (Application Programming Interface)**: A set of programming code that enables data transmission between software products, allowing trading systems to interact with exchange systems.
+
+**AI (Artificial Intelligence)**: Computer systems designed to perform tasks that typically require human intelligence, including pattern recognition, decision-making, and learning.
+
+**ML (Machine Learning)**: A subset of AI that enables systems to automatically learn and improve from experience without being explicitly programmed for every scenario.
+
+**HMM (Hidden Markov Model)**: A statistical model used to describe systems with unobserved states, commonly applied in regime detection and market state identification.
+
+**NLP (Natural Language Processing)**: A branch of AI that helps computers understand, interpret, and manipulate human language, used for news analysis and sentiment extraction.
+
+**DMA (Direct Market Access)**: Technology that allows traders to interact directly with exchange order books without going through traditional broker intermediation.
+
+**FIX (Financial Information eXchange)**: A standardized protocol for real-time electronic communication of trade-related messages between financial institutions.
+
+**FPGA (Field Programmable Gate Array)**: Specialized hardware that can be programmed for specific tasks, offering ultra-low latency processing for high-frequency trading applications. 

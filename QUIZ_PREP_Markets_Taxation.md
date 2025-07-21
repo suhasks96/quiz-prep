@@ -755,7 +755,7 @@ Turnover for this stock = ₹2,000 + ₹0 + ₹250 = ₹2,250
 **Password Management**: Secure access transfer
 **Asset Valuation**: Market value determination
 **Tax Liabilities**: Outstanding obligations
-**Professional Advisors**: CA and legal counsel
+**Professional Advisors**: CA (Chartered Accountant) and legal counsel
 
 #### **Family Trust Structures**
 **Revocable Trust**: Flexibility with tax implications
@@ -835,3 +835,33 @@ Turnover for this stock = ₹2,000 + ₹0 + ₹250 = ₹2,250
 **Predictive Modeling**: Future tax liability estimation
 **Performance Attribution**: Tax impact measurement
 **Benchmark Comparison**: Tax efficiency metrics 
+
+#### **Additional Tax & Regulatory Abbreviations**
+**PAN (Permanent Account Number)**: Mandatory tax identifier
+**GST (Goods and Services Tax)**: Indirect tax system
+**TDS (Tax Deducted at Source)**: Advance tax collection
+**TCS (Tax Collected at Source)**: Source-based tax collection
+**ITR (Income Tax Return)**: Annual tax filing
+**LRS (Liberalized Remittance Scheme)**: Forex transaction limit
+**FEMA (Foreign Exchange Management Act)**: Forex regulation law
+**RBI (Reserve Bank of India)**: Central banking authority 
+
+#### **Tax & Regulatory Abbreviations - Comprehensive Definitions**
+
+**PAN (Permanent Account Number)**: A 10-digit unique alphanumeric identity issued by the Income Tax Department to track financial transactions and tax compliance for individuals and entities.
+
+**GST (Goods and Services Tax)**: A comprehensive indirect tax levied on the supply of goods and services, replacing multiple cascading taxes charged by the central and state governments.
+
+**TDS (Tax Deducted at Source)**: A method of tax collection where tax is deducted by the payer at the time of making payment, ensuring advance tax collection and reducing tax evasion.
+
+**TCS (Tax Collected at Source)**: Tax collected by the seller from the buyer at the time of sale of specified goods or services, deposited with the government.
+
+**ITR (Income Tax Return)**: An annual filing requirement where taxpayers declare their income, calculate tax liability, and claim refunds if applicable.
+
+**LRS (Liberalized Remittance Scheme)**: RBI scheme allowing resident individuals to freely remit up to $250,000 per financial year for permitted current and capital account transactions.
+
+**FEMA (Foreign Exchange Management Act)**: The primary law governing foreign exchange transactions in India, replacing the Foreign Exchange Regulation Act (FERA).
+
+**RBI (Reserve Bank of India)**: India's central banking institution responsible for monetary policy, currency issuance, financial system regulation, and foreign exchange management.
+
+**CA (Chartered Accountant)**: A professional qualification in accounting and finance, with members authorized to practice auditing, taxation, and financial advisory services. 

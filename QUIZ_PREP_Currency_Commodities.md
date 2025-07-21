@@ -153,7 +153,7 @@
 - **Inflation Hedge**: Currency debasement protection
 - **Central Bank**: Gold reserve policies
 - **Jewelry Demand**: Cultural and traditional usage
-- **Investment Demand**: ETFs and institutional buying
+- **Investment Demand**: ETFs (Exchange Traded Funds) and institutional buying
 
 **Base Metals**:
 - **Industrial Usage**: Manufacturing and construction
@@ -990,3 +990,24 @@ Crack Spread = ($88.20 + $84.00) - (2 × $80.00) = $12.20/barrel
 **Hypothetical Scenarios**: Extreme weather, supply disruptions
 **Monte Carlo Simulation**: Range of possible outcomes
 **Tail Risk Management**: Black swan event preparation 
+
+#### **Additional Currency & Commodity Abbreviations**
+**FX (Foreign Exchange)**: The global marketplace for trading national currencies against one another, determining exchange rates for international trade and investment.
+
+**FOREX (Foreign Exchange)**: The largest financial market in the world where currencies are traded 24/5, with daily turnover exceeding $6 trillion globally.
+
+**SWAP**: A derivative contract where two parties exchange cash flows or liabilities from different financial instruments, commonly used for hedging or speculation.
+
+**NDF (Non-Deliverable Forward)**: A cash-settled, short-term forward contract on a thinly traded or non-convertible foreign currency, settled in a major currency like USD.
+
+**MCX (Multi Commodity Exchange)**: India's largest commodity derivatives exchange, facilitating trading in metals, energy, and agricultural commodities.
+
+**NCDEX (National Commodity & Derivatives Exchange)**: India's premier online commodity exchange focused on agricultural commodities, providing price discovery and risk management.
+
+**WTI (West Texas Intermediate)**: A grade of crude oil used as a benchmark in oil pricing, known for its light, sweet characteristics and traded on NYMEX.
+
+**LBMA (London Bullion Market Association)**: The international trade association representing the London precious metals market, setting standards for good delivery bars.
+
+**COMEX**: The primary futures and options market for trading metals such as gold, silver, copper, and aluminum, part of the CME Group.
+
+**LME (London Metal Exchange)**: The world's largest market for industrial metals futures and options, providing benchmark prices for base metals globally. 

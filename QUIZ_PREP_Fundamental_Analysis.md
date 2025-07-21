@@ -657,3 +657,37 @@ P/BV (Price to Book Value) Ratio = Market Price ÷ Book Value
 ---
 *Analysis • Valuation • Quality • Comparison*
 *Know the Business, Understand the Value* 
+
+#### **Additional Corporate Finance Abbreviations**
+**CFO (Chief Financial Officer)**: Top financial executive
+**CEO (Chief Executive Officer)**: Top company executive  
+**COO (Chief Operating Officer)**: Operations head
+**CTO (Chief Technology Officer)**: Technology head
+**MD (Managing Director)**: Senior executive position
+**ED (Executive Director)**: Board-level executive
+**CAGR (Compound Annual Growth Rate)**: Annualized growth metric
+**XIRR (Extended Internal Rate of Return)**: Cash flow-based returns 
+
+#### **Fundamental Analysis Abbreviations - Comprehensive Definitions**
+
+**EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization)**: A measure of operating performance that shows company profitability before non-operating expenses, useful for comparing companies across different tax jurisdictions and capital structures.
+
+**DCF (Discounted Cash Flow)**: A valuation method that estimates the value of an investment based on its expected future cash flows, discounted back to present value using an appropriate discount rate.
+
+**PEG (Price Earnings to Growth)**: A valuation ratio that adjusts the P/E ratio by the company's earnings growth rate, helping identify whether a stock is over or undervalued relative to its growth prospects.
+
+**CEO (Chief Executive Officer)**: The highest-ranking executive responsible for major corporate decisions, overall operations, and acting as the main point of communication between the board and corporate operations.
+
+**CFO (Chief Financial Officer)**: Senior executive responsible for financial planning, risk management, record-keeping, and financial reporting of the company.
+
+**COO (Chief Operating Officer)**: Executive responsible for day-to-day operations, often second in command and implementing the CEO's vision operationally.
+
+**CTO (Chief Technology Officer)**: Executive responsible for technology strategy, research and development, and technological innovation within the organization.
+
+**MD (Managing Director)**: Senior executive role, often equivalent to CEO in Indian companies, responsible for overall management and strategic direction.
+
+**ED (Executive Director)**: Board-level position combining executive responsibilities with board membership, involved in both governance and operational management.
+
+**CAGR (Compound Annual Growth Rate)**: The rate of return that would be required for an investment to grow from its beginning balance to its ending balance, assuming profits were reinvested.
+
+**XIRR (Extended Internal Rate of Return)**: A function that calculates internal rate of return for cash flows that are not periodic, accounting for exact dates of transactions. 

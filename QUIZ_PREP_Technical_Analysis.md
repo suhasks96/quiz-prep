@@ -540,12 +540,12 @@ Entry Signal: 1-hour chart breakout with volume
 ### **16. RISK MANAGEMENT THROUGH TECHNICAL ANALYSIS**
 
 #### **Position Sizing Using Volatility**
-**Average True Range (ATR) Method**: Position size = Risk per trade ÷ (ATR × Multiplier)
-**Example**: ₹10,000 risk, ATR = ₹5, Multiplier = 2
+**Average True Range (ATR) Method**: Position size = Risk per trade ÷ (ATR (Average True Range) × Multiplier)
+**Example**: ₹10,000 risk, ATR (Average True Range) = ₹5, Multiplier = 2
 Position Size = ₹10,000 ÷ (₹5 × 2) = 1000 shares
 
 #### **Stop Loss Techniques**
-**ATR-Based Stops**: Stop = Entry - (ATR × 2)
+**ATR (Average True Range)-Based Stops**: Stop = Entry - (ATR (Average True Range) × 2)
 **Support/Resistance Stops**: Below key support levels
 **Percentage Stops**: Fixed percentage from entry
 **Trailing Stops**: Move with favorable price movement
@@ -568,8 +568,8 @@ Position Size = ₹10,000 ÷ (₹5 × 2) = 1000 shares
 |------------|-------------------|-------------------|----------------|
 | **Trending** | Sustained directional moves | Momentum, breakouts | ADX (Average Directional Index) > 25 |
 | **Range-bound** | Sideways oscillation | Mean reversion, range trading | ADX (Average Directional Index) < 25 |
-| **Volatile** | High price swings | Short-term trades | High ATR |
-| **Low Volatility** | Compressed ranges | Breakout preparation | Low ATR |
+| **Volatile** | High price swings | Short-term trades | High ATR (Average True Range) |
+| **Low Volatility** | Compressed ranges | Breakout preparation | Low ATR (Average True Range) |
 
 #### **Momentum Indicators Suite**
 **MACD (Moving Average Convergence Divergence) Variations**: Standard, zero-line, signal line crossovers
@@ -592,3 +592,23 @@ Position Size = ₹10,000 ÷ (₹5 × 2) = 1000 shares
 ---
 *Charts • Patterns • Trends • Probabilities*
 *Read the Market Language, Time the Opportunities* 
+
+#### **Technical Analysis Abbreviations - Comprehensive Definitions**
+
+**ATR (Average True Range)**: A volatility indicator that measures the average range of price movement over a specified period (typically 14 days). Used for position sizing and setting stop-losses based on market volatility.
+
+**ADX (Average Directional Index)**: A trend strength indicator that measures how strong a trend is, regardless of direction. Values above 25 indicate strong trends, below 25 suggest weak or ranging markets.
+
+**MACD (Moving Average Convergence Divergence)**: A momentum oscillator that shows the relationship between two moving averages (typically 12-day and 26-day EMAs). Used to identify trend changes and momentum shifts.
+
+**RSI (Relative Strength Index)**: A momentum oscillator (0-100 scale) that measures the speed and change of price movements. Values above 70 indicate overbought conditions, below 30 suggest oversold conditions.
+
+**EMA (Exponential Moving Average)**: A trend-following indicator that gives more weight to recent prices, making it more responsive to new information than simple moving averages.
+
+**SMA (Simple Moving Average)**: A trend indicator calculated by adding closing prices over a specific period and dividing by that number of periods. Smooths price data to identify direction of trend.
+
+**OBV (On-Balance Volume)**: A volume-based indicator that adds volume on up days and subtracts volume on down days. Used to confirm price movements and identify potential reversals.
+
+**VWAP (Volume Weighted Average Price)**: Calculates the average price weighted by volume traded. Institutional traders use it as a benchmark for execution quality.
+
+**CCI (Commodity Channel Index)**: An oscillator that identifies cyclical trends and measures the current price level relative to an average price level over a given period. 

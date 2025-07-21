@@ -418,10 +418,10 @@ Stock Trading at ₹8,100
 
 #### **Scenario 3: Income Generation Strategy**
 **Profile**: ₹50,00,000 capital, sell covered calls for income
-**Strategy**: Own Nifty through ETF, sell calls for premium income
+**Strategy**: Own Nifty through ETF (Exchange Traded Fund), sell calls for premium income
 
 **Portfolio Setup**:
-- Nifty ETF Holdings: ₹40,00,000 (equivalent to ~30 Nifty lots)
+- Nifty ETF (Exchange Traded Fund) Holdings: ₹40,00,000 (equivalent to ~30 Nifty lots)
 - Cash Reserve: ₹10,00,000
 - Strategy: Sell OTM calls monthly
 
@@ -925,3 +925,37 @@ Payoffs:
 ---
 *Rights • Obligations • Premiums • Probabilities*
 *Master the Asymmetry, Understand the Greeks* 
+
+#### **Additional Options & Derivatives Abbreviations**
+**OTM (Out of The Money)**: Option with no intrinsic value
+**ITM (In The Money)**: Option with intrinsic value
+**ATM (At The Money)**: Strike price equals current price
+**CE (Call European)**: European-style call option
+**PE (Put European)**: European-style put option
+**IV (Implied Volatility)**: Market's volatility expectation
+**HV (Historical Volatility)**: Past price movement measure
+**OI (Open Interest)**: Outstanding contracts measure
+**PCR (Put Call Ratio)**: Market sentiment indicator
+**VIX (Volatility Index)**: Fear gauge measurement 
+
+#### **Options & Derivatives Abbreviations - Comprehensive Definitions**
+
+**OTM (Out of The Money)**: Options with no intrinsic value. For calls, strike price is above current market price; for puts, strike price is below current market price. Only time value remains.
+
+**ITM (In The Money)**: Options with intrinsic value. For calls, strike price is below current market price; for puts, strike price is above current market price. Contains both intrinsic and time value.
+
+**ATM (At The Money)**: Options where the strike price equals (or is very close to) the current market price of the underlying asset. Maximum time value, no intrinsic value.
+
+**CE (Call European)**: European-style call options that can only be exercised on the expiration date, not before. Most index options in India are European-style.
+
+**PE (Put European)**: European-style put options that can only be exercised on the expiration date. Provides the right to sell the underlying at the strike price.
+
+**IV (Implied Volatility)**: The market's forecast of a security's price volatility, derived from option prices using pricing models like Black-Scholes. Higher IV means higher option premiums.
+
+**HV (Historical Volatility)**: A statistical measure of the actual price fluctuations of the underlying asset over a specific past period, calculated using standard deviation of returns.
+
+**OI (Open Interest)**: The total number of outstanding option contracts that have not been settled or closed. Indicates market activity and liquidity in specific strikes.
+
+**PCR (Put Call Ratio)**: A sentiment indicator calculated by dividing put volume (or open interest) by call volume (or open interest). High PCR suggests bearish sentiment.
+
+**VIX (Volatility Index)**: A real-time market index representing the market's expectation of 30-day forward-looking volatility, often called the "fear gauge" of the market. 
