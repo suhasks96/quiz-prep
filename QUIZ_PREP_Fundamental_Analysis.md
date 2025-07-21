@@ -451,6 +451,205 @@ P/BV (Price to Book Value) Ratio = Market Price ÷ Book Value
 
 ---
 
+## 🏭 **SECTOR ANALYSIS & INDUSTRY COMPARISON**
+
+### **15. COMPREHENSIVE SECTOR ANALYSIS FRAMEWORK**
+
+#### **Sector Classification & Characteristics**
+
+| **SECTOR** | **CYCLICAL TYPE** | **KEY DRIVERS** | **VALUATION METRICS** |
+|------------|------------------|-----------------|----------------------|
+| **Banking & Financial** | Cyclical | Interest rates, credit growth | P/B (Price to Book), ROE (Return on Equity), NIM (Net Interest Margin) |
+| **Information Technology** | Growth | Global demand, currency | P/E (Price to Earnings), PEG (Price Earnings to Growth), Revenue growth |
+| **FMCG (Fast Moving Consumer Goods)** | Defensive | Consumer demand, rural income | P/E (Price to Earnings), volume growth, margin |
+| **Pharmaceuticals** | Growth | R&D, regulatory approvals | P/E (Price to Earnings), R&D spend, pipeline |
+| **Automobile** | Cyclical | GDP (Gross Domestic Product), disposable income | P/E (Price to Earnings), volume growth, inventory |
+| **Metals & Mining** | Cyclical | Commodity prices, global demand | P/B (Price to Book), EV/EBITDA, cash cost |
+| **Oil & Gas** | Cyclical | Crude prices, government policy | P/E (Price to Earnings), reserves, refining margins |
+| **Utilities** | Defensive | Regulation, fuel costs | P/B (Price to Book), dividend yield, ROE (Return on Equity) |
+
+#### **Sector Rotation Strategy**
+**Economic Cycle Stages**:
+1. **Early Recovery**: Cyclicals outperform (Auto, Banks)
+2. **Mid Recovery**: Growth stocks lead (IT, Pharma)
+3. **Late Cycle**: Defensives dominate (FMCG, Utilities)
+4. **Recession**: Quality and cash-rich companies
+
+#### **Sector-Specific Valuation Metrics**
+
+**Banking Sector**:
+- **P/B (Price to Book) Ratio**: Book value accuracy important
+- **ROE (Return on Equity)**: Efficiency measure
+- **Net Interest Margin**: Profitability indicator
+- **Gross NPA**: Asset quality measure
+
+**IT (Information Technology) Sector**:
+- **Dollar Revenue**: Currency impact
+- **Employee Utilization**: Efficiency metric
+- **Visa Dependency**: Risk factor
+- **Digital Revenue %**: Future growth indicator
+
+**FMCG (Fast Moving Consumer Goods) Sector**:
+- **Volume Growth**: Demand strength
+- **Rural vs Urban**: Market penetration
+- **Brand Value**: Competitive advantage
+- **Distribution Reach**: Market access
+
+### **16. COMPETITIVE ANALYSIS USING PORTER'S FIVE FORCES**
+
+#### **Porter's Five Forces Framework**
+
+| **FORCE** | **HIGH INTENSITY (BAD)** | **LOW INTENSITY (GOOD)** | **ASSESSMENT QUESTIONS** |
+|-----------|-------------------------|-------------------------|--------------------------|
+| **1. Threat of New Entrants** | Easy entry, low barriers | High barriers, difficult entry | Capital requirements, regulations, technology |
+| **2. Bargaining Power of Suppliers** | Few suppliers, critical inputs | Many suppliers, substitutable | Supplier concentration, switching costs |
+| **3. Bargaining Power of Buyers** | Few large buyers, price sensitive | Many small buyers, loyal | Customer concentration, price sensitivity |
+| **4. Threat of Substitutes** | Many alternatives available | Few or no substitutes | Alternative products, switching ease |
+| **5. Competitive Rivalry** | Intense price competition | Limited competition | Number of competitors, differentiation |
+
+#### **Force Analysis by Sector**
+
+**Banking Sector Example**:
+- **New Entrants**: HIGH (fintech, digital banks)
+- **Supplier Power**: MEDIUM (deposit cost competition)
+- **Buyer Power**: MEDIUM (customer switching increasing)
+- **Substitutes**: HIGH (NBFCs, P2P lending)
+- **Rivalry**: HIGH (margin pressure)
+
+**Pharmaceutical Sector Example**:
+- **New Entrants**: LOW (high R&D, regulatory barriers)
+- **Supplier Power**: MEDIUM (API dependencies)
+- **Buyer Power**: HIGH (government, hospitals)
+- **Substitutes**: MEDIUM (generic competition)
+- **Rivalry**: MEDIUM (patent protection)
+
+#### **Competitive Positioning Analysis**
+**Market Share Analysis**: Leadership position assessment
+**Cost Structure**: Competitive cost advantage
+**Differentiation**: Unique value proposition
+**Switching Costs**: Customer retention ability
+**Network Effects**: Platform advantages
+
+### **17. MANAGEMENT QUALITY EVALUATION**
+
+#### **Management Assessment Framework**
+
+| **CRITERIA** | **EVALUATION METRICS** | **RED FLAGS** | **GREEN FLAGS** |
+|--------------|------------------------|---------------|-----------------|
+| **Track Record** | Historical performance consistency | Frequent strategy changes | Consistent execution |
+| **Capital Allocation** | ROE (Return on Equity) trends, ROCE (Return on Capital Employed) improvement | Value-destructive acquisitions | Smart investments, buybacks |
+| **Communication** | Guidance accuracy, transparency | Misleading statements | Clear, honest communication |
+| **Corporate Governance** | Board independence, audit quality | Related party transactions | Strong governance practices |
+| **Vision & Strategy** | Long-term strategic clarity | Short-term focus only | Clear strategic direction |
+
+#### **Key Management Metrics**
+**Promoter Holding**: Skin in the game, alignment
+**Management Commentary**: Annual report insights
+**Institutional Holding**: Smart money confidence
+**Employee Stock Options**: Management alignment
+**Insider Trading**: Buying/selling patterns
+
+#### **Corporate Governance Red Flags**
+- High related party transactions
+- Frequent auditor changes
+- Poor board composition
+- Excessive executive compensation
+- Complex subsidiary structures
+- Regulatory violations history
+
+#### **Management Quality Checklist**
+**Experience**: Relevant industry experience
+**Integrity**: No fraud/regulatory issues
+**Performance**: Consistent delivery on promises
+**Innovation**: Adaptation to changing environment
+**Stakeholder Focus**: Balanced approach to all stakeholders
+
+### **18. ECONOMIC CYCLE ANALYSIS**
+
+#### **Economic Indicators & Stock Market Impact**
+
+| **INDICATOR** | **BULL MARKET SIGNAL** | **BEAR MARKET SIGNAL** | **MOST AFFECTED SECTORS** |
+|---------------|------------------------|------------------------|---------------------------|
+| **GDP (Gross Domestic Product) Growth** | >6% growth | <4% growth | Cyclicals (Auto, Banks) |
+| **Interest Rates** | Declining trend | Rising trend | Banks, Real Estate |
+| **Inflation** | Moderate (4-6%) | High (>8%) or deflation | FMCG, Materials |
+| **Currency** | Stable/strengthening | Weakening trend | IT, Import-dependent |
+| **Crude Oil** | $60-80/barrel | >$100 or <$40 | Oil, Auto, Airlines |
+
+#### **Economic Cycle Phases**
+
+**Phase 1 - Recovery**:
+- **Characteristics**: GDP (Gross Domestic Product) growth accelerating, low interest rates
+- **Best Sectors**: Banking, Capital Goods, Auto
+- **Investment Strategy**: Buy cyclicals, avoid defensives
+
+**Phase 2 - Expansion**:
+- **Characteristics**: Strong GDP (Gross Domestic Product), rising rates
+- **Best Sectors**: IT, Consumer Discretionary
+- **Investment Strategy**: Quality growth stocks
+
+**Phase 3 - Peak**:
+- **Characteristics**: GDP (Gross Domestic Product) slowing, high rates
+- **Best Sectors**: Utilities, Healthcare, FMCG
+- **Investment Strategy**: Switch to defensives
+
+**Phase 4 - Contraction**:
+- **Characteristics**: GDP (Gross Domestic Product) decline, falling rates
+- **Best Sectors**: Cash, Gold, Quality stocks
+- **Investment Strategy**: Capital preservation
+
+#### **Global vs Domestic Factors**
+**Global Factors**: US Fed policy, China growth, commodity super-cycle
+**Domestic Factors**: RBI (Reserve Bank of India) policy, monsoon, government spending
+**Integration Level**: IT (high), FMCG (low), Banking (medium)
+
+### **19. BUSINESS MODEL ANALYSIS**
+
+#### **Business Model Types & Evaluation**
+
+| **MODEL TYPE** | **CHARACTERISTICS** | **EXAMPLES** | **KEY METRICS** |
+|----------------|-------------------|--------------|-----------------|
+| **Asset Heavy** | High fixed costs, scalability | Steel, Cement | Asset turnover, ROCE (Return on Capital Employed) |
+| **Asset Light** | Low fixed costs, variable | IT Services, Consulting | Revenue/employee, margins |
+| **Platform** | Network effects, winner-takes-all | Exchanges, Marketplaces | User growth, network density |
+| **Subscription** | Recurring revenue, predictable | Software, Utilities | Churn rate, ARPU |
+| **Commodity** | Price taker, cost focus | Oil, Metals | Cost curve position |
+
+#### **Business Model Quality Factors**
+**Predictability**: Revenue visibility and stability
+**Scalability**: Ability to grow without proportional costs
+**Defensibility**: Competitive moats and barriers
+**Capital Efficiency**: Returns on invested capital
+**Cash Generation**: Free cash flow characteristics
+
+#### **Moat Analysis Framework**
+**Network Effects**: Value increases with users
+**Switching Costs**: Difficult/expensive to change
+**Cost Advantages**: Structural cost leadership
+**Intangible Assets**: Patents, brands, licenses
+**Scale Economics**: Larger size = lower unit costs
+
+### **20. VALUATION METHOD SELECTION BY SECTOR**
+
+#### **Sector-Specific Valuation Approaches**
+
+| **SECTOR** | **PRIMARY METHOD** | **SECONDARY METHOD** | **SPECIAL CONSIDERATIONS** |
+|------------|-------------------|---------------------|---------------------------|
+| **Banking** | P/B (Price to Book), ROE (Return on Equity) Model | Dividend Discount | Asset quality adjustments |
+| **Insurance** | Embedded Value | P/B (Price to Book) | New business value |
+| **IT** | P/E (Price to Earnings), DCF (Discounted Cash Flow) | EV/Sales | Currency hedging impact |
+| **Pharma** | P/E (Price to Earnings), DCF (Discounted Cash Flow) | P/Sales | R&D and pipeline value |
+| **Utilities** | Dividend Yield, RAB | P/B (Price to Book) | Regulatory framework |
+| **Metals** | EV/EBITDA, P/B (Price to Book) | DCF (Discounted Cash Flow) | Commodity price cycles |
+| **Oil & Gas** | NAV, DCF (Discounted Cash Flow) | EV/EBITDA | Reserve valuations |
+
+#### **Cyclical vs Growth Valuation**
+**Cyclical Stocks**: Use trough earnings, P/B (Price to Book) ratios
+**Growth Stocks**: Use PEG (Price Earnings to Growth) ratios, DCF (Discounted Cash Flow) models
+**Defensive Stocks**: Dividend yield, stable P/E (Price to Earnings)
+
+---
+
 **REMEMBER**: Fundamental analysis is about understanding businesses, not just numbers. Quality companies with sustainable competitive advantages, reasonable valuations, and competent management create long-term wealth. Always compare companies within the same industry and analyze trends over multiple years.
 
 **EXAM FOCUS**: Master the differences between participant types, understand financial ratio calculations and interpretations, know when to use different valuation methods, and be able to identify quality business characteristics. Comparative analysis across time periods and peer companies is essential.

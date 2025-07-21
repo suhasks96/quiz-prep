@@ -998,6 +998,345 @@ DD = √[(4% + 9% + 2.25%) / 6] = √[15.25% / 6] = √2.54% = **1.59%**
 
 ---
 
+## 🧠 **BEHAVIORAL FINANCE & COGNITIVE BIASES**
+
+### **21. COMPREHENSIVE BIAS ANALYSIS FRAMEWORK**
+
+#### **Cognitive Biases in Trading & Investment**
+
+| **BIAS TYPE** | **DESCRIPTION** | **MARKET MANIFESTATION** | **MITIGATION STRATEGIES** |
+|---------------|-----------------|--------------------------|--------------------------|
+| **Confirmation Bias** | Seek confirming information | Ignore contradictory signals | Devil's advocate approach |
+| **Anchoring Bias** | Over-rely on first information | Stick to initial price levels | Multiple reference points |
+| **Overconfidence** | Overestimate abilities | Excessive trading, large positions | Track performance objectively |
+| **Loss Aversion** | Fear losses more than value gains | Hold losers, sell winners | Systematic rebalancing |
+| **Recency Bias** | Overweight recent events | Chase performance | Long-term data analysis |
+| **Herding** | Follow crowd behavior | Momentum bubbles/crashes | Contrarian indicators |
+
+#### **Advanced Bias Analysis**
+
+**Prospect Theory Applications:**
+- **Value Function**: Concave for gains, convex for losses
+- **Reference Point Dependence**: Framing effects on decisions
+- **Probability Weighting**: Overweight small probabilities
+- **Loss Aversion Factor**: 2.25x loss vs equivalent gain
+
+**Disposition Effect Example:**
+```
+Portfolio at Year-End:
+Stock A: +30% gain (mental gain = +30%)
+Stock B: -20% loss (mental loss = -20%)
+
+Behavioral Tendency:
+- Sell Stock A (realize gain) → Tax inefficient
+- Hold Stock B (avoid realizing loss) → Opportunity cost
+
+Optimal Strategy:
+- Harvest Stock B loss for tax benefit
+- Continue holding Stock A if fundamentally sound
+```
+
+#### **Emotional Trading Patterns**
+**Fear-Based Decisions:**
+- **Panic Selling**: Market crashes, excessive risk reduction
+- **Analysis Paralysis**: Over-research, delayed decisions
+- **Safe Haven Bias**: Excessive cash holdings
+- **Liquidity Hoarding**: Prefer liquid investments only
+
+**Greed-Based Decisions:**
+- **FOMO (Fear of Missing Out)**: Chase hot sectors/stocks
+- **Leverage Addiction**: Excessive risk-taking
+- **Complexity Attraction**: Prefer sophisticated strategies
+- **Home Bias**: Over-invest in familiar markets
+
+### **22. BEHAVIORAL PORTFOLIO THEORY**
+
+#### **Mental Accounting Framework**
+**Pyramid Approach to Investing:**
+- **Safety Layer (40%)**: Risk-free assets, stability focus
+- **Security Layer (30%)**: Diversified equity, moderate risk
+- **Speculation Layer (30%)**: High-risk, high-reward investments
+
+#### **Behavioral Portfolio Construction**
+
+| **MENTAL ACCOUNT** | **PURPOSE** | **ALLOCATION** | **RISK PROFILE** |
+|-------------------|-------------|----------------|------------------|
+| **Downside Protection** | Avoid poverty | 30-40% | Conservative |
+| **Upside Potential** | Achieve aspirations | 20-30% | Aggressive |
+| **Current Lifestyle** | Maintain standard | 30-50% | Moderate |
+
+#### **Goals-Based Investing**
+**Multiple Goal Framework:**
+- **Essential Goals**: Retirement, children's education
+- **Important Goals**: Home upgrade, travel
+- **Aspirational Goals**: Luxury items, philanthropy
+
+**Risk Budgeting by Goal:**
+```
+Goal 1: Retirement (20 years) - 60% equity allocation
+Goal 2: Home Purchase (5 years) - 30% equity allocation  
+Goal 3: Emergency Fund (immediate) - 0% equity allocation
+
+Portfolio Allocation:
+Emergency: ₹5 lakhs (100% debt)
+Home: ₹15 lakhs (30% equity, 70% debt)
+Retirement: ₹30 lakhs (60% equity, 40% debt)
+
+Blended Allocation: 42% equity, 58% debt
+```
+
+### **23. ADVANCED PORTFOLIO CONSTRUCTION**
+
+#### **Modern Portfolio Theory Extensions**
+
+| **MODEL** | **KEY INNOVATION** | **ADVANTAGES** | **LIMITATIONS** |
+|-----------|-------------------|----------------|-----------------|
+| **Black-Litterman** | Bayesian approach to expected returns | Addresses estimation error | Complex implementation |
+| **Risk Parity** | Equal risk contribution | Diversification focus | May underperform in trends |
+| **Factor Investing** | Systematic factor exposure | Evidence-based approach | Factor timing challenges |
+| **Maximum Diversification** | Maximize diversification ratio | Robust to estimation error | May sacrifice returns |
+
+#### **Factor-Based Portfolio Construction**
+**Equity Factor Premiums:**
+- **Value**: P/E (Price to Earnings), P/B (Price to Book) ratios
+- **Quality**: ROE (Return on Equity), debt-to-equity, earnings stability
+- **Momentum**: 12-1 month returns
+- **Low Volatility**: Risk-adjusted returns
+- **Size**: Market cap differences
+
+**Multi-Factor Model:**
+```
+Expected Return = Risk-free Rate + β₁×(Value Factor) + β₂×(Quality Factor) + β₃×(Momentum Factor) + β₄×(Size Factor)
+
+Example Portfolio Construction:
+Stock Selection Criteria:
+- Value Score > 70th percentile
+- Quality Score > 60th percentile  
+- Momentum Score > 50th percentile
+- Volatility < Market average
+
+Result: 40-50 stock diversified portfolio with factor tilts
+```
+
+#### **Risk Parity Implementation**
+**Equal Risk Contribution:**
+```
+Risk Contribution = Portfolio Weight × Marginal Risk Contribution
+Target: All assets contribute equally to portfolio risk
+
+For 3-asset portfolio:
+Asset A: σₐ = 15%, Weight = wₐ
+Asset B: σᵦ = 10%, Weight = wᵦ  
+Asset C: σᶜ = 25%, Weight = wᶜ
+
+Risk Parity Weights:
+wₐ ∝ 1/σₐ = 1/15% = 6.67
+wᵦ ∝ 1/σᵦ = 1/10% = 10.00
+wᶜ ∝ 1/σᶜ = 1/25% = 4.00
+
+Normalized Weights:
+wₐ = 6.67/20.67 = 32.3%
+wᵦ = 10.00/20.67 = 48.4%
+wᶜ = 4.00/20.67 = 19.3%
+```
+
+### **24. ALTERNATIVE RISK MEASURES**
+
+#### **Downside Risk Metrics**
+
+| **METRIC** | **CALCULATION** | **INTERPRETATION** | **USE CASE** |
+|------------|-----------------|-------------------|--------------|
+| **Downside Deviation** | √(Σ min(R-T,0)²/n) | Volatility below target | Risk-averse investors |
+| **Maximum Drawdown** | Peak-to-trough decline | Worst loss period | Capital preservation |
+| **VaR (Value at Risk)** | 5th percentile loss | Tail risk measure | Regulatory compliance |
+| **Expected Shortfall** | Average loss beyond VaR | Extreme tail risk | Risk management |
+| **Calmar Ratio** | Return/Max Drawdown | Risk-adjusted performance | Hedge fund evaluation |
+
+#### **VaR (Value at Risk) Methodologies**
+**Historical Simulation VaR (Value at Risk):**
+```
+Steps:
+1. Collect 252 daily returns (1 year)
+2. Sort returns from worst to best
+3. 5% VaR (Value at Risk) = 13th worst return (5% of 252)
+
+Example:
+Portfolio Value: ₹10,00,000
+252 sorted returns: -8.2%, -6.1%, -5.8%, ..., -2.1%, ...
+5% VaR (Value at Risk) = -2.1%
+1-day VaR (Value at Risk) = ₹10,00,000 × 2.1% = ₹21,000
+
+Interpretation: 5% chance of losing more than ₹21,000 in one day
+```
+
+**Parametric VaR (Value at Risk):**
+```
+Assumptions: Normal distribution
+Formula: VaR (Value at Risk) = Portfolio Value × (μ - Z×σ)
+
+Where:
+μ = Expected daily return
+Z = Z-score for confidence level (1.65 for 95%)
+σ = Daily standard deviation
+
+Example:
+Portfolio Value: ₹10,00,000
+Daily Return (μ): 0.05%
+Daily Volatility (σ): 1.2%
+95% VaR (Value at Risk) = ₹10,00,000 × (0.05% - 1.65×1.2%) = ₹19,300
+```
+
+#### **Stress Testing Frameworks**
+**Scenario Analysis Types:**
+- **Historical Scenarios**: 2008 crisis, COVID-19 crash
+- **Hypothetical Scenarios**: Custom stress events
+- **Monte Carlo Scenarios**: Probabilistic outcomes
+- **Reverse Stress Tests**: Breaking point analysis
+
+### **25. INSTITUTIONAL RISK MANAGEMENT**
+
+#### **Risk Governance Framework**
+
+| **LEVEL** | **RESPONSIBILITY** | **RISK LIMITS** | **REPORTING** |
+|-----------|-------------------|-----------------|---------------|
+| **Board** | Risk appetite setting | Portfolio-level limits | Quarterly |
+| **CRO (Chief Risk Officer)** | Risk framework implementation | Business-level limits | Monthly |
+| **Portfolio Managers** | Day-to-day risk management | Strategy-level limits | Daily |
+| **Risk Controllers** | Independent monitoring | Position-level limits | Real-time |
+
+#### **Risk Limit Structure**
+**Hierarchical Limits:**
+```
+Level 1: Total Portfolio VaR (Value at Risk) ≤ ₹50 lakhs
+Level 2: Equity VaR (Value at Risk) ≤ ₹30 lakhs, Fixed Income VaR (Value at Risk) ≤ ₹20 lakhs
+Level 3: Large Cap VaR (Value at Risk) ≤ ₹20 lakhs, Mid Cap VaR (Value at Risk) ≤ ₹10 lakhs
+Level 4: Individual Stock VaR (Value at Risk) ≤ ₹2 lakhs
+
+Utilization Monitoring:
+Current Total Portfolio VaR (Value at Risk): ₹35 lakhs (70% utilized)
+Warning Level: 80% utilization (₹40 lakhs)
+Breach Level: 100% utilization (₹50 lakhs)
+```
+
+#### **Risk Attribution Analysis**
+**Component VaR (Value at Risk) Decomposition:**
+```
+Portfolio VaR (Value at Risk) = Σ(Weight × Marginal VaR (Value at Risk))
+
+Example:
+Asset A: Weight = 40%, Marginal VaR (Value at Risk) = 2.5%, Component VaR (Value at Risk) = 1.0%
+Asset B: Weight = 35%, Marginal VaR (Value at Risk) = 1.8%, Component VaR (Value at Risk) = 0.63%
+Asset C: Weight = 25%, Marginal VaR (Value at Risk) = 2.2%, Component VaR (Value at Risk) = 0.55%
+
+Total Portfolio VaR (Value at Risk) = 1.0% + 0.63% + 0.55% = 2.18%
+```
+
+### **26. BEHAVIORAL INTERVENTION STRATEGIES**
+
+#### **Systematic Bias Mitigation**
+**Pre-Commitment Strategies:**
+- **Automatic Rebalancing**: Quarterly calendar rebalancing
+- **Stop-Loss Orders**: Systematic risk management
+- **Dollar-Cost Averaging**: Regular investment amounts
+- **Rules-Based Selling**: Profit-taking mechanisms
+
+#### **Decision Architecture Design**
+**Choice Architecture Improvements:**
+- **Default Options**: Optimal default allocations
+- **Simplification**: Reduce choice complexity
+- **Feedback Systems**: Performance tracking
+- **Cooling-Off Periods**: Delay impulsive decisions
+
+#### **Institutional Behavioral Management**
+**Committee Decision Making:**
+- **Diverse Perspectives**: Multiple viewpoints
+- **Devil's Advocate**: Designated contrarian
+- **Structured Processes**: Systematic evaluation
+- **Documentation Requirements**: Decision rationale
+
+### **27. CRISIS RISK MANAGEMENT**
+
+#### **Black Swan Event Preparation**
+**Characteristics of Black Swans:**
+- **Extreme Impact**: Significant portfolio effects
+- **Retrospective Predictability**: Seem obvious after the fact
+- **Rare Occurrence**: Outside normal expectations
+- **Model Failure**: Traditional risk models inadequate
+
+#### **Tail Risk Hedging Strategies**
+
+| **STRATEGY** | **MECHANISM** | **COST** | **EFFECTIVENESS** |
+|--------------|---------------|----------|-------------------|
+| **Put Options** | Direct downside protection | High premium cost | Very effective |
+| **VIX (Volatility Index) Calls** | Volatility spike protection | Medium cost | Effective in crises |
+| **Trend Following** | Systematic trend capture | Low ongoing cost | Moderately effective |
+| **Gold Allocation** | Safe haven diversification | Opportunity cost | Variable effectiveness |
+
+#### **Crisis Playbook Development**
+**Pre-Crisis Preparation:**
+- **Liquidity Assessment**: Available cash and credit
+- **Position Concentration**: Single position limits
+- **Correlation Analysis**: Crisis correlation changes
+- **Communication Plan**: Stakeholder messaging
+
+**During Crisis Management:**
+- **Liquidity Preservation**: Avoid forced selling
+- **Opportunistic Positioning**: Quality at discounts
+- **Rebalancing Discipline**: Systematic approach
+- **Emotional Management**: Stick to process
+
+### **28. QUANTITATIVE BEHAVIORAL MODELS**
+
+#### **Noise Trader Models**
+**Behavioral Asset Pricing:**
+- **Sentiment-Based Pricing**: Deviation from fundamentals
+- **Limits to Arbitrage**: Capital and risk constraints
+- **Feedback Trading**: Trend-following behavior
+- **Overreaction/Underreaction**: Predictable patterns
+
+#### **Adaptive Market Hypothesis**
+**Market Evolution Concepts:**
+- **Changing Efficiency**: Markets evolve over time
+- **Survival of the Fittest**: Successful strategies persist
+- **Environmental Adaptation**: Strategy effectiveness varies
+- **Cyclical Patterns**: Efficiency cycles with participation
+
+#### **Behavioral Finance Metrics**
+**Sentiment Indicators:**
+- **Put/Call Ratio**: Options-based sentiment
+- **VIX (Volatility Index) Level**: Fear gauge
+- **Insider Trading**: Corporate insider activity
+- **Margin Debt**: Leverage-based sentiment
+
+---
+
+## 🎯 **PROFESSIONAL RISK MANAGEMENT APPLICATIONS**
+
+### **29. ALGORITHMIC RISK MANAGEMENT**
+
+#### **Real-Time Risk Monitoring Systems**
+**Automated Risk Controls:**
+- **Pre-Trade Checks**: Order validation before execution
+- **Position Limits**: Real-time position monitoring  
+- **Concentration Limits**: Sector and security limits
+- **Loss Limits**: Stop-loss automation
+
+#### **Machine Learning in Risk Management**
+**Applications:**
+- **Pattern Recognition**: Unusual trading patterns
+- **Regime Detection**: Market state identification
+- **Credit Risk Modeling**: Default probability estimation
+- **Fraud Detection**: Suspicious activity identification
+
+#### **High-Frequency Risk Management**
+**Microsecond Risk Controls:**
+- **Circuit Breakers**: Automatic trading halts
+- **Dynamic Hedging**: Continuous delta adjustment
+- **Latency Monitoring**: Execution speed tracking
+- **Market Impact**: Real-time impact estimation
+
+---
+
 ## ✅ **ENHANCED QUIZ STRATEGIES**
 
 ### **16. RISK MANAGEMENT EXAM PREPARATION**

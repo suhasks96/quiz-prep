@@ -432,3 +432,165 @@ Weight = (₹10 ÷ ₹100) × 100 = 10%
 ---
 *Markets • Indices • Trading • Settlement*
 *Know the Infrastructure, Master the Mechanisms* 
+
+---
+
+## 🔧 **MARKET MICROSTRUCTURE & MECHANICS**
+
+### **12. ORDER BOOK DYNAMICS & MARKET DEPTH**
+
+#### **Understanding the Order Book**
+**Order Book**: Real-time display of buy and sell orders at different price levels
+**Market Depth**: Shows liquidity available at each price level
+**Bid-Ask Spread**: Difference between highest bid and lowest ask price
+**Price Priority**: Orders executed based on price-time priority
+
+#### **Order Book Structure Analysis**
+
+| **PARAMETER** | **BID SIDE (BUYERS)** | **ASK SIDE (SELLERS)** |
+|---------------|----------------------|----------------------|
+| **Price Movement** | Decreasing as you go down | Increasing as you go down |
+| **Quantity Display** | Total quantity at each level | Total quantity at each level |
+| **Color Coding** | Usually blue/green | Usually red/orange |
+| **Market Impact** | Shows buying interest | Shows selling pressure |
+
+#### **Market Depth Example**
+```
+ASK (SELLERS)               BID (BUYERS)
+Price    Qty                Price    Qty
+₹102.75  500   ←           ₹102.50  1000
+₹102.50  800                ₹102.25  1500
+₹102.25  1200              ₹102.00  2000
+₹102.00  1500              ₹101.75  800
+
+Bid-Ask Spread = ₹102.75 - ₹102.50 = ₹0.25
+```
+
+#### **Liquidity Assessment**
+**Tight Spread**: High liquidity, easy to trade
+**Wide Spread**: Low liquidity, higher impact cost
+**Deep Book**: Large quantities at each level
+**Thin Book**: Small quantities, price sensitive
+
+### **13. COMPREHENSIVE ORDER TYPES GUIDE**
+
+#### **Basic Order Types (Every Trader Must Know)**
+
+| **ORDER TYPE** | **EXECUTION** | **BEST USE CASE** | **RISK LEVEL** |
+|----------------|---------------|-------------------|----------------|
+| **Market Order** | Immediate at best available price | Quick execution needed | High (price risk) |
+| **Limit Order** | At specified price or better | Price control important | Low (execution risk) |
+| **Stop Loss (SL)** | Becomes market order when triggered | Risk management | Medium |
+| **Stop Loss Limit (SL-L)** | Becomes limit order when triggered | Controlled exit | Medium |
+
+#### **Advanced Order Types (Professional Trading)**
+
+| **ORDER TYPE** | **MECHANISM** | **PROFESSIONAL USE** |
+|----------------|---------------|---------------------|
+| **Immediate or Cancel (IOC)** | Execute immediately, cancel rest | Large order management |
+| **Fill or Kill (FOK)** | Execute completely or cancel | All-or-nothing trades |
+| **Iceberg Orders** | Show only small portion | Hide large positions |
+| **Bracket Orders** | Auto target + stop loss | Complete trade management |
+| **Cover Orders** | Mandatory stop loss with market order | Intraday risk control |
+
+#### **Order Duration Options**
+**Day Orders**: Valid only for current session
+**Good Till Cancelled (GTC)**: Valid until manually cancelled (max 365 days)
+**Good Till Date (GTD)**: Valid until specified date
+**After Market Orders (AMO)**: Placed after market hours for next session
+
+#### **Order Execution Priority Rules**
+1. **Price Priority**: Better price gets executed first
+2. **Time Priority**: Earlier timestamp at same price
+3. **Size Priority**: Larger orders may get preference (varies by exchange)
+4. **Order Type Priority**: Market orders before limit orders
+
+### **14. CIRCUIT BREAKERS & MARKET HALTS**
+
+#### **Individual Stock Circuit Breakers**
+
+| **PRICE BAND** | **MOST STOCKS** | **SPECIAL CASES** | **DAILY LIMIT** |
+|----------------|-----------------|-------------------|-----------------|
+| **Upper Circuit** | +20% from previous close | +5% for volatile stocks | Trading halted |
+| **Lower Circuit** | -20% from previous close | -5% for volatile stocks | Trading halted |
+| **No Limit** | Index stocks in derivatives | F&O stocks | No daily limit |
+
+#### **Market-Wide Circuit Breakers**
+
+| **INDEX FALL** | **TIME OF TRIGGER** | **MARKET HALT DURATION** |
+|----------------|---------------------|-------------------------|
+| **10%** | Before 1:00 PM | 1 hour |
+| **10%** | Between 1:00-2:30 PM | 30 minutes |
+| **10%** | After 2:30 PM | No halt |
+| **15%** | Before 1:00 PM | 2 hours |
+| **15%** | After 1:00 PM | Remainder of day |
+| **20%** | Any time | Remainder of day |
+
+#### **Purpose of Circuit Breakers**
+**Risk Management**: Prevent panic selling/buying
+**Price Discovery**: Allow time for information absorption
+**System Protection**: Prevent technical glitches impact
+**Investor Protection**: Cool-off period for decisions
+
+### **15. MARKET SESSIONS & TIMING STRUCTURE**
+
+#### **Complete Market Schedule**
+
+| **SESSION** | **TIMING** | **ACTIVITY** | **ORDER TYPES ALLOWED** |
+|-------------|------------|--------------|------------------------|
+| **Pre-Open** | 9:00-9:15 AM | Order collection, no trades | Limit orders only |
+| **Normal Trading** | 9:15 AM-3:30 PM | Regular trading | All order types |
+| **Closing Session** | 3:30-4:00 PM | Closing price determination | Limited participation |
+| **After Market** | 4:00-9:00 AM (next day) | AMO (After Market Orders) placement | AMO only |
+
+#### **Pre-Open Session Breakdown**
+**9:00-9:08 AM**: Order entry, modification, cancellation allowed
+**9:08-9:12 AM**: Order entry allowed, no modification/cancellation
+**9:12-9:15 AM**: Buffer period, random closure for opening price
+
+#### **Market Holidays & Impact**
+**National Holidays**: Market closed, no trading
+**Special Sessions**: Settlement activities continue
+**Trading Calendar**: Published annually by exchanges
+**Global Impact**: International market movements during closure
+
+### **16. ROLE OF MARKET MAKERS & LIQUIDITY**
+
+#### **Market Maker Functions**
+**Liquidity Provision**: Continuous buy/sell quotes
+**Spread Management**: Maintain tight bid-ask spreads
+**Price Stability**: Absorb temporary imbalances
+**Market Efficiency**: Reduce impact costs for traders
+
+#### **Liquidity Metrics**
+**Bid-Ask Spread**: Tighter spread = better liquidity
+**Market Depth**: Volume available at each price level
+**Turnover Ratio**: Trading volume / market cap
+**Impact Cost**: Price movement for standard trade size
+
+#### **High Frequency Trading (HFT) Impact**
+**Advantages**: Improved liquidity, tighter spreads
+**Concerns**: Market volatility, unfair advantages
+**Regulation**: SEBI guidelines for algo trading
+**Technology**: Co-location services, ultra-low latency
+
+---
+
+## 📊 **MARKET STRUCTURE COMPARISON**
+
+### **17. SPOT vs DERIVATIVES MARKET INTERACTION**
+
+#### **Market Integration Analysis**
+
+| **ASPECT** | **SPOT MARKET** | **DERIVATIVES MARKET** | **INTERACTION** |
+|------------|-----------------|----------------------|-----------------|
+| **Price Discovery** | Current fair value | Future expectations | Arbitrage opportunities |
+| **Volume Impact** | Direct price movement | Leveraged impact | Cross-market effects |
+| **Volatility** | Natural volatility | Amplified volatility | Spillover effects |
+| **Liquidity** | Fundamental liquidity | Derived liquidity | Mutual dependence |
+
+#### **Arbitrage Mechanisms**
+**Cash-Futures Arbitrage**: Price differences between spot and futures
+**Calendar Arbitrage**: Different expiry month price differences
+**Strike Arbitrage**: Options pricing inconsistencies
+**Index Arbitrage**: Index vs constituent stocks pricing 
