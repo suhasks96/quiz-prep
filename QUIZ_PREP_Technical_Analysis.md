@@ -612,3 +612,48 @@ Position Size = ₹10,000 ÷ (₹5 × 2) = 1000 shares
 **VWAP (Volume Weighted Average Price)**: Calculates the average price weighted by volume traded. Institutional traders use it as a benchmark for execution quality.
 
 **CCI (Commodity Channel Index)**: An oscillator that identifies cyclical trends and measures the current price level relative to an average price level over a given period. 
+
+---
+
+## 📊 **CONSOLIDATED FORMULA TABLE**
+
+### **TECHNICAL ANALYSIS - ALL FORMULAS REFERENCE**
+
+| **FORMULA NAME** | **MATHEMATICAL EXPRESSION** | **DESCRIPTION** |
+|------------------|----------------------------|-----------------|
+| **Simple Moving Average (SMA)** | `(P1 + P2 + P3 + ... + Pn) ÷ n` | Average price over n periods |
+| **Exponential Moving Average (EMA)** | `EMA = (Close × Multiplier) + (Previous EMA × (1-Multiplier))` | Weighted average favoring recent prices |
+| **EMA Multiplier** | `2 ÷ (n + 1)` | Smoothing factor for EMA calculation |
+| **RSI (Relative Strength Index)** | `100 - [100 ÷ (1 + RS)]` | Momentum oscillator (0-100 scale) |
+| **RS (Relative Strength)** | `Average Gain ÷ Average Loss` | Component of RSI calculation |
+| **MACD Line** | `12-day EMA - 26-day EMA` | Trend-following momentum indicator |
+| **MACD Signal Line** | `9-day EMA of MACD Line` | Trigger line for MACD signals |
+| **MACD Histogram** | `MACD Line - Signal Line` | Divergence between MACD and signal |
+| **Bollinger Upper Band** | `SMA + (2 × Standard Deviation)` | Upper resistance/overbought level |
+| **Bollinger Lower Band** | `SMA - (2 × Standard Deviation)` | Lower support/oversold level |
+| **%B (Bollinger %B)** | `(Price - Lower Band) ÷ (Upper Band - Lower Band)` | Position within Bollinger Bands |
+| **ATR (Average True Range)** | `Average of True Range over n periods` | Volatility measurement |
+| **True Range** | `Max of [(High-Low), (High-Prev Close), (Prev Close-Low)]` | Single period volatility measure |
+| **Reward-to-Risk Ratio** | `Expected Reward ÷ Risk Taken` | Risk-adjusted trade evaluation |
+| **Position Size (ATR-based)** | `Risk per Trade ÷ (ATR × Multiplier)` | Volatility-adjusted position sizing |
+| **ATR-based Stop Loss** | `Entry Price ± (ATR × Multiplier)` | Dynamic stop-loss placement |
+| **OBV (On-Balance Volume)** | `Previous OBV ± Volume (based on price direction)` | Volume-based momentum indicator |
+| **VWAP (Volume Weighted Average Price)** | `Σ(Price × Volume) ÷ Σ(Volume)` | Volume-weighted average price |
+
+#### **Key Variables Reference:**
+- **n**: Number of periods for calculation
+- **RS**: Relative Strength for RSI (not to be confused with stock relative strength)
+- **Standard Deviation**: Measure of price volatility around mean
+- **True Range**: Measures volatility including gaps
+- **ATR Multiplier**: Typically 2-3 for stop losses, 1-2 for position sizing
+- **OBV Direction**: +Volume if close > previous close, -Volume if close < previous close
+
+#### **Important Thresholds:**
+- **RSI**: >70 overbought, <30 oversold
+- **MACD**: Zero line crossovers indicate trend changes
+- **Bollinger Bands**: 95% of price action occurs within bands
+- **ATR**: Higher values indicate higher volatility periods
+
+---
+
+*Use this formula table for quick reference during technical analysis and trading decisions* 

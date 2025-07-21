@@ -1230,3 +1230,86 @@ Portfolio Volatility = √359.6 = 18.96%
 **FIX (Financial Information eXchange)**: A standardized protocol for real-time electronic communication of trade-related messages between financial institutions.
 
 **FPGA (Field Programmable Gate Array)**: Specialized hardware that can be programmed for specific tasks, offering ultra-low latency processing for high-frequency trading applications. 
+
+---
+
+## 📊 **CONSOLIDATED FORMULA TABLE**
+
+### **TRADING SYSTEMS - ALL FORMULAS REFERENCE**
+
+| **FORMULA NAME** | **MATHEMATICAL EXPRESSION** | **DESCRIPTION** |
+|------------------|----------------------------|-----------------|
+| **Correlation Coefficient** | `ρ = Cov(X,Y) ÷ (σx × σy)` | Statistical relationship strength |
+| **Linear Regression** | `Y = α + βX + ε` | Straight-line relationship |
+| **R-squared** | `1 - (SSres ÷ SStot)` | Percentage of variance explained |
+| **Beta (Regression)** | `Cov(X,Y) ÷ Var(X)` | Slope of regression line |
+| **Sharpe Ratio** | `(Return - Risk-free Rate) ÷ Standard Deviation` | Risk-adjusted performance |
+| **Maximum Drawdown** | `(Peak - Trough) ÷ Peak × 100` | Worst peak-to-trough decline |
+| **Profit Factor** | `Gross Profit ÷ Gross Loss` | Strategy efficiency measure |
+| **Win Rate** | `Winning Trades ÷ Total Trades × 100` | Success percentage |
+| **Average Win** | `Total Winning Amount ÷ Number of Wins` | Mean profitable trade |
+| **Average Loss** | `Total Losing Amount ÷ Number of Losses` | Mean losing trade |
+| **Expectancy** | `(Win Rate × Avg Win) - (Loss Rate × Avg Loss)` | Expected value per trade |
+| **Kelly Criterion** | `f = (bp - q) ÷ b` | Optimal position sizing |
+| **Calmar Ratio** | `Annual Return ÷ Maximum Drawdown` | Return per unit of drawdown |
+| **Sortino Ratio** | `(Return - MAR) ÷ Downside Deviation` | Downside risk-adjusted return |
+| **Information Ratio** | `(Return - Benchmark) ÷ Tracking Error` | Active management skill |
+| **Ulcer Index** | `√(Mean of Squared Drawdowns)` | Drawdown pain measure |
+| **Martin Ratio** | `(Return - Risk-free) ÷ Ulcer Index` | Return per drawdown pain |
+| **K-Ratio** | `Slope of Equity Curve ÷ SE of Slope` | Consistency measure |
+| **VWAP** | `Σ(Price × Volume) ÷ Σ(Volume)` | Volume-weighted average price |
+| **TWAP** | `Σ(Prices) ÷ Number of Periods` | Time-weighted average price |
+| **Pair Trading Spread** | `Stock A - (Beta × Stock B)` | Relative value measure |
+| **Z-Score (Pair Trading)** | `(Current Spread - Mean) ÷ Standard Deviation` | Standardized spread measure |
+| **Portfolio Allocation** | `Individual Score ÷ Total Scores × 100` | Weight in multi-factor model |
+| **Factor Score** | `Σ(Weight × Standardized Factor Value)` | Composite factor ranking |
+
+#### **Key Variables Reference:**
+- **α (Alpha)**: Regression intercept, excess return
+- **β (Beta)**: Regression slope, systematic risk
+- **ε (Epsilon)**: Error term in regression
+- **MAR**: Minimum Acceptable Return
+- **SE**: Standard Error
+- **SS**: Sum of Squares
+
+#### **Performance Evaluation Thresholds:**
+- **Sharpe Ratio**: >1.0 good, >2.0 excellent
+- **Profit Factor**: >1.5 acceptable, >2.0 good
+- **Win Rate**: 35-45% for momentum, 60-75% for mean reversion
+- **Maximum Drawdown**: <20% preferred
+- **Calmar Ratio**: >1.0 good
+- **K-Ratio**: >0.5 consistent
+
+#### **Pair Trading Criteria:**
+- **Correlation**: >0.7 minimum for pair selection
+- **Z-Score Signals**: ±2.0 for entry, 0 for exit
+- **Cointegration**: ADF test p-value <0.05
+- **Spread Stationarity**: Required for mean reversion
+
+#### **System Development Metrics:**
+- **In-Sample Period**: 60-80% of data for optimization
+- **Out-of-Sample Period**: 20-40% of data for validation
+- **Walk-Forward Windows**: 252 days optimization, 63 days testing
+- **Statistical Significance**: t-statistic >2.0
+
+#### **Risk Management Formulas:**
+- **Position Size**: Risk Amount ÷ (Stop Distance × Contract Size)
+- **Portfolio Heat**: Σ(Individual Position Risks)
+- **Correlation Limit**: <0.3 between strategies
+- **Diversification Ratio**: Portfolio Risk ÷ Weighted Average Risk
+
+#### **Machine Learning Metrics:**
+- **Accuracy**: Correct Predictions ÷ Total Predictions
+- **Precision**: True Positives ÷ (True Positives + False Positives)
+- **Recall**: True Positives ÷ (True Positives + False Negatives)
+- **F1-Score**: 2 × (Precision × Recall) ÷ (Precision + Recall)
+
+#### **Execution Algorithm Parameters:**
+- **VWAP Participation**: Target % of historical volume
+- **TWAP Time Slice**: Total time ÷ Number of slices
+- **Implementation Shortfall**: Price Impact + Timing Risk
+- **Arrival Price**: Minimize deviation from decision price
+
+---
+
+*Use this formula table for quick reference during trading system development and evaluation* 

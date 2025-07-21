@@ -865,3 +865,69 @@ Turnover for this stock = ₹2,000 + ₹0 + ₹250 = ₹2,250
 **RBI (Reserve Bank of India)**: India's central banking institution responsible for monetary policy, currency issuance, financial system regulation, and foreign exchange management.
 
 **CA (Chartered Accountant)**: A professional qualification in accounting and finance, with members authorized to practice auditing, taxation, and financial advisory services. 
+
+---
+
+## 📊 **CONSOLIDATED FORMULA TABLE**
+
+### **MARKETS & TAXATION - ALL FORMULAS REFERENCE**
+
+| **FORMULA NAME** | **MATHEMATICAL EXPRESSION** | **DESCRIPTION** |
+|------------------|----------------------------|-----------------|
+| **Income Tax (Slab Rate)** | `Based on applicable tax slab percentages` | Progressive taxation on income |
+| **STCG Tax** | `Short-term Capital Gains × 15%` | Tax on equity gains ≤1 year |
+| **LTCG Tax** | `(Long-term Capital Gains - ₹1,00,000) × 10%` | Tax on equity gains >1 year |
+| **Business Income Tax** | `Trading Profits × Applicable Slab Rate` | Tax on F&O and intraday trading |
+| **STT (Securities Transaction Tax)** | `Transaction Value × STT Rate` | Transaction-based tax |
+| **Advance Tax (15th June)** | `Annual Tax Liability × 15%` | First quarterly payment |
+| **Advance Tax (15th Sept)** | `Annual Tax Liability × 45%` | Cumulative second payment |
+| **Advance Tax (15th Dec)** | `Annual Tax Liability × 75%` | Cumulative third payment |
+| **Advance Tax (15th March)** | `Annual Tax Liability × 100%` | Final annual payment |
+| **Interest on Late Payment** | `Late Amount × 1% per month` | Penalty for delayed advance tax |
+| **Turnover (F&O Trade-wise)** | `Absolute value of Profit/Loss per trade` | For audit threshold calculation |
+| **Turnover (Option Trading)** | `Premium + Profit/Loss` | Option turnover methodology |
+| **Tax Audit Threshold** | `₹10 crores annual turnover` | Mandatory audit requirement |
+| **Loss Carry Forward** | `8 years for speculation and capital losses` | Period for offsetting losses |
+| **Indexation Benefit** | `Purchase Price × (Sale Year CII ÷ Purchase Year CII)` | Inflation adjustment for LTCG |
+| **Real Return** | `(1 + Nominal Return) ÷ (1 + Inflation Rate) - 1` | Inflation-adjusted return |
+| **Tax-Adjusted Return** | `Gross Return × (1 - Tax Rate)` | Post-tax return calculation |
+| **Section 44AD Income** | `Business Turnover × 8%` | Presumptive taxation rate |
+| **TDS (Tax Deducted at Source)** | `Payment × Applicable TDS Rate` | Tax deduction at source |
+| **Capital Gains** | `Sale Price - Purchase Price - Expenses` | Taxable gain calculation |
+
+#### **Key Tax Rates (2023-24):**
+- **STCG (Equity)**: 15% + cess
+- **LTCG (Equity)**: 10% + cess (above ₹1 lakh exemption)
+- **STCG (Debt)**: Slab rates
+- **LTCG (Debt)**: 20% + cess with indexation
+- **F&O Trading**: Slab rates (business income)
+- **Dividend Income**: Slab rates
+
+#### **STT Rates:**
+- **Equity Delivery (Buy/Sell)**: 0.1% each side
+- **Equity Intraday (Sell)**: 0.025%
+- **Equity Futures (Sell)**: 0.0125%
+- **Equity Options (Sell)**: 0.05% on premium
+
+#### **Important Thresholds:**
+- **LTCG Exemption**: ₹1,00,000 annually (equity)
+- **Advance Tax**: Required if liability >₹10,000
+- **Tax Audit**: Required if turnover >₹10 crores
+- **Section 80C**: ₹1.5 lakh deduction limit
+- **HUF Exemption**: ₹2.5 lakh basic exemption
+
+#### **Loss Set-off Rules:**
+- **Speculation Loss**: Only against speculation gains
+- **Non-speculation Business Loss**: Against any income
+- **STCL**: Only against STCG
+- **LTCL**: Only against LTCG
+- **Carry Forward**: Maximum 8 years for all types
+
+#### **Calculation Examples:**
+- **Business vs Investment**: Based on frequency, intention, expertise
+- **Turnover Methods**: Gross vs net vs favorable differences
+- **Indexation**: Cost Inflation Index adjustment for debt investments
+
+---
+
+*Use this formula table for quick reference during tax planning and compliance calculations* 

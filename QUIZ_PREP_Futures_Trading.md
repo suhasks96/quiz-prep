@@ -841,3 +841,58 @@ Strategy:
 **MIS (Margin Intraday Square-off)**: An order type that provides leverage for intraday trading but requires positions to be squared off before market close.
 
 **CNC (Cash and Carry)**: A product type for delivery-based equity trading where investors take actual delivery of shares purchased. 
+
+---
+
+## 📊 **CONSOLIDATED FORMULA TABLE**
+
+### **FUTURES TRADING - ALL FORMULAS REFERENCE**
+
+| **FORMULA NAME** | **MATHEMATICAL EXPRESSION** | **DESCRIPTION** |
+|------------------|----------------------------|-----------------|
+| **Contract Value** | `Futures Price × Lot Size` | Total value of futures contract |
+| **Leverage Ratio** | `Contract Value ÷ Margin Required` | Leverage provided by futures |
+| **Margin Requirement** | `Contract Value × Margin %` | Capital needed for futures position |
+| **P&L per Point** | `Lot Size × 1 point` | Profit/loss for 1 point movement |
+| **Total P&L** | `(Exit Price - Entry Price) × Lot Size` | Total profit/loss on position |
+| **Return on Margin** | `P&L ÷ Margin Used × 100` | Return percentage on margin capital |
+| **Theoretical Futures Price** | `Spot Price × e^((r-d) × t)` | Fair value based on cost of carry |
+| **Simple Futures Price** | `Spot Price × [1 + (r-d) × (t/365)]` | Simplified fair value calculation |
+| **Basis** | `Futures Price - Spot Price` | Price difference between futures and spot |
+| **Basis Convergence** | `Basis approaches zero as expiry nears` | Basis reduction over time |
+| **Position Size (Risk-based)** | `Risk Amount ÷ (Stop Distance × Lot Size)` | Risk-controlled position sizing |
+| **Position Size (Fixed Capital)** | `Target Exposure ÷ Contract Value` | Capital-based position sizing |
+| **Position Size (Volatility-adjusted)** | `Base Size × (Normal Vol ÷ Current Vol)` | Volatility-based position sizing |
+| **Calendar Spread P&L** | `(New Spread - Old Spread) × Lot Size` | Profit/loss on spread trades |
+| **Arbitrage Profit** | `(Market Price - Fair Value) × Lot Size` | Risk-free profit opportunity |
+| **Hedge Ratio** | `Portfolio Value ÷ Contract Value` | Number of contracts for hedge |
+| **Maximum Drawdown** | `(Peak Value - Trough Value) ÷ Peak Value × 100` | Worst-case loss percentage |
+
+#### **Key Variables Reference:**
+- **r**: Risk-free interest rate (annual)
+- **d**: Dividend yield (annual)
+- **t**: Time to expiry (in years)
+- **e**: Mathematical constant (≈2.718)
+- **Stop Distance**: Difference between entry and stop-loss price
+- **Normal Vol**: Historical average volatility
+- **Current Vol**: Present volatility level
+
+#### **Important Calculations:**
+- **Margin %**: Typically 6-14% for equity futures
+- **Lot Size**: Varies by underlying (Nifty: 75, Bank Nifty: 25)
+- **Basis Pattern**: Positive (contango) vs Negative (backwardation)
+- **Risk per Trade**: Generally 2-5% of total capital
+
+#### **Calendar Spread Example:**
+- **Long Calendar**: Buy far month, sell near month
+- **Short Calendar**: Sell far month, buy near month
+- **Profit Factors**: Time decay and volatility changes
+
+#### **Position Sizing Guidelines:**
+- **Conservative**: 1-2% risk per trade
+- **Moderate**: 2-3% risk per trade  
+- **Aggressive**: 3-5% risk per trade (maximum recommended)
+
+---
+
+*Use this formula table for quick reference during futures trading and risk management* 

@@ -691,3 +691,55 @@ P/BV (Price to Book Value) Ratio = Market Price ÷ Book Value
 **CAGR (Compound Annual Growth Rate)**: The rate of return that would be required for an investment to grow from its beginning balance to its ending balance, assuming profits were reinvested.
 
 **XIRR (Extended Internal Rate of Return)**: A function that calculates internal rate of return for cash flows that are not periodic, accounting for exact dates of transactions. 
+
+---
+
+## 📊 **CONSOLIDATED FORMULA TABLE**
+
+### **FUNDAMENTAL ANALYSIS - ALL FORMULAS REFERENCE**
+
+| **FORMULA NAME** | **MATHEMATICAL EXPRESSION** | **DESCRIPTION** |
+|------------------|----------------------------|-----------------|
+| **Return on Equity (ROE)** | `Net Income ÷ Shareholders' Equity × 100` | Profitability relative to equity |
+| **Return on Assets (ROA)** | `Net Income ÷ Total Assets × 100` | Efficiency of asset utilization |
+| **Return on Capital Employed (ROCE)** | `EBIT ÷ Capital Employed × 100` | Return on total capital used |
+| **Price-to-Earnings (P/E) Ratio** | `Market Price per Share ÷ Earnings per Share` | Valuation multiple |
+| **Price-to-Book (P/B) Ratio** | `Market Price per Share ÷ Book Value per Share` | Market vs book value comparison |
+| **Price-to-Sales (P/S) Ratio** | `Market Cap ÷ Annual Revenue` | Revenue-based valuation |
+| **Enterprise Value (EV)** | `Market Cap + Total Debt - Cash & Equivalents` | Total company value |
+| **EV/EBITDA Ratio** | `Enterprise Value ÷ EBITDA` | Capital structure neutral valuation |
+| **PEG Ratio** | `P/E Ratio ÷ Growth Rate` | Growth-adjusted valuation |
+| **Book Value per Share** | `(Shareholders' Equity - Preferred Stock) ÷ Outstanding Shares` | Net worth per share |
+| **Earnings per Share (EPS)** | `Net Income ÷ Outstanding Shares` | Profitability per share |
+| **Debt-to-Equity Ratio** | `Total Debt ÷ Total Equity` | Financial leverage measure |
+| **Interest Coverage Ratio** | `EBIT ÷ Interest Expense` | Ability to service debt |
+| **Current Ratio** | `Current Assets ÷ Current Liabilities` | Short-term liquidity measure |
+| **Quick Ratio** | `(Current Assets - Inventory) ÷ Current Liabilities` | Liquidity excluding inventory |
+| **Asset Turnover Ratio** | `Revenue ÷ Average Total Assets` | Asset efficiency measure |
+| **Inventory Turnover** | `Cost of Goods Sold ÷ Average Inventory` | Inventory management efficiency |
+| **Receivables Turnover** | `Revenue ÷ Average Accounts Receivable` | Collection efficiency |
+| **DuPont ROE** | `Net Profit Margin × Asset Turnover × Financial Leverage` | ROE decomposition |
+| **EBITDA Margin** | `EBITDA ÷ Revenue × 100` | Operating profitability |
+| **Net Profit Margin** | `Net Income ÷ Revenue × 100` | Overall profitability |
+| **Gross Profit Margin** | `(Revenue - COGS) ÷ Revenue × 100` | Basic profitability measure |
+| **Dividend Yield** | `Annual Dividend per Share ÷ Market Price per Share × 100` | Income return from dividends |
+| **Dividend Payout Ratio** | `Dividends per Share ÷ Earnings per Share × 100` | Proportion of earnings paid as dividends |
+
+#### **Key Variables Reference:**
+- **EBIT**: Earnings Before Interest and Taxes
+- **EBITDA**: Earnings Before Interest, Taxes, Depreciation, and Amortization
+- **COGS**: Cost of Goods Sold
+- **Capital Employed**: Total Assets - Current Liabilities
+- **Financial Leverage**: Total Assets ÷ Shareholders' Equity
+
+#### **Ratio Interpretation Guidelines:**
+- **ROE >15%**: Generally considered good
+- **ROA >10%**: Efficient asset utilization
+- **P/E 15-25**: Typical range for mature companies
+- **Debt-to-Equity <1.0**: Conservative leverage
+- **Interest Coverage >4x**: Safe debt servicing ability
+- **Current Ratio 1.5-3.0**: Healthy liquidity
+
+---
+
+*Use this formula table for quick reference during fundamental analysis and company valuation* 

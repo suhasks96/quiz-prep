@@ -959,3 +959,70 @@ Payoffs:
 **PCR (Put Call Ratio)**: A sentiment indicator calculated by dividing put volume (or open interest) by call volume (or open interest). High PCR suggests bearish sentiment.
 
 **VIX (Volatility Index)**: A real-time market index representing the market's expectation of 30-day forward-looking volatility, often called the "fear gauge" of the market. 
+
+---
+
+## 📊 **CONSOLIDATED FORMULA TABLE**
+
+### **OPTIONS THEORY - ALL FORMULAS REFERENCE**
+
+| **FORMULA NAME** | **MATHEMATICAL EXPRESSION** | **DESCRIPTION** |
+|------------------|----------------------------|-----------------|
+| **Call Intrinsic Value** | `Max(Spot Price - Strike Price, 0)` | Minimum value of call option |
+| **Put Intrinsic Value** | `Max(Strike Price - Spot Price, 0)` | Minimum value of put option |
+| **Time Value** | `Option Premium - Intrinsic Value` | Portion of premium due to time |
+| **Put-Call Parity** | `Call + PV(Strike) = Put + Spot Price` | Relationship between calls and puts |
+| **Black-Scholes Call** | `S×N(d1) - K×e^(-r×T)×N(d2)` | Theoretical call option price |
+| **Black-Scholes Put** | `K×e^(-r×T)×N(-d2) - S×N(-d1)` | Theoretical put option price |
+| **d1 (Black-Scholes)** | `[ln(S/K) + (r + σ²/2)×T] ÷ (σ×√T)` | First parameter in Black-Scholes |
+| **d2 (Black-Scholes)** | `d1 - σ×√T` | Second parameter in Black-Scholes |
+| **Delta (Call)** | `N(d1)` | Price sensitivity of call option |
+| **Delta (Put)** | `N(d1) - 1` or `-N(-d1)` | Price sensitivity of put option |
+| **Gamma** | `φ(d1) ÷ (S×σ×√T)` | Rate of change of delta |
+| **Theta (Call)** | `-(S×φ(d1)×σ)÷(2×√T) - r×K×e^(-r×T)×N(d2)` | Time decay of call option |
+| **Theta (Put)** | `-(S×φ(d1)×σ)÷(2×√T) + r×K×e^(-r×T)×N(-d2)` | Time decay of put option |
+| **Vega** | `S×φ(d1)×√T` | Volatility sensitivity |
+| **Rho (Call)** | `K×T×e^(-r×T)×N(d2)` | Interest rate sensitivity (call) |
+| **Rho (Put)** | `-K×T×e^(-r×T)×N(-d2)` | Interest rate sensitivity (put) |
+| **Expected Premium Change** | `Delta × Change in Underlying` | First-order price approximation |
+| **Gamma P&L** | `0.5 × Gamma × (Stock Move)²` | Second-order price effect |
+| **Position Size (Premium Risk)** | `Risk Amount ÷ Premium per Contract` | Risk-based position sizing |
+| **Position Size (Kelly)** | `f = (bp - q) ÷ b` | Optimal position sizing formula |
+| **Portfolio Delta** | `Σ(Position Size × Option Delta)` | Net directional exposure |
+| **Synthetic Long Stock** | `Long Call + Short Put (same strike)` | Stock position using options |
+| **Synthetic Short Stock** | `Short Call + Long Put (same strike)` | Short stock using options |
+
+#### **Key Variables Reference:**
+- **S**: Current stock price
+- **K**: Strike price
+- **r**: Risk-free interest rate
+- **T**: Time to expiration (in years)
+- **σ**: Volatility (annualized)
+- **N(x)**: Cumulative standard normal distribution
+- **φ(x)**: Standard normal probability density function
+- **PV**: Present value
+- **ln**: Natural logarithm
+
+#### **Greeks Summary:**
+- **Delta**: 0 to 1 for calls, -1 to 0 for puts
+- **Gamma**: Always positive, maximum at ATM
+- **Theta**: Usually negative for long options
+- **Vega**: Always positive for long options
+- **Rho**: Positive for calls, negative for puts
+
+#### **Option Moneyness:**
+- **ITM Call**: Spot > Strike (positive intrinsic value)
+- **ATM**: Spot ≈ Strike (maximum time value)
+- **OTM Call**: Spot < Strike (zero intrinsic value)
+- **ITM Put**: Spot < Strike (positive intrinsic value)
+- **OTM Put**: Spot > Strike (zero intrinsic value)
+
+#### **Kelly Criterion Variables:**
+- **f**: Fraction of capital to risk
+- **b**: Odds received (win amount ÷ loss amount)
+- **p**: Probability of winning
+- **q**: Probability of losing (1-p)
+
+---
+
+*Use this formula table for quick reference during options analysis and strategy development* 

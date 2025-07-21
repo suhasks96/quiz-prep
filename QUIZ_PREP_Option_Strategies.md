@@ -1079,3 +1079,81 @@ Lower Breakeven = Put Strike - Net Credit = 7700 - 60 = 7,640
 **Max Profit**: The maximum theoretical profit an option strategy can generate under the most favorable price movement.
 
 **Max Loss**: The maximum theoretical loss an option strategy can incur under the worst-case price movement. 
+
+---
+
+## 📊 **CONSOLIDATED FORMULA TABLE**
+
+### **OPTION STRATEGIES - ALL FORMULAS REFERENCE**
+
+| **FORMULA NAME** | **MATHEMATICAL EXPRESSION** | **DESCRIPTION** |
+|------------------|----------------------------|-----------------|
+| **Bull Call Spread Max Profit** | `Strike Difference - Net Debit` | Maximum profit potential |
+| **Bull Call Spread Max Loss** | `Net Debit Paid` | Maximum loss potential |
+| **Bull Call Spread Breakeven** | `Lower Strike + Net Debit` | Profit/loss transition point |
+| **Bull Put Spread Max Profit** | `Net Credit Received` | Maximum profit potential |
+| **Bull Put Spread Max Loss** | `Strike Difference - Net Credit` | Maximum loss potential |
+| **Bull Put Spread Breakeven** | `Higher Strike - Net Credit` | Profit/loss transition point |
+| **Bear Call Spread Max Profit** | `Net Credit Received` | Maximum profit potential |
+| **Bear Call Spread Max Loss** | `Strike Difference - Net Credit` | Maximum loss potential |
+| **Bear Call Spread Breakeven** | `Lower Strike + Net Credit` | Profit/loss transition point |
+| **Bear Put Spread Max Profit** | `Strike Difference - Net Debit` | Maximum profit potential |
+| **Bear Put Spread Max Loss** | `Net Debit Paid` | Maximum loss potential |
+| **Bear Put Spread Breakeven** | `Higher Strike - Net Debit` | Profit/loss transition point |
+| **Long Straddle Max Loss** | `Total Premium Paid` | Maximum loss (at ATM) |
+| **Long Straddle Upper Breakeven** | `Strike + Total Premium` | Upper profit threshold |
+| **Long Straddle Lower Breakeven** | `Strike - Total Premium` | Lower profit threshold |
+| **Short Straddle Max Profit** | `Total Premium Received` | Maximum profit (at ATM) |
+| **Short Straddle Upper Breakeven** | `Strike + Total Premium` | Upper loss threshold |
+| **Short Straddle Lower Breakeven** | `Strike - Total Premium` | Lower loss threshold |
+| **Long Strangle Upper Breakeven** | `Call Strike + Total Premium` | Upper profit threshold |
+| **Long Strangle Lower Breakeven** | `Put Strike - Total Premium` | Lower profit threshold |
+| **Short Strangle Upper Breakeven** | `Call Strike + Total Premium` | Upper loss threshold |
+| **Short Strangle Lower Breakeven** | `Put Strike - Total Premium` | Lower loss threshold |
+| **Iron Condor Max Profit** | `Net Credit Received` | Maximum profit potential |
+| **Iron Condor Max Loss** | `Strike Width - Net Credit` | Maximum loss potential |
+| **Iron Condor Upper Breakeven** | `Short Call Strike + Net Credit` | Upper loss threshold |
+| **Iron Condor Lower Breakeven** | `Short Put Strike - Net Credit` | Lower loss threshold |
+| **Position Size (Spread)** | `Risk Amount ÷ Max Loss per Spread` | Risk-based position sizing |
+| **Position Size (Premium)** | `Risk Amount ÷ Premium per Contract` | Premium-based position sizing |
+| **Position Size (Volatility-adjusted)** | `Base Size × (Normal IV ÷ Current IV)` | IV-adjusted position sizing |
+| **Risk-Reward Ratio** | `Maximum Profit ÷ Maximum Loss` | Strategy efficiency measure |
+| **Probability of Profit** | `Varies by strategy and market conditions` | Success probability estimate |
+| **Portfolio Greeks** | `Σ(Position Size × Individual Greeks)` | Net portfolio exposure |
+
+#### **Key Spread Strategy Components:**
+- **Net Debit**: Premium paid (total premium of long options - short options)
+- **Net Credit**: Premium received (total premium of short options - long options)
+- **Strike Width**: Difference between strike prices in spread
+- **ATM**: At-the-money (strike ≈ current price)
+
+#### **Strategy Selection Guidelines:**
+- **Bull Call Spread**: Moderately bullish, pay debit
+- **Bull Put Spread**: Moderately bullish, receive credit
+- **Bear Call Spread**: Moderately bearish, receive credit
+- **Bear Put Spread**: Moderately bearish, pay debit
+- **Long Straddle**: Expect big move, high volatility
+- **Short Straddle**: Expect small move, low volatility
+- **Iron Condor**: Expect range-bound movement
+
+#### **Position Sizing Methods:**
+1. **Fixed Dollar Risk**: Same rupee amount per strategy
+2. **Fixed Percentage Risk**: Same % of capital per strategy
+3. **Volatility-Adjusted**: Smaller size when IV is high
+4. **Kelly Criterion**: Optimal sizing based on win rate and payoffs
+
+#### **Greeks-Based Management:**
+- **Delta**: Net directional exposure
+- **Gamma**: Delta stability
+- **Theta**: Daily time decay
+- **Vega**: Volatility sensitivity
+
+#### **Risk Management Thresholds:**
+- **Profit Target**: Close at 50% of maximum profit
+- **Loss Limit**: Close at 2x credit received or 50% of max loss
+- **Time Decay**: Close 7-21 days before expiry
+- **Volatility**: Adjust when IV rank changes significantly
+
+---
+
+*Use this formula table for quick reference during option strategy analysis and implementation* 

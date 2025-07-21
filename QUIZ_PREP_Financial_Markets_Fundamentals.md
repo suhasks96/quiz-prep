@@ -635,3 +635,38 @@ Bid-Ask Spread = ₹102.75 - ₹102.50 = ₹0.25
 **MTF (Margin Trading Facility)**: A facility that allows investors to buy shares by paying only a portion of the trade value, with the broker funding the balance against collateral.
 
 **SLB (Securities Lending and Borrowing)**: A mechanism where investors can lend their shares to earn additional income or borrow shares for short selling. 
+
+---
+
+## 📊 **CONSOLIDATED FORMULA TABLE**
+
+### **FINANCIAL MARKETS FUNDAMENTALS - ALL FORMULAS REFERENCE**
+
+| **FORMULA NAME** | **MATHEMATICAL EXPRESSION** | **DESCRIPTION** |
+|------------------|----------------------------|-----------------|
+| **Absolute Return** | `[(Ending Value ÷ Starting Value) - 1] × 100` | Total percentage return over investment period |
+| **CAGR (Compound Annual Growth Rate)** | `{[Ending Value ÷ Starting Value]^(1/years) - 1} × 100` | Annualized return for periods > 1 year |
+| **Annualized Return (Short-term)** | `Return × (365/days)` or `Return × (12/months)` | Annualizing returns for periods < 1 year |
+| **Market Capitalization** | `Outstanding Shares × Current Share Price` | Total company value in market |
+| **Free-float Market Cap** | `Free-float Shares × Current Price` | Market cap of tradeable shares only |
+| **Index Weight** | `(Stock's Market Cap ÷ Total Index Market Cap) × 100` | Stock's contribution to index movement |
+| **Index Movement Impact** | `Stock Weight × Stock Price Change %` | How individual stock affects index |
+| **Index Value Calculation** | `(Current Market Cap ÷ Base Market Cap) × Base Index Value` | Current index level calculation |
+| **Contract Value (Futures)** | `Price × Lot Size` | Total value of futures contract |
+| **Margin Requirement** | `Contract Value × Margin %` | Capital needed for futures position |
+| **P&L (Futures)** | `(Exit Price - Entry Price) × Lot Size` | Profit/loss on futures trade |
+| **Return on Margin** | `P&L ÷ Margin Used × 100` | Return percentage on margin capital |
+| **Position Size (Risk-Based)** | `Risk Amount ÷ (Stop Distance × Lot Size)` | Number of contracts based on risk limit |
+| **Hedge Ratio** | `Portfolio Value ÷ Contract Value` | Number of contracts needed for hedge |
+| **Brokerage Cost** | `Trade Value × Brokerage Rate` | Transaction cost calculation |
+
+#### **Key Variables Reference:**
+- **CAGR**: Use when holding period > 1 year
+- **Index Weight**: Higher market cap = higher index influence
+- **Margin %**: Typically 6-14% for equity derivatives
+- **Stop Distance**: Difference between entry and stop-loss price
+- **Risk Amount**: Maximum acceptable loss per trade (typically 2-5% of capital)
+
+---
+
+*Use this formula table for quick reference during analysis and exams* 

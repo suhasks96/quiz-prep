@@ -1011,3 +1011,73 @@ Crack Spread = ($88.20 + $84.00) - (2 × $80.00) = $12.20/barrel
 **COMEX**: The primary futures and options market for trading metals such as gold, silver, copper, and aluminum, part of the CME Group.
 
 **LME (London Metal Exchange)**: The world's largest market for industrial metals futures and options, providing benchmark prices for base metals globally. 
+
+---
+
+## 📊 **CONSOLIDATED FORMULA TABLE**
+
+### **CURRENCY & COMMODITIES - ALL FORMULAS REFERENCE**
+
+| **FORMULA NAME** | **MATHEMATICAL EXPRESSION** | **DESCRIPTION** |
+|------------------|----------------------------|-----------------|
+| **Forward Rate (Interest Rate Parity)** | `F = S × (1 + Rqc × N) ÷ (1 + Rbc × N)` | Fair forward exchange rate |
+| **Forward Premia** | `F = S × (1 + interest rate differential)` | Simplified forward calculation |
+| **Currency Contract Value** | `Lot Size × Exchange Rate` | Total contract value |
+| **Currency P&L per Pip** | `Lot Size × Tick Size` | Profit/loss per pip movement |
+| **Cross Currency Rate** | `Currency1/Currency3 = (Currency1/Currency2) × (Currency2/Currency3)` | Indirect rate calculation |
+| **Commodity Contract Value** | `Lot Size × Price per Unit` | Total commodity contract value |
+| **Gold Contract Value (per 10g)** | `(Lot Size ÷ 10) × Price per 10g` | Gold contract valuation |
+| **Crude Oil Contract Value** | `Barrels × Price per Barrel` | Oil contract valuation |
+| **Import Parity Price** | `International Price × Exchange Rate + Duties + Costs` | Domestic equivalent price |
+| **Calendar Spread P&L** | `(New Spread - Old Spread) × Contract Size` | Inter-month spread profit/loss |
+| **Arbitrage Profit** | `(Domestic Price - Import Parity Price) × Quantity` | Price difference profit |
+| **Carry Trade Return** | `Interest Rate Differential - Exchange Rate Change` | Currency carry trade return |
+| **Position Size (Currency)** | `Risk Amount ÷ (Stop Distance in Pips × Pip Value)` | Currency position sizing |
+| **Position Size (Commodity)** | `Risk Amount ÷ (Stop Distance × Contract Size)` | Commodity position sizing |
+| **Hedge Ratio (Currency)** | `Exposure Amount ÷ Contract Value` | Number of contracts for hedge |
+| **Volatility (Currency)** | `Standard Deviation of Exchange Rate Changes` | Currency pair volatility |
+| **Real Exchange Rate** | `Nominal Rate × (Foreign CPI ÷ Domestic CPI)` | Inflation-adjusted rate |
+| **Commodity Yield** | `(Convenience Yield - Storage Costs - Financing)` | Net yield from holding commodity |
+
+#### **Key Variables Reference:**
+- **F**: Forward rate
+- **S**: Spot rate
+- **Rqc**: Interest rate in quotation currency
+- **Rbc**: Interest rate in base currency
+- **N**: Time period (years)
+- **Pip**: Smallest price increment (usually 0.0025 for INR pairs)
+- **Tick Size**: Minimum price movement
+- **CPI**: Consumer Price Index
+
+#### **Important Contract Specifications:**
+- **USD/INR**: USD 1,000 lot size
+- **EUR/INR**: EUR 1,000 lot size
+- **GBP/INR**: GBP 1,000 lot size
+- **Gold (Big)**: 1 kg lot size
+- **Gold (Mini)**: 100 grams lot size
+- **Silver**: 30 kg lot size
+- **Crude Oil**: 100 barrels lot size
+- **Natural Gas**: 1,250 mmBtu lot size
+
+#### **Margin Requirements:**
+- **Currency Futures**: 2-5% typically
+- **Commodity Futures**: 5-15% typically
+- **Gold**: 4% typically
+- **Crude Oil**: 9% typically
+- **Natural Gas**: 15% typically
+
+#### **Carry Trade Formula Components:**
+- **Interest Rate Differential**: Higher yield currency - Lower yield currency
+- **Exchange Rate Risk**: Currency appreciation/depreciation impact
+- **Transaction Costs**: Spreads and financing costs
+- **Rollover Costs**: Daily interest rate adjustments
+
+#### **Arbitrage Calculations:**
+- **Cash-Futures Arbitrage**: Exploit price differences between spot and futures
+- **Calendar Arbitrage**: Different expiry month price differences
+- **Cross-Market Arbitrage**: Same asset, different exchanges
+- **Import-Export Arbitrage**: International vs domestic price differences
+
+---
+
+*Use this formula table for quick reference during currency and commodity analysis and trading* 

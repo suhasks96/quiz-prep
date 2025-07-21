@@ -1167,3 +1167,92 @@ Ages 18+: Advanced wealth management
 **IFSC (Indian Financial System Code)**: An 11-character code that uniquely identifies bank branches for electronic fund transfers in India.
 
 **MICR (Magnetic Ink Character Recognition)**: A 9-digit code printed on bank checks using magnetic ink for electronic processing and verification. 
+
+---
+
+## 📊 **CONSOLIDATED FORMULA TABLE**
+
+### **PERSONAL FINANCE - ALL FORMULAS REFERENCE**
+
+| **FORMULA NAME** | **MATHEMATICAL EXPRESSION** | **DESCRIPTION** |
+|------------------|----------------------------|-----------------|
+| **Simple Interest** | `SI = P × R × T ÷ 100` | Interest without compounding |
+| **Compound Interest** | `A = P × (1 + R)^T` | Interest with compounding |
+| **Compound Interest Amount** | `CI = A - P` | Total compound interest earned |
+| **CAGR (Compound Annual Growth Rate)** | `[(Ending Value ÷ Starting Value)^(1/years) - 1] × 100` | Annualized growth rate |
+| **SIP Future Value** | `FV = P × [((1+r)^n - 1) ÷ r] × (1+r)` | Future value of regular investments |
+| **EMI (Equated Monthly Installment)** | `[P × R × (1+R)^n] ÷ [(1+R)^n - 1]` | Monthly loan payment |
+| **Present Value** | `PV = FV ÷ (1 + r)^n` | Current value of future amount |
+| **Future Value** | `FV = PV × (1 + r)^n` | Future value of present amount |
+| **Real Return** | `[(1 + Nominal Return) ÷ (1 + Inflation)] - 1` | Inflation-adjusted return |
+| **Effective Annual Rate** | `(1 + r/n)^n - 1` | Annual rate with compounding |
+| **Loan Outstanding** | `P × [(1+R)^n - (1+R)^p] ÷ [(1+R)^n - 1]` | Remaining principal balance |
+| **Monthly SIP for Target** | `Target ÷ [((1+r)^n - 1) ÷ r] × (1+r)` | Required SIP for goal |
+| **Retirement Corpus** | `Annual Expenses ÷ Safe Withdrawal Rate` | Required retirement savings |
+| **Life Insurance Cover** | `Annual Income × 10-15` | Recommended life coverage |
+| **Emergency Fund** | `Monthly Expenses × 6-12` | Required emergency savings |
+| **Asset Allocation (Age-based)** | `Equity % = 100 - Age` | Simple allocation formula |
+| **Bond Yield to Maturity** | `[Annual Interest + (FV-PV)/Years] ÷ [(FV+PV)/2]` | Approximate YTM calculation |
+| **Tax-Adjusted Return** | `Gross Return × (1 - Tax Rate)` | After-tax return |
+| **Inflation-Adjusted Amount** | `Amount × (1 + Inflation)^Years` | Future value with inflation |
+| **Mutual Fund Returns (XIRR)** | `Excel XIRR function with cash flows and dates` | Time-weighted returns |
+| **Expense Ratio Impact** | `Returns - (AUM × Expense Ratio ÷ Investment)` | Cost impact on returns |
+| **SWP (Systematic Withdrawal Plan)** | `Target Income ÷ Portfolio Value × 100` | Withdrawal rate calculation |
+| **Goal-based SIP** | `Goal Amount ÷ FV Factor` | SIP required for specific goal |
+| **Debt-to-Income Ratio** | `Total Monthly Debt Payments ÷ Monthly Income × 100` | Debt burden measure |
+| **Savings Rate** | `Monthly Savings ÷ Monthly Income × 100` | Percentage of income saved |
+
+#### **Key Variables Reference:**
+- **P**: Principal amount
+- **R**: Interest rate (annual)
+- **T**: Time period (years)
+- **r**: Periodic interest rate
+- **n**: Number of periods
+- **FV**: Future Value
+- **PV**: Present Value
+- **A**: Amount (Principal + Interest)
+- **AUM**: Assets Under Management
+
+#### **Important Financial Constants:**
+- **Safe Withdrawal Rate**: 4% annually for retirement
+- **Life Insurance**: 10-15x annual income
+- **Emergency Fund**: 6-12 months expenses
+- **House Down Payment**: 20% of property value
+- **Debt-to-Income**: <40% recommended
+- **Savings Rate**: 20-30% of income
+
+#### **SIP Calculation Variables:**
+- **Monthly Rate**: Annual Rate ÷ 12
+- **Number of Months**: Years × 12
+- **Compounding Frequency**: Monthly for SIPs
+- **Step-up SIP**: Increase SIP by 5-10% annually
+
+#### **Loan Calculation Variables:**
+- **EMI**: Fixed monthly payment
+- **Principal**: Loan amount
+- **Rate**: Monthly interest rate (Annual ÷ 12)
+- **Tenure**: Total number of months
+- **Prepayment**: Reduces principal and tenure
+
+#### **Investment Time Horizons:**
+- **Short-term**: <3 years (debt instruments)
+- **Medium-term**: 3-7 years (balanced allocation)
+- **Long-term**: >7 years (equity heavy allocation)
+- **Very Long-term**: >15 years (aggressive equity)
+
+#### **Tax-Saving Instruments (80C):**
+- **EPF**: Mandatory employer contribution
+- **PPF**: 15-year lock-in, tax-free returns
+- **ELSS**: 3-year lock-in, equity exposure
+- **NSC**: 5-year lock-in, fixed returns
+- **Life Insurance**: Premium qualifies for deduction
+
+#### **Retirement Planning Factors:**
+- **Inflation Impact**: 6-7% annual inflation assumed
+- **Life Expectancy**: Plan for 85-90 years
+- **Healthcare Inflation**: 10-12% annually
+- **Replacement Ratio**: 70-80% of final salary
+
+---
+
+*Use this formula table for quick reference during personal finance planning and goal setting* 

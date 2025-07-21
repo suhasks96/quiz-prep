@@ -1476,3 +1476,81 @@ Total Portfolio VaR (Value at Risk) = 1.0% + 0.63% + 0.55% = 2.18%
 **MPT (Modern Portfolio Theory)**: An investment theory that shows how risk-averse investors can construct portfolios to maximize expected return for a given level of risk.
 
 **EMH (Efficient Market Hypothesis)**: A theory stating that asset prices fully reflect all available information, making it impossible to consistently achieve returns exceeding average market returns. 
+
+---
+
+## 📊 **CONSOLIDATED FORMULA TABLE**
+
+### **RISK MANAGEMENT - ALL FORMULAS REFERENCE**
+
+| **FORMULA NAME** | **MATHEMATICAL EXPRESSION** | **DESCRIPTION** |
+|------------------|----------------------------|-----------------|
+| **Standard Deviation (Population)** | `σ = √[Σ(Xi - μ)² ÷ N]` | Population volatility measure |
+| **Standard Deviation (Sample)** | `s = √[Σ(Xi - X̄)² ÷ (n-1)]` | Sample volatility measure |
+| **Variance** | `σ² = Σ(Xi - μ)² ÷ N` | Square of standard deviation |
+| **Covariance** | `Cov(X,Y) = Σ[(Xi - X̄)(Yi - Ȳ)] ÷ (n-1)` | Joint variability measure |
+| **Correlation** | `ρ = Cov(X,Y) ÷ (σx × σy)` | Standardized covariance |
+| **Portfolio Variance (2 Assets)** | `σ²p = W₁²σ₁² + W₂²σ₂² + 2W₁W₂Cov(1,2)` | Two-asset portfolio risk |
+| **Portfolio Standard Deviation** | `σp = √Portfolio Variance` | Portfolio volatility |
+| **Expected Return** | `E(R) = Σ[Pi × Ri]` | Probability-weighted returns |
+| **Portfolio Expected Return** | `E(Rp) = W₁R₁ + W₂R₂ + ... + WnRn` | Weighted average returns |
+| **Beta** | `β = Cov(Ri, Rm) ÷ Var(Rm)` | Systematic risk measure |
+| **CAPM** | `E(Ri) = Rf + βi[E(Rm) - Rf]` | Required return calculation |
+| **Sharpe Ratio** | `(Return - Risk-free Rate) ÷ Standard Deviation` | Risk-adjusted performance |
+| **Treynor Ratio** | `(Return - Risk-free Rate) ÷ Beta` | Systematic risk-adjusted return |
+| **Information Ratio** | `(Return - Benchmark) ÷ Tracking Error` | Active management efficiency |
+| **Sortino Ratio** | `(Return - Risk-free Rate) ÷ Downside Deviation` | Downside risk-adjusted return |
+| **Maximum Drawdown** | `(Peak Value - Trough Value) ÷ Peak Value × 100` | Worst-case loss percentage |
+| **VaR (Value at Risk) - Parametric** | `Portfolio Value × (μ - Z×σ)` | Maximum potential loss |
+| **VaR (Value at Risk) - Historical** | `5th percentile of historical returns` | Historical worst-case loss |
+| **Expected Shortfall (ES)** | `E[Loss \| Loss > VaR]` | Average loss beyond VaR |
+| **Kelly Criterion** | `f = (bp - q) ÷ b` | Optimal position sizing |
+| **Position Size (% Risk)** | `Risk Amount ÷ (Stop Distance × Position Value)` | Risk-based position sizing |
+| **Position Size (Volatility)** | `Target Risk ÷ (Asset Volatility × Position Value)` | Volatility-adjusted sizing |
+| **Calmar Ratio** | `Annual Return ÷ Maximum Drawdown` | Return per unit of drawdown |
+| **Downside Deviation** | `√[Σ min(Ri-T,0)² ÷ n]` | Below-target volatility |
+| **Tracking Error** | `Standard Deviation of (Portfolio Return - Benchmark Return)` | Active risk measure |
+
+#### **Key Variables Reference:**
+- **Xi**: Individual observation
+- **μ**: Population mean
+- **X̄**: Sample mean
+- **N**: Population size
+- **n**: Sample size
+- **σ**: Standard deviation
+- **Wi**: Portfolio weights
+- **Ri**: Asset returns
+- **Rf**: Risk-free rate
+- **Rm**: Market return
+- **Z**: Z-score for confidence level
+- **T**: Target return threshold
+
+#### **Important Risk Metrics:**
+- **VaR Confidence Levels**: 95% (Z=1.65), 99% (Z=2.33)
+- **Good Sharpe Ratio**: >1.0 good, >2.0 excellent
+- **Diversification**: 15-25 stocks reduce unsystematic risk
+- **Beta Interpretation**: >1 more volatile, <1 less volatile than market
+- **Correlation**: <0.3 good for diversification
+
+#### **Kelly Criterion Variables:**
+- **f**: Fraction of capital to risk
+- **b**: Odds (avg win ÷ avg loss)
+- **p**: Win probability
+- **q**: Loss probability (1-p)
+
+#### **Risk Management Guidelines:**
+- **Maximum Risk per Trade**: 2-5% of portfolio
+- **Portfolio Concentration**: Max 20% in single sector
+- **Cash Reserve**: 10-20% for opportunities
+- **Rebalancing Frequency**: Quarterly to annually
+- **Drawdown Limits**: 10-20% maximum portfolio drawdown
+
+#### **Advanced Risk Measures:**
+- **Conditional VaR**: Expected Shortfall beyond VaR
+- **Maximum Drawdown Duration**: Time to recover from peak
+- **Ulcer Index**: Drawdown-adjusted risk measure
+- **Martin Ratio**: Return per unit of Ulcer Index
+
+---
+
+*Use this formula table for quick reference during risk analysis and portfolio management* 
