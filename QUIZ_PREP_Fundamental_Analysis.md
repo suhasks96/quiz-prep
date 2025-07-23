@@ -116,7 +116,7 @@
 |-----------|-------------|----------------|---------------|----------|----------|---------------------------------|
 | **EBITDA Margin** | EBITDA ÷ Revenue × 100 | **HIGHER IS BETTER** | >25% | 15-25% | <10% | Higher margins indicate operational efficiency and pricing power |
 | **Net Profit Margin** | Net Income ÷ Revenue × 100 | **HIGHER IS BETTER** | >15% | 8-15% | <5% | Shows company's ability to convert revenue into actual profit |
-| **Gross Profit Margin** | (Revenue - COGS) ÷ Revenue × 100 | **HIGHER IS BETTER** | >50% | 30-50% | <20% | Indicates pricing power and cost control in core operations |
+| **Gross Profit Margin** | (Revenue - COGS (Cost of Goods Sold)) ÷ Revenue × 100 | **HIGHER IS BETTER** | >50% | 30-50% | <20% | Indicates pricing power and cost control in core operations |
 | **ROE (Return on Equity)** | Net Income ÷ Shareholders' Equity × 100 | **HIGHER IS BETTER** | >20% | 15-20% | <10% | Higher ROE means better returns for shareholders' money |
 | **ROA (Return on Assets)** | Net Income ÷ Total Assets × 100 | **HIGHER IS BETTER** | >15% | 8-15% | <5% | Shows how efficiently company uses assets to generate profit |
 | **ROCE (Return on Capital Employed)** | EBIT ÷ Capital Employed × 100 | **HIGHER IS BETTER** | >20% | 15-20% | <10% | Measures efficiency of capital utilization across business |
@@ -145,9 +145,9 @@
 | **RATIO** | **FORMULA** | **PREFERENCE** | **EXCELLENT** | **GOOD** | **POOR** | **EFFICIENCY IMPACT** |
 |-----------|-------------|----------------|---------------|----------|----------|----------------------|
 | **Asset Turnover** | Revenue ÷ Total Assets | **HIGHER IS BETTER** | >2.0 | 1.0-2.0 | <0.5 | Higher turnover = better asset utilization and productivity |
-| **Inventory Turnover** | COGS ÷ Average Inventory | **HIGHER IS BETTER** | >8x | 4-8x | <2x | Faster inventory movement reduces holding costs and waste |
+| **Inventory Turnover** | COGS (Cost of Goods Sold) ÷ Average Inventory | **HIGHER IS BETTER** | >8x | 4-8x | <2x | Faster inventory movement reduces holding costs and waste |
 | **Receivables Turnover** | Revenue ÷ Average Receivables | **HIGHER IS BETTER** | >12x | 6-12x | <4x | Faster collection improves cash flow and reduces bad debts |
-| **Payables Turnover** | COGS ÷ Average Payables | **MODERATE IS BEST** | 6-12x | 4-6x | <2x or >15x | Balance between cash flow and supplier relationships |
+| **Payables Turnover** | COGS (Cost of Goods Sold) ÷ Average Payables | **MODERATE IS BEST** | 6-12x | 4-6x | <2x or >15x | Balance between cash flow and supplier relationships |
 | **Fixed Asset Turnover** | Revenue ÷ Net Fixed Assets | **HIGHER IS BETTER** | >3.0 | 1.5-3.0 | <1.0 | Indicates productive use of plant, property, and equipment |
 
 #### **Valuation Ratios - Market Pricing Assessment**
@@ -165,11 +165,11 @@
 
 | **INDUSTRY** | **MOST CRITICAL RATIOS** | **SECTOR-SPECIFIC PREFERENCES** | **RED FLAGS TO AVOID** |
 |--------------|--------------------------|--------------------------------|------------------------|
-| **Banking** | ROE, NIM, NPAs, P/B | ROE >15%, NIM >3%, NPAs <5%, P/B 1-2x | NPAs >10%, ROE <10% |
+| **Banking** | ROE, NIM (Net Interest Margin), NPAs (Non-Performing Assets), P/B | ROE >15%, NIM >3%, NPAs <5%, P/B 1-2x | NPAs >10%, ROE <10% |
 | **IT Services** | Revenue/Employee, EBITDA Margin, Dollar Revenue % | Margins >20%, Growth >15%, Dollar Rev >70% | Declining margins, high attrition |
 | **FMCG** | ROE, EBITDA Margin, Volume Growth | ROE >20%, Margins >15%, Volume growth >5% | Declining market share |
 | **Auto** | Inventory Turnover, D/E, Working Capital | Inventory T/O >6x, D/E <1.0 | High inventory, poor demand |
-| **Pharma** | R&D/Revenue, ROCE, Export % | R&D >8%, ROCE >20%, Diversified markets | Regulatory issues, single market |
+| **Pharma** | R&D (Research & Development)/Revenue, ROCE, Export % | R&D >8%, ROCE >20%, Diversified markets | Regulatory issues, single market |
 | **Real Estate** | Debt-to-Equity, Pre-sales, Collection Efficiency | D/E <2.0, Pre-sales >70%, Collections >80% | High debt, poor collections |
 
 ### **5. RATIO INTERPRETATION GUIDELINES BY BUSINESS CYCLE**
@@ -230,7 +230,7 @@
 #### **Red Flags in Business Analysis**
 **Declining Margins**: Consistent erosion over years
 **High Debt**: Unsustainable leverage levels
-**Working Capital Issues**: Increasing DSO, inventory
+**Working Capital Issues**: Increasing DSO (Days Sales Outstanding), inventory
 **Frequent Write-offs**: Goodwill, asset impairments
 **Related Party Transactions**: Excessive related dealings
 
@@ -403,7 +403,7 @@ P/BV (Price to Book Value) Ratio = Market Price ÷ Book Value
 | **Banking & Financial** | Cyclical | Interest rates, credit growth | P/B (Price to Book), ROE (Return on Equity), NIM (Net Interest Margin) |
 | **Information Technology** | Growth | Global demand, currency | P/E (Price to Earnings), PEG (Price Earnings to Growth), Revenue growth |
 | **FMCG (Fast Moving Consumer Goods)** | Defensive | Consumer demand, rural income | P/E (Price to Earnings), volume growth, margin |
-| **Pharmaceuticals** | Growth | R&D, regulatory approvals | P/E (Price to Earnings), R&D spend, pipeline |
+| **Pharmaceuticals** | Growth | R&D (Research & Development), regulatory approvals | P/E (Price to Earnings), R&D spend, pipeline |
 | **Automobile** | Cyclical | GDP (Gross Domestic Product), disposable income | P/E (Price to Earnings), volume growth, inventory |
 | **Metals & Mining** | Cyclical | Commodity prices, global demand | P/B (Price to Book), EV/EBITDA, cash cost |
 | **Oil & Gas** | Cyclical | Crude prices, government policy | P/E (Price to Earnings), reserves, refining margins |
@@ -454,12 +454,12 @@ P/BV (Price to Book Value) Ratio = Market Price ÷ Book Value
 - **New Entrants**: HIGH (fintech, digital banks)
 - **Supplier Power**: MEDIUM (deposit cost competition)
 - **Buyer Power**: MEDIUM (customer switching increasing)
-- **Substitutes**: HIGH (NBFCs, P2P lending)
+- **Substitutes**: HIGH (NBFCs (Non-Banking Financial Companies), P2P (Peer-to-Peer) lending)
 - **Rivalry**: HIGH (margin pressure)
 
 **Pharmaceutical Sector Example**:
-- **New Entrants**: LOW (high R&D, regulatory barriers)
-- **Supplier Power**: MEDIUM (API dependencies)
+- **New Entrants**: LOW (high R&D (Research & Development), regulatory barriers)
+- **Supplier Power**: MEDIUM (API (Active Pharmaceutical Ingredient) dependencies)
 - **Buyer Power**: HIGH (government, hospitals)
 - **Substitutes**: MEDIUM (generic competition)
 - **Rivalry**: MEDIUM (patent protection)
@@ -553,7 +553,7 @@ P/BV (Price to Book Value) Ratio = Market Price ÷ Book Value
 | **Asset Heavy** | High fixed costs, scalability | Steel, Cement | Asset turnover, ROCE (Return on Capital Employed) |
 | **Asset Light** | Low fixed costs, variable | IT Services, Consulting | Revenue/employee, margins |
 | **Platform** | Network effects, winner-takes-all | Exchanges, Marketplaces | User growth, network density |
-| **Subscription** | Recurring revenue, predictable | Software, Utilities | Churn rate, ARPU |
+| **Subscription** | Recurring revenue, predictable | Software, Utilities | Churn rate, ARPU (Average Revenue Per User) |
 | **Commodity** | Price taker, cost focus | Oil, Metals | Cost curve position |
 
 #### **Business Model Quality Factors**
@@ -579,10 +579,10 @@ P/BV (Price to Book Value) Ratio = Market Price ÷ Book Value
 | **Banking** | P/B (Price to Book), ROE (Return on Equity) Model | Dividend Discount | Asset quality adjustments |
 | **Insurance** | Embedded Value | P/B (Price to Book) | New business value |
 | **IT** | P/E (Price to Earnings), DCF (Discounted Cash Flow) | EV/Sales | Currency hedging impact |
-| **Pharma** | P/E (Price to Earnings), DCF (Discounted Cash Flow) | P/Sales | R&D and pipeline value |
-| **Utilities** | Dividend Yield, RAB | P/B (Price to Book) | Regulatory framework |
+| **Pharma** | P/E (Price to Earnings), DCF (Discounted Cash Flow) | P/Sales | R&D (Research & Development) and pipeline value |
+| **Utilities** | Dividend Yield, RAB (Regulatory Asset Base) | P/B (Price to Book) | Regulatory framework |
 | **Metals** | EV/EBITDA, P/B (Price to Book) | DCF (Discounted Cash Flow) | Commodity price cycles |
-| **Oil & Gas** | NAV, DCF (Discounted Cash Flow) | EV/EBITDA | Reserve valuations |
+| **Oil & Gas** | NAV (Net Asset Value), DCF (Discounted Cash Flow) | EV/EBITDA | Reserve valuations |
 
 #### **Cyclical vs Growth Valuation**
 **Cyclical Stocks**: Use trough earnings, P/B (Price to Book) ratios
@@ -662,7 +662,7 @@ P/BV (Price to Book Value) Ratio = Market Price ÷ Book Value
 | **DuPont ROE** | `Net Profit Margin × Asset Turnover × Financial Leverage` | **BALANCED IS BEST** | High | Medium | Low | Optimal balance of all components |
 | **EBITDA Margin** | `EBITDA ÷ Revenue × 100` | **HIGHER IS BETTER** | >25% | 15-25% | <10% | Operating efficiency indicator |
 | **Net Profit Margin** | `Net Income ÷ Revenue × 100` | **HIGHER IS BETTER** | >15% | 8-15% | <5% | Overall profitability measure |
-| **Gross Profit Margin** | `(Revenue - COGS) ÷ Revenue × 100` | **HIGHER IS BETTER** | >50% | 30-50% | <20% | Pricing power and cost control |
+| **Gross Profit Margin** | `(Revenue - COGS (Cost of Goods Sold)) ÷ Revenue × 100` | **HIGHER IS BETTER** | >50% | 30-50% | <20% | Pricing power and cost control |
 | **Dividend Yield** | `Annual Dividend per Share ÷ Market Price per Share × 100` | **MODERATE IS BEST** | 2-4% | 1-2% | <1% or >6% | Balance between income and growth |
 | **Dividend Payout Ratio** | `Dividends per Share ÷ Earnings per Share × 100` | **MODERATE IS BEST** | 30-50% | 20-30% | <10% or >70% | Sustainable dividend policy |
 
@@ -670,11 +670,11 @@ P/BV (Price to Book Value) Ratio = Market Price ÷ Book Value
 
 | **INDUSTRY** | **ROE TARGET** | **EBITDA MARGIN** | **D/E LIMIT** | **SPECIAL METRICS** |
 |--------------|----------------|-------------------|---------------|-------------------|
-| **Banking** | >15% | N/A | <8x (Assets/Equity) | NIM >3%, NPAs <5% |
+| **Banking** | >15% | N/A | <8x (Assets/Equity) | NIM (Net Interest Margin) >3%, NPAs (Non-Performing Assets) <5% |
 | **IT Services** | >20% | >20% | <0.5 | Revenue/Employee growth |
 | **FMCG** | >20% | >15% | <0.8 | Volume growth >5% |
 | **Auto** | >15% | >12% | <1.0 | Inventory T/O >6x |
-| **Pharma** | >20% | >20% | <0.5 | R&D >8% of revenue |
+| **Pharma** | >20% | >20% | <0.5 | R&D (Research & Development) >8% of revenue |
 | **Metals** | >15% | >15% | <1.5 | Cost curve position |
 | **Real Estate** | >15% | >25% | <2.0 | Pre-sales >70% |
 
