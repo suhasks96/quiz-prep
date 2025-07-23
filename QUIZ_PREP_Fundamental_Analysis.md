@@ -106,120 +106,104 @@
 
 ---
 
-## 🔢 **FINANCIAL RATIOS COMPREHENSIVE COMPARISON**
+## 🔢 **FINANCIAL RATIOS COMPREHENSIVE ANALYSIS WITH PERFORMANCE INDICATORS**
 
-### **4. RATIO CATEGORY ANALYSIS**
+### **4. COMPLETE RATIO CLASSIFICATION MATRIX WITH PREFERENCE GUIDE**
 
-#### **Complete Ratio Classification Matrix**
+#### **Profitability Ratios - Detailed Analysis**
 
-| **CATEGORY** | **PURPOSE** | **KEY RATIOS** | **INTERPRETATION** |
-|--------------|-------------|----------------|-------------------|
-| **Profitability** | Earnings efficiency | EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization), PAT (Profit After Tax), ROE (Return on Equity), ROA (Return on Assets) | Higher is better |
-| **Leverage** | Debt management | D/E, Interest Coverage | Moderate levels optimal |
-| **Operational** | Business efficiency | Asset Turnover, Inventory | Higher efficiency better |
-| **Liquidity** | Short-term safety | Current, Quick, Cash | Adequate levels needed |
-| **Valuation** | Market pricing | P/E (Price to Earnings), P/B (Price to Book), EV/EBITDA (Enterprise Value to EBITDA) | Relative comparison |
+| **RATIO** | **FORMULA** | **PREFERENCE** | **EXCELLENT** | **GOOD** | **POOR** | **WHY HIGHER/LOWER IS BETTER** |
+|-----------|-------------|----------------|---------------|----------|----------|---------------------------------|
+| **EBITDA Margin** | EBITDA ÷ Revenue × 100 | **HIGHER IS BETTER** | >25% | 15-25% | <10% | Higher margins indicate operational efficiency and pricing power |
+| **Net Profit Margin** | Net Income ÷ Revenue × 100 | **HIGHER IS BETTER** | >15% | 8-15% | <5% | Shows company's ability to convert revenue into actual profit |
+| **Gross Profit Margin** | (Revenue - COGS) ÷ Revenue × 100 | **HIGHER IS BETTER** | >50% | 30-50% | <20% | Indicates pricing power and cost control in core operations |
+| **ROE (Return on Equity)** | Net Income ÷ Shareholders' Equity × 100 | **HIGHER IS BETTER** | >20% | 15-20% | <10% | Higher ROE means better returns for shareholders' money |
+| **ROA (Return on Assets)** | Net Income ÷ Total Assets × 100 | **HIGHER IS BETTER** | >15% | 8-15% | <5% | Shows how efficiently company uses assets to generate profit |
+| **ROCE (Return on Capital Employed)** | EBIT ÷ Capital Employed × 100 | **HIGHER IS BETTER** | >20% | 15-20% | <10% | Measures efficiency of capital utilization across business |
 
-#### **Profitability Ratios Detailed Comparison**
+#### **Leverage Ratios - Risk Assessment Guide**
 
-| **RATIO** | **FORMULA** | **BENCHMARK** | **SIGNIFICANCE** |
-|-----------|-------------|---------------|------------------|
-| **EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) Margin** | EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) ÷ Revenue | 15-25% (varies by sector) | Operating efficiency |
-| **PAT Margin** | PAT ÷ Revenue | 5-15% (varies by sector) | Overall profitability |
-| **ROE** | PAT ÷ Shareholders' Equity | >15% good | Shareholder returns |
-| **ROA** | PAT ÷ Total Assets | >10% good | Asset utilization |
-| **ROCE** | EBIT ÷ Capital Employed | >15% good | Capital efficiency |
+| **RATIO** | **FORMULA** | **PREFERENCE** | **CONSERVATIVE** | **MODERATE** | **RISKY** | **WHY THIS LEVEL IS PREFERRED** |
+|-----------|-------------|----------------|------------------|--------------|-----------|------------------------------|
+| **Debt-to-Equity (D/E)** | Total Debt ÷ Total Equity | **LOWER IS BETTER** | <0.3 | 0.3-1.0 | >1.5 | Lower debt reduces financial risk and interest burden |
+| **Interest Coverage** | EBIT ÷ Interest Expense | **HIGHER IS BETTER** | >8x | 4-8x | <2x | Higher coverage ensures company can easily service debt |
+| **Debt-to-Assets** | Total Debt ÷ Total Assets | **LOWER IS BETTER** | <20% | 20-50% | >60% | Lower debt ratio indicates less financial leverage risk |
+| **Times Interest Earned** | EBITDA ÷ Interest Expense | **HIGHER IS BETTER** | >10x | 5-10x | <3x | More cushion to pay interest even if earnings decline |
+| **Financial Leverage** | Total Assets ÷ Equity | **MODERATE IS BEST** | 1.5-2.0 | 2.0-3.0 | >4.0 | Moderate leverage optimizes returns without excessive risk |
 
-#### **Leverage Ratios Analysis**
+#### **Liquidity Ratios - Safety Assessment**
 
-| **RATIO** | **FORMULA** | **SAFE LEVEL** | **RISK INDICATION** |
-|-----------|-------------|----------------|-------------------|
-| **Debt-to-Equity** | Total Debt ÷ Equity | <1.0 conservative | Financial leverage |
-| **Interest Coverage** | EBIT ÷ Interest | >4x safe | Debt servicing ability |
-| **Debt-to-Assets** | Total Debt ÷ Total Assets | <50% conservative | Asset financing |
-| **Financial Leverage** | Assets ÷ Equity | <3x moderate | Equity multiplication |
+| **RATIO** | **FORMULA** | **PREFERENCE** | **EXCELLENT** | **ADEQUATE** | **CONCERNING** | **OPTIMAL REASONING** |
+|-----------|-------------|----------------|---------------|--------------|----------------|-----------------------|
+| **Current Ratio** | Current Assets ÷ Current Liabilities | **MODERATE IS BEST** | 1.5-2.5 | 1.0-1.5 | <1.0 or >3.0 | Too low = liquidity risk; too high = inefficient cash use |
+| **Quick Ratio** | (Current Assets - Inventory) ÷ Current Liabilities | **MODERATE IS BEST** | 1.0-1.5 | 0.8-1.0 | <0.5 or >2.0 | Should be close to 1; excludes less liquid inventory |
+| **Cash Ratio** | (Cash + Marketable Securities) ÷ Current Liabilities | **MODERATE IS BEST** | 0.2-0.5 | 0.1-0.2 | <0.05 or >1.0 | Balance between liquidity and productive asset use |
+| **Working Capital Ratio** | (Current Assets - Current Liabilities) ÷ Revenue | **MODERATE IS BEST** | 5-15% | 0-5% | <0% or >20% | Positive but not excessive working capital is optimal |
 
-#### **Efficiency Ratios Comparison**
+#### **Efficiency Ratios - Operational Performance**
 
-| **RATIO** | **MEASUREMENT** | **INDUSTRY VARIATION** | **IMPROVEMENT INDICATORS** |
-|-----------|-----------------|----------------------|---------------------------|
-| **Asset Turnover** | Revenue ÷ Total Assets | High for retail, low for utilities | Higher sales per asset |
-| **Inventory Turnover** | COGS ÷ Average Inventory | Very sector-specific | Faster inventory movement |
-| **Receivables Turnover** | Revenue ÷ Receivables | B2B vs B2C difference | Faster collection |
-| **Working Capital Turnover** | Revenue ÷ Working Capital | Positive working capital | Efficient working capital use |
+| **RATIO** | **FORMULA** | **PREFERENCE** | **EXCELLENT** | **GOOD** | **POOR** | **EFFICIENCY IMPACT** |
+|-----------|-------------|----------------|---------------|----------|----------|----------------------|
+| **Asset Turnover** | Revenue ÷ Total Assets | **HIGHER IS BETTER** | >2.0 | 1.0-2.0 | <0.5 | Higher turnover = better asset utilization and productivity |
+| **Inventory Turnover** | COGS ÷ Average Inventory | **HIGHER IS BETTER** | >8x | 4-8x | <2x | Faster inventory movement reduces holding costs and waste |
+| **Receivables Turnover** | Revenue ÷ Average Receivables | **HIGHER IS BETTER** | >12x | 6-12x | <4x | Faster collection improves cash flow and reduces bad debts |
+| **Payables Turnover** | COGS ÷ Average Payables | **MODERATE IS BEST** | 6-12x | 4-6x | <2x or >15x | Balance between cash flow and supplier relationships |
+| **Fixed Asset Turnover** | Revenue ÷ Net Fixed Assets | **HIGHER IS BETTER** | >3.0 | 1.5-3.0 | <1.0 | Indicates productive use of plant, property, and equipment |
 
----
+#### **Valuation Ratios - Market Pricing Assessment**
 
-## 📈 **VALUATION METHODS COMPARISON**
+| **RATIO** | **FORMULA** | **PREFERENCE** | **UNDERVALUED** | **FAIRLY VALUED** | **OVERVALUED** | **VALUATION LOGIC** |
+|-----------|-------------|----------------|------------------|-------------------|-------------------|---------------------|
+| **P/E (Price-to-Earnings)** | Market Price ÷ EPS | **CONTEXT DEPENDENT** | <15x | 15-25x | >30x | Lower P/E may indicate undervaluation (compare with peers) |
+| **P/B (Price-to-Book)** | Market Price ÷ Book Value per Share | **LOWER IS BETTER** | <1.5x | 1.5-3.0x | >5.0x | Lower P/B suggests buying assets below replacement cost |
+| **P/S (Price-to-Sales)** | Market Cap ÷ Annual Revenue | **LOWER IS BETTER** | <2x | 2-5x | >8x | Lower P/S indicates cheaper valuation relative to revenue |
+| **EV/EBITDA** | Enterprise Value ÷ EBITDA | **LOWER IS BETTER** | <10x | 10-15x | >20x | Lower multiple suggests undervaluation considering debt |
+| **PEG (Price/Earnings to Growth)** | P/E Ratio ÷ Growth Rate | **LOWER IS BETTER** | <1.0 | 1.0-1.5 | >2.0 | PEG <1.0 suggests growth is undervalued by market |
+| **Dividend Yield** | Annual Dividend ÷ Market Price × 100 | **MODERATE IS BEST** | 2-4% | 1-2% | <1% or >6% | Moderate yield balances income and growth potential |
 
-### **5. DIFFERENT VALUATION APPROACHES**
+#### **Industry-Specific Ratio Preferences**
 
-#### **Valuation Methodology Matrix**
+| **INDUSTRY** | **MOST CRITICAL RATIOS** | **SECTOR-SPECIFIC PREFERENCES** | **RED FLAGS TO AVOID** |
+|--------------|--------------------------|--------------------------------|------------------------|
+| **Banking** | ROE, NIM, NPAs, P/B | ROE >15%, NIM >3%, NPAs <5%, P/B 1-2x | NPAs >10%, ROE <10% |
+| **IT Services** | Revenue/Employee, EBITDA Margin, Dollar Revenue % | Margins >20%, Growth >15%, Dollar Rev >70% | Declining margins, high attrition |
+| **FMCG** | ROE, EBITDA Margin, Volume Growth | ROE >20%, Margins >15%, Volume growth >5% | Declining market share |
+| **Auto** | Inventory Turnover, D/E, Working Capital | Inventory T/O >6x, D/E <1.0 | High inventory, poor demand |
+| **Pharma** | R&D/Revenue, ROCE, Export % | R&D >8%, ROCE >20%, Diversified markets | Regulatory issues, single market |
+| **Real Estate** | Debt-to-Equity, Pre-sales, Collection Efficiency | D/E <2.0, Pre-sales >70%, Collections >80% | High debt, poor collections |
 
-| **METHOD** | **APPROACH** | **BEST FOR** | **LIMITATIONS** |
-|------------|--------------|--------------|-----------------|
-| **P/E Valuation** | Price-to-Earnings multiple | Profitable, mature companies | Not for loss-making companies |
-| **P/B (Price to Book) Valuation** | Price-to-Book multiple | Asset-heavy companies | Ignores intangible assets |
-| **EV/EBITDA (Enterprise Value to EBITDA)** | Enterprise Value to EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) | Comparing across capital structures | Complex calculation |
-| **DCF (Discounted Cash Flow) Method** | Discounted Cash Flow | Mature, predictable businesses | Highly assumption-dependent |
-| **PEG (Price Earnings to Growth) Ratio** | P/E (Price to Earnings) to Growth ratio | Growth companies | Growth rate estimation challenges |
+### **5. RATIO INTERPRETATION GUIDELINES BY BUSINESS CYCLE**
 
-#### **P/E Ratio Variations**
+#### **Bull Market vs Bear Market Ratio Expectations**
 
-| **P/E TYPE** | **CALCULATION** | **USE CASE** | **ADVANTAGES** |
-|--------------|-----------------|--------------|----------------|
-| **Trailing P/E** | Current Price ÷ Last 12M EPS | Historical comparison | Based on actual earnings |
-| **Forward P/E** | Current Price ÷ Expected EPS | Future valuation | Incorporates growth expectations |
-| **Shiller P/E** | Price ÷ 10-year average EPS | Market valuation | Smooths cyclical variations |
-| **Sector P/E** | Average sector P/E | Relative valuation | Industry comparison |
+| **MARKET PHASE** | **PROFITABILITY RATIOS** | **LEVERAGE RATIOS** | **VALUATION RATIOS** | **INVESTMENT STRATEGY** |
+|------------------|--------------------------|--------------------|--------------------|------------------------|
+| **Bull Market** | High growth acceptable | Moderate leverage OK | Higher multiples tolerated | Focus on growth metrics |
+| **Bear Market** | Consistency valued | Low leverage preferred | Lower multiples demanded | Focus on safety metrics |
+| **Recovery** | Improving trends critical | Debt reduction important | Moderate multiples | Balance growth and safety |
+| **Peak** | Margin sustainability key | Conservative leverage | Premium for quality | Quality over growth |
 
-#### **When to Use Each Method**
+#### **Sector Rotation Based on Ratios**
 
-**P/E Valuation Best For**:
-- Established, profitable companies
-- Mature industries with stable earnings
-- Quick relative valuation comparisons
+**Early Cycle (Recovery)**:
+- **Prefer**: High ROE potential, improving margins
+- **Sectors**: Banking, Capital Goods, Auto
+- **Key Ratios**: ROE improvement, D/E declining
 
-**P/B (Price to Book) Valuation Best For**:
-- Banks and financial institutions
-- Asset-heavy manufacturing companies
-- Companies with significant tangible assets
+**Mid Cycle (Growth)**:
+- **Prefer**: Revenue growth, operational leverage
+- **Sectors**: IT, Consumer Discretionary, Industrials
+- **Key Ratios**: Revenue growth, EBITDA margin expansion
 
-**EV/EBITDA (Enterprise Value to EBITDA) Best For**:
-- Companies with different capital structures
-- Leveraged companies comparison
-- Acquisition valuations
+**Late Cycle (Maturity)**:
+- **Prefer**: Stable margins, dividend yields
+- **Sectors**: FMCG, Utilities, Healthcare
+- **Key Ratios**: Consistent ROE, stable margins
 
-**DCF (Discounted Cash Flow) Method Best For**:
-- Mature companies with predictable cash flows
-- Detailed intrinsic value calculation
-- Long-term investment decisions
-
----
-
-## 🏭 **INDUSTRY ANALYSIS COMPARISON**
-
-### **6. SECTOR-SPECIFIC RATIO ANALYSIS**
-
-#### **Industry-Wise Key Ratio Focus**
-
-| **INDUSTRY** | **CRITICAL RATIOS** | **BENCHMARKS** | **SPECIAL CONSIDERATIONS** |
-|--------------|-------------------|----------------|---------------------------|
-| **Banking** | NIM, CASA Ratio, NPAs | NIM >3%, NPAs <5% | Asset quality paramount |
-| **Auto** | Inventory Turnover, D/E | Inventory T/O >6x | Cyclical nature |
-| **FMCG (Fast-Moving Consumer Goods)** | ROE (Return on Equity), EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) Margin | ROE (Return on Equity) >20%, Margin >15% | Brand value important |
-| **IT Services** | Revenue per Employee, Margins | Margin >20% | People-intensive business |
-| **Pharma** | R&D Spend, ROE | R&D >8% of revenue | Regulatory risks |
-| **Real Estate** | Debt-to-Equity, Pre-sales | D/E <1.5 | Working capital intensive |
-
-#### **Cyclical vs Non-Cyclical Industries**
-
-| **INDUSTRY TYPE** | **EXAMPLES** | **RATIO BEHAVIOR** | **ANALYSIS FOCUS** |
-|------------------|--------------|-------------------|------------------|
-| **Cyclical** | Auto, Steel, Cement | Volatile ratios | Normalized earnings |
-| **Non-Cyclical** | FMCG, Pharma, Utilities | Stable ratios | Consistent performance |
-| **Growth** | IT, Telecom | Improving ratios | Growth sustainability |
-| **Value** | Banking, PSUs | Conservative ratios | Asset quality |
+**Recession (Contraction)**:
+- **Prefer**: Low debt, strong cash flows
+- **Sectors**: Defensive stocks, Quality names
+- **Key Ratios**: Low D/E, high interest coverage
 
 ---
 
@@ -651,52 +635,72 @@ P/BV (Price to Book Value) Ratio = Market Price ÷ Book Value
 
 ---
 
-## 📊 **CONSOLIDATED FORMULA TABLE**
+## 📊 **ENHANCED FORMULA TABLE WITH PERFORMANCE INDICATORS**
 
-### **FUNDAMENTAL ANALYSIS - ALL FORMULAS REFERENCE**
+### **FUNDAMENTAL ANALYSIS - ALL FORMULAS WITH PREFERENCE GUIDE**
 
-| **FORMULA NAME** | **MATHEMATICAL EXPRESSION** | **DESCRIPTION** |
-|------------------|----------------------------|-----------------|
-| **Return on Equity (ROE)** | `Net Income ÷ Shareholders' Equity × 100` | Profitability relative to equity |
-| **Return on Assets (ROA)** | `Net Income ÷ Total Assets × 100` | Efficiency of asset utilization |
-| **Return on Capital Employed (ROCE)** | `EBIT ÷ Capital Employed × 100` | Return on total capital used |
-| **Price-to-Earnings (P/E) Ratio** | `Market Price per Share ÷ Earnings per Share` | Valuation multiple |
-| **Price-to-Book (P/B) Ratio** | `Market Price per Share ÷ Book Value per Share` | Market vs book value comparison |
-| **Price-to-Sales (P/S) Ratio** | `Market Cap ÷ Annual Revenue` | Revenue-based valuation |
-| **Enterprise Value (EV)** | `Market Cap + Total Debt - Cash & Equivalents` | Total company value |
-| **EV/EBITDA Ratio** | `Enterprise Value ÷ EBITDA` | Capital structure neutral valuation |
-| **PEG Ratio** | `P/E Ratio ÷ Growth Rate` | Growth-adjusted valuation |
-| **Book Value per Share** | `(Shareholders' Equity - Preferred Stock) ÷ Outstanding Shares` | Net worth per share |
-| **Earnings per Share (EPS)** | `Net Income ÷ Outstanding Shares` | Profitability per share |
-| **Debt-to-Equity Ratio** | `Total Debt ÷ Total Equity` | Financial leverage measure |
-| **Interest Coverage Ratio** | `EBIT ÷ Interest Expense` | Ability to service debt |
-| **Current Ratio** | `Current Assets ÷ Current Liabilities` | Short-term liquidity measure |
-| **Quick Ratio** | `(Current Assets - Inventory) ÷ Current Liabilities` | Liquidity excluding inventory |
-| **Asset Turnover Ratio** | `Revenue ÷ Average Total Assets` | Asset efficiency measure |
-| **Inventory Turnover** | `Cost of Goods Sold ÷ Average Inventory` | Inventory management efficiency |
-| **Receivables Turnover** | `Revenue ÷ Average Accounts Receivable` | Collection efficiency |
-| **DuPont ROE** | `Net Profit Margin × Asset Turnover × Financial Leverage` | ROE decomposition |
-| **EBITDA Margin** | `EBITDA ÷ Revenue × 100` | Operating profitability |
-| **Net Profit Margin** | `Net Income ÷ Revenue × 100` | Overall profitability |
-| **Gross Profit Margin** | `(Revenue - COGS) ÷ Revenue × 100` | Basic profitability measure |
-| **Dividend Yield** | `Annual Dividend per Share ÷ Market Price per Share × 100` | Income return from dividends |
-| **Dividend Payout Ratio** | `Dividends per Share ÷ Earnings per Share × 100` | Proportion of earnings paid as dividends |
+| **FORMULA NAME** | **MATHEMATICAL EXPRESSION** | **PREFERENCE** | **EXCELLENT** | **GOOD** | **POOR** | **WHY THIS PREFERENCE** |
+|------------------|----------------------------|----------------|---------------|----------|----------|-------------------------|
+| **Return on Equity (ROE)** | `Net Income ÷ Shareholders' Equity × 100` | **HIGHER IS BETTER** | >20% | 15-20% | <10% | Higher returns for shareholders' capital |
+| **Return on Assets (ROA)** | `Net Income ÷ Total Assets × 100` | **HIGHER IS BETTER** | >15% | 8-15% | <5% | Better asset utilization efficiency |
+| **Return on Capital Employed (ROCE)** | `EBIT ÷ Capital Employed × 100` | **HIGHER IS BETTER** | >20% | 15-20% | <10% | Efficient use of total capital |
+| **Price-to-Earnings (P/E) Ratio** | `Market Price per Share ÷ Earnings per Share` | **CONTEXT DEPENDENT** | <15x | 15-25x | >30x | Lower may indicate undervaluation |
+| **Price-to-Book (P/B) Ratio** | `Market Price per Share ÷ Book Value per Share` | **LOWER IS BETTER** | <1.5x | 1.5-3.0x | >5.0x | Buying assets below replacement cost |
+| **Price-to-Sales (P/S) Ratio** | `Market Cap ÷ Annual Revenue` | **LOWER IS BETTER** | <2x | 2-5x | >8x | Cheaper valuation relative to revenue |
+| **Enterprise Value (EV)** | `Market Cap + Total Debt - Cash & Equivalents` | **ANALYTICAL TOOL** | N/A | N/A | N/A | Used for calculating other ratios |
+| **EV/EBITDA Ratio** | `Enterprise Value ÷ EBITDA` | **LOWER IS BETTER** | <10x | 10-15x | >20x | Lower indicates better value |
+| **PEG Ratio** | `P/E Ratio ÷ Growth Rate` | **LOWER IS BETTER** | <1.0 | 1.0-1.5 | >2.0 | Growth is undervalued when <1.0 |
+| **Book Value per Share** | `(Shareholders' Equity - Preferred Stock) ÷ Outstanding Shares` | **HIGHER IS BETTER** | High | Medium | Low | More tangible value per share |
+| **Earnings per Share (EPS)** | `Net Income ÷ Outstanding Shares` | **HIGHER IS BETTER** | Growing | Stable | Declining | More earnings per ownership unit |
+| **Debt-to-Equity Ratio** | `Total Debt ÷ Total Equity` | **LOWER IS BETTER** | <0.3 | 0.3-1.0 | >1.5 | Lower financial leverage risk |
+| **Interest Coverage Ratio** | `EBIT ÷ Interest Expense` | **HIGHER IS BETTER** | >8x | 4-8x | <2x | Better ability to service debt |
+| **Current Ratio** | `Current Assets ÷ Current Liabilities` | **MODERATE IS BEST** | 1.5-2.5 | 1.0-1.5 | <1.0 or >3.0 | Balance between liquidity and efficiency |
+| **Quick Ratio** | `(Current Assets - Inventory) ÷ Current Liabilities` | **MODERATE IS BEST** | 1.0-1.5 | 0.8-1.0 | <0.5 or >2.0 | Excludes less liquid inventory |
+| **Asset Turnover Ratio** | `Revenue ÷ Average Total Assets` | **HIGHER IS BETTER** | >2.0 | 1.0-2.0 | <0.5 | Better asset productivity |
+| **Inventory Turnover** | `Cost of Goods Sold ÷ Average Inventory` | **HIGHER IS BETTER** | >8x | 4-8x | <2x | Faster inventory movement |
+| **Receivables Turnover** | `Revenue ÷ Average Accounts Receivable` | **HIGHER IS BETTER** | >12x | 6-12x | <4x | Faster collection of dues |
+| **DuPont ROE** | `Net Profit Margin × Asset Turnover × Financial Leverage` | **BALANCED IS BEST** | High | Medium | Low | Optimal balance of all components |
+| **EBITDA Margin** | `EBITDA ÷ Revenue × 100` | **HIGHER IS BETTER** | >25% | 15-25% | <10% | Operating efficiency indicator |
+| **Net Profit Margin** | `Net Income ÷ Revenue × 100` | **HIGHER IS BETTER** | >15% | 8-15% | <5% | Overall profitability measure |
+| **Gross Profit Margin** | `(Revenue - COGS) ÷ Revenue × 100` | **HIGHER IS BETTER** | >50% | 30-50% | <20% | Pricing power and cost control |
+| **Dividend Yield** | `Annual Dividend per Share ÷ Market Price per Share × 100` | **MODERATE IS BEST** | 2-4% | 1-2% | <1% or >6% | Balance between income and growth |
+| **Dividend Payout Ratio** | `Dividends per Share ÷ Earnings per Share × 100` | **MODERATE IS BEST** | 30-50% | 20-30% | <10% or >70% | Sustainable dividend policy |
 
-#### **Key Variables Reference:**
-- **EBIT**: Earnings Before Interest and Taxes
-- **EBITDA**: Earnings Before Interest, Taxes, Depreciation, and Amortization
-- **COGS**: Cost of Goods Sold
-- **Capital Employed**: Total Assets - Current Liabilities
-- **Financial Leverage**: Total Assets ÷ Shareholders' Equity
+#### **Key Performance Benchmarks by Industry**
 
-#### **Ratio Interpretation Guidelines:**
-- **ROE >15%**: Generally considered good
-- **ROA >10%**: Efficient asset utilization
-- **P/E 15-25**: Typical range for mature companies
-- **Debt-to-Equity <1.0**: Conservative leverage
-- **Interest Coverage >4x**: Safe debt servicing ability
-- **Current Ratio 1.5-3.0**: Healthy liquidity
+| **INDUSTRY** | **ROE TARGET** | **EBITDA MARGIN** | **D/E LIMIT** | **SPECIAL METRICS** |
+|--------------|----------------|-------------------|---------------|-------------------|
+| **Banking** | >15% | N/A | <8x (Assets/Equity) | NIM >3%, NPAs <5% |
+| **IT Services** | >20% | >20% | <0.5 | Revenue/Employee growth |
+| **FMCG** | >20% | >15% | <0.8 | Volume growth >5% |
+| **Auto** | >15% | >12% | <1.0 | Inventory T/O >6x |
+| **Pharma** | >20% | >20% | <0.5 | R&D >8% of revenue |
+| **Metals** | >15% | >15% | <1.5 | Cost curve position |
+| **Real Estate** | >15% | >25% | <2.0 | Pre-sales >70% |
+
+#### **Ratio Quality Assessment Framework**
+
+**EXCELLENT COMPANY PROFILE**:
+- ROE >20%, ROA >15%, ROCE >20%
+- EBITDA Margin >20%, Net Margin >12%
+- D/E <0.5, Interest Coverage >8x
+- Current Ratio 1.5-2.5, Asset Turnover >1.5
+- Consistent performance over 5+ years
+
+**GOOD COMPANY PROFILE**:
+- ROE 15-20%, ROA 8-15%, ROCE 15-20%
+- EBITDA Margin 15-20%, Net Margin 8-12%
+- D/E 0.5-1.0, Interest Coverage 4-8x
+- Current Ratio 1.0-1.5, Asset Turnover 1.0-1.5
+- Stable performance over 3+ years
+
+**POOR COMPANY PROFILE**:
+- ROE <10%, ROA <5%, ROCE <10%
+- EBITDA Margin <10%, Net Margin <5%
+- D/E >1.5, Interest Coverage <2x
+- Current Ratio <1.0, Asset Turnover <0.5
+- Inconsistent or declining performance
 
 ---
 
-*Use this formula table for quick reference during fundamental analysis and company valuation* 
+*Use this enhanced formula table for comprehensive financial analysis with clear performance indicators and preference guidelines* 
